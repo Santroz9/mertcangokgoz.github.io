@@ -18,7 +18,7 @@ title: Blog Posts
   {% else %}
     <span class="previous">Önceki Sayfa</span>
   {% endif %}
-  <span class="page_number ">Toplam: {{ paginator.total_pages }} Sayfa {{ paginator.page }}. Sayfa Gösteriliyor</span>
+  <span class="page_number ">Toplam: {{ paginator.total_pages }} Sayfa İçinden {{ paginator.page }}. Sayfa Gösteriliyor</span>
   {% if paginator.next_page %}
     <a href="{{ paginator.next_page_path }}" class="next">Sonraki Sayfa</a>
   {% else %}

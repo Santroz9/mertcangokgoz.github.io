@@ -1,7 +1,5 @@
 # mertcangokgoz.com
 
-Wordpress XML kullanılarak tüm herşey jekyll ye aktarılmıştır.Postlarda meydana gelen hatalar(embed, iframe) düzeltilecektir.
-
 ![Site Örnek Görsel](SiteGorsel.png)
 
 # Güncelleme 10 Şubat 2016
