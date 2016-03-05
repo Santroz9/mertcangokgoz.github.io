@@ -111,10 +111,10 @@ nav h1, nav h2 {
 
 #bio {
   margin-top: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   border: dotted #ddd;
   border-width: 1px 0;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 #social {
