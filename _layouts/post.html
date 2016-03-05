@@ -1,0 +1,69 @@
+---
+layout: defaultpost
+---
+
+<p class="meta">
+  {{ page.date | date: "%B %d, %Y" }}
+  <a href="/">
+    <i class="home fa fa-home"></i>
+  </a>
+</p>
+
+<h1 class="title">{{ page.title }}</h1>
+
+<div id="post">
+  {{ content }}
+</div>
+
+{% include  share.html %}
+
+<div id="related">
+  <h3>Benzer Yazılar</h3>
+  <script type="text/javascript">
+
+    var randomIndexUsed = [];
+    var counter = 0;
+    var numberOfPosts = 5;
+
+    while (counter < numberOfPosts)
+    {
+        var randomIndex;
+        var postHREF;
+        var postTitle;
+
+        randomIndex = Math.floor(Math.random() * postsHREF.length);
+
+        if (randomIndexUsed.indexOf(randomIndex) == "-1")
+        {
+            postHREF = postsHREF[randomIndex];
+            postTitle = postsTitle[randomIndex];
+
+            if (counter == (numberOfPosts - 1))
+            {
+                document.write('<ul class="posts"><li><a href="' + postHREF + '">' + postTitle + '</a></li></ul>');
+            }
+            else
+            {
+                document.write('<ul class="posts"><li><a href="' + postHREF + '">' + postTitle + '</a></li></ul>');
+            }
+
+            randomIndexUsed.push(randomIndex);
+
+            counter++;
+        }
+    }
+</script>
+</div>
+
+<div itemprop="comment" id="disqus_thread"></div>
+<script defer>
+(function() {
+var d = document, s = d.createElement('script');
+
+s.src = '//mertcanofficial.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

@@ -1,0 +1,8 @@
+---
+layout: post
+title:
+date:
+type: post
+categories: Genel
+description:
+---

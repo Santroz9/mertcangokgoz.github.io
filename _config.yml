@@ -1,0 +1,56 @@
+# General Jekyll Config
+permalink: /:title/
+paginate_path: /page/:num/
+highlighter: rouge
+lsi: false
+gems:
+  - jekyll-coffeescript
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-seo-tag
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+timezone: Europe/Istanbul
+encoding: "utf-8"
+
+#Compress
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: true
+  startings: [html, head, body]
+
+#Markdown Settings
+markdown: kramdown
+kramdown:
+   input: GFM
+   hard_wrap: false
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+
+# Setup
+title:            Ox2e88ce4
+tagline:          Blog
+description:      "Özgür yazılım üzerine yazılar Sunucu yönetimi,teknoloji ve programlama hakkında türkçe site"
+url:              https://mertcangokgoz.com
+
+author:
+  name:           'Mertcan GÖKGÖZ'
+  url:            'https://mertcangokgoz.com'
+  email:          'admin@mertcangokgoz.com'
+  twitter:	      'http://twitter.com/0x2e88ce4'
+paginate:         20
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/MertcanGokgoz
