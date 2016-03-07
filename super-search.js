@@ -3,7 +3,7 @@ Author: Kushagra Gour (http://kushagragour.in)
 MIT Licensed
 */
 (function () {
-	var searchFile = '/search.xml',
+	var searchFile = '',
 		searchEl,
 		searchInputEl,
 		searchResultsEl,
@@ -101,7 +101,7 @@ MIT Licensed
 		searchResultsEl = document.querySelector(options.resultsSelector || '#js-super-search__results');
 
 		var xmlhttp=new XMLHttpRequest();
-		xmlhttp.open('GET', searchFile);
+		xmlhttp.open('GET', "/search.xml");
 		xmlhttp.onreadystatechange = function () {
 			if (xmlhttp.readyState != 4) return;
 			if (xmlhttp.status != 200 && xmlhttp.status != 304) { return; }
