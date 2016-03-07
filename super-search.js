@@ -3,8 +3,7 @@ Author: Kushagra Gour (http://kushagragour.in)
 MIT Licensed
 */
 (function () {
-	var searchFile = '',
-		searchEl,
+	var searchEl,
 		searchInputEl,
 		searchResultsEl,
 		currentInputValue = '',
@@ -95,7 +94,6 @@ MIT Licensed
 	}
 
 	function init(options) {
-		searchFile = options.searchFile || searchFile;
 		searchEl = document.querySelector(options.searchSelector || '#js-super-search');
 		searchInputEl = document.querySelector(options.inputSelector || '#js-super-search__input');
 		searchResultsEl = document.querySelector(options.resultsSelector || '#js-super-search__results');
