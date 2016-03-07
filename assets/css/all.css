@@ -6,3 +6,4 @@
 {% include css/layout.css %}
 {% include css/syntax.css %}
 {% include css/normalize.css %}
+{% include css/super-search.css %}

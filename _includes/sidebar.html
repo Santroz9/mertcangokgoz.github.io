@@ -7,19 +7,11 @@
     <p>
       <i class="fa fa-map-marker"> root@0x2e88ce4: ~#</i>
       <p>
-        <script>
-        (function() {
-          var cx = '005109082008503114820:wumoigr6nzs';
-          var gcse = document.createElement('script');
-          gcse.type = 'text/javascript';
-          gcse.async = true;
-          gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-              '//cse.google.com/cse.js?cx=' + cx;
-          var s = document.getElementsByTagName('script')[0];
-          s.parentNode.insertBefore(gcse, s);
-        })();
-      </script>
-      <gcse:search></gcse:search>
+        <div class="super-search" id="js-super-search">
+            <a href="javascript:void(0)" onclick="superSearch.toggle()" class="super-search__close-btn">X</a>
+            <input type="text" placeholder="Ne Arıyorsunuz acaba" class="super-search__input" id="js-super-search__input">
+            <ul class="super-search__results" id="js-super-search__results"></ul>
+        </div>
         Kategoriler:<br>
         <a href="https://mertcangokgoz.com/category/analiz/">Analiz</a><br>
         <a href="https://mertcangokgoz.com/category/genel/">Genel</a><br>
