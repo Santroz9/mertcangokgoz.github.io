@@ -10,6 +10,6 @@ layout: default
 <ul id="search_results"></ul>
 
 
-<script src="/js/lunr.min.js"></script>
+<script src="/assets/js/lunr.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="/js/search.js"></script>
+<script src="/assets/js/search.js"></script>
