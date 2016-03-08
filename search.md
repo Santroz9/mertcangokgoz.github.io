@@ -2,14 +2,11 @@
 layout: default
 ---
 
-<form action="get" id="site_search">
-  <label for="search_box">Arama Alanımız:</label><input type="text" id="search_box">
-  <input type="submit" value="Arama YAP!">
-</form>
-
-<ul id="search_results"></ul>
-
-
-<script src="/assets/js/lunr.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="/assets/js/search.js"></script>
+  <h1>Arama</h1>
+  <form action="http://google.com/search" method="get">
+    <fieldset role="search">
+      <!-- change the "value" attribute below to point to your site -->
+      <input type="hidden" name="q" value="site:mertcangokgoz.com"/>
+      <input class="search" type="text" name="q" results="0" placeholder="Arama YAP!"/>
+    </fieldset>
+  </form>
