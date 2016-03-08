@@ -3,7 +3,6 @@
 [
 {% for item in site.posts %}
 	"{{ item.url | slugify }}":	{
-		"id": {{ item.id | jsonify}},
 		"title": {{ item.title | jsonify}},
 		"url": {{ item.url | jsonify}},
 		"date": {{ item.date | date_to_rfc822 | jsonify }},

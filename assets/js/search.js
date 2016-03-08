@@ -6,7 +6,7 @@ jQuery(function() {
     this.field('category');
   });
 
-  window.data = $.getJSON('/site.json');
+  window.data = $.getJSON('/search.json');
 
   window.data.then(function(loaded_data){
     $.each(loaded_data, function(index, value){
