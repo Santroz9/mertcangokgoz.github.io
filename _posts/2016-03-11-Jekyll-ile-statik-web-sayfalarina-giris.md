@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Jekyll ile Statik Web Sayfalarına Giriş
-date: 2016-03-12
+date: 2016-03-11
 type: post
 categories: Linux
-description:
+description: Şubat 20 de bir karar alarak Wordpress kullanımını bırakma kararı
 ---
 
 Şubat 20 de bir karar alarak Wordpress kullanımını bırakma kararı alıp hızlı bir şekilde jekyll geçmek için kolları sıvadım böyle bir karar almamda en büyük etken maliyetler oldu çünkü hizmetleri güvenlik şüphelerimden dolayı türkiyeden almıyordum kabaca açıklamam gerekirse
