@@ -35,52 +35,49 @@ Bende sizlere sırasıyla bu eklediklerimi github pages e göre nasıl yaptığ�
 
 Şimdi sayfalama yapısı için yapmamız gereken bir kaç ufak ekleme var öncelikle `_layout` kısmında bulunan `page.html` isminde bir dosya oluşturup aşağıdaki kodları içerisine giriyorsunuz.
 
-```html
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+      {% else %}
+        <span>&laquo; Prev</span>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <em>{{ page }}</em>
+        {% elsif page == 1 %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+      {% else %}
+        <span>Next &raquo;</span>
+      {% endif %}
+    </div>
     {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
-
-```
 
 Tabi bunu kullanmak isterseniz sayfaya eklemeniz gerekiyor sonradan `index.html` dosyanıza ki bu ana dizinde bulunur en alta şu satırları ekleyerek önceki ve sonraki sayfa linkleme işlemlerini getirmiş oluyoruz.
 
-```html
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Önceki Sayfa</a>
-  {% else %}
-    <span class="previous">Önceki Sayfa</span>
-  {% endif %}
-  <span class="page_number ">Toplam: {{ paginator.total_pages }} Sayfa İçinden {{ paginator.page }}. Sayfa Gösteriliyor</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Sonraki Sayfa</a>
-  {% else %}
-    <span class="next ">Sonraki Sayfa</span>
-  {% endif %}
-</div>
-```
+
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous">Önceki Sayfa</a>
+      {% else %}
+        <span class="previous">Önceki Sayfa</span>
+      {% endif %}
+      <span class="page_number ">Toplam: {{ paginator.total_pages }} Sayfa İçinden {{ paginator.page }}. Sayfa Gösteriliyor</span>
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next">Sonraki Sayfa</a>
+      {% else %}
+        <span class="next ">Sonraki Sayfa</span>
+      {% endif %}
+    </div>
 
 Daha sonrasında ise `_config.yml` dosyanız içerisine kullanıcıya gösterilecek olan içerik sayısına göre limitleme işlemi yapıyorsunuz.Ayrıca sayfalama linkinin nasıl olacağınıda belirlemek için path ekliyoruz.
 
@@ -91,16 +88,16 @@ paginate:         20
 
 Ben 20 adet göstermek istediğim için 20 adet ile sınırladım siz isteğinize göre değiştirebilirsiniz.Tabi blog yazılarınızın content kısmında gözükmesi için sayfalama yapısını o kısmada eklemeniz gerekecek şöyle ki gene `index.html` içerisinde postları çağırdığınız kısma şu şekilde bir değişiklik yapıyorsunuz.
 
-```html
-<div id="home">
-  <h2><i class="fa fa-bookmark"></i> Blog Yazıları</h2>
-  <ul id="blog-posts" class="posts">
-    {% for post in paginator.posts limit:20 %}
-      <li><span>{{ post.date | date_to_string }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
-```
+
+    <div id="home">
+      <h2><i class="fa fa-bookmark"></i> Blog Yazıları</h2>
+      <ul id="blog-posts" class="posts">
+        {% for post in paginator.posts limit:20 %}
+          <li><span>{{ post.date | date_to_string }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+
 
 `limit:20` olarak bahsettiğim yer sayfalama yapısında gösterilecek olan post sayısını ifade eder limitleme nedenim bazı sayfalarda 20 den fazla içerik getirmesi idi bende o kısmı limitleyerek sadece 20 tane gelmesini sağladım sayfalamada buna göre devam etti :)
 

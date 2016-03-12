@@ -37,12 +37,12 @@ page:
   extension: md
 
 # Setup
-title:            Ox2e88ce4
+title:            Mertcan GÖKGÖZ - Programlama, Sunucu Yönetimi, Teknoloji ve İnternet
 tagline:          Blog
 description:      "Özgür yazılım üzerine yazılar Sunucu yönetimi,teknoloji ve programlama hakkında türkçe site"
 url:              https://mertcangokgoz.com
 
-author:
+author:           Mertcan
   name:           'Mertcan GÖKGÖZ'
   url:            'https://mertcangokgoz.com'
   email:          'admin@mertcangokgoz.com'
@@ -51,6 +51,9 @@ paginate:         20
 
 # Custom vars
 version:          1.0.0
+
+twitter:
+  username: 0x2e88ce4
 
 github:
   repo:           https://github.com/MertcanGokgoz
