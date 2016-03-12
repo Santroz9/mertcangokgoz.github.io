@@ -36,9 +36,6 @@ Bende sizlere sırasıyla bu eklediklerimi github pages e göre nasıl yaptığ�
 Şimdi sayfalama yapısı için yapmamız gereken bir kaç ufak ekleme var öncelikle `_layout` kısmında bulunan `page.html` isminde bir dosya oluşturup aşağıdaki kodları içerisine giriyorsunuz.
 
 ```html
----
-layout: default
----
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
