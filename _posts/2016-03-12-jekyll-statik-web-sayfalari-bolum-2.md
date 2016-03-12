@@ -35,7 +35,7 @@ Bende sizlere sırasıyla bu eklediklerimi github pages e göre nasıl yaptığ�
 
 Şimdi sayfalama yapısı için yapmamız gereken bir kaç ufak ekleme var öncelikle `_layout` kısmında bulunan `page.html` isminde bir dosya oluşturup aşağıdaki kodları içerisine giriyorsunuz.
 
-
+    {% raw %}
     {% if paginator.total_pages > 1 %}
     <div class="pagination">
       {% if paginator.previous_page %}
@@ -61,10 +61,11 @@ Bende sizlere sırasıyla bu eklediklerimi github pages e göre nasıl yaptığ�
       {% endif %}
     </div>
     {% endif %}
+    {% endraw %}
 
 Tabi bunu kullanmak isterseniz sayfaya eklemeniz gerekiyor sonradan `index.html` dosyanıza ki bu ana dizinde bulunur en alta şu satırları ekleyerek önceki ve sonraki sayfa linkleme işlemlerini getirmiş oluyoruz.
 
-
+    {% raw %}
     <div class="pagination">
       {% if paginator.previous_page %}
         <a href="{{ paginator.previous_page_path }}" class="previous">Önceki Sayfa</a>
@@ -78,6 +79,7 @@ Tabi bunu kullanmak isterseniz sayfaya eklemeniz gerekiyor sonradan `index.html`
         <span class="next ">Sonraki Sayfa</span>
       {% endif %}
     </div>
+    {% endraw %}
 
 Daha sonrasında ise `_config.yml` dosyanız içerisine kullanıcıya gösterilecek olan içerik sayısına göre limitleme işlemi yapıyorsunuz.Ayrıca sayfalama linkinin nasıl olacağınıda belirlemek için path ekliyoruz.
 
@@ -88,7 +90,7 @@ paginate:         20
 
 Ben 20 adet göstermek istediğim için 20 adet ile sınırladım siz isteğinize göre değiştirebilirsiniz.Tabi blog yazılarınızın content kısmında gözükmesi için sayfalama yapısını o kısmada eklemeniz gerekecek şöyle ki gene `index.html` içerisinde postları çağırdığınız kısma şu şekilde bir değişiklik yapıyorsunuz.
 
-
+    {% raw %}
     <div id="home">
       <h2><i class="fa fa-bookmark"></i> Blog Yazıları</h2>
       <ul id="blog-posts" class="posts">
@@ -97,7 +99,7 @@ Ben 20 adet göstermek istediğim için 20 adet ile sınırladım siz isteğiniz
         {% endfor %}
       </ul>
     </div>
-
+    {% endraw %}
 
 `limit:20` olarak bahsettiğim yer sayfalama yapısında gösterilecek olan post sayısını ifade eder limitleme nedenim bazı sayfalarda 20 den fazla içerik getirmesi idi bende o kısmı limitleyerek sadece 20 tane gelmesini sağladım sayfalamada buna göre devam etti :)
 
