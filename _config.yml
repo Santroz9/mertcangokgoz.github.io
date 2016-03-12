@@ -42,7 +42,7 @@ tagline:          Blog
 description:      "Özgür yazılım üzerine yazılar Sunucu yönetimi,teknoloji ve programlama hakkında türkçe site"
 url:              https://mertcangokgoz.com
 
-author:           Mertcan
+author:
   name:           'Mertcan GÖKGÖZ'
   url:            'https://mertcangokgoz.com'
   email:          'admin@mertcangokgoz.com'
