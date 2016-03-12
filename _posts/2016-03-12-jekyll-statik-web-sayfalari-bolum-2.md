@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Jekyll ile Statik Web Sayfaları Bölüm 2
 date: 2016-03-12
@@ -39,7 +39,6 @@ Bende sizlere sırasıyla bu eklediklerimi github pages e göre nasıl yaptığ�
 ---
 layout: default
 ---
-
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
