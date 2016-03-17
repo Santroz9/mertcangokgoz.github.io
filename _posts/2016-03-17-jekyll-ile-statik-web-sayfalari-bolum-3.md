@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Jekyll ile Statik Web Sayfaları Bölüm 3
 date: 2016-03-17
