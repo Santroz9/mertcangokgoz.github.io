@@ -54,3 +54,4 @@
 
 - Arama yapabilmek için yeni yöntem geliştirildi
 - Google Arama özelliği kaldırıldı
+- CSS düzenlemeleri yapıldı

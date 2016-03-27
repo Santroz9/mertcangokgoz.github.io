@@ -230,6 +230,7 @@ i.fa-hn {
 .home {
   font-size: 24px;
   float: right;
+  margin-left: 15px;
   color: #AAA;
 }
 
