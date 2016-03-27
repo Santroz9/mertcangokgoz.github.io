@@ -1,37 +1,25 @@
 ---
-layout: default
-title: Search
+layout: fourpage
+title: Arama
+type: page
 search_omit: true
+description: Arama yapabilirsiniz.
 ---
 
-  <h1>Search</h1>
-  
-  <!-- Search form -->
+  <h1>Arama Yap</h1>
   <form method="get" action="/search" data-search-form>
-    <label for="q">Search term</label>
-    <input type="search" name="q" id="q" placeholder="Enter search term" data-search-input />
-    <input type="submit" value="Search" />
+    <label for="q">Aramak istediğinizi yazmanız yeterli</label>
+    <input type="search" name="q" id="q" placeholder="Ne arıyorsunuz ?" data-search-input />
+    <input type="submit" value="Arama YAP" />
   </form>
-
-  <!-- Search results placeholder -->
   <p data-search-found>
-    <span data-search-found-count></span> result(s) found for &ldquo;<span data-search-found-term></span>&rdquo;.
+    <span data-search-found-count></span> Sonuç bulundu = &ldquo;<span data-search-found-term></span>&rdquo;.
   </p>
   <div data-search-results></div>
-
-
-
-  <!-- Search result template -->
   <script type="text/x-template" id="search-result">
     <div>
-      <h1><a href="##Url##">##Title##</a></h1>
-      <h2><a href="##Url##">##Date##</a></h2>
-      <a href="##Url##">Read &ldquo;##Title##&rdquo;</a>
+      <h2><a href="##Url##">##Title##</a></h2>
     </div>
   </script>
-
-  <!-- jQuery - required but can be moved to the <head> -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-  <!-- Search script - Must appear after template -->
   <script src="/scripts/search.js"></script>
