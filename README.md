@@ -1,7 +1,3 @@
-# mertcangokgoz.com
-
-![Site Örnek Görsel](SiteGorsel.png)
-
 # Güncelleme 10 Şubat 2016
 
 - Sayfalama yapısı eklendi
@@ -53,3 +49,8 @@
 - Sitemap için iyileştirilmeye gidildi
 - 404 Sayfası yenilendi
 - Yazı dizisi desteği getirildi
+
+# Güncelleme 27 Mart 2015
+
+- Arama yapabilmek için yeni yöntem geliştirildi
+- Google Arama özelliği kaldırıldı

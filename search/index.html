@@ -3,22 +3,21 @@ layout: fourpage
 title: Arama
 type: page
 search_omit: true
-description: Arama yapabilirsiniz.
+description: Arama yapabileceğiniz yer
 ---
 
-  <h1>Arama Yap</h1>
   <form method="get" action="/search" data-search-form>
     <label for="q">Aramak istediğinizi yazmanız yeterli</label>
     <input type="search" name="q" id="q" placeholder="Ne arıyorsunuz ?" data-search-input />
     <input type="submit" value="Arama YAP" />
   </form>
   <p data-search-found>
-    <span data-search-found-count></span> Sonuç bulundu = &ldquo;<span data-search-found-term></span>&rdquo;.
+    <span data-search-found-count></span> Sonuç bulundu = &ldquo;<span data-search-found-term></span>&rdquo;
   </p>
   <div data-search-results></div>
   <script type="text/x-template" id="search-result">
     <div>
-      <h2><a href="##Url##">##Title##</a></h2>
+      <h3><a href="##Url##">##Title##</a></h3>
     </div>
   </script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
