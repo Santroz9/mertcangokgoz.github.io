@@ -4,9 +4,6 @@ layout: default
 
 <div id="home">
   <h2><i class="fa fa-bookmark"></i> Blog Yazıları</h2>
-  <a href="/search/">
-  <i class="fa fa-search fa-3x"></i>
-  </a>
   <ul id="blog-posts" class="posts">
     {% for post in paginator.posts limit:20 %}
       <li><span>{{ post.date | date_to_string }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
