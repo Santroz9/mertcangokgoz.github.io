@@ -58,7 +58,7 @@ Her ne kadar verilerin okunması zorlaştırılmaya çalışsada bir takım tekr
 Şifreleme **algoritmasının** bulunduğu yer
 
 ![algoritmagorsel](/assets/sifrelemealgoritma.jpg)
-
+açık açık devlet büyüklerinin kimlik bilgileri paylaşılmış. Eğer söylentiler doğruysa şu anda internette çatır çatır torrent'ten indirilen bu veriler 2010 yılı olduğunu kabul edelim. Eğer 2010 yılında reşit olup oy kullanabilecek kişilerin verileriyle bu verilerin sonuçta değişmemesi nedeniyle sorun teşkil etmekte. Yani 2010 yılında reşit olan her vatandaşın yukarıda belirttiğim bilgileri ile birçok işlem yapılabilir. Sorun da burada. Yani haber eski olup ısıtıp önünüze koymuyoruz. Bilgiler aynısı ols
 ulaşmış olduğum ve undergraound forumlarda gezen dosyaların içeriğinde ise özenle hazırlanan bir setup dosyasından kalıntıları görmek mümkün ayrıca dosyanın lisansıda bulunuyor.Bu lisans dosyasını kullanarak lisanslama işlemi yapmadan asıl verilere ve dosyalara ulaşamıyorsunuz.
 
 ![gorsel1](/assets/icerikgorsel.png)
@@ -70,13 +70,16 @@ Ayrıca araştırmalarıma göre bu dataların vakti zamanında her ne kadar leg
 
 ![ipadresi](/assets/Screenshot_2016-02-16_12-09-42.png)
 
-Ardından daha detaylı bir inceleme yaptığımızda bir hukuk yazılım firmasından bu uygulamanın çalındığını görmekteyiz uygulama içerisindeki string aramasında firmanın telefon numarası bulunmakta şaşırtma amaçlı koyulmamış ve gerçektende böyle bir firmaya ait olma olasılığıda var
-
+Ardından daha detaylı bir inceleme yaptığımızda bir hukuk yazılım firmasından bu uygulamanın çalındığını görmekteyiz uygulama içerisindeki string aramasında firmanın telefon numarası bulunmakta şaşırtma amaçlı koyulmamış ve gerçektende böyle bir firmaya ait olma olasılığıda açık açık devlet büyüklerinin kimlik bilgileri paylaşılmış. Eğer söylentiler doğruysa şu anda internette çatır çatır torrent'ten indirilen bu veriler 2010 yılı olduğunu kabul edelim. Eğer 2010 yılında reşit olup oy kullanabilecek kişilerin verileriyle bu verilerin sonuçta değişmemesi nedeniyle sorun teşkil etmekte. Yani 2010 yılında reşit olan her vatandaşın yukarıda belirttiğim bilgileri ile birçok işlem yapılabilir. Sorun da burada. Yani haber eski olup ısıtıp önünüze koymuyoruz. Bilgiler aynısı ols
 Sorgu sırasında bir görüntü [Görüntülerin bulunduğu forum adresi](http://deepwebtr.net/konu-Adres-Sorgu-Programi.html?pid=343331#pid343331)
 
 ![detay1](/assets/11855449_886336491421499_398067300_n.jpg)
 
 ![detay2](/assets/egm17gbdatas.PNG)
+
+**Güncelleme 1 4 Nisan 2016 Saat 20:10**: 3 Nisan Tarihinde İp adresi üzerinden yayın yapan bir web sitesi aracılığı ile yaklaşık olarak 49 milyon vatandaşımızın açık bir şekilde bilgileri yayınlanmıştır. Uygulanan şifrelemeyi kırmış ve karışık olan veri tabanını düzenlemişler oldukça özverili bir şekilde çalıştıklarını veri tabanını tamamen normalizasyon kurallarına göre yeniden şekillendirip uğraşmalarından anlayabiliyoruz.Normalde 17 GB olarak 2 Ay önce **TheCthulhu** tarafından sızdırıldığı iddaa edilmiş ve yayınlanmıştı biz de üstüne basa basa çalma veya sızdırılma olmadığı zaten bu verilerin internet ortamının yer altı dünyasında dolaştığından bahsetmiştik.Bu sefer yayınlayan arkadaşlar ise veriyi sadeleştirip vatandaşlarımızın tüm bilgilerini açık bir şekilde paylaşarak insanlarımızı tehlikeye atmış bulunmaktadır.Bilgiler EGM olayındaki verilerin aynısı olup en son **1991** yılına ait kayıtlar bulunmaktadır.**SQL dosyasında her hangi bir virüs veya benzeri bir öğe bulunmamaktadır.**
+
+
 
 ### NOT: Daha detaylı bir analizi yapabilecek kadar malesef yeterli bilgi birikimine sahip değilim benden bu kadar.Hatamız olduysa affola...
 
