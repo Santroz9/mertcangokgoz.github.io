@@ -58,8 +58,8 @@ Her ne kadar verilerin okunması zorlaştırılmaya çalışsada bir takım tekr
 Şifreleme **algoritmasının** bulunduğu yer
 
 ![algoritmagorsel](/assets/sifrelemealgoritma.jpg)
-açık açık devlet büyüklerinin kimlik bilgileri paylaşılmış. Eğer söylentiler doğruysa şu anda internette çatır çatır torrent'ten indirilen bu veriler 2010 yılı olduğunu kabul edelim. Eğer 2010 yılında reşit olup oy kullanabilecek kişilerin verileriyle bu verilerin sonuçta değişmemesi nedeniyle sorun teşkil etmekte. Yani 2010 yılında reşit olan her vatandaşın yukarıda belirttiğim bilgileri ile birçok işlem yapılabilir. Sorun da burada. Yani haber eski olup ısıtıp önünüze koymuyoruz. Bilgiler aynısı ols
-ulaşmış olduğum ve undergraound forumlarda gezen dosyaların içeriğinde ise özenle hazırlanan bir setup dosyasından kalıntıları görmek mümkün ayrıca dosyanın lisansıda bulunuyor.Bu lisans dosyasını kullanarak lisanslama işlemi yapmadan asıl verilere ve dosyalara ulaşamıyorsunuz.
+
+Bilgiler aynısı olsa bile ulaşmış olduğum ve underground forumlarda gezen dosyaların içeriğinde ise özenle hazırlanan bir setup dosyasından kalıntıları görmek mümkün ayrıca dosyanın lisansıda bulunuyor.Bu lisans dosyasını kullanarak lisanslama işlemi yapmadan asıl verilere ve dosyalara ulaşamıyorsunuz.
 
 ![gorsel1](/assets/icerikgorsel.png)
 
@@ -70,7 +70,8 @@ Ayrıca araştırmalarıma göre bu dataların vakti zamanında her ne kadar leg
 
 ![ipadresi](/assets/Screenshot_2016-02-16_12-09-42.png)
 
-Ardından daha detaylı bir inceleme yaptığımızda bir hukuk yazılım firmasından bu uygulamanın çalındığını görmekteyiz uygulama içerisindeki string aramasında firmanın telefon numarası bulunmakta şaşırtma amaçlı koyulmamış ve gerçektende böyle bir firmaya ait olma olasılığıda açık açık devlet büyüklerinin kimlik bilgileri paylaşılmış. Eğer söylentiler doğruysa şu anda internette çatır çatır torrent'ten indirilen bu veriler 2010 yılı olduğunu kabul edelim. Eğer 2010 yılında reşit olup oy kullanabilecek kişilerin verileriyle bu verilerin sonuçta değişmemesi nedeniyle sorun teşkil etmekte. Yani 2010 yılında reşit olan her vatandaşın yukarıda belirttiğim bilgileri ile birçok işlem yapılabilir. Sorun da burada. Yani haber eski olup ısıtıp önünüze koymuyoruz. Bilgiler aynısı ols
+Ardından daha detaylı bir inceleme yaptığımızda bir hukuk yazılım firmasından bu uygulamanın çalındığını görmekteyiz uygulama içerisindeki string aramasında firmanın telefon numarası bulunmakta ve şaşırtma amaçlı koyulmamış gerçektende böyle bir firmaya ait olma olasılığıda açık.
+
 Sorgu sırasında bir görüntü [Görüntülerin bulunduğu forum adresi](http://deepwebtr.net/konu-Adres-Sorgu-Programi.html?pid=343331#pid343331)
 
 ![detay1](/assets/11855449_886336491421499_398067300_n.jpg)
