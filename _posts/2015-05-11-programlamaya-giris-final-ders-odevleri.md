@@ -15,6 +15,7 @@ Başkent Üniversitesi Programlamaya Giriş dersinde **Prof. Dr. Afet GOLAYOĞLU
 - Özel sektör için 0-1000 KWh arası 0.3TL/ KWh, 1000 Kwh dan fazla kısmi için ise 0.35TL/KWh olarak hesaplanmaktadır.
 
 Elektrik kullanım bedeli hesaplama  programını yazınız.
+
 ```
 {% raw %}
 #include&lt;stdio.h&gt;
@@ -157,6 +158,7 @@ int main(void){
 ```
 
 **3-**Asgari ücretin 20 yaş altındakiler için **896 TL**, 20 yaş üstündekiler için **1010 TL** emekliler için **960 TL** olarak uygulandığı bir pazarlama şirketinde çalışan her eleman için yaptığı satış miktarının **%5** i kadar ek ücret, bayram ve ya tatil günlerinde çalıştığı her yarım gün için ise **50 TL** ek ücret verilmektedir. Buna göre, aylık maaş hesaplama programını yazınız
+
 
 ```
 {% raw %}
