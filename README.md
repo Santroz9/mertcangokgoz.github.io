@@ -1,3 +1,5 @@
+Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm yazılanlar [Creative Commons Atıf-Paylaşım Lisansı](https://creativecommons.org/licenses/by-sa/3.0/) Altındadır.
+
 # Güncelleme 10 Şubat 2016
 
 - Sayfalama yapısı eklendi
@@ -43,15 +45,22 @@
 - Github Pages desteği için güncelleme yapıldı
 - Sosyal Medya Paylaşma Butonları Eklendi
 
-# Güncelleme 5 Mart 2015
+# Güncelleme 5 Mart 2016
 
 - Twitter card yapısı eklendi
 - Sitemap için iyileştirilmeye gidildi
 - 404 Sayfası yenilendi
 - Yazı dizisi desteği getirildi
 
-# Güncelleme 27 Mart 2015
+# Güncelleme 27 Mart 2016
 
 - Arama yapabilmek için yeni yöntem geliştirildi
 - Google Arama özelliği kaldırıldı
 - CSS düzenlemeleri yapıldı
+
+# Güncelleme 14 Nisan 2016
+
+- Windows Kategorisi Kaldırıldı
+  - Buna bağlı olan yazılar kısmen kaldırıldı
+- CSS düzenlemeleri yapıldı
+- Tablolama yapısındaki tasarım değiştirildi.

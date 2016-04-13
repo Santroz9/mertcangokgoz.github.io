@@ -22,4 +22,4 @@ description: Mertcan GÖKGÖZ hakkında
 
 # **UYARI !!!**
 
-Bu blogda anlatın her şey pratikte çalıştığını gözlemlediğim ve uygun gördüğüm konular olup.Bu blogda yazılanlardan yola çıkarak sisteminizde yapacağınız değişikliklerden ve (veya) sorunla karşılaşmanız durumunda ne şekilde olursa olsun sorumluluk kabul **edilmeyecektir**.
+Bu blogda anlatın her şey pratikte çalıştığını gözlemlediğim ve uygun gördüğüm konular olup.Yazılanlardan yola çıkarak sisteminiz de yapacağınız değişikliklerden ve (veya) sorunla karşılaşmanız durumunda ne şekilde olursa olsun sorumluluk kabul **edilmeyecektir**.
