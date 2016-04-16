@@ -138,6 +138,8 @@ nav h1, nav h2 {
   font-size: 13px;
 }
 
+pre { white-space: pre; overflow: auto; }
+
 #post pre {
   border: 1px solid #ddd;
   /*background-color: #eef;*/
