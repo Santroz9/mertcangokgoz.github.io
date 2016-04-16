@@ -10,8 +10,8 @@ gems:
   - jekyll-mentions
   - jekyll-seo-tag
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
-timezone: Europe/Istanbul
-encoding: "utf-8"
+timezone: 'Europe/Istanbul'
+encoding: 'utf-8'
 
 #Compress
 compress_html:

@@ -2,14 +2,14 @@
     Name: Mertcan
     Surname: Gokgoz
     Site: https://mertcangokgoz.com
-    Contacts:admin@mertcangokgoz.com
+    Contacts: admin@mertcangokgoz.com
     Twitter: @0x2e88ce4
     Location: Ankara/Turkey
 
-                        [...]                        
+                        [...]
 
     /* SITE */
-    Last update: 2016/02/10
+    Last update: 2016/04/16
     Standards: HTML5, CSS3, JAVASCRIP, JSON
     Components: jQuery, Font Awesome, Bootstrap, Font API etc.
-    Software: Jekyll            
+    Software: Jekyll

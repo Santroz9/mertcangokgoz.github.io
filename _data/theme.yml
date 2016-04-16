@@ -1,19 +1,19 @@
 # Theme customization - please change from the defaults!
 
 # Color for top bar, links, etc
-highlight_color: '#3498db'
+highlight_color: '#CF4913' #Old Color '#3498db'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
   github: MertcanGokgoz
-  bitbucket: MertcanGokgoz
+  #bitbucket: MertcanGokgoz
   #hacker_news: swanson
   #stackexchange: 348619
   #stackoverflow: 348619
   twitter: '0x2e88ce4'
   #facebook: zuck
   #tumblr: animalygifs
-  #linkedin: philipjagielski
+  linkedin: '0x2e88ce4'
   #gplus: 110552447039675960964
   #flickr: johndoe
 
@@ -31,7 +31,7 @@ yandex_metrica_key: 34290225
 # Toggle "Postings are my own" disclaimer in footer
 show_disclaimer: true
 
-# Toggle link/icon to view atom feed (/atom.xml) in sidebar
+# Toggle link/icon to view atom feed (/feed.xml) in sidebar
 show_atom_feed: true
 
 # Gauges Settings

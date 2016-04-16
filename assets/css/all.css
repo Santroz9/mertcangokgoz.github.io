@@ -7,3 +7,4 @@
 {% include css/syntax.css %}
 {% include css/normalize.css %}
 {% include css/super-search.css %}
+{% include css/pygments-themes/monokai.css %}

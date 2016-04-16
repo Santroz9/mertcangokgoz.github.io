@@ -11,13 +11,13 @@ description: Mertcan GÖKGÖZ hakkında
 
 # **Neler Biliyorum**
 
-Öncelikle, bir bilgisayar nasıl toparlanır bir sistem nasıl oluşturulur, oluşturulan bu sistem üzerinde nasıl ayarlamalar yapılır gibi konularında tecrübelerim ile IT sektörüne giriş yaptım ve okulumda aldığım dersler neticesinde mesleğimi en iyi şekilde yapmayı amaçlıyorum ve bu doğrultuda ek eğitimler almaya devam ediyorum. HTML, CSS, PHP, TCP, UDP, ICMP, ARP, DNS, DHCP, MySQL, MsSQL Server, Apache, Nginx, Sendmail, Postfix, Spamassasin, Clamav, MS Exchange, LAN, WAN, VPN, IpTables, PfSense, FTP, SSH, Linux sistemler (CentOS, RHEL, Fedora, Debian, Ubuntu, Mint, Arch), Windows, WAF, Mod_Security, OSI Model, Routing, C, JavaScript, Python, Node.js, AngularJS, ReactJS, Bootstrap, Güvenlik, Gizlilik Yazmış olduğum konularla uğraşıyorum.
+Öncelikle, bir bilgisayar nasıl toparlanır bir sistem nasıl oluşturulur, oluşturulan bu sistem üzerinde nasıl ayarlamalar yapılır gibi konularında tecrübelerim ile IT sektörüne giriş yaptım ve okulumda aldığım dersler neticesinde mesleğimi en iyi şekilde yapmayı amaçlıyorum ve bu doğrultuda ek eğitimler almaya devam ediyorum. HTML, CSS, PHP, TCP, UDP, ICMP, ARP, DNS, DHCP, MySQL, MsSQL Server, Apache, Nginx, Sendmail, Postfix, Spamassasin, Clamav, MS Exchange, LAN, WAN, VPN, IpTables, PfSense, FTP, SSH, Linux sistemler (CentOS, RHEL, Debian, Ubuntu, Mint, Arch), WAF, Mod_Security, OSI Model, Routing, C, JavaScript, Python, Node.js, AngularJS, ReactJS, Bootstrap, Güvenlik, Gizlilik vb. Yazmış olduğum konularla uğraşıyorum.
 
 # **Çalıştığım Pozisyonlar**
 
-*   Teknik Destek Asistanlığı
-*   Web/Mobil/Masaüstü Uygulama Geliştirme
-*   Donanım Teknisyenliği
+*   Teknik Destek Asistanlığı(ASUS Teknik Servis 2011)
+*   Donanım Teknisyenliği(ASUS Teknik Servis 2011)
+*   Web/Mobil/Masaüstü Uygulama Geliştirme (Freelance 2012)
 *   Sistem Yöneticiliği
 
 # **UYARI !!!**
