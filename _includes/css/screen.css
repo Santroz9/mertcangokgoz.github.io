@@ -140,9 +140,11 @@ nav h1, nav h2 {
 
 #post pre {
   border: 1px solid #ddd;
-  background-color: #eef;
+  /*background-color: #eef;*/
   padding: 0 .4em;
-  margin-bottom: 20px !important;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-bottom: 15px !important;
 }
 
 #post ul,
@@ -152,7 +154,7 @@ nav h1, nav h2 {
 
 #post code {
   border: 1px solid #ddd;
-  background-color: #eef;
+  /*background-color: #eef;*/
   font-size: 85%;
   padding: 0 .2em;
 }

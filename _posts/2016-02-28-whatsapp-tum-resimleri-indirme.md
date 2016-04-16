@@ -11,7 +11,7 @@ description: whatsapp web çıktı çıkalı resimleri telefon dışında indirm
 
 *Javascript Kodları*
 
-```
+```javascript
 var img_dom = document.getElementsByClassName('image-thumb-body');
 var links = [];
 
