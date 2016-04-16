@@ -138,8 +138,6 @@ nav h1, nav h2 {
   font-size: 13px;
 }
 
-pre { white-space: pre; overflow: auto; }
-
 #post pre {
   border: 1px solid #ddd;
   /*background-color: #eef;*/
@@ -162,11 +160,6 @@ pre { white-space: pre; overflow: auto; }
 #post pre code {
   border: none;
 }
-
-code {
-  font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
- }
-
 
 #post img {
   max-width: 100%;
