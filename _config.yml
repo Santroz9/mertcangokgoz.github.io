@@ -53,7 +53,7 @@ paginate:         20
 version:          1.0.0
 
 twitter:
-  username: 0x2e88ce4
+  username: '0x2e88ce4'
 
 github:
   repo:           https://github.com/MertcanGokgoz
