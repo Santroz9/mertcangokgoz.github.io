@@ -7,9 +7,9 @@ categories: Linux
 description: Sudo ile yetkilendirme işlemi yapılan işletim sistemlerinde benim en ucuz olduğum
 ---
 
-Sudo ile yetkilendirme işlemi yapılan işletim sistemlerinde benim en ucuz olduğum her defasında şifre girmemiz ev kullanıcı iseniz bence bu sudo gereksiz şifre girmek çile oluyor uzun ve karışık ise bende dedim ya bu böyle olmaz biz buna bi çözüm bulup şu şifreyi kapatalım sormasın ama ne yapıyorsa yapsın
+Sudo ile yetkilendirme işlemi yapılan işletim sistemlerinde benim en uyuz olduğum her defasında şifre girmemiz ev kullanıcı iseniz bence bu sudo gereksiz şifre girmek çile oluyor bende dedim ya bu böyle olmaz biz buna bi çözüm bulup şu şifreyi kapatalım sormasın ama ne yapıyorsa yapsın
 
-hemen sudoers düzenlemesine geçtim haliyle
+hemen **sudoers** düzenlemesine geçtim haliyle
 
 ```bash
 sudo nano /etc/sudoers
