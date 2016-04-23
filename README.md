@@ -82,3 +82,9 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - MathJax desteği artık tamamen aktif
 - Font Awesome 4.6.1 Güncellendi
 - Kod Blokları için Tema Eklendi
+
+## Güncelleme 23 Nisan 2016
+
+- PageSpeed için yapılan geliştirme kaldırıldı
+- SEO iyileştirilmeleri yapıldı(tekrarlayan taglar kaldırıldı)
+- W3 uyumlu hale getirildi

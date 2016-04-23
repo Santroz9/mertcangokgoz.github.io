@@ -19,4 +19,4 @@ Arşivde bulunan İçerikler;
 *   Bitirilmiş proje örnekleri
 *   Tamamlanmış tüm ödevler ve çalışmalar
 
-# [Tüm Ders Notları İçin Tıklayın](https://www.mediafire.com/folder/v8j86tb4e2s6a/DersNotlari)
+# [Tüm Ders Notları İçin Tıklayın](https://github.com/MertcanGokgoz/DersNotlari)
