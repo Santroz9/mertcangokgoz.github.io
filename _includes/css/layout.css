@@ -35,7 +35,7 @@
 	nav { position: relative; }
 	nav ul,
 	#logo { text-align: left; }
-	.posts li span{
+	.ul.posts span{
 		display: none;
 	}
 	.sidebar {
@@ -49,7 +49,7 @@
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	.posts li span{
+	ul.posts span{
 		display: none;
 	}
 	.sidebar {
@@ -64,7 +64,7 @@
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-	.posts li span{
+	ul.posts span{
 		display: none;
 	}
 	.sidebar {
