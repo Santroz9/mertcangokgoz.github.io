@@ -18,7 +18,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
-  font-family: "open sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 600;
 }
 
@@ -177,7 +177,7 @@ nav h1, nav h2 {
 
 .sidebar {
   padding-top: 25px;
-  font-family: "open sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .sidebar p {
@@ -189,7 +189,7 @@ nav h1, nav h2 {
 }
 
 .content {
-  font: 400 16px/22px "open sans", sans-serif;
+  font: 400 16px/22px 'Roboto', sans-serif;
   border-left: 1px solid #DDD;
   padding-left: 40px;
   padding-top: 25px;
@@ -250,7 +250,7 @@ nav h1, nav h2 {
 }
 
 i.fa-hn {
-  font-family: "open sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 18px !important;
   position: relative;
