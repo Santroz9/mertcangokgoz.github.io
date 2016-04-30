@@ -4,7 +4,6 @@ paginate_path: /page/:num/
 highlighter: rouge
 lsi: false
 gems:
-  - jekyll-coffeescript
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-mentions
@@ -14,15 +13,15 @@ timezone: 'Europe/Istanbul'
 encoding: 'utf-8'
 
 #Compress
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: true
-  startings: [html, head, body]
+#compress_html:
+#  clippings: all
+#  comments: all
+#  endings: all
+#  ignore:
+#    envs: [local]
+#  blanklines: false
+#  profile: true
+#  startings: [html, head, body]
 
 #Markdown Settings
 markdown: kramdown
