@@ -9,7 +9,7 @@ description: C programlama dili ile girilen bir sayının basamaklarını toplay
 
 C programlama dili ile girilen bir sayının basamaklarını toplayacağız ve bu sayının bölünüp bölünmediğini kontrol edeceğiz.Bu örneği rastgele bir şekilde aklımıza geldiği için yapmıştık aslına bakarsak biraz saçma
 
-```
+```c
 {% raw %}
 #include < stdio.h >
     int main(void) {

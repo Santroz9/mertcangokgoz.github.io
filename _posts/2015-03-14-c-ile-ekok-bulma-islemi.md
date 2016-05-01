@@ -9,7 +9,7 @@ description: C ile klavyeden girilen 2 sayının kolaylıkla en küçük ortak k
 
 C ile klavyeden girilen 2 sayının kolaylıkla en küçük ortak katını yani Ekok'unu kolaylıkla aşağıdaki kod aracılığı ile bulabilirsiniz.En kolay yöntem diye düşündüğüm için uygulamayı oluştururken while döngüsü kullanmayı seçtim.
 
-```
+```c
 {% raw %}
 #include < stdio.h >
     int main(void) {

@@ -9,7 +9,7 @@ description: Alan hesaplamalarını yapacağımız geometrik şekilleri aşağı
 
 Alan hesaplamalarını yapacağımız geometrik şekilleri aşağıdaki gibi belirledik ortaya çıkan kodumuz ise aşağıdaki gibidir.Yapmış olduğum programda seçmeli bir yapı izledim.gereken komut verilmediği takdirde döngü devam etmektedir.
 
-```
+```c
 {% raw %}
 #include < stdio.h > #include < conio.h > #include < stdlib.h >
     int main(void) {

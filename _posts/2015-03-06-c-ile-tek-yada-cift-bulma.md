@@ -9,7 +9,7 @@ description: C ile tek yada çift bulma işlemi için aşağıdaki kodu kullanab
 
 C ile tek yada çift bulma işlemi için aşağıdaki kodu kullanabilirsiniz.Bu yaptığımız işlemde hocalar tarafından çok sevilen ve her fırsatta deli gibi sorulan bir örnektir karşınıza elbet bir yerde çıkabilir çıkmasa bile işinize algoritmaları öğrenirken yarayacaktır.
 
-```
+```c
 {% raw %}
 #include < stdio.h >
     int main(void) {

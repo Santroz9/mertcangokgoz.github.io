@@ -9,7 +9,7 @@ description: C ile 2 sayının en büyük ortak bölenini yani Ebob'unu Bulma İ
 
 C ile 2 sayının en büyük ortak bölenini yani Ebob'unu Bulma İşlemini kolay bir şekilde aşağıdaki kod parçacığı ile yapabilirsiniz.Kolay olduğunu düşündüğüm için uygulamayı for döngüsü aracılığı ile yaptım.
 
-```
+```c
 {% raw %}
 #include < stdio.h >
     int main(void) {

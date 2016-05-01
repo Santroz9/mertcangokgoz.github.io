@@ -9,7 +9,7 @@ description: C ile verilen bir sayı içerisindeki asal sayıları çok kolay bi
 
 C ile verilen bir sayı içerisindeki asal sayıları çok kolay bir şekilde bulabilirsiniz.Asal sayı bulmayı hemen hemen her programlama dilini öğretirken sorarlar tipik ve kalıplaşmış bir örnektir aslında algoritma kasarken işinize yarayacaktır.
 
-```
+```c
 {% raw %}
 #include < stdio.h >
     int main() {
