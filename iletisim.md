@@ -2,7 +2,11 @@
 layout: fourpage
 title: İletişim
 type: page
-description: Mertcan GÖKGÖZ web sitesi iletişim formu
+description: Mertcan GÖKGÖZ İletişim
 ---
 
-<iframe width="720" height="850" src="https://docs.google.com/forms/d/15z4DuGqTUNra7H6Sbfq37wJCsHegKtd0Ey7gvCcrbE0/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Yükleniyor...</iframe>
+![BBM Barkod](/assets/bbmgorsel.jpg)
+
+E-Mail : [admin@mertcangokgoz](mailto:admin@mertcangokgoz) veya [mertcan.gokgoz@gmail.com](mailto:mertcan.gokgoz@gmail.com)
+
+Telegram : [0x2e88ce4](https://telegram.me/Ox2e88ce4)
