@@ -6,22 +6,11 @@ lsi: false
 gems:
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-mentions
   - jekyll-seo-tag
+
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 timezone: 'Europe/Istanbul'
 encoding: 'utf-8'
-
-#Compress
-#compress_html:
-#  clippings: all
-#  comments: all
-#  endings: all
-#  ignore:
-#    envs: [local]
-#  blanklines: false
-#  profile: true
-#  startings: [html, head, body]
 
 #Markdown Settings
 markdown: kramdown
