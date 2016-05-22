@@ -33,4 +33,6 @@ apt-get update && apt-get ugrade
 
 Bu işlemlerden sonra her yeni sürüm yayınlandığında otomatik olarak her zaman ki kullandığınız güncelleme komutunu verdiğiniz an güncellenecek.
 
+ref: [https://community.openvpn.net/openvpn/wiki/OpenvpnSoftwareRepos](https://community.openvpn.net/openvpn/wiki/OpenvpnSoftwareRepos)
+
 öptüm bye <3
