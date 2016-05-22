@@ -38,7 +38,7 @@ author:
 paginate:         20
 
 # Custom vars
-version:          1.0.0
+version:          3.0.0
 
 twitter:
   username: '0x2e88ce4'

@@ -88,3 +88,8 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - PageSpeed için yapılan geliştirme kaldırıldı
 - SEO iyileştirilmeleri yapıldı(tekrarlayan taglar kaldırıldı)
 - W3 uyumlu hale getirildi
+
+## Güncelleme 23 Mayıs 2016
+
+- Robot.txt ve humans.txt güncellendi
+- HTML5 hataları giderildi

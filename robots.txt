@@ -20,8 +20,4 @@ Allow: /
 User-agent: duggmirror
 Allow: /
 
-# Swiftbot
-User-agent: Swiftbot
-Disallow: /
-
 Sitemap: {{ site.url }}/sitemap.xml
