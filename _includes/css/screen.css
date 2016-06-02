@@ -18,7 +18,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: #181818;
-  font-family: "open sans", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
 
@@ -103,7 +103,7 @@ ul.posts li {
 }
 
 ul.posts span {
-  font-family: 'Lucida Console', 'Andale Mono', monospace;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #aaa;
   padding-right: 5px;
   font-size:14px;
@@ -177,7 +177,7 @@ nav h1, nav h2 {
 
 .sidebar {
   padding-top: 25px;
-  font-family: "open sans", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .sidebar p {
@@ -250,7 +250,7 @@ nav h1, nav h2 {
 }
 
 i.fa-hn {
-  font-family: "open sans", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
   font-size: 18px !important;
   position: relative;
