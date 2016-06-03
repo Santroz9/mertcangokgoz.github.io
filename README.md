@@ -93,3 +93,9 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 
 - Robot.txt ve humans.txt güncellendi
 - HTML5 hataları giderildi
+
+## Güncelleme 4 Haziran 2016
+
+- Font Awesome sürümü güncelleştirildi
+- SEO için meta etiketlerinde düzenleme yapıldı
+- Fontlar için CSS düzenlemesi yapıldı

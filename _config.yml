@@ -25,9 +25,9 @@ page:
   extension: md
 
 # Setup
-title:            Mertcan GÖKGÖZ - Programlama, Sunucu Yönetimi, Teknoloji ve İnternet
+title:            Mertcan GÖKGÖZ - Sunucu Yönetim Hizmetleri
 tagline:          Blog
-description:      "Özgür yazılım üzerine yazılar Sunucu yönetimi,teknoloji ve programlama hakkında türkçe site"
+description:      "Özgür yazılım üzerine GNU/Linux sistemler için kurulum, yapılandırma, ipuçları hakkında türkçe site"
 url:              https://mertcangokgoz.com
 
 author:

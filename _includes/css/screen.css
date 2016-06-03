@@ -98,7 +98,7 @@ ul.posts {
 
 ul.posts li {
   line-height: 22px;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 0px;
 }
 
@@ -270,7 +270,7 @@ i.fa-hn {
 
 .disclaimer p {
   margin-top: 5px;
-  font-size: 11px;
+  font-size: 16px;
   text-align: center;
 }
 
