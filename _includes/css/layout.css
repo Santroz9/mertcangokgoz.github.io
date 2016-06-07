@@ -83,4 +83,10 @@
 	#paylasim{
 		display: none;
 	}
+	.meta{
+		display: none;
+	}
+	#disqus_thread{
+		display: none;
+	}
 }
