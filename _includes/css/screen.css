@@ -305,3 +305,7 @@ sup {
   vertical-align: super;
   font-size: smaller;
 }
+
+.seo{
+  display: none;
+}
