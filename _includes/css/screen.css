@@ -121,7 +121,7 @@ ul.posts span {
   overflow: hidden;
 }
 
-nav h1, nav h2 {
+nav h1, nav h3 {
   text-align: center;
 }
 
@@ -212,7 +212,7 @@ nav h1, nav h2 {
   color: #666;
 }
 
-#home h2 {
+#home h3 {
   color: {{ site.data.theme.highlight_color }};
 }
 
