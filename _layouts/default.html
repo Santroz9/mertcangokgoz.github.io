@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="/assets/css/all.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="manifest" href="/manifest.json">
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
   <script>
     var OneSignal = OneSignal || [];
@@ -36,6 +37,11 @@
             "message": "Abone Olduğunuz için Teşekkürler",
       }
     }]);
+  </script>
+  <script>
+      $(function() {
+        $( "#dialog" ).dialog();
+      });
   </script>
 
   <!--[if lt IE 9]>
@@ -61,9 +67,10 @@
       <div class="footer">
         {% include footer.html %}
       </div>
-      <div class="seo">
+      <h2><a href="#">test</a></h2>
+      <div id="dialog" title="Ne Nedir ?">
         <p>
-          <h1>Sunucu yönetimi, özgür yazılım hakkında bilgiler ve</h1>
+          <h1>Sunucu yönetimi, özgür yazılım hakkında bilgiler</h1><span>ve</span>
           <h2>linux sistemler hakkında yazılar</h2>
         </p>
       </div>
