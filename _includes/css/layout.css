@@ -107,9 +107,6 @@
 	hr{
 		display: none;
 	}
-	@page {
-			margin: .5cm
-	}
 	a,
 a:visited {
 		text-decoration: underline
