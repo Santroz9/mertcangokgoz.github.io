@@ -308,8 +308,9 @@ sup {
 
 .seo{
   border:1px solid #000000;
+  text-align: center;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
   background-color: #e2e2e2;
 }
