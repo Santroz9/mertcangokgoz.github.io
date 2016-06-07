@@ -20,4 +20,4 @@ Allow: /
 User-agent: duggmirror
 Allow: /
 
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: https://mertcangokgoz.com/sitemap.xml
