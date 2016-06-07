@@ -1,6 +1,4 @@
 @media only print {
-  body * { display: none !important; }
-
   body {
     border-top: none;
   }
@@ -10,6 +8,37 @@
     background: transparent!important;
     box-shadow: none!important;
 		border-bottom: none;
+  }
+  .content {
+    border-left: none;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .disclaimer {
+    display: none;
+  }
+
+  #paylasim {
+    display: none;
+  }
+
+  #related {
+    display: none;
+  }
+
+  .meta {
+    display: none;
+  }
+
+  #disqus_thread {
+    display: none;
+  }
+
+  hr {
+    display: none;
   }
 
   a,
@@ -61,12 +90,6 @@ img {
 	h3 {
     page-break-after: avoid;
   }
-	@page :left {
-		margin: 0.5cm;
-	}
-
-	@page :right {
-		margin: 0.8cm;
-	}
+  
   body:after { content: "Mertcan GÖKGÖZ https://mertcangokgoz.com/"; }
 }
