@@ -99,3 +99,10 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Font Awesome sürümü güncelleştirildi
 - SEO için meta etiketlerinde düzenleme yapıldı
 - Fontlar için CSS düzenlemesi yapıldı
+
+## Güncelleme 9 Haziran 2016
+
+- SEO için düzenlemeler yapıldı
+- Tanımlayıcı kısa yazılar eklendi
+- W3C Validation iyileştirmeleri yapıldı
+- Bazı dosyalar güncellendi
