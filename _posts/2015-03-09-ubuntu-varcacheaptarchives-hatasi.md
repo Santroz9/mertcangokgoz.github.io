@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ubuntu /var/cache/apt/archives/ hatası
-date: 2015-03-09 14:47:11.000000000 +02:00
+date: 2015-03-09
 type: post
 published: true
 status: publish
@@ -16,12 +16,16 @@ Ubuntu işletim sistemi kullanan arkadaşlar en az bir kez bu hatayı almıştı
 
 Bu hatayı görmüşsen öncelikle bi temizleme aşamasına geçmen gerekiyor.Ubuntu Tweak kurduysanız önceden sistemde birkaç temizlik yaptırabilirsiniz.Bu biraz sistemi rahatlatacaktır tabi virtualbox yada vmware gibi bir uygulama ile sanallaştırdıysanız yüksek ihtimal Ubuntu Tweak kurmamışsınız demektir.
 
+```bash
     sudo apt-get clean
     sudo apt-get update && sudo apt-get upgrade
+```
 
 yukarıdaki komut yüzde 80 bu sorunu giderecek eğer çözülmez ise aşağıdaki komutu verebilirsiniz bu komut yüzde 100 olasılıkla çözecektir.tekrar düzenleyecek ve zorlayarak kurulum yapacak
 
+```bash
     sudo dpkg --configure -a
     sudo apt-get -f install
+```
 
 bu komut ile hatanızı çözdüğünüzü varsayıyorum eğer gene çözülmez ise sorunu [tarafıma buradan](https://mertcangokgoz.com/soru-cevap) iletebilirsiniz...

@@ -13,15 +13,19 @@ description: Kernel 4.0 sürümü debian kullanan kullanıcılar için uzun zama
 
 Terminalde aşağıdaki komutları çalıştırınız.
 
-    sudo su
-    cd /usr/local/bin
-    wget https://mertcangokgoz.com/Downloads/kernel-4.0.sh
-    chmod +x kernel-4.0.sh
-    sudo ./kernel-4.0.sh
-    reboot
+```
+sudo su
+cd /usr/local/bin
+wget https://mertcangokgoz.com/Downloads/kernel-4.0.sh
+chmod +x kernel-4.0.sh
+sudo ./kernel-4.0.sh
+reboot
+```
 
 Yüklediğiniz kernelde çok sorunlar oldu kaldırmak istiyorsunuz.Onun içinde aşağıdaki komutu kullanınız.
 
-    sudo apt-get purge linux-image-4.0*
-    sudo update-grub
-    reboot
+```bash
+sudo apt-get purge linux-image-4.0*
+sudo update-grub
+reboot
+```

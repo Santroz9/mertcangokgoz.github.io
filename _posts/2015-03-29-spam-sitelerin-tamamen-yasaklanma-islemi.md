@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Spam Sitelerin Tamamen Yasaklanma İşlemi
-date: 2015-03-29 16:57:53.000000000 +03:00
+date: 2015-03-29
 type: post
 published: true
 status: publish
@@ -12,7 +12,7 @@ Blogu açtığım ilk gün bile neredeyse her gün bu sitelerden trafik alıyord
 
 Liste her hafta Cuma günü güncellenecek tir. Rahatsız olduğunuz siteleri belirtirseniz minnettar kalırım.
 
-## 27.01.2016&nbsp;Güncel Spam Referer Listesi
+## 27.01.2016 Güncel Spam Referer Listesi
 
     ## SITE REFERRER BANNING ##
     RewriteCond %{HTTP_REFERER} .*adf.ly.*$ [NC,OR]
@@ -145,25 +145,24 @@ Liste her hafta Cuma günü güncellenecek tir. Rahatsız olduğunuz siteleri be
 
 Tek yapmanız gereken yukarıda bulunan listeyi sitenizin .htaccess kurallarına eklemek sonrasında spam trafik tamamen kesilecektir.
 
-&nbsp;
 
-## #08.04.2015 Güncellemesi
+## 08.04.2015 Güncellemesi
 
 - googlsucks sitesi eklendi
 
-## #11.04.2015 Güncellemesi
+## 11.04.2015 Güncellemesi
 
 - best-seo-solution sitesi eklendi
 - ilovevitaly sitesi eklendi
 - buttons-for-your-website sitesi eklendi
 - best-seo-solution sitesi eklendi
 
-## #04.05.2015 Güncellemesi
+## 04.05.2015 Güncellemesi
 
 - free-share-buttons sitesi eklendi
 - iframe-toloka sitesi eklendi
 
-## #10.05.2015 Güncellemesi
+## 10.05.2015 Güncellemesi
 
 - buy-cheap-online sitesi eklendi
 - generalporn sitesi eklendi
@@ -176,41 +175,41 @@ Tek yapmanız gereken yukarıda bulunan listeyi sitenizin .htaccess kurallarına
 - pornhubforum sitesi eklendi
 - pornhub-forum sitesi eklendi
 
-## #11.06.2015 Güncellemesi
+## 11.06.2015 Güncellemesi
 
 - howtostopreferralspam sitesi eklendi
 - sitevaluation sitesi eklendi
 
-## #14.06.2015 Güncellemesi
+## 14.06.2015 Güncellemesi
 
 - 100dollars-seo sitesi eklendi
 - event-tracking sitesi eklendi
 - get-free-traffic-now sitesi eklendi
 - guardlink sitesi eklendi
 
-## #17.06.2015 Güncellemesi
+## 17.06.2015 Güncellemesi
 
 - dailyrank sitesi eklendi
 
-## #25.06.2015 Güncellemesi
+## 25.06.2015 Güncellemesi
 
 - getyourprofit sitesi eklendi
 - webmonetizer sitesi eklendi
 
-## #30.06.2015 Güncellemesi
+## 30.06.2015 Güncellemesi
 
 - erot sitesi eklendi
 - trafficmonetize sitesi eklendi
 - free-social-buttons sitesi eklendi
 
-## #24.07.2015 Güncellemesi
+## 24.07.2015 Güncellemesi
 
 - hanyomedia sitesi eklendi
 
-## #26.01.2016 Güncellemesi
+## 26.01.2016 Güncellemesi
 
 - Mevcut sitelerin yeni türeyen xyz uzantıları eklenmiştir.(Katkılarından dolayı [EKREM](https://disqus.com/by/ekremZr/) Teşekkürler)
 
-## #27.01.2016 Güncellemesi
+## 27.01.2016 Güncellemesi
 
 - net-profits eklendi

@@ -18,7 +18,7 @@ Komutu çalıştırabilmeniz için aşağıdaki parametreyi kullanabilirsiniz.
 Komut(root yetkileri ile): /usr/local/cpanel/3rdparty/bin/php /var/www/recovery.php
 
 **Dosya** : revovery.php
-
+```php
     <?php
 
     if(getmyuid() != 0){ die('Yonetici Olarak Calistirmaniz Gerekmektedir.'); }
@@ -33,9 +33,11 @@ Komut(root yetkileri ile): /usr/local/cpanel/3rdparty/bin/php /var/www/recovery.
     $sonuc = array_unique($sonuc);
     echo implode('',$sonuc);
     ?>
+```
 
 yada direk olarak aşağıdaki dosyadan çağırabilirsiniz.
 
+```php
     #!/usr/local/cpanel/3rdparty/bin/php
     <?php
 
@@ -51,5 +53,6 @@ yada direk olarak aşağıdaki dosyadan çağırabilirsiniz.
     $sonuc = array_unique($sonuc);
     echo implode('',$sonuc);
     ?>
+```
 
 Bu sayede sistemde kayıtlı olan kullanıcıları ve buna bağlı olarak şifrelerini'de görebilirsiniz.

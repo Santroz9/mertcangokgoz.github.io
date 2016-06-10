@@ -106,3 +106,8 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Tanımlayıcı kısa yazılar eklendi
 - W3C Validation iyileştirmeleri yapıldı
 - Bazı dosyalar güncellendi
+
+## Güncelleme 10 Haziran 2016
+
+- SEO düzenlemeleri
+- Bazı yazılardaki hataları giderildi
