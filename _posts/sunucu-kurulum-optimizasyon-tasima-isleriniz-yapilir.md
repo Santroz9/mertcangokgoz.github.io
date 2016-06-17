@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Sunucu kurulum, Optimizasyon ve Bakım işleriniz yapılır
-date: 2016-06-11
+date: 2016-06-17
 type: post
 categories: Linux
 description: Yaşadığınız sunucu tabanlı her türlü sorun ve kurulum konusunda sizlere yardım edebilirim yapabildiklerim aşağıdaki gibidir.
