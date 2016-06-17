@@ -57,10 +57,10 @@ Yapılan ödemelerde _**geri iade**_ söz konusu **değildir.** Ücretini ödedi
 
 Yapılacak işlemler için lütfen detaylı bir şekilde isteklerinizi ve sıkıntılarınızı göndereceğiniz mailde belirtin aksi taktirde atılan mailler **dikkate alınmayacaktır.**
 
-admin@mertcangokgoz.com veya mertcan.gokgoz@gmail.com
+[İletişim için Tıklayın](https://mertcangokgoz.com/iletisim/)
 
 ### Uyarılar
 
-1- Yapılacak olan tüm işlemler için kesinlikle **uzaktan bağlantı araçları ile işlem yapmıyoruz**.
-2- İşlem öncesi ve sonrasında yedekleme işlemi yapmanız gerekmektedir.(yedekleme ve yedekten geri yükleme eğer bana ait ise sorumluluk tamamen bana aittir. )
+1- Yapılacak olan tüm işlemler için **kesinlikle** uzaktan bağlantı araçları ile işlem **yapmıyoruz**.
+2- İşlem öncesi ve sonrasında yedekleme işlemi yapmanız gerekmektedir.(yedekleme ve yedekten geri yükleme işlemi yapılacak ise sorumluluk **tamamen bana aittir**. )
 3- Tüm işlemler için **root** bilgilerinin tarafımıza verilmiş olması şarttır.
