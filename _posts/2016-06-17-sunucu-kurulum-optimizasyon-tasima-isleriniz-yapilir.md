@@ -61,6 +61,6 @@ Yapılacak işlemler için lütfen detaylı bir şekilde isteklerinizi ve sıkı
 
 ### Uyarılar
 
-1- Yapılacak olan tüm işlemler için **kesinlikle** uzaktan bağlantı araçları ile işlem **yapmıyoruz**.
-2- İşlem öncesi ve sonrasında yedekleme işlemi yapmanız gerekmektedir.(yedekleme ve yedekten geri yükleme işlemi yapılacak ise sorumluluk **tamamen bana aittir**. )
-3- Tüm işlemler için **root** bilgilerinin tarafımıza verilmiş olması şarttır.
+1. Yapılacak olan tüm işlemler için **kesinlikle** uzaktan bağlantı araçları ile işlem **yapmıyoruz**.
+2. İşlem öncesi ve sonrasında yedekleme işlemi yapmanız gerekmektedir.(yedekleme ve yedekten geri yükleme işlemi yapılacak ise sorumluluk **tamamen bana aittir**. )
+3. Tüm işlemler için **root** bilgilerinin tarafımıza verilmiş olması şarttır.
