@@ -83,7 +83,7 @@ Bilinmesi ve unutulmaması gereken temel linux komutlarının derlenmiş bir hal
 | Komut             | Açıklama                                                                            |
 |:------------------|:------------------------------------------------------------------------------------|
 | `ps`                | Çalışan süreçler                                                                    |
-| `ps aux \| grep program adı` |tüm telnet süreçlerinin id bilgisi                                |
+| `ps aux | grep program adı` |tüm telnet süreçlerinin id bilgisi                                |
 | `pmap -x PID`       | İşlemin bellek haritası                                                             |
 | `top`               | Temel sistem durumu, çalışmakta olan süreçler ne kadar bellek/işlemci kullandıkları |
 | `kill`              | işlemi bitir                                                                        |
@@ -202,7 +202,7 @@ Temelde tüm derleme işlemleri aşağıdaki komutlar aracılığı ile yapılma
 |:------------------------------------------------------------------|:-------------------------------------------------|
 | `history -c`                                                        | komut satır geçmişini temizler                   |
 | `clamscan -r -z --remove --verbose /home`                           | Virüs tarama ve silme işlemi                     |
-| `du -h --max-depth=1 \| sort -hr` |Dizinlerin toplam boyutlarını gösterir |
+| `du -h --max-depth=1 | sort -hr` |Dizinlerin toplam boyutlarını gösterir |
 | `find /home/mertcan/ -type f -exec grep -H 'yazı' {} \;`            | dizin içerisinde yaziyı aratır                   |
 | `dd if=debian.iso of=/dev/sdb`                                      | iso kalıbını USB veya DVD ye yazdırma            |
 | `shred —verbose —random-source=/dev/zero —iterations=5 /dev/sda`    | ultra güvenli disk silme                         |
