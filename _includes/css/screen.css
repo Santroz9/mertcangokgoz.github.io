@@ -83,8 +83,8 @@ tr:hover{
   background-color:#f5f5f5
 }
 
-tbody tr:nth-child(even){
-  background-color:#669;
+tr:nth-child(odd){
+  background-color:#3498db;
 }
 
 img {
