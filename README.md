@@ -112,6 +112,9 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - SEO düzenlemeleri
 - Bazı yazılardaki hataları giderildi
 
-## Güncelleme 17 Haziran 2016
+## Güncelleme 18 Haziran 2016
 
 - İçerik iyileştirmesi yapıldı
+- Tablo için CSS düzenlemesi
+- Sayfa yapısında değişiklik
+- Ufak düzenlemeler
