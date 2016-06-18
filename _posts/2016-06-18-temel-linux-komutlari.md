@@ -36,7 +36,7 @@ Bilinmesi ve unutulmaması gereken temel linux komutlarının derlenmiş bir hal
 | `lshw`                  | Sistemin donanım konfigurasyon bilgileri |
 | `lsblk`                 | Disk Bölümleme tablosu                   |
 | `free -m`               | Sistemde kullanılan ram bilgisi          |
-| `lspci -tv`            | PCI cihazlarını listeler                 |
+| `lspci -tv`             | PCI cihazlarını listeler                 |
 | `lsusb -tv`             | USB cihazlarını listeler                 |
 | `dmidecode`             | BIOS donanım bilgisi                     |
 | `hdparm -i /dev/sda`    | disk hakkında bilgi verir                |
@@ -181,7 +181,7 @@ Temelde tüm derleme işlemleri aşağıdaki komutlar aracılığı ile yapılma
 
 | Komut                                        | Açıklama                                                            |
 |:---------------------------------------------|:--------------------------------------------------------------------|
-| `df -h --diskler hakkındaki son durum görülür` |                                                                     |
+| `df -h`                                        | diskler hakkındaki son durum görülür                                |
 | `df -i`                                        | boş inode durumu görüntülenir                                       |
 | `fdisk -l`                                     | disk tipleri ve boyutlarını görüntüler                              |
 | `du -ah`                                       | dizinlerin kullandıkları alanı okunaklı olarak gösterir             |
@@ -203,7 +203,7 @@ Temelde tüm derleme işlemleri aşağıdaki komutlar aracılığı ile yapılma
 |:------------------------------------------------------------------|:-------------------------------------------------|
 | `history -c`                                                        | komut satır geçmişini temizler                   |
 | `clamscan -r -z --remove --verbose /home`                           | Virüs tarama ve silme işlemi                     |
-| `du -h --max-depth=1 | sort -hr` |Dizinlerin toplam boyutlarını gösterir |
+| `du -h --max-depth=1 | sort -hr`                                    | Dizinlerin toplam boyutlarını gösterir |
 | `find /home/mertcan/ -type f -exec grep -H 'yazı' {} \;`            | dizin içerisinde yaziyı aratır                   |
 | `dd if=debian.iso of=/dev/sdb`                                      | iso kalıbını USB veya DVD ye yazdırma            |
 | `shred —verbose —random-source=/dev/zero —iterations=5 /dev/sda`    | ultra güvenli disk silme                         |
