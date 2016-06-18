@@ -160,6 +160,7 @@ Temelde tüm derleme işlemleri aşağıdaki komutlar aracılığı ile yapılma
 | `locate dosya`                       | belirtilen dosyayı aratır                      |
 | `find /home/mertcan -name "mertcan"` | adında mertcan geçen dosyaları aratır          |
 | `find /home/mertcan -size 100k`      | 100k dan büyük olan dosyaları aratır           |
+| `sed`                                | akış editörü ve text manipülasyonu             |
 
 ### SSH
 
