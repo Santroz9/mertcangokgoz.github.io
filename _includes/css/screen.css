@@ -355,14 +355,6 @@ ul.topnav li a:hover {background-color: #3185C1;}
 
 ul.topnav li.icon {display: none;}
 
-@media screen and (max-width:480px) {
-    ul.topnav li:not(:first-child) {display: none;}
-    ul.topnav li.icon {
-        float: right;
-        display: inline-block;
-    }
-}
-
 @media screen and (max-width:768px) {
     .menuM {
         display: block!important;
@@ -370,6 +362,12 @@ ul.topnav li.icon {display: none;}
 
     .sMob {
         display: block!important;
+    }
+    
+    ul.topnav li:not(:first-child) {display: none;}
+    ul.topnav li.icon {
+        float: right;
+        display: inline-block;
     }
 
     ul.topnav.responsive {position: relative;}
