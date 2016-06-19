@@ -16,6 +16,12 @@ Takip Edin:
   </a>
   {% endif %}
 
+  {% if site.data.theme.social.gitlab %}
+  <a title="{{ site.data.theme.social.gitlab }} on Gitlab" href="https://gitlab.com/u/{{ site.data.theme.social.gitlab }}" target="_blank">
+    <i class="fa fa-gitlab"></i>
+  </a>
+  {% endif %}
+
   {% if site.data.theme.social.bitbucket %}
   <a title="{{ site.data.theme.social.bitbucket }} on Bitbucket" href="https://bitbucket.com/{{ site.data.theme.social.bitbucket }}/" target="_blank">
     <i class="fa fa-bitbucket-square"></i>
