@@ -355,10 +355,16 @@ ul.topnav li a:hover {background-color: #3185C1;}
 
 ul.topnav li.icon {display: none;}
 
-@media screen and (max-width:768px) {
-    .menuM {
+@media only screen and (max-width: 479px) {
+
+  .menuM {
         display: block!important;
     }
+    
+}
+
+@media screen and (max-width:768px) {
+    
 
     .sMob {
         display: block!important;
