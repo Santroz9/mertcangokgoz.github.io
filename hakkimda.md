@@ -18,7 +18,7 @@ description: Mertcan GÖKGÖZ hakkında
 *   Teknik Destek Asistanlığı(ASUS Teknik Servis 2011)
 *   Donanım Teknisyenliği(ASUS Teknik Servis 2011)
 *   Web/Mobil/Masaüstü Uygulama Geliştirme (Freelance 2012)
-*   Sistem Yöneticiliği
+*   Sistem Yöneticiliği (Özgür Yazılım A.Ş 2016)
 
 # **UYARI !!!**
 
