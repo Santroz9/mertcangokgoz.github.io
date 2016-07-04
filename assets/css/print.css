@@ -1,16 +1,46 @@
 @media only print {
+
+  @page {
+    margin: 1.5cm;
+  }
+
   body {
+    width:100% !important;
+    margin:0 !important;
+    padding:0 !important;
     border-top: none;
+    color: black;
     background: white;
     font-family: Georgia, ‘Times New Roman’, serif;
+    line-height: 1.45;
   }
-  * {
-    color: #000!important;
-    text-shadow: none!important;
-    background: transparent!important;
-    box-shadow: none!important;
-		border-bottom: none;
+
+  h1,h2,h3,h4,h5,h6 { page-break-after:avoid; }
+  h1{font-size:19pt;}
+  h2{font-size:17pt;}
+  h3{font-size:15pt;}
+  h4,h5,h6{font-size:14pt;}
+
+  p{
+    font-size: 12pt;
   }
+
+  .content h1 {
+    text-align: center;
+  }
+
+  *,
+  *:before,
+  *:after,
+  *:first-letter,
+  *:first-line {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border-bottom: none;
+  }
+
   .content {
     background: transparent;
     border-left: none;
@@ -21,19 +51,31 @@
     float: nones!important;
   }
 
+  table { margin: 1px; text-align:left; }
+  th { border-bottom: 1px solid #333;  font-weight: bold; }
+  td { border-bottom: 1px solid #333; }
+  th,td { padding: 4px 10px 4px 0; }
+  tfoot { font-style: italic; }
+  caption { background: #fff; margin-bottom:2em; text-align:left; }
+  thead {display: table-header-group;}
+  img,tr {page-break-inside: avoid;}
+
   pre, blockquote {
+    border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  p{
-    font-size: 12pt;
-  }
+  code { font: 12pt Courier, monospace; }
+  blockquote { margin: 1.2em; padding: 1em;  font-size: 12pt; }
+
+  img { float: left; margin: 1em 1.5em 1.5em 0; max-width: 100% !important; }
+  a img { border: none; }
 
   #nav, #sidebar, #paylasim, #related, #disqus_thread{
     display: none;
   }
 
-  .sidebar, .disclaimer, .meta{
+  .sidebar, .disclaimer, .meta, .seo{
     display: none;
   }
 
@@ -41,9 +83,7 @@
     display: none;
   }
 
-  a,a:visited {
-    text-decoration: underline;
-  }
+  a:link, a:visited { background: transparent; font-weight: 700; text-decoration: underline;color:#333; }
 
   a[href]:after {
     content: " (" attr(href) ")";
@@ -57,7 +97,8 @@
     content: "";
   }
 
-  img {
-    max-width: 100%!important;
+  aside {
+    display:block;
+    page-break-before: always;
   }
 }
