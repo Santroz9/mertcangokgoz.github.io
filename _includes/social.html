@@ -6,9 +6,11 @@ Takip Edin:
    </a>
    {% endif %}
 
-   <a title="MertcanGokgoz on Academia" href="https://baskent.academia.edu/MertcanGokgoz" target="_blank">
+   {% if site.data.theme.social.academia %}
+   <a title="{{ site.data.theme.social.academia }} on Academia" href="https://baskent.academia.edu/{{ site.data.theme.social.academia }}" target="_blank">
      <i class="fa fa-book"></i>
    </a>
+   {% endif %}
 
   {% if site.data.theme.social.github %}
   <a title="{{ site.data.theme.social.github }} on Github" href="https://github.com/{{ site.data.theme.social.github }}" target="_blank">
@@ -79,6 +81,12 @@ Takip Edin:
   {% if site.data.theme.social.flickr %}
   <a title="{{ site.data.theme.name }} on Flickr" href="https://www.flickr.com/photos/{{ site.data.theme.social.flickr }}" target="_blank">
     <i class="fa fa-flickr"></i>
+  </a>
+  {% endif %}
+
+  {% if site.data.theme.social.youtube %}
+  <a title="{{ site.data.theme.name }} on Youtube" href="https://www.youtube.com/c/{{ site.data.theme.social.youtube }}" target="_blank">
+    <i class="fa fa-youtube"></i>
   </a>
   {% endif %}
 

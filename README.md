@@ -118,3 +118,11 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Tablo için CSS düzenlemesi
 - Sayfa yapısında değişiklik
 - Ufak düzenlemeler
+
+## Güncelleme 4 Temmuz 2016
+
+- Bağış için eklemeler
+- Youtube sosyal linkleme
+- Sayfa içeriğindeki dosya içeriğinin düşürülmesi
+- Yazıcılar için Özel CSS düzenlemeleri
+- Jekyll İçerik güncellemeleri

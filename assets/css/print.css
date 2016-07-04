@@ -1,6 +1,8 @@
 @media only print {
   body {
     border-top: none;
+    background: white;
+    font-family: Georgia, ‘Times New Roman’, serif;
   }
   * {
     color: #000!important;
@@ -10,7 +12,21 @@
 		border-bottom: none;
   }
   .content {
+    background: transparent;
     border-left: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+    float: none !important;
+  }
+
+  p{
+    font-size: 12pt;
+  }
+
+  #nav, #sidebar{
+    display: none;
   }
 
   .sidebar {

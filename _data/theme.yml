@@ -5,8 +5,10 @@ highlight_color: '#3498db'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
+  academia: MertcanGokgoz
   github: MertcanGokgoz
   gitlab: MertcanGokgoz
+  youtube: MertcanGokgoz
   #bitbucket: MertcanGokgoz
   #hacker_news: swanson
   #stackexchange: 348619

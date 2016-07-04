@@ -5,6 +5,10 @@ type: page
 description: Mertcan GÖKGÖZ İletişim
 ---
 
-E-Mail : [mertcan.gokgoz@gmail.com](mailto:mertcan.gokgoz@gmail.com)
+<center>Reklam ve Sponsorluk anlaşmaları,
 
-Telegram : [mertcangokgoz](https://telegram.me/mertcangokgoz) (Linke tıklamanız yeterli)
+Soru ve Görüşleriniz,
+
+ve diğer tüm konular için<br>
+
+E-Mail : [mertcan.gokgoz@gmail.com](mailto:mertcan.gokgoz@gmail.com)</center>
