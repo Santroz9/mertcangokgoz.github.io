@@ -18,38 +18,22 @@
     margin: 0;
     padding: 0;
     color: black;
-    float: none !important;
+    float: nones!important;
+  }
+
+  pre, blockquote {
+    page-break-inside: avoid;
   }
 
   p{
     font-size: 12pt;
   }
 
-  #nav, #sidebar{
+  #nav, #sidebar, #paylasim, #related, #disqus_thread{
     display: none;
   }
 
-  .sidebar {
-    display: none;
-  }
-
-  .disclaimer {
-    display: none;
-  }
-
-  #paylasim {
-    display: none;
-  }
-
-  #related {
-    display: none;
-  }
-
-  .meta {
-    display: none;
-  }
-
-  #disqus_thread {
+  .sidebar, .disclaimer, .meta{
     display: none;
   }
 
@@ -76,6 +60,4 @@
   img {
     max-width: 100%!important;
   }
-
-  body:after { content: "Mertcan GÖKGÖZ https://mertcangokgoz.com/"; }
 }

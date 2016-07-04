@@ -11,4 +11,4 @@ Soru ve Görüşleriniz,
 
 ve diğer tüm konular için<br>
 
-E-Mail : [mertcan.gokgoz@gmail.com](mailto:mertcan.gokgoz@gmail.com)</center>
+E-Mail : <a href="mailto:mertcan.gokgoz@gmail.com">mertcan.gokgoz@gmail.com</a></center>

@@ -14,6 +14,7 @@ Liste her hafta Cuma günü güncellenecek tir. Rahatsız olduğunuz siteleri be
 
 ## 27.01.2016 Güncel Spam Referer Listesi
 
+```
     ## SITE REFERRER BANNING ##
     RewriteCond %{HTTP_REFERER} .*adf.ly.*$ [NC,OR]
     RewriteCond %{HTTP_REFERER} .*tinyurl.com.*$ [NC,OR]
@@ -142,6 +143,7 @@ Liste her hafta Cuma günü güncellenecek tir. Rahatsız olduğunuz siteleri be
     RewriteCond %{HTTP_REFERER} .*top1-seo-service.com.*$ [NC,OR]
     RewriteCond %{HTTP_REFERER} .*sitevaluation.org.*$ [NC]
     RewriteRule .* - [F]
+```
 
 Tek yapmanız gereken yukarıda bulunan listeyi sitenizin .htaccess kurallarına eklemek sonrasında spam trafik tamamen kesilecektir.
 

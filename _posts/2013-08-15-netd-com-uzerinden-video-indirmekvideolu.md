@@ -8,4 +8,5 @@ status: publish
 categories: Genel
 description: bu videolu anlatımımızda kolaylıkla netd sitesinden video indirebilirsiniz
 ---
+
 Telif Haklarından Dolayı içerik kaldırılmıştır…
