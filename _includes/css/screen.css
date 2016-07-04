@@ -79,12 +79,8 @@ thead{
   font-weight: bold;
 }
 
-tbody tr:hover{
-  background-color:#777777!important;
-}
-
 tbody tr:nth-child(odd){
-  background-color:#F9F9F9!important;
+  background-color: #F9F9F9 !important;
 }
 
 img {
