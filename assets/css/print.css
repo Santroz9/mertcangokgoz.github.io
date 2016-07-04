@@ -2,6 +2,7 @@
 
   @page {
     margin: 1.5cm;
+    size: A4 portrait;
     @bottom-right {
         font-size: 80%;
         content: "Sayfa " counter(page) "-" counter(pages);

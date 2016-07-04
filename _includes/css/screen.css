@@ -80,7 +80,7 @@ thead{
 }
 
 tbody tr:hover{
-  background-color:#FFFFFF!important;
+  background-color:#777777!important;
 }
 
 tbody tr:nth-child(odd){
