@@ -1,19 +1,10 @@
 @media only print {
-
-  @page {
-    margin: 3cm 2cm; padding-left: 1.5cm;
-    size: A4 portrait;
-    @bottom-right {
-        font-size: 80%;
-        content: "Sayfa " counter(page) "-" counter(pages);
-    }
-  }
-
   body {
-    font-size: 75%;
     width:100% !important;
     margin:0 !important;
     padding:0 !important;
+    filter:none !important;
+    -ms-filter: none !important;
     border-top: none;
     color: black;
     background: white;
@@ -116,4 +107,17 @@
   }
 
   aside { display:block; page-break-before: always; }
+
+}
+
+@page {
+  width: 29.7cm;
+  height: 21cm;
+  margin: 0;
+  margin: 3cm 2cm; padding-left: 1.5cm;
+  counter-increment: page;
+  counter-reset: page 1;
+  @bottom-left {
+    content: counter(page) "/" counter(pages);
+  }
 }
