@@ -1,7 +1,7 @@
 @media only print {
 
   @page {
-    margin: 1.5cm;
+    margin: 3cm 2cm; padding-left: 1.5cm;
     size: A4 portrait;
     @bottom-right {
         font-size: 80%;
@@ -10,6 +10,7 @@
   }
 
   body {
+    font-size: 75%;
     width:100% !important;
     margin:0 !important;
     padding:0 !important;
@@ -18,7 +19,9 @@
     background: white;
     text-align: justify;
     font-family: Georgia, 'Times New Roman', serif;
-    line-height: 1.45;
+    line-height: 1.5;
+    word-spacing: 1px;
+    letter-spacing: 0.2px;
   }
 
   *,
@@ -34,10 +37,11 @@
   }
 
   h1,h2,h3,h4,h5,h6 { page-break-after:avoid; }
-  h1{font-size:19pt;}
-  h2{font-size:17pt;}
-  h3{font-size:15pt;}
-  h4,h5,h6{font-size:14pt;}
+  h1,h2,h3 { text-transform: capitalize; }
+  h1 {font-size:19pt;}
+  h2 {font-size:17pt;}
+  h3 {font-size:15pt;}
+  h4,h5,h6 {font-size:14pt;}
 
   p,
   h2,
@@ -78,6 +82,7 @@
     page-break-inside: avoid;
   }
 
+  pre { white-space: pre-wrap;word-wrap: break-word; }
   code { font: 12pt Courier, monospace; }
   blockquote { margin: 1.2em; padding: 1em;  font-size: 12pt; }
 
@@ -110,8 +115,5 @@
     content: "";
   }
 
-  aside {
-    display:block;
-    page-break-before: always;
-  }
+  aside { display:block; page-break-before: always; }
 }
