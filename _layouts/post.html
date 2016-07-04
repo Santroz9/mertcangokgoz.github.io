@@ -5,11 +5,14 @@ layout: defaultpost
 
 <p class="meta">
   {{ page.date | date: "%B %d, %Y" }}
-  <a href="/">
+  <a href="/" data-balloon="Ana Sayfa" data-balloon-pos="down">
     <i class="home fa fa-home fa-2x"></i>
   </a>
-  <a href="/search/">
-  <i class="home fa fa-search fa-2x"></i>
+  <a href="/search/" data-balloon="Arama yap" data-balloon-pos="down">
+    <i class="home fa fa-search fa-2x"></i>
+  </a>
+  <a href="javascript:"data-balloon="Bu sayfayı yazdır" data-balloon-pos="down" onclick="window.print();return false;">
+    <i class="home fa fa-print fa-2x"></i>
   </a>
 </p>
 

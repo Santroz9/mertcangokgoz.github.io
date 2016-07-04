@@ -2,6 +2,10 @@
 
   @page {
     margin: 1.5cm;
+    @bottom-right {
+        font-size: 80%;
+        content: "Sayfa " counter(page) "-" counter(pages);
+    }
   }
 
   body {
@@ -11,22 +15,9 @@
     border-top: none;
     color: black;
     background: white;
+    text-align: justify;
     font-family: Georgia, 'Times New Roman', serif;
     line-height: 1.45;
-  }
-
-  h1,h2,h3,h4,h5,h6 { page-break-after:avoid; }
-  h1{font-size:19pt;}
-  h2{font-size:17pt;}
-  h3{font-size:15pt;}
-  h4,h5,h6{font-size:14pt;}
-
-  p{
-    font-size: 12pt;
-  }
-
-  .content h1 {
-    text-align: center;
   }
 
   *,
@@ -41,6 +32,27 @@
     border-bottom: none;
   }
 
+  h1,h2,h3,h4,h5,h6 { page-break-after:avoid; }
+  h1{font-size:19pt;}
+  h2{font-size:17pt;}
+  h3{font-size:15pt;}
+  h4,h5,h6{font-size:14pt;}
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  p{
+    font-size: 12pt;
+  }
+
+  .content h1 {
+    text-align: center;
+  }
+
   .content {
     background: transparent;
     border-left: none;
@@ -48,7 +60,7 @@
     margin: 0;
     padding: 0;
     color: black;
-    float: nones!important;
+    float: none!important;
   }
 
   table { margin: 1px; text-align:left; }
@@ -75,7 +87,7 @@
     display: none;
   }
 
-  .sidebar, .disclaimer, .meta, .seo{
+  .sidebar, .disclaimer, .meta, .seo, .pagination{
     display: none;
   }
 
