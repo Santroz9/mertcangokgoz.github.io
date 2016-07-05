@@ -1,4 +1,28 @@
+---
+layout: post
+title:  Yazıcılar İçin CSS Düzenlemeleri
+date: 2016-07-05
+type: post
+categories: Programlama
+description: Normal şartlar altında css yazmayı sevmem çünkü bir yerini düzeltirken aynı zamanda bir başka yeri bozabiliyorsunuz. print css
+---
+
+Normal şartlar altında css yazmayı sevmem çünkü bir yerini düzeltirken aynı zamanda bir başka yeri bozabiliyorsunuz.Yazıcılar için ise CSS yazmak oldukça zevkli çünkü sadece CTRL + P tuş kombinasyonu ile çalıştırabilirsiniz veya javascript ile tetikleyebileceksiniz.
+
+Çıktısının alınmasını istediğiniz sayfalarınıza aşağıdaki gibi bir css dosyası ekliyoruz.Bunu ayrı tutacağız hem bizim açımızdan işler kolay olacak hemde tarayıcıya yol göstermiş olacağız
+
+```html
+<link rel="stylesheet" type="text/css" media="print" href="/assets/css/print.css">
+```
+
+Şimdi belirli standartlara göre düzenlemeler yapmamız gerekiyor yapacağımız bu düzenlemeler akademik makalelerde kullanılan bir şablona göre.Birebir tabi ki de aynı değil çünkü birebir aynısını yaptığımız zaman oldukça fazla sayfa oluşuyor bunun nedeni sayfanın 4 bir yanından içeri 3 cm kadar girinti yapmamız olurdu biz bu şekilde bir düzenleme yapmayacağız.Ama sayfada yazdırırken görüntüsü oldukça hoşunuza gidecek
+
+```css
+/*Print.css
+Copyleft © Mertcan GÖKGÖZ 2016*/
+
 @media only print {
+
   @page { size: A4; margin: 1.5cm !important; }
 
   body {
@@ -38,9 +62,9 @@
   h4,h5,h6 { font-size:14pt; }
 
   p, h2, h3 { orphans: 3; widows: 3; }
-
+ 
   .content h1 { text-align: center; }
-
+  
   .content {
     background: transparent;
     border-left: none;
@@ -70,9 +94,9 @@
 
   img { float: left; margin: 1em 1.5em 1.5em 0; max-width: 100% !important; }
   a img { border: none; }
-
+  /* gözükmesini istemediginiz idlerimiz */
   #nav, #sidebar, #paylasim, #related, #disqus_thread{ display: none; }
-
+  /* gözükmesini istemediğiniz classlarımız */
   .sidebar, .disclaimer, .meta, .seo, .pagination, .menuM{ display: none; }
 
   hr { display: none; }
@@ -87,3 +111,6 @@
 
   aside { display:block; page-break-before: always; }
 }
+```
+
+Bu CSS kodlarını sitenize bahsettiğim şekilde eklediğiniz anda yazıcılar için güzel bir düzen elde etmiş olacaksınız.Kodlarda belirtiğim yerleri sayfanızda yazdırılmasını istemediğiniz alanların class ve id lerini ekleyerek düzenleyebilirsiniz.
