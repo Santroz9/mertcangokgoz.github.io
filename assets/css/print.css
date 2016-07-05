@@ -1,4 +1,9 @@
 @media only print {
+  @page {
+    size: A4;
+    margin: 1.5cm !important;
+  }
+  
   body {
     width:100% !important;
     margin:0 !important;
@@ -60,7 +65,7 @@
 
   pre, blockquote, table { page-break-inside: avoid; }
 
-  pre { white-space: pre-wrap; word-wrap: break-word; }
+  pre { padding-left: 0.8cm; color: #FE7FAC; white-space: pre-wrap; word-wrap: break-word; }
   code { font: 12pt Courier, monospace; }
   blockquote { margin: 1.2em; padding: 1em;  font-size: 12pt; }
 
@@ -84,15 +89,4 @@
   .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after { content: ""; }
 
   aside { display:block; page-break-before: always; }
-
-}
-
-@page {
-  size: A4;
-  margin: 1.5cm !important;
-  counter-increment: page;
-  counter-reset: page 1;
-  @bottom-left {
-    content: counter(page) "/" counter(pages) !important;
-  }
 }
