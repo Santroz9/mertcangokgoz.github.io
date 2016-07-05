@@ -113,7 +113,6 @@
 @page {
   width: 29.7cm;
   height: 21cm;
-  margin: 0;
   margin: 3cm 2cm; padding-left: 1.5cm;
   counter-increment: page;
   counter-reset: page 1;
