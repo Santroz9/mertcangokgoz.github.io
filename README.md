@@ -127,3 +127,4 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Yazıcılar için Özel CSS düzenlemeleri
 - Jekyll İçerik güncellemeleri
 - Menü simgelerine baloon tooltip eklendi
+- Yukarı çık özelliği eklendi

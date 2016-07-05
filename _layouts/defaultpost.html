@@ -33,6 +33,21 @@
       }
   });
   </script>
+  <script>
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100)
+            $("#up").fadeIn(500);
+        else
+            $("#up").fadeOut(500);
+    });
+
+   $(document).ready(function(){
+        $("#up").click(function(){
+            $("html, body").animate({ scrollTop: "0" }, 500);
+            return false;
+        });
+    });
+  </script>
   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="manifest" href="/manifest.json">
@@ -70,6 +85,9 @@
       <div class="footer">
         {% include footer.html %}
       </div>
+    </div>
+    <div id="up">
+      <a href="javascript:"><img alt="Yukarı Çık" title="Yukarı Çık"><i class="fa fa-arrow-up fa-2x"></i></a>
     </div>
   </div>
 {% include analytics.html %}

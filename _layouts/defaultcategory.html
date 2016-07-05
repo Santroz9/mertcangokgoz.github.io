@@ -34,6 +34,21 @@
       }
     }]);
   </script>
+  <script>
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 100)
+            $("#up").fadeIn(500);
+        else
+            $("#up").fadeOut(500);
+    });
+
+   $(document).ready(function(){
+        $("#up").click(function(){
+            $("html, body").animate({ scrollTop: "0" }, 500);
+            return false;
+        });
+    });
+  </script>
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <link rel="shortcut icon" href="/favicon.png">
 <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
@@ -52,6 +67,9 @@
       <div class="footer">
         {% include footer.html %}
       </div>
+    </div>
+    <div id="up">
+      <a href="javascript:"><img alt="Yukarı Çık" title="Yukarı Çık"><i class="fa fa-arrow-up fa-2x"></i></a>
     </div>
   </div>
 {% include analytics.html %}
