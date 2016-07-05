@@ -73,7 +73,7 @@
 
   #nav, #sidebar, #paylasim, #related, #disqus_thread{ display: none; }
 
-  .sidebar, .disclaimer, .meta, .seo, .pagination, .menuM{ display: none; }
+  .sidebar, .disclaimer, .meta, .seo, .pagination, .menuM, .noprint{ display: none; }
 
   hr { display: none; }
 
