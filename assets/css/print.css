@@ -111,11 +111,10 @@
 }
 
 @page {
-  width: 29.7cm;
-  height: 21cm;
-  margin: 3cm 2cm; padding-left: 1.5cm;
+  margin: 1.5cm;
   counter-increment: page;
   counter-reset: page 1;
+  @top-center { vertical-align: bottom; }
   @bottom-left {
     content: counter(page) "/" counter(pages);
   }
