@@ -83,10 +83,11 @@ tbody tr:nth-child(odd){
   background-color: #F9F9F9 !important;
 }
 
-#post img {
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: auto;
 }
 
 img.emoji {
