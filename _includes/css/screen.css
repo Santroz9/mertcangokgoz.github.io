@@ -366,6 +366,7 @@ ul.topnav li.icon {display: none;}
   .menuM {
         display: block!important;
     }
+  .noprint{display: none;}
 
 }
 
@@ -375,6 +376,8 @@ ul.topnav li.icon {display: none;}
     .sMob {
         display: block!important;
     }
+
+    .noprint{display: none;}
 
     ul.topnav li:not(:first-child) {display: none;}
     ul.topnav li.icon {
