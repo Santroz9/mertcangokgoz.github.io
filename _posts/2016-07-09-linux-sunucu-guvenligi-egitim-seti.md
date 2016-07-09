@@ -34,4 +34,4 @@ Peki bu video serisinde ne gibi konulara değineceğiz.
  20. Kmod-tpe(trusted path execution) kurulumu
 
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/C8sDZ-M2ylM" frameborder="0" allowfullscreen></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/C8sDZ-M2ylM" frameborder="0" allowfullscreen></iframe>
