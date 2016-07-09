@@ -128,3 +128,11 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Jekyll İçerik güncellemeleri
 - Menü simgelerine baloon tooltip eklendi
 - Yukarı çık özelliği eklendi
+
+# Güncelleme 9 Temmuz 2016
+
+- Eğitimler kategorisi eklendi
+- Gem dosyaları güncellendi
+- Sayfa yazdırılabilsin diye buton eklendi
+- Arama sayfası geliştirildi
+- CSS hataları düzeltildi
