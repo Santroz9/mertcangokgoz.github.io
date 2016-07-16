@@ -4,7 +4,7 @@ layout: defaultpost
 {% include mobile.html %}
 
 <p class="meta">
-  {{ page.date | date: "%B %d, %Y" }}
+  {{ page.date | date: "%B %d, %Y" }} <br>
   {% assign words = content | number_of_words %}
     {% if words < 360 %}
       1 Dakika
