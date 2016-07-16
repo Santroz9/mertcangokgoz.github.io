@@ -7,9 +7,9 @@ layout: defaultpost
   {{ page.date | date: "%B %d, %Y" }}
   {% assign words = content | number_of_words %}
     {% if words < 360 %}
-      1 min
+      1 Dakika
     {% else %}
-      {{ words | divided_by:180 }} mins
+      {{ words | divided_by:180 }} Dakika
     {% endif %}
   <a href="/">
     <i class="home fa fa-home fa-2x"></i>
