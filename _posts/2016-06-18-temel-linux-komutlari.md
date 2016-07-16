@@ -100,6 +100,7 @@ Bilinmesi ve unutulmaması gereken temel linux komutlarının derlenmiş bir hal
 | `chattr +i dosyaadı`                             | dosyalar silinemez dokunulmaz olur                            |
 | `chattr -i dosyaadı`                             | dokunulmazlığını kaldırma                                     |
 | `chattr +a dosyaadı `                            | Varolan satırları korur, altına satır eklenmesine izin verir. |
+| `lsattr dosyaadı`                                | chattr komutu geçerli olmuşmu diye kontrol edilir             |
 | `chmod 777 `                                     | her şey okunabilir, yazılabilir ve çalıştırılabilir.          |
 | `chmod 644`                                      | sadece okunabilir                                             |
 | `chmod 755`                                      | sadece sahibi okur, yazar ve çalıştırılabilir.                |

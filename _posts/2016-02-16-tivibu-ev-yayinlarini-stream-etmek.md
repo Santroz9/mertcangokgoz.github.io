@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tivibu Ev Yayınlarını Bilgisayar ve Telefonda Stream Etmek
-date: 2016-02-15 23:18:07.000000000 +02:00
+date: 2016-02-15
 type: post
 categories: Güvenlik
 description: Tivibu Türkiye’de internet üzerinden veri akışıyla gerçekleşen Internet TV alanında

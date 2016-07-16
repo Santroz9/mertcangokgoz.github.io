@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Çocuklara Kodlamayı Sevdirin"
-date: 2016-02-07 20:18:07.000000000 +02:00
+date: 2016-02-07
 type: post
 categories: Genel
 description: "Çocuklara kodlamayı sevdirin ve bu işin zevkli bir iş olduğunu"
