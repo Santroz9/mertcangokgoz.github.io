@@ -119,7 +119,7 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Sayfa yapısında değişiklik
 - Ufak düzenlemeler
 
-## Güncelleme 4 Temmuz 2016
+# Güncelleme 4 Temmuz 2016
 
 - Bağış için eklemeler
 - Youtube sosyal linkleme
@@ -136,3 +136,9 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Sayfa yazdırılabilsin diye buton eklendi
 - Arama sayfası geliştirildi
 - CSS hataları düzeltildi
+
+# Güncelleme 16 Temmuz 2016
+
+- Kategoriler için Description tanımlaması yapıldı
+- Gem dosyaları güncellendi
+- Okuma süresini belirten yönerge eklendi

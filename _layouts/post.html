@@ -5,6 +5,12 @@ layout: defaultpost
 
 <p class="meta">
   {{ page.date | date: "%B %d, %Y" }}
+  {% assign words = content | number_of_words %}
+    {% if words < 360 %}
+      1 min
+    {% else %}
+      {{ words | divided_by:180 }} mins
+    {% endif %}
   <a href="/">
     <i class="home fa fa-home fa-2x"></i>
   </a>
@@ -22,7 +28,7 @@ layout: defaultpost
   {{ content }}
 </div>
 
-{% include  share.html %}
+{% include share.html %}
 
 <div id="related">
   <h3>Benzer Yazılar</h3>
