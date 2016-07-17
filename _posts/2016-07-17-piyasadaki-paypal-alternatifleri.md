@@ -3,7 +3,7 @@ layout: post
 title:  Piyasadaki Paypal Alternatifleri
 date: 2016-07-17
 type: post
-categories: Programlama
+categories: Genel
 description: Türkiyede BDDK tarafından Paypalın işlemlerine kısıtlama getirilmiş ve türk vatandaşlarının paypalı kullanma hakları
 ---
 
