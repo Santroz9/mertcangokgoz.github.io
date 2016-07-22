@@ -38,35 +38,36 @@ kayıt edip çıktıktan sonra başlattığımızda zaten aktif hale geldiğini 
 
 | Komut    |    Açıklama   |
 |----------|-------------|
-| tmux list-sessions | Oturumları listeler |
-| tmux list-keys | Kısayolları gösterir |
-| tmux list-commands | Tüm komutları listeler |
-| tmux source-file ~/.tmux.conf| TMUX ayarlarını yeniler |
-| tmux a -t oturum_adi | oturumu sabitler |
+| `tmux list-sessions` | Oturumları listeler |
+| `tmux list-keys` | Kısayolları gösterir |
+| `tmux list-commands` | Tüm komutları listeler |
+| `tmux source-file ~/.tmux.conf`| TMUX ayarlarını yeniler |
+| `tmux a -t oturum_adi` | oturumu sabitler |
 
-**Tmux** oturumu oluşturulduğunda geçerli olan kısayollar;
+**Tmux** oturumu oluşturulduğunda geçerli olan kısayollar (prefix olarak tmux'un varsayılanı `Ctrl+b` kullanılmıştır);
 
 | Komut    |    Açıklama   |
 |----------|-------------|
-| Ctrl-a new -s oturum_adi | Yeni adlandırılmış oturum açar |
-| Ctrl-a, c | Yeni pencere açar |
-| Ctrl-a, , | Ekranı adlandırmak |
-| Ctrl-a, w | Ekranları listeleme |
-| Ctrl-a, l | Önceki seçilen ekrana geçer |
-| Ctrl-a, n | Sonraki ekrana geçer |
-| Ctrl-a, p | Önceki ekrana geçer |
-| Ctrl-a, d | Oturumdan ayrılma |
-| Ctrl-a, s | Oturumları listeler(varsayılan), eşleşmiyor ise |
-| Ctrl-a, ? | Tüm kısayolları listeler |
-| Ctrl-a, % | Ekranı dikey böler |
-| Ctrl-a, ” | Ekranı yatay böler |
-| Ctrl-a, {or} | Ekranlar arasında geçiş |
-| Ctrl-a, KeyUp | Yukarıdaki ekrana geç |
-| Ctrl-a, KeyDown | Aşağıdaki ekrana geç |
-| Ctrl-a, KeyLeft | Soldaki ekrana geç |
-| Ctrl-a, KeyRight | Sağdaki ekrana geç |
-| Ctrl-a, space | Her ekranı aynı boyutlandır |
-| Ctrl-a, s | Oturumları eşitleme |
+| `C-b new -s oturum_adi` | Yeni adlandırılmış oturum açar |
+| `C-b c` | Yeni pencere açar |
+| `C-b [0-9]` | 0-9 arası istenilen pencereyi seçer |
+| `C-b ,` | Ekranı adlandırmak |
+| `C-b w` | Ekranları listeleme |
+| `C-b l` | Önceki seçilen ekrana geçer |
+| `C-b n` | Sonraki ekrana geçer |
+| `C-b p` | Önceki ekrana geçer |
+| `C-b d` | Oturumdan ayrılma |
+| `C-b D` | Oturumları listeleyip istenileni ayırma |
+| `C-b s` | Oturumları listeler(varsayılan), eşleşmiyor ise |
+| `C-b ?` | Tüm kısayolları listeler |
+| `C-b %` | Ekranı dikey böler |
+| `C-b "` | Ekranı yatay böler |
+| `C-b n` ve `C-b p` | Ekranlar arasında geçiş |
+| `C-b {Yukarı, Aşağı, Sol, Sağ}` | Bölünmüş ekranlar arası geçiş |
+| `C-b space` | Her ekranı aynı boyutlandır |
+| `C-b s` | Oturumları eşitleme |
+| `C-b [` | Kopyalama modu |
+| `C-b ]` | Kopyalama modundan kopyalanı yapıştırma |
 
 Bu aşamadan sonra benim kullandığım ve oldukça sevdiğim bir yöntem var ben bunu oturumları takip etmek için kullanıyorum. Belirli süre işlem yapmadığımda renk değişiyor ve ben son olarak işlem ney yapmışım onu görebiliyorum.
 
