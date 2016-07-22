@@ -9,7 +9,7 @@
                         [...]
 
     /* SITE */
-    Last update: 2016/07/04
+    Last update: 2016/07/21
     Standards: HTML5, CSS3, JAVASCRIP, JSON
-    Components: jQuery, Font Awesome, Bootstrap, Font API etc.
+    Components: jQuery, Font Awesome, Bootstrap, OneSignal, Font API etc.
     Software: Jekyll

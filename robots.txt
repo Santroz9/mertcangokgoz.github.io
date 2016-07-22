@@ -20,4 +20,32 @@ Allow: /
 User-agent: duggmirror
 Allow: /
 
+# Seo Tool
+User-agent: 008
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: metajobbot
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: Ezooms
+Disallow: /
+
+User-agent: fyberspider
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: MojeekBot
+Disallow: /
+
+User-agent: rogerbot
+Disallow: /
+
 Sitemap: https://mertcangokgoz.com/sitemap.xml
