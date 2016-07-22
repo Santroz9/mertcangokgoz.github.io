@@ -146,3 +146,10 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 ## Güncelleme 21 Temmuz 2016
 
 - Bazı SEO araçları engellendi
+
+## Güncelleme 22 Temmuz 2016
+
+- Bazı Download araçları engellendi
+- Gem dosyaları güncellendi
+- SEO iyileştirmeleri yapıldı
+- Cache sistemi geliştirildi(daha hızlı açılan web sayfaları)
