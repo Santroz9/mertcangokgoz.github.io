@@ -7,6 +7,7 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-gist
 
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 timezone: 'Europe/Istanbul'
