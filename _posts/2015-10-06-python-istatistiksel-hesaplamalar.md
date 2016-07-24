@@ -11,5 +11,4 @@ description: Geçtiğimiz günlerde python ile yazmış olduğum.Betimsel İstat
 
 Geçtiğimiz günlerde python ile yazmış olduğum.Betimsel İstatistiki hesaplamalar yapmaya yarayan örnek bir uygulamadır.Uygulama ile Mod,Medyan ve ortanca hesabını kolaylıkla bulabiliyoruz.
 
-
-<script src="https://gist.github.com/MertcanGokgoz/60aba7dd63bfd03f26d4.js"></script>
+{% gist MertcanGokgoz/60aba7dd63bfd03f26d4 %}

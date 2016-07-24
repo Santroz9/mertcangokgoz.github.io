@@ -11,5 +11,4 @@ description: ArchLinux en son çıkan sürümünü aşağıdaki dokümantasyonu 
 
 ArchLinux en son çıkan sürümünü aşağıdaki dokümantasyonu kullanarak oldukça kolay bir şekilde kurabilirsiniz.Kurulum sırasındaki aşamalar teker teker anlatılmış olup adımları izlediğiniz taktirde sorunsuz kurulum gerçekleşecek ve ArchLinux kullanmaya başlayabileceksiniz.
 
-
-<script src="https://gist.github.com/MertcanGokgoz/b941b2288ff79519c99c.js"></script>
+{% gist MertcanGokgoz/b941b2288ff79519c99c %}

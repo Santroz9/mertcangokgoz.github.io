@@ -18,5 +18,4 @@ Grafiksel olarak göstermek gerekirse Php 7 **Wordpress** de olukça performansl
 
 Tabi burada saf **php7** gösterilmiş durumda biz bu kuruluma birde **redis** eklediğimizde otomatikmen **HHVM** performansına ulaşmış olacağız tabi **HHVM** ve **redis** kurulumu yapıldığında dahada performanslı bir sistemimiz olacak
 
-
-<script src="https://gist.github.com/MertcanGokgoz/f3c5f63a49f7e917fa09.js"></script>
+{% gist MertcanGokgoz/f3c5f63a49f7e917fa09 %}

@@ -9,6 +9,9 @@ gems:
   - jekyll-seo-tag
   - jekyll-gist
 
+gist:
+  noscript: false
+
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 timezone: 'Europe/Istanbul'
 encoding: 'utf-8'

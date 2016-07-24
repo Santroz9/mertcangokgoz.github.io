@@ -15,7 +15,9 @@ Ama her şey den önce Arch Bang Sürümünü internet üzerinden [indirme işle
 
 Öncelikli olarak **USB** belleğimizi hazırlayalım.
 
-    dd if=/home/mertcan/Desktop/archbang-031215-x86_64.iso of=/dev/sdb
+```console
+dd if=/home/mertcan/Desktop/archbang-031215-x86_64.iso of=/dev/sdb
+```
 
 USB Belleği sisteminizde daha sonra Arch bang kurulumu için kullanacağız direk olarak boot ettiğimizde karşımıza şu şekilde bir ekran çıkacak
 
