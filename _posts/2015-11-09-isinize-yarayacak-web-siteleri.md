@@ -58,7 +58,7 @@ description: "İnternetde bulunan ve oldukça işinize yarayacak web sitelerini 
 47. [gtmetrix.com](https://gtmetrix.com/) - Sitenizin açılış hızını Yslow ve Pagespeed standartlarına göre test edin
 48. [prism-break.org](https://prism-break.org/en/) - internet ortamında bilgi sızdırmayan ve güvenli uygulamaların sıralı tam listesi
 49. [anubis.iseclab.org](http://anubis.iseclab.org/) - Online detaylı kötücül tarama işlemleri
-50. [img.bi](https://img.bi/) - Güvenli resim paylaşma platformu
+50. [img10.xyz](https://img10.xyz/) - Güvenli resim paylaşma platformu
 51. [sitecheck.sucuri.net](https://sitecheck.sucuri.net/) - Websiteleri için virüs tarayıcı
 52. [pdfescape.com](http://www.pdfescape.com/) - Web tabanlı PDF editörü
 53. [random.com](http://random.org) - rastgele sayı servisi

@@ -46,4 +46,4 @@ içerisinde **443** portunu kullanan servislerin sonunda bilindiği gibi **spdy*
 
 Aynı dosya içerisinde birde _"spdy\_headers\_comp 0;"_ şu şekilde bir satır bulunacak bunuda dosya içerisinden kaldırıyorsunuz.Servisi yeniden başlattıktan sonra İşlemimiz böylelikle tamamlanmış oluyor artık **HTTP/2** protokolüne geçiş yaptınız.
 
-Test etmek için [bu web sitesinden](https://www.h2check.org/) faydalanabilirsiniz. **(Sitesinde CloudFlare aktif olan arkadaşlar analizlerde Http/2 kullandıklarını henüz göremeyecekler çünkü cloudflare hala SPDY kullanmaktadır.)**
+Test etmek için [bu web sitesinden](https://tools.keycdn.com/http2-test) faydalanabilirsiniz. **(Sitesinde CloudFlare aktif olan arkadaşlar analizlerde Http/2 kullandıklarını henüz göremeyecekler çünkü cloudflare hala SPDY kullanmaktadır.)**
