@@ -154,8 +154,15 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - SEO iyileştirmeleri yapıldı
 - Cache sistemi geliştirildi(daha hızlı açılan web sayfaları)
 
-## Güncelleme 24 Temmmuz 2016
+## Güncelleme 24 Temmuz 2016
 
 - Gist de tutulan içerik için `jekyll-gist` eklentisi kullanılmaya başlandı
 - NoScript uygulaması kullanan veya javascript tarayıcısında kapatmış kullanıcılar için uyarı sayfası eklendi (Arama özelliği için)
 - Arama sayfasındaki yönlendirmesel bir kaç sorun giderildi
+
+## Güncelleme 29 Temmuz 2016
+
+- CSS içerisinde HTML5 düzenlemeleri yapıldı
+- Robots.txt içeriği tekrar düzenlendi
+- Hakkımda sayfası düzenlendi
+- Gem dosyaları güncellendi
