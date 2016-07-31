@@ -166,3 +166,7 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Robots.txt içeriği tekrar düzenlendi
 - Hakkımda sayfası düzenlendi
 - Gem dosyaları güncellendi
+
+## Güncelleme 31 Temmuz 2016
+
+- Layout sorunu giderildi
