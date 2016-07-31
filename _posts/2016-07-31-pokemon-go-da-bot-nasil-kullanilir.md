@@ -77,7 +77,7 @@ cd PokemonGo-Bot
 pip install -r requirements.txt
 ```
 
-Kurulumu Linux üzerinde yapacağım zaten en stabil linux üzerinde ve MAC üzerinde çalışıyor. Komutları verdikten sonra belirttiğiniz yerde kurulum işlemleri yapılmış olacak bizim düzenleyeceğimiz iki şey var burada 
+Kurulumu Linux üzerinde yapacağım zaten en stabil linux üzerinde ve MAC üzerinde çalışıyor. Komutları verdikten sonra belirttiğiniz yerde kurulum işlemleri yapılmış olacak bizim düzenleyeceğimiz iki şey var burada
 
 * config.json.example
 * release_config.json.example
@@ -140,7 +140,7 @@ Eğer çalıştırdığınız sırada SSL konusunda sıkıntı çıkarsa `pokecl
 ![pokemongo-bot](/assets/pokemongo-bot.png)
 
 ### Dikkat Edilmesi Gerekenler
- 
+
 * her zaman oynadığınız konumdan daha uzaklara çıkmayın Türkiyede oynuyorsanız bir anda New York koordinatlarını girmeyin
 * Yürüme hızını bahsettiğim aralıklar içerisinde girmeye özen gösterin
 * Bot çalıştırırken telefondan kesinlikle oyuna giriş yapmayın ve GPS açmayın
@@ -182,6 +182,12 @@ Ayarların geçerli olması için nginx ayarlarını yeniliyoruz.
 
 ```console
 nginx -s reload
+```
+
+Sayfayı başlatıyoruz.
+
+```console
+python -m SimpleHTTPServer 8000
 ```
 
 ![pokemongo-bot-web](/assets/pokemongo-bot-web.png)
