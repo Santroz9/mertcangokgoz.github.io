@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  Linux İçin Homebrew Nasıl kurulur
+title: Linux İçin Homebrew Nasıl kurulur
 date: 2016-08-02
 type: post
 categories: Linux
-description:   OSX kullananların brew'i varda bizim niye yok ? bu güzelim uygulamadan bizde istiyoruz dediniz mi hiç çünkü ben bir zamanlar diyordum bazı uygulamalar
+description: OSX kullananların brew'i varda bizim niye yok ? bu güzelim uygulamadan bizde istiyoruz dediniz mi hiç çünkü ben bir zamanlar diyordum bazı uygulamalar
 ---
 
-OSX kullananların brew'i varda bizim niye yok ? bu güzelim uygulamadan bizde istiyoruz dediniz mi hiç çünkü ben bir zamanlar diyordum bazı uygulamalar OSX var ama bize yoktu 
+OSX kullananların brew'i varda bizim niye yok ? bu güzelim uygulamadan bizde istiyoruz dediniz mi hiç çünkü ben bir zamanlar diyordum bazı uygulamalar OSX var ama bize yoktu
 
 Bu brew kardeşin en büyük özelliği home dizini altına root şifresiz istediğinizi kurabilmeniz yok `sudo` gireyim de şifremi yazayım derdi yok. Keza bu paket yöneticisi Linux sunucularda ve Mac dizüstü bilgisayarlarda kullanılabilir. Birebir mac için olan tüm brew uygulamaları linux sunucularda da çalışmaktadır.
 
@@ -72,7 +72,7 @@ brew install aria2
 
 Daha sonra bu `brew` otomatik olarak istediğiniz uygulamayı derleyip kuracak Arch tabanlı sistemlerdeki `yaourt` mantığının aynısı diyebiliriz talimatı veriyorsunuz ve kurulumu başlatıyorsunuz otomatik olarak kurup size teslim ediyor.
 
-Yerel depoların güncellenmemesi sorununu bu şekilde çözebilirsiniz. Tabi bazı paketleri `brew` üzerinden kurmanız önerilmez 
+Yerel depoların güncellenmemesi sorununu bu şekilde çözebilirsiniz. Tabi bazı paketleri `brew` üzerinden kurmanız önerilmez
 
 Paketleri online bir şekilde [bu adresten](http://braumeister.org/) arayıp kurabilirsiniz.
 
