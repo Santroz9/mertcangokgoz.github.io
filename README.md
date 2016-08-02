@@ -170,3 +170,7 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 ## Güncelleme 31 Temmuz 2016
 
 - Layout sorunu giderildi
+
+## Güncelleme 2 Agustos 2016
+
+- Github için issue ve PR öntanımlı tamplate eklendi
