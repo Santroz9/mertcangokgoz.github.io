@@ -173,4 +173,4 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 
 ## Güncelleme 2 Agustos 2016
 
-- Github için issue ve PR öntanımlı tamplate eklendi
+- Github için issue ve PR öntanımlı template eklendi
