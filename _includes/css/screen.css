@@ -226,6 +226,11 @@ nav h1, nav h3 {
   color: {{ site.data.theme.highlight_color }};
 }
 
+#logo {
+  width:100%;
+  max-width:220px;
+}
+
 #logo, #gravatar {
   margin-bottom: 25px;
 }
