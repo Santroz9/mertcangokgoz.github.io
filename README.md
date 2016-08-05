@@ -178,4 +178,11 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 ## Güncelleme 4 Agustos 2016
 
 - Arama sayfasında bulunan input için kontrol yapısı eklendi
-- Arkadaşlar bölümünün düzenlenmesi 
+- Arkadaşlar bölümünün düzenlenmesi
+
+## Güncelleme 5 Agustos 2016
+
+- Gitignore dosyası eklendi
+- Tarih düzeltildi
+- Hizalama sorunları çözüldü (Adil ÖZTAŞER)
+- Mobile görünümdeki sorunun giderilmesi
