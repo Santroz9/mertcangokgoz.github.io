@@ -319,6 +319,10 @@ sup {
   background-color: #e2e2e2;
 }
 
+.pagination {
+    text-align: center;
+}
+
 .menuM {
     display: none;
 }

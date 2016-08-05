@@ -174,3 +174,8 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 ## Güncelleme 2 Agustos 2016
 
 - Github için issue ve PR öntanımlı template eklendi
+
+## Güncelleme 4 Agustos 2016
+
+- Arama sayfasında bulunan input için kontrol yapısı eklendi
+- Arkadaşlar bölümünün düzenlenmesi 
