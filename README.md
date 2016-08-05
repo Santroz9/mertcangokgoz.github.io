@@ -185,4 +185,4 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Gitignore dosyası eklendi
 - Tarih düzeltildi
 - Hizalama sorunları çözüldü (Adil ÖZTAŞER)
-- Mobile görünümdeki sorunun giderilmesi
+- Mobile görünümdeki sorunun giderilmesi (Ömer İPEK)
