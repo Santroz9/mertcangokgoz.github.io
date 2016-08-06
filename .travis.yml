@@ -1,6 +1,7 @@
 language: ruby
 install:
   - bundle install
+before_script: chmod +x build.sh
 script: "./build.sh"
 branches:
   only:
