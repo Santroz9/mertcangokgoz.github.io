@@ -16,7 +16,7 @@ jekyll build
 rm -rf ../mertcangokgoz.github.io.master
 
 #master branch clone islemi
-git clone https://${GH_TOKEN}@github.com/mertcangokgoz/mertcangokgoz.github.io.git ../mertcangokgoz.github.io.master
+git clone https://${GH_TOKEN}@github.com/MertcanGokgoz/mertcangokgoz.github.io.git ../mertcangokgoz.github.io.master
 
 # master branch tasima islemi
 cp -R _site/* ../mertcangokgoz.github.io.master
