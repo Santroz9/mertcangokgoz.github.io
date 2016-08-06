@@ -14,7 +14,6 @@ echo "+===================================+"
 echo "Site Olusturuluyor"
 echo "+===================================+"
 bundle exec jekyll build
-touch .nojekyll
 echo "+===================================+"
 echo "Statik Dosyalar Olusturuldu"
 echo "+===================================+"
@@ -38,10 +37,17 @@ git clone https://${GH_TOKEN}@github.com/MertcanGokgoz/mertcangokgoz.github.io.g
 cp -R _site/* ../mertcangokgoz.github.io.master
 
 # olusturulan icerik master branche gonderilecek
+echo "+===================================+"
+echo "Githuba Gonderiliyor"
+echo "+===================================+"
 cd ../mertcangokgoz.github.io.master
+touch .nojekyll
 git config user.email "mertcan.gokgoz@gmail.com"
 git config user.name "MertcanGokgoz"
 git add -A .
 git commit -a -m "Generated Jekyll site by Travis CI #$TRAVIS_BUILD_NUMBER"
 #guvenlik icin push ciktisi gosterilmeyecek
 git push --quiet origin master > /dev/null 2>&1
+echo "+===================================+"
+echo "Githuba Gonderildi"
+echo "+===================================+"
