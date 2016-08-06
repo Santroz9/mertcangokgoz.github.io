@@ -25,7 +25,7 @@ encoding: 'utf-8'
 
 #Category Pagination
 category_dir: "category"
-category_layout: "category.html"
+category_layout: "_layouts/category.html"
 
 #Markdown Settings
 markdown: kramdown
