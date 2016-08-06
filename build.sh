@@ -10,15 +10,20 @@ fi
 set -e
 
 # derle bro
+echo "Site Olusturuluyor"
 bundle exec jekyll build
 touch .nojekyll
 
 # html kodlarini guzellestir
+echo "htmlbeautifier Calistiriliyor"
 find ./_site -name "*.html" -exec bundle exec htmlbeautifier {} \;
+echo "htmlbeautifier Tamamlandi"
+sleep 1
+echo "htmlproofer Calistiriliyor"
 
 # html kodlarini kontrol et
-bundle exec htmlproof ./_site --disable-external --check-html --verbose
-
+bundle exec htmlproofer ./_site --disable-external --check-html --verbose
+echo "htmlbeautifier Tamamlandi"
 # temizlik
 rm -rf ../mertcangokgoz.github.io.master
 
