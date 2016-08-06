@@ -12,7 +12,7 @@ gems:
 gist:
   noscript: false
 
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, .travis.yml, .ruby-version, .bundle]
 timezone: 'Europe/Istanbul'
 encoding: 'utf-8'
 
