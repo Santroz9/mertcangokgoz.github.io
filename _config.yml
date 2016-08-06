@@ -8,6 +8,7 @@ gems:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-gist
+  - [jekyll-paginate]
 
 gist:
   noscript: false
