@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Centos 6 Üzerine Rutorrent Kurulumu
-date: 2013-07-29 04:34:46.000000000 +03:00
+date: 2013-07-29
 type: post
 published: true
 status: publish

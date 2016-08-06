@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Virtualmin/Webmin Account Plans(Paket) Oluşturma
-date: 2013-07-29 02:17:10.000000000 +03:00
+date: 2013-07-29
 type: post
 published: true
 status: publish

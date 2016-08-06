@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Galaxy Mega Macerası
-date: 2013-07-28 13:46:18.000000000 +03:00
+date: 2013-07-28
 type: post
 published: true
 status: publish

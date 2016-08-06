@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Virtualmin/Webmin Root Server DNS Kayıt düzenlemek
-date: 2013-07-28 17:46:55.000000000 +03:00
+date: 2013-07-28
 type: post
 published: true
 status: publish

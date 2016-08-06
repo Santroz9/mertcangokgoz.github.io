@@ -1,7 +1,7 @@
 ---
 layout: post
 title: OVH Yeni Kimsufi Modelleri İle Sürpriz Yaptı
-date: 2013-07-29 21:17:26.000000000 +03:00
+date: 2013-07-29
 type: post
 published: true
 status: publish
