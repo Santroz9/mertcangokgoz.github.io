@@ -36,16 +36,33 @@ git clone https://${GH_TOKEN}@github.com/MertcanGokgoz/mertcangokgoz.github.io.g
 # master branch tasima islemi
 cp -R _site/* ../mertcangokgoz.github.io.master
 
-# olusturulan icerik master branche gonderilecek
+# Dizine gir
 echo "+===================================+"
-echo "Githuba Gonderiliyor"
+echo "Dizine Geciliyor"
 echo "+===================================+"
 cd ../mertcangokgoz.github.io.master
 touch .nojekyll
+
+#CNAME Olustur
+echo "+===================================+"
+echo "CNAME Olusturuluyor"
+echo "+===================================+"
+echo mertcangokgoz.com > CNAME
+echo "+===================================+"
+echo "CNAME Olusturuldu"
+echo "+===================================+"
+
+sleep 2
+
+#Githuba gonder
+echo "+===================================+"
+echo "Githuba Gonderiliyor"
+echo "+===================================+"
 git config user.email "mertcan.gokgoz@gmail.com"
 git config user.name "MertcanGokgoz"
 git add -A .
 git commit -a -m "Generated Jekyll site by Travis CI #$TRAVIS_BUILD_NUMBER"
+
 #guvenlik icin push ciktisi gosterilmeyecek
 git push --quiet origin master > /dev/null 2>&1
 echo "+===================================+"

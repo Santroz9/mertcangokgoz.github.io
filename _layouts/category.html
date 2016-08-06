@@ -26,13 +26,13 @@ layout: defaultcategory
 
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Önceki Sayfa</a>
+    <a href="{{ page.title }}{{ paginator.previous_page_path }}" class="previous">Önceki Sayfa</a>
   {% else %}
     <span class="previous">Önceki Sayfa</span>
   {% endif %}
   <span class="page_number "> {{ paginator.total_pages }} Sayfa İçinden {{ paginator.page }}. Sayfa Gösteriliyor</span>
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Sonraki Sayfa</a>
+    <a href="{{ page.title }}{{ paginator.next_page_path }}" class="next">Sonraki Sayfa</a>
   {% else %}
     <span class="next ">Sonraki Sayfa</span>
   {% endif %}
