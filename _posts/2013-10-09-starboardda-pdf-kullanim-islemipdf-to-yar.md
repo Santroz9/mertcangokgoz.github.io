@@ -5,7 +5,7 @@ date: 2013-10-09 00:24:44.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Fatih projesi kapsamında akıllı tahtalarda kullanılan starboard yazılımında bildiğiniz üzere bazı dosya uzantılarını açmamakta yada hocalarımız
 ---
 

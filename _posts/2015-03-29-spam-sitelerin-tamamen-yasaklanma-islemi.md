@@ -5,7 +5,7 @@ date: 2015-03-29
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Blogu açtığım ilk gün bile neredeyse her gün bu sitelerden spam trafik alıyordum ilk başlarda önemsemesemde hemen çıkma oranlarının aşırı
 ---
 Blogu açtığım ilk gün bile neredeyse her gün bu sitelerden trafik alıyordum ilk başlarda önemsemesem de hemen çıkma oranlarının aşırı şekilde sıkıntıya düşmesinden sonra bir dur demenin vakti gelmişti o günden bu güne yaklaşık olarak 2 yıl geçti her gün ardı arkası kesilmeyen yeni spam sitelerden trafik geliyordu bende liste şeklinde yapayım herkes faydalansın istedim.

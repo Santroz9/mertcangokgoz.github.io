@@ -5,7 +5,7 @@ date: 2014-09-04 00:52:11.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: instagram profillerinde bulunan ve hoşunuza giden resimleri indirmek istiyor gibisiniz ki bu makaleye göz atıyorsunuz yazmış olduğum bu program
 ---
 instagram profillerinde bulunan ve hoşunuza giden resimleri indirmek istiyor gibisiniz ki bu makaleye göz atıyorsunuz yazmış olduğum bu program ile istediğiniz herkesin instagram resimlerini ve videolarını indirebilirsiniz.istediğiniz gibi kullanabilirsiniz tek yapmanız gereken linki alıp programa yapıştırıp download demek sonrasında ise o gerekeni yapacak siz arkanıza yaslanın

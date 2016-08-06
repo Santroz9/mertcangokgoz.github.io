@@ -5,7 +5,7 @@ date: 2015-02-09 14:38:48.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Blogumu ilk açtığım günden beri bitmek tükenmeyen spam trafiğin önüne geçmek için öncelikle htacc kuralları ile Forbidden yönlendirmesi yapıyordum
 ---
 Blogumu ilk açtığım günden beri bitmek tükenmeyen spam trafiğin önüne geçmek için öncelikle htacc kuralları ile Forbidden yönlendirmesi yapıyordum sonraları düşündüm böyle bir yöntemi niye yapıyorum gelen gelsin ama google tarafında analytics bunu yorumlarken dikkat etsin sonra başımıza dert açmasın sonuçta gelen trafik spam ben filtrede kullandığım siteleri aşağıda listelemeye çalıştım özellikle başımıza dert olanları eklemek gerekiyor htacc de Forbidden yönlendirme yapabilirsiniz ama önermiyorum gelen gelsin

@@ -5,7 +5,7 @@ date: 2015-03-09
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu işletim sistemi kullanan arkadaşlar en az bir kez bu hatayı almıştır diye düşünüyorum tabi fazla paket vs kurmadıysanız hatayı görmemişde
 ---
 Ubuntu işletim sistemi kullanan arkadaşlar en az bir kez bu hatayı almıştır diye düşünüyorum tabi fazla paket vs kurmadıysanız hatayı görmemişde olabilirsiniz nedenini bilmediğim bir şekilde arada çıkmakta idi bende uzun bir uğraş ve aramalardan sonra kalıcı çözümünü bulabildim.hatamız ilk olarak aşağıdaki gibi (hatanın çıkış noktası sanal olarak kurmuş olduğunuz ubuntudan kaynaklanmaktadır.Gerçek siteme kurulu olan ve bu hatayı alan arkadaşlarda bu çözümü kullanabilirler)

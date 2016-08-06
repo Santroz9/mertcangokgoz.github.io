@@ -3,7 +3,7 @@ layout: post
 title: Video Dosyalarını FFMPEG ile MP3 Çevirme
 date: 2016-04-20
 type: post
-categories: Linux
+categories: linux
 description: Geçtiğimiz günlerde elimde bulunan oldukça fazla FLV ve MP4 dosyalarını MP3 olarak dönüştürüp
 ---
 

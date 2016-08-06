@@ -3,7 +3,7 @@ layout: post
 title: C ile Sayının Asal Olup Olmadığını Bulma
 date: 2015-03-25
 type: post
-categories: Programlama
+categories: programlama
 description: C programlama dilinde girilen sayının asal olup olmadığını modulus işlemi ile kolaylıkla bulabiliriz.Asal bulma işlemi için yazmış olduğum
 ---
 

@@ -5,7 +5,7 @@ date: 2014-10-27 16:40:23.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu geçen günlerde 14.10 sürümüne geçti iyi güzel ama Unity deki online arama mevzusu hiç iyi olmadı zaman kaybına neden oluyor ve bizi
 ---
 Ubuntu geçen günlerde 14.10 sürümüne geçti iyi güzel ama Unity deki online arama mevzusu hiç iyi olmadı zaman kaybına neden oluyor ve bizi bekletiyor hoş değil kapatmayı ise şöyle bi baktım kolay geldi kapatmak varken niye açık dursun performans sağlayalım normalde 14.04 dede var ama hiç bu kadar gözümde büyümemişti şimdi hesap makinası dedim ve sonuç şöyle oldu

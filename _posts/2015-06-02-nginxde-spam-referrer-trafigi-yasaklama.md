@@ -5,7 +5,7 @@ date: 2015-06-02 12:37:15.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Nginx
+categories: nginx
 description: Nginx Web Server kullanmaya başladığınız zaman yasaklamış olduğunuz tüm Spam trafikler bir anda tekrar sitenize gelmedi başladı değil
 ---
 

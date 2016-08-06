@@ -5,7 +5,7 @@ date: 2015-02-25 14:24:23.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: DNS isteklerinin ne denli önemli olduklarını geçtiğimiz yıllarda türkiyenin başından geçen ve benimde bahsettiğim DNS Spoofing vakasından sonra
 ---
 **DNS** isteklerinin ne denli önemli olduklarını geçtiğimiz yıllarda türkiyenin başından geçen ve benimde bahsettiğim [DNS Spoofing](http://sosyalmedya.co/turkiye-dns-spoofing/) vakasından sonra anlamış olmamız gerekiyor cümlenin devrik olmasına aldanmayın ve makaleyi okumaya devam etmenizi öneririm.Bizim ülkemiz boş durmayığ şifreli yapılan dns isteklerinide aykırı olduğu için yasaklamıştı.tabiki bu konuda liste uzun olduğu için çoğu şifreli dns sunucusu ülkemizde hala aktif olarak kullanılabiliyor.Hangi mantıkla bazılarını kapattıklarını bilmiyorum öğrenmek dahi istemiyorum.Herneyse bu makalemizde **OpenDNS** nin geliştirmekde olduğu ve isteklerin şifreli olarak herhangi bir manipülasyona yada değişime mağruz kalmadan kişiye ulaşmasından geçiyor aslında bu proje.

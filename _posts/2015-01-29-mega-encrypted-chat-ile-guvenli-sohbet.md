@@ -5,7 +5,7 @@ date: 2015-01-29 14:04:17.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Geçtiğimiz günlerde uçtan uca şifreli chat özelliği ile piyasaya çıkan ve video/ses desteği ilede dikkatleri üzerine çeken Mega beta sürecini başlattı
 ---
 **Geçtiğimiz** günlerde uçtan uca **şifreli** chat özelliği ile piyasaya çıkan ve video/ses desteği ilede dikkatleri üzerine çeken **Mega** beta sürecini başlattı böylelikle **skype** gibi popüler bir uygulamayada alternatif olabileceğini birazda olsa düşündürür oldu.

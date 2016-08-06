@@ -5,7 +5,7 @@ date: 2013-07-30 03:48:36.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Windows server 2012 kurulumunu aşağıdaki videomuzu izleyerek kolaylıkla yapabilirsiniz.
 ---
 Windows server 2012 kurulumunu aşağıdaki videomuzu izleyerek kolaylıkla yapabilirsiniz.

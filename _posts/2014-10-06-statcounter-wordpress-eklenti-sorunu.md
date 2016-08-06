@@ -5,7 +5,7 @@ date: 2014-10-06 15:05:01.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: StatCounter ve sitesi wordpress olupda kod ile uğraşmadan direk olarak Eklenti aracılığı ile kullanmak isteyenlerin WP 4.0 güncellemesi
 ---
 StatCounter ve sitesi wordpress olupda kod ile uğraşmadan direk olarak Eklenti aracılığı ile kullanmak isteyenlerin WP 4.0 güncellemesi ile gelen musibet bir sorununu uzun zamandır anlatmak istiyordum eklentiyi geliştiren arkadaşa 2 gün önce raporlansada sorun hala bi tarafına takmamış ve güncellemeyi yapmayıp.İşte destek hattına gelin biz çözelim gibi şeyler söylüyordu.Bu hatayı bende aldığım için ve eski ayarları kullanmak istemeyip yenilemek istediğim için kolları sıvadım

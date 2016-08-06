@@ -3,7 +3,7 @@ layout: post
 title: C ile Kâr Payı Hesaplama
 date: 2015-03-22
 type: post
-categories: Programlama
+categories: programlama
 description: C ile kar payı hesaplamak için aşağıdaki örneğe göre işlemleri yapıyoruz.
 ---
 

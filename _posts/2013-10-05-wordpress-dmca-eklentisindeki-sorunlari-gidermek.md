@@ -5,7 +5,7 @@ date: 2013-10-05 22:57:31.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Bilindiği gibi DMCA özgün içerik girişi yapılan sitelerin mutlaka kullanması gereken bir sistem ancak firmanın ciddiyetsizliği yüzünden
 ---
 

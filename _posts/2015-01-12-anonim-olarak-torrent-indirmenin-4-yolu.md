@@ -5,7 +5,7 @@ date: 2015-01-12 17:28:42.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Anti-İnflament kuruluşlarının günümüzde artmasının ardından türkiyedede torrent indirirken dikkat edilmesi gereken noktalar artmaya başladı
 ---
 Anti-İnflament kuruluşlarının günümüzde artmasının ardından türkiyedede torrent indirirken dikkat edilmesi gereken noktalar artmaya başladı.İlk önce torrent indirmede sorun çıkmazken günümüzde bazı haberler görmeye başlar olduk işte yok tutuklandı yok telif hakkından ceza aldı vs aslına bakarsanız bunların oluşmasındaki ana etmen kullanıcının public torrent sitelerinden indirmeleriydi çünkü bu tip yerlerde halka açık olduğu için it,kopuk,hırlısı hırsızı ve en tabi yasal yetkililerde var.Anti-Privacy ve Anti-İnflament kuruluşların yakanıza yapışmaması için ne yapmanız gerekiyor bunlardan bahsedeceğim.Kısaca Viral Reklam yapacağım ama bundan benim kazancım olmayacak öyle düşünün

@@ -5,7 +5,7 @@ date: 2014-10-26 11:28:45.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Gelin size güzel bir şekilde SSH kullanarak MySQL yedek nasıl alınır anlatayım.Genelde herkes panel kullanma peşinde ama kullanmayan arkadaşlarıda
 ---
 Gelin size güzel bir şekilde **SSH** kullanarak **MySQL** yedek nasıl alınır anlatayım.Genelde herkes panel kullanma peşinde ama kullanmayan arkadaşlarıda düşünmek lazım ingilizcesi olmayabilir googlede türkçe aratıyor ama sonuç bulamıyor ve kafayı yiyor olabilir.İşte kafayı yemesini önlemeye çalışıyorum ben ve en son bu yöntemi 2 ay önce sunucumda kullanmıştım sonrasında ise unutuldu gitti makalesinide anca yazabiliyorum farkındayım uzattım dönelim konumuza öncelikli olarak mysqldump denen birşeyimiz var sunucuda bu bizim için önemli kullanımı ise şu şekilde

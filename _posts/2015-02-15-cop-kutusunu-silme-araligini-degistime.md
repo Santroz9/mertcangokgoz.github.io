@@ -5,7 +5,7 @@ date: 2015-02-15 12:25:57.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Wordpress normal koşullar altında 30 gün içerisinde çöp kutusunda bulunan tüm içerikleri kalıcı olarak silmektedir.Fakat siz bunu değiştirmek istersenizde
 ---
 **Wordpress** normal koşullar altında 30 gün içerisinde çöp kutusunda bulunan tüm içerikleri kalıcı olarak silmektedir._Fakat siz bunu değiştirmek istersenizde yapmanız gerekenler oldukça basit_

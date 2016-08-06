@@ -5,7 +5,7 @@ date: 2015-10-02 16:58:36.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Açık kaynak kod sevenlerin vazgeçilmez office uygulamalarından biri olan LibreOffice nin 5.0 sürümü geçtiğimiz aylarda sunuldu hala kurmamış
 ---
 

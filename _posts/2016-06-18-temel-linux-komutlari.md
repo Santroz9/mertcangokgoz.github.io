@@ -3,7 +3,7 @@ layout: post
 title: Temel Linux Komutları
 date: 2016-06-18
 type: post
-categories: Linux
+categories: linux
 description: Bilinmesi ve unutulmaması gereken temel linux komutlarının derlenmiş bir halidir.Kullandığım bu komutları bende arada
 ---
 

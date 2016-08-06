@@ -5,7 +5,7 @@ date: 2013-08-12 05:23:27.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: sistemlerde işimize çokca yarayan bir komut olan ifconfig lan kartına çok ama çok kolay bir şekilde ip atayarak gereken işlemleri yapmamızı
 ---
 <p>Linux sistemlerde işimize çokca yarayan bir komut olan ifconfig lan kartına çok ama çok kolay bir şekilde ip atayarak gereken işlemleri yapmamızı kolaylıkla sağlar</p>

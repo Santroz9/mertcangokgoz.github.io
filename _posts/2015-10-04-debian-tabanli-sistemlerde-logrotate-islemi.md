@@ -5,7 +5,7 @@ date: 2015-10-04 13:02:04.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Logların aşırı bir şekilde yer kaplamasından dolayı diskimizde yer kalmadı benden logrotate işlemi istenmediği için haliyle yapmadım ve sunucu
 ---
 

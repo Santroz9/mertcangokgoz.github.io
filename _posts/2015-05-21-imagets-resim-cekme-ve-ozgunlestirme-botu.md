@@ -5,7 +5,7 @@ date: 2015-05-21 12:07:58.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: ImageTS Resim Çekme ve özgünleştirme botu olarak karşımıza çıkmaktadır.Sizi büyük bir dertden kurtarır internetten resimleri bulur gerekli
 ---
 

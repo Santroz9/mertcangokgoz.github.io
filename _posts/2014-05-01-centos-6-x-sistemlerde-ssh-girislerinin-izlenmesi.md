@@ -5,7 +5,7 @@ date: 2014-05-01 16:47:28.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Eğer bir web hosting yöneticisi veya bir Linux güvenlik teknisyeni iseniz özellikle başarısız SSH oturum açma girişimlerini yakından takip etmeniz
 ---
 Eğer bir web hosting yöneticisi veya bir Linux güvenlik teknisyeni iseniz özellikle başarısız **SSH** oturum açma girişimlerini yakından takip etmeniz gerekmektedir. Bunun için sunucunuzda ufak birkaç değişiklik ile bu özelliği aktif edebilirsiniz **PAM** (Pluggable Authentication Modules) adı verilen bu mobül sayesinde izinsiz yapılmış olan tüm girişleri listeleyebilirsiniz.

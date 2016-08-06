@@ -3,7 +3,7 @@ layout: post
 title: Linux İçin Homebrew Nasıl kurulur
 date: 2016-08-02
 type: post
-categories: Linux
+categories: linux
 description: OSX kullananların brew'i varda bizim niye yok ? bu güzelim uygulamadan bizde istiyoruz dediniz mi hiç çünkü ben bir zamanlar diyordum bazı uygulamalar
 ---
 

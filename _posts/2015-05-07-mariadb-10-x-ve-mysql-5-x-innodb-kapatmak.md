@@ -5,7 +5,7 @@ date: 2015-05-07 18:34:36.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: MySQL de performans ayarları yaparken innodb yi kapatmak için MariaDB de ayarlamalar yapmam gerekiyordu çünkü ben Veritabanını MyISAM şeklinde
 ---
 **MySQL** de performans ayarları yaparken innodb yi kapatmak için **MariaDB** de ayarlamalar yapmam gerekiyordu çünkü ben Veritabanını **MyISAM** şeklinde kullanıyordum InnoDB olmadığı içinde boşa çalışmasın kapatalım gitsin performans açısından etkisi haliyle olacak.

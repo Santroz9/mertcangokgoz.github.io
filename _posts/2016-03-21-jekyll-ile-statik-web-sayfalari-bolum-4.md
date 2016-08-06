@@ -3,7 +3,7 @@ layout: post
 title: Jekyll ile Statik Web Sayfaları Bölüm 4
 date: 2016-03-21
 type: post
-categories: Linux
+categories: linux
 description: Bir Web sitesinin olmazsa olmazlarından biri olan bu kategorileri
 ---
 

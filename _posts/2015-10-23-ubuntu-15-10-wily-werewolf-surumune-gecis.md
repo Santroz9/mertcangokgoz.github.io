@@ -3,7 +3,7 @@ layout: post
 title: Ubuntu 15.10 Wily Werewolf Sürümüne Geçiş
 date: 2015-10-23 22:25:25.000000000 +03:00
 type: post
-categories: Linux
+categories: linux
 description: 22 Ekim günü Ubuntu 15.10 sürümü resmi olarak kullanıma sunuldu acısıyla tatlısıyla 9 aylık bir periyot sonunda 15.04 üzerine bir güncelleme gelmiş
 ---
 

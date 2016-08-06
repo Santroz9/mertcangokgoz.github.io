@@ -5,7 +5,7 @@ date: 2014-07-02 23:45:14.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: deep web az çok nedir biliyorsunuzdur ancak size bu ortamda bir web sitesi nasıl yayınlanır bunu anlatacağım ister evinizde ister işinizde
 ---
 [deep web az çok nedir biliyorsunuzdur](https://mertcangokgoz.com/deepwebdarknet-hakkinda-her-sey.html) ancak size bu ortamda bir web sitesi nasıl yayınlanır bunu anlatacağım ister evinizde ister işinizde kullandığınız bir bilgisayar ile çok rahatlıkla deep web de site açabilirsiniz.Hem masrafsız hemde kolaydır.Ne yapacağınıza bağlı olarak içeriğinizi&nbsp; düzenleyin.Yayınlamaya hazırsanız toru açın gerisini ona bırakın...

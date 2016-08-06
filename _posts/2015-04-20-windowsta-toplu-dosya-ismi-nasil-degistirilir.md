@@ -5,7 +5,7 @@ date: 2015-04-20 15:55:29.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Örnekler ile anlatarak, işlemin ne kadar kolay olduğunu anlatıp, Windows’ta toplu dosya ismi nasıl değiştirilir, sorusuna cevap
 ---
 İşletim sistemleri grafiksel özelliklere kavuştuğundan bu yana, hayatımıza hem görsel hem de işlevsel yenilikler getirdi. Microsoft, Windows paket programını işletim sistemi haline getirdiğinden beri, Dünya'da en fazla kullanılan işletim sistemi haline gelmiştir. Çeşitli versiyonlarını görmüş ve kullanmış olsak da, günümüzde en fazla kullanılan versiyonları arasında 2000, Vista ve sürümleri ile mobil olanlar revaçtadır.

@@ -5,7 +5,7 @@ date: 2015-06-24 18:37:08.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu 15.04 üzerine sizlerden gelen istek doğrultusunda Spotify kurulumunu göstermek istiyorum hala beta olarak yayında bulunan Spotify
 
 ---

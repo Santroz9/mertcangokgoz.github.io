@@ -3,7 +3,7 @@ layout: post
 title: Linux'de Java Uygulamalarını Çalıştırma
 date: 2016-03-25
 type: post
-categories: Linux
+categories: linux
 description: Kullanmamız gereken java uygulamaları oluyor çoğu zaman
 ---
 

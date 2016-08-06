@@ -5,7 +5,7 @@ date: 2014-06-25 11:10:17.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Gizlilik diyince insanın aklına "başkasını ilgilendirmeyen şeylerin(bu şeylerin ne olduğu kişiye göre değişiyor imiş göyaaa)gizli kalması
 ---
 

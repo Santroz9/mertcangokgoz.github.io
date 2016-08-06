@@ -3,7 +3,7 @@ layout: post
 title:  TMUX Komut ve Kısayolları
 date: 2016-07-20
 type: post
-categories: Linux
+categories: linux
 description:   tmux özellikle bir çok sanal terminal açmamıza imkan sağladığı için kullanıyoruz.Ya birader bunu ben tab ile yaparım
 ---
 

@@ -5,7 +5,7 @@ date: 2015-03-29 14:14:27.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Localde çalışmalar yaparken .htaccess kullanmak isteyebilirsiniz.Yaptığınız bir eklenti olabilir yada kurduğunuz bir wordpress olabilir nasıl göründüğünü
 ---
 Localde çalışmalar yaparken . **htaccess** kullanmak isteyebilirsiniz.Yaptığınız bir eklenti olabilir yada kurduğunuz bir **wordpress** olabilir nasıl göründüğünü localde görmek ve çalışmanızın nasıl gittiğini anlamak istiyorda olabilirsiniz bunu yapmak için wampserver kullanıyorsanız yapmanız gerekenler oldukça basit. **WampServerın** saatin yanında bulunan tray simgesine tıklıyorsunuz karşınıza bir takım ayarlar çıkıcak buradan **Apache \> Apache Modülleri** yolunu takip ediyorsunuz.

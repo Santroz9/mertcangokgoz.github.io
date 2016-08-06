@@ -5,7 +5,7 @@ date: 2014-07-31 18:30:34.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Dropbox Uploader ile Dedicated,VPS,VDS gibi kullandığınız sistemlerde rahatlıkla uzak sunucuya yedeklerinizi atabilir ve rahat bir nefes
 ---
 Dropbox Uploader ile Dedicated,VPS,VDS gibi kullandığınız sistemlerde rahatlıkla uzak sunucuya yedeklerinizi atabilir ve rahat bir nefes alabilirsiniz.Pek çoğumuz yedekler konusunda gerçekten sorumsuz bir şekilde ya kendi bilgisayarımızda yada yedekleri aynı sunucu üzerinde farklı bir dizinde tutuyoruz haliyle hem bu bir güvenlik açığı oluyor hemde tamamen sunucuda bir hasar oluştuğu zaman yedeklerimizin çöpe gitmesine neden oluyor bu tarz durumlara düşmemek için Dropbox Uploader tam size göre ayda 1 yada günlük şekillerde istediğiniz gibi ayarlayabilirsiniz. Dilerseniz cronjob ayarlayıp gerekli zamanlarda yedeğinizin yüklenmesini sağlayabilirsiniz.

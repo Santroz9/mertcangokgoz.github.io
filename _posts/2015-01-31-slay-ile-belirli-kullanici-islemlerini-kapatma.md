@@ -5,7 +5,7 @@ date: 2015-01-31 13:45:31.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Chris Ausbrooks adında bir eleman tarafından geliştirilen slay sayesinde linux sistemlerde kullanıcı bazlı olarak tüm işlemleri kapatabilirsiniz.
 ---
 **Chris Ausbrooks** adında bir eleman tarafından geliştirilen bu ufak araç sayesinde linux sistemlerde kullanıcı bazlı olarak tüm işlemleri kapatabilirsiniz.Kısacası adamı öldürürsünüz zaten **slay** bir kelime anlamıda **öldürmektir**.

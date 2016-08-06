@@ -5,7 +5,7 @@ date: 2015-07-01 22:30:50.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Kernel 4.0 sürümü debian kullanan kullanıcılar için uzun zaman önce yayınlandı.Güncellemek isteyenler aşağıdaki yönergeleri izleyebilirler.Ayrıca
 ---
 

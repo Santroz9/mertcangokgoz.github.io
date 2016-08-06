@@ -5,7 +5,7 @@ date: 2013-12-21 16:08:09.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: İç donanım birimlerinden biri olan anakart bilgisayarın tüm elektronik parçalarının takıldığı elektronik devre olarak bilinmektedir
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: C ile Fibonacci Sayılarının Bulunması
 date: 2015-03-20
 type: post
-categories: Programlama
+categories: programlama
 description: C ile fibonacci sayılarını bulmak için diğer dillerde olduğu gibi standart bir tazım şekli bulunmuyor istediğiniz gibi yazabilirsiniz ancak
 ---
 

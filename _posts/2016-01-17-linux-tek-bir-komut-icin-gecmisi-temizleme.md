@@ -5,7 +5,7 @@ date: 2016-01-17 13:05:43.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Bash terminalde yazmış olduğunuz komut tek tek numaralandırılarak geçmiş tutulur.Bu geçmiş sistemde siz silene kadar tutulmaya devam eder belirli
 ---
 **Bash** terminalde yazmış olduğunuz komutlar tek tek numaralandırılarak geçmiş tutulur.Bu geçmiş sistemde siz silene kadar tutulmaya devam eder belirli aralıklarla silinmesi güvenlik açısından önemlidir.Ancak hepsini silmek istemiyorsanız ve(veya)bazılarını seçip silmek istiyorsanız aşağıdaki yöntemi kullanabilirsiniz.

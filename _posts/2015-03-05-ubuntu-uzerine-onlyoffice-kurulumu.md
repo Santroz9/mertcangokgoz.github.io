@@ -5,7 +5,7 @@ date: 2015-03-05 14:40:18.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: OnlyOffice ücretsiz ve açık kaynak kodlu bir office uygulamasıdır online olarak ekip çalışmaları yapabilir arkadaşlarınız ile dokümanlarınız üzerinde
 ---
 

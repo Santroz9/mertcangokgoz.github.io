@@ -5,7 +5,7 @@ date: 2013-08-27 01:46:12.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Bir kullanıcı sitenizdeki her hangi bir yazıya yorum yaptığı zaman Wordpress wp-comment-post.php adresini kullanır ve sizin yorumunuzu gereken
 ---
 

@@ -5,7 +5,7 @@ date: 2014-08-08 12:43:46.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Centos web panel adındanda anlaşıldığı üzere Centos geniliştiricilerinin yapmış olduğu ve centos üzerinde muazzam bir stabilite ile çalışan bir kontrol
 ---
 

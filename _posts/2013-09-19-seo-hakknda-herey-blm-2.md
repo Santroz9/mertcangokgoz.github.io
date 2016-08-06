@@ -5,7 +5,7 @@ date: 2013-09-19 01:50:48.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Aslında parça parça makale yazmayı sevmem ama SEO konusu oldukça uzun olmasından dolayı yapabilecek başka çaremizde olmamasından dolayı
 ---
 

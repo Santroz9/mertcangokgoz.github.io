@@ -3,7 +3,7 @@ layout: post
 title: Synaptic Touchpad Oluşturduğu Mouse Sorunu
 date: 2016-03-26
 type: post
-categories: Linux
+categories: linux
 description: Toshiba model laptopumda karşılaştığım bir mouse probleminden bahsedeceğim
 ---
 

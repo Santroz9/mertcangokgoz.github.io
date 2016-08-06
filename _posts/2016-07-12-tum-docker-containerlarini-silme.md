@@ -3,7 +3,7 @@ layout: post
 title:  Tüm Docker Containerlarını Silme
 date: 2016-07-12
 type: post
-categories: Linux
+categories: linux
 description: Docker kullanmayı öğrenirken pek çok container oluşturmuştum.bunları tek tek silmek yerine hepsini bir çırpıda
 ---
 

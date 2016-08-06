@@ -5,7 +5,7 @@ date: 2014-10-17 13:50:18.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Merhaba arkadaşlar bu makalemizde Windows 7 ve 8 lerde çokça gözünüze ilişen çalıştır komutlarından bahsedeceğim bildiğiniz gibi windowsun
 ---
 Merhaba arkadaşlar bu makalemizde Windows 7 ve 8 lerde çokça gözünüze ilişen çalıştır komutlarından bahsedeceğim bildiğiniz gibi windowsun bazı ayarlarını yaparken ordan oraya tıklamalar ile gideriz ve bu kimi zaman uzun sürer yada benim gibi pratik bir şekilde mouse kullanmadan sadece klavye ile açmak istersiniz işte o zaman bu komutlar size ilaç gibi gelecek

@@ -5,7 +5,7 @@ date: 2015-06-22 12:24:53.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Geçtiğimiz günlerde araştırma yaparken dikkatimi çeken ilginç
     bir infografik gözüme ilişti 1 projemde kullanmış olduğum angularjs nin facebook
 ---

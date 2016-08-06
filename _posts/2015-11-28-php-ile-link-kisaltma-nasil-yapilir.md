@@ -3,7 +3,7 @@ layout: post
 title: PHP ile Link Kısaltma Nasıl Yapılır
 date: 2015-11-28 22:21:02.000000000 +02:00
 type: post
-categories: Programlama
+categories: programlama
 description: Başkalarının sistemlerini kullanmak yerine geçtiğimiz günlerde kendi php Link kısaltma servisimi yazmaya karar verdim kara cuma indiriminden
 
 ---

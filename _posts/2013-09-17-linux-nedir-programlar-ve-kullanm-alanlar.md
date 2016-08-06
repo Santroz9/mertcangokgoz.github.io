@@ -5,7 +5,7 @@ date: 2013-09-17 01:09:57.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Linux,  bir işletim sistemi olarak karşımıza çıkmaktadır. Ücretsiz olarak edinebileceğiniz bu işletim sistemi sayesinde oldukça yüksek
 ---
 

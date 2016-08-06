@@ -5,7 +5,7 @@ date: 2014-09-02 13:47:57.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Laptop diye tabir ettiğimiz türkçeside dizüstü olan(ne alaka ise) sistemlerimizde genellikle kullandığımız 3G/4G modemlerin linuxde nasıl kullanılabileceğin
 ---
 Laptop diye tabir ettiğimiz Türkçesi de dizüstü olan(ne alaka ise) sistemlerimizde genellikle kullandığımız **3G/4G** modemlerin linux de nasıl kullanılabileceğini anlatmak istiyorum.Masaüstü sisteminizde de kullanabilirsiniz de pek mantıklı olmayacaktır diye düşünüyorum.Alex adında bir geliştirici abimiz yazdığı uygulama ile modem fonksiyonlarını linux üzerinden kontrole imkan sağlayan bir araç geliştirmiş eski lan bu çalışmıyordur yada bugludur dediydim sonra bi baktım çalışıyor hemen bunu yazmalıyım dedim sonuç itibariyle açık kaynak kod mentalitesini benimsemiş ve benim gibi windows kullanmayan bir kesim var bulmuşken yapışalım.

@@ -5,7 +5,7 @@ date: 2015-08-02 19:31:30.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Linux Sistemlerde ön yükleme süreci 6 temel aşamadan oluşmaktadır.Altı aşama sonrasında sistem açılır ve dilediğiniz gibi kullanabilirsiniz peki bu 6
 ---
 

@@ -5,7 +5,7 @@ date: 2015-02-19 18:23:13.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Sizlere muhteşem bir uygulamadan bahsetmek istiyorum.Bu uygulama youtube üzerinden video indirebileceğiniz gibi aynı zamanda indirdiğiniz videolarıda
 ---
 Sizlere muhteşem bir uygulamadan bahsetmek istiyorum.Bu uygulama ile **youtube** üzerinden video indirebileceğiniz gibi aynı zamanda indirdiğiniz videolarıda **webm** formatına dönüştürebileceksiniz üstelik zahmetsiz ve bir o kadarda kolay bir şekilde bu işlemi yapacaksınız

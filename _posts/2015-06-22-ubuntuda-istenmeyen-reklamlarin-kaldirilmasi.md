@@ -5,7 +5,7 @@ date: 2015-06-22 15:46:36.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu kurduk ama reklamlardan bir türlü kurtulamadık hadi bir kaç eklenti ekledik diyelim tarayıcı tabanlı engelledik ama uygulamalar içinde
 ---
 

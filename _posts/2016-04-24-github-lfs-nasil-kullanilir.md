@@ -3,7 +3,7 @@ layout: post
 title: GitHub LFS Nasıl Kullanılır
 date: 2016-04-24
 type: post
-categories: Linux
+categories: linux
 description: Geçtiğimiz günlerde okulda görmüş olduğumuz derslere ait notları ve yapmış olduğumuz ödevleri internete yükledim ve özgürce
 ---
 

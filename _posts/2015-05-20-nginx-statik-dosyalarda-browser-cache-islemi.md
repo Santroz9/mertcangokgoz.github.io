@@ -5,7 +5,7 @@ date: 2015-05-20 15:26:44.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Nginx
+categories: nginx
 description: Sitenizi Nginx alt yapısına taşıdıysanız apacheden kalma browser cache özelliklerinin hiç birini kullanamazsınız ancak nginx bunu yapmak
 ---
 

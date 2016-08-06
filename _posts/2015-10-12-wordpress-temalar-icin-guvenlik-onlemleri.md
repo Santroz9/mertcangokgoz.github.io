@@ -5,7 +5,7 @@ date: 2015-10-12 12:21:28.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Wordpress sitenizin tema dosyası içerisinde bulunan functions.php içerisine aşağıdaki komutları yerleştirdiğiniz taktirde siteniz hakkındaki bazı
 ---
 

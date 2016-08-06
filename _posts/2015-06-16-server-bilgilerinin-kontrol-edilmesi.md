@@ -5,7 +5,7 @@ date: 2015-06-16 23:17:10.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Server bilgilerini kontrol edebileceğiniz ücretsiz bir şekilde yayınlanan ve özellikle root yetkisi gerekmeyen bir betik olan vHWINFO ile VPS,VDS
 ---
 

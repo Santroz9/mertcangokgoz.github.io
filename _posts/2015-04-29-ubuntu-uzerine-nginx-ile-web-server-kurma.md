@@ -5,7 +5,7 @@ date: 2015-04-29 18:37:25.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Nginx
+categories: nginx
 description: Kuracağımız sistem tamamen performansa yönelik olacak bunu baştan belirteyim yapımızı Nginx ile kuracağız uzatmadan detaylara geçelim ve
 ---
 

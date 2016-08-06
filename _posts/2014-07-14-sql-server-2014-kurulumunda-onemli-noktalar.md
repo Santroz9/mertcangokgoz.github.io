@@ -5,7 +5,7 @@ date: 2014-07-14 15:42:50.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Dün bildiğiniz üzere kurulumun nasıl yapıldığını anlatmıştık bugün ise SQL Server 2014 üzerinde yapılacak olan bazı işlemler ile önemli
 ---
 

@@ -5,7 +5,7 @@ date: 2014-01-15 14:39:11.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: "Öncelikle bu makaleyi okuduktan sonra havalara girip ben bu işe başlarım diye düşünmemeniz de fayda var çünkü bitcoin zorluğu"
 ---
 

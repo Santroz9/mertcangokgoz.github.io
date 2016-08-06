@@ -3,7 +3,7 @@ layout: post
 title: C ile Kabarcık Sıralaması
 date: 2015-05-18
 type: post
-categories: Programlama
+categories: programlama
 description: C ile Sıralama algoritması yazmak istersek aşağıdaki gibi bir yol izleyebiliriz böylelikle kolaylıkla sıralama
 ---
 

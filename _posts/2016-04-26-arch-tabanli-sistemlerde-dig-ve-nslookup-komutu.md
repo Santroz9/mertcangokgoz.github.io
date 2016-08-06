@@ -3,7 +3,7 @@ layout: post
 title: Arch Tabanlı Sistemler'de Dig ve Nslookup Komutu
 date: 2016-04-26
 type: post
-categories: Linux
+categories: linux
 description: Ubuntu,Debian yada Fedora kullananlar bilirler sistemde ön tanımlı olarak dig,nslookup komutları
 ---
 

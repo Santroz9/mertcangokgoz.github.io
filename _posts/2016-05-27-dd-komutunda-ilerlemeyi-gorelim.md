@@ -3,7 +3,7 @@ layout: post
 title: DD Komutunda İlerlemeyi Görelim
 date: 2016-05-27
 type: post
-categories: Linux
+categories: linux
 description: Dd komutu ile USB belleklere birşeyler yazdırırken veya imaj oluştururken falan benim canım terminalde yeni satıra geçmesini
 ---
 

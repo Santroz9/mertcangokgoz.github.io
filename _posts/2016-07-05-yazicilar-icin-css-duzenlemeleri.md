@@ -3,7 +3,7 @@ layout: post
 title:  Yazıcılar İçin CSS Düzenlemeleri
 date: 2016-07-05
 type: post
-categories: Programlama
+categories: programlama
 description: Normal şartlar altında css yazmayı sevmem çünkü bir yerini düzeltirken aynı zamanda bir başka yeri bozabiliyorsunuz. print css
 ---
 
@@ -62,9 +62,9 @@ Copyleft © Mertcan GÖKGÖZ 2016*/
   h4,h5,h6 { font-size:14pt; }
 
   p, h2, h3 { orphans: 3; widows: 3; }
- 
+
   .content h1 { text-align: center; }
-  
+
   .content {
     background: transparent;
     border-left: none;

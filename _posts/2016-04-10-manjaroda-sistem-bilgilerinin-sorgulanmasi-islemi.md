@@ -3,7 +3,7 @@ layout: post
 title: Manjaro'da Sistem Bilgilerini Sorgulama İşlemi
 date: 2016-04-10
 type: post
-categories: Linux
+categories: linux
 description: Ben her ne kadar manjaro desemde aslında arch linux tabanlı tüm sistemlerde
 ---
 

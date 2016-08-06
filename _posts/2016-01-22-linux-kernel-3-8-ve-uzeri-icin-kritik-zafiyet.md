@@ -3,7 +3,7 @@ layout: post
 title: Linux Kernel 3.8 ve Üzeri için Kritik Zafiyet
 date: 2016-01-22 09:27:11.000000000 +02:00
 type: post
-categories: Güvenlik
+categories: guvenlik
 description: Linux kernel sürüm 3.8 ve üzeri sürümleri etkileyen ve geçtiğimiz günlerde tespit edilen sıfırıncı gün açığı 32 ve 64 bit sistemlerde sistem üzerinde
 ---
 Linux kernel **sürüm 3.8** ve üzeri sürümleri etkileyen ve geçtiğimiz günlerde tespit edilen sıfırıncı gün açığı 32 ve 64 bit sistemlerde sistem üzerinde kullanıcının yetkisini arttırıyor ve **root** olmasına imkan tanıyor.Tespit edilen bu güvenlik açığı sayesinde **root** şifrelerini bilmeden yönetici olabilmek mümkün

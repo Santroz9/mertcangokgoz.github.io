@@ -5,7 +5,7 @@ date: 2015-04-30 14:01:01.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: "İlk olarak sizlere Ubuntu 15.04 üzerinde LAMP Kurulumunu göstermek istiyorum sonrasında ilerleyen zamanlarda LEMP Krulumlarınıda anlatacağım"
 ---
 İlk olarak sizlere Ubuntu 15.04 üzerinde LAMP Kurulumunu göstermek istiyorum sonrasında ilerleyen zamanlarda LEMP Krulumlarınıda anlatacağım.Öncelikle Ubuntu 15.04 yeni çıktığı için internet ortamında fazlaca dokümantasyon bulmanız imkansız ancak eski ubuntu makalelerinin çoğu çalışmaktadır bununla beraber bu sürümdede kurulumu birlikte yapacağız.

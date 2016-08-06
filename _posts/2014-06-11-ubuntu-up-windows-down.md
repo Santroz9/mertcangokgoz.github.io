@@ -5,7 +5,7 @@ date: 2014-06-11 14:29:47.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: ubuntu up Windows down ama niye söylediğimi merak ediyorsunuz diye düşünüyorum.Bendeniz 2002 yılından beri bilgisayar kullanan birisiyim ve
 ---
 Linux up Windows down ama niye söylediğimi merak ediyorsunuz diye düşünüyorum.Bendeniz 2002 yılından beri bilgisayar kullanan birisiyim ve ilk olarak Windows 98 kullanmaya başladım sonrasında hemen XP geldi tabikide ama yanlış hatırlamıyorsam yaklaşık 8 yıl Windows XP kullandım Sonrasında Windows 7 ye geçtim ardından Windows 8 Çıktı derken bir baktım 8.1 kadar gelmişiz uzun lafın kısası Windowsdan nefret etmeye cryptolocker denen lanet olası virüsü yememle başladı biriktirdiğim onca Doküman birden AES 256 ile şifrelenmişti ve elimden gelen hiçbir şey yoktu ya parasını ödeyip alacaktım şifreyi yada formatı atıp o kadar değerli dosyaların üzerinden bir çizik atacaktım ama parayı ödeyince şifrenin geleceğide meçhuldü herşey buraya kadar anormel gördüğünüz gibi bunu yazarken bende sıkıldım okurken sizde sıkıldığınızı görür gibiyim herneyse mevzu benim GNU/Linux e olan merakımla başladı önceleri Vmware de sanal masaüstü aracılığı ile Ubuntu gibi çekitli linux sistemler denedim.

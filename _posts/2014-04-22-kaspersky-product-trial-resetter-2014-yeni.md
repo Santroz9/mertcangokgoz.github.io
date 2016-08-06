@@ -5,7 +5,7 @@ date: 2014-04-22 19:53:39.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Bloğumda ki yazıların seyrekleştiğini fark etmişsinizdir bunun en önemli nedeni ise tabi ki de okulumun yoğunlaşmasıdır aman ha
 ---
 Bloğumda ki yazıların seyrekleştiğini fark etmişsinizdir bunun en önemli nedeni ise tabi ki de okulumun yoğunlaşmasıdır aman ha aklınıza farklı şeyler gelmesin yaşıyorum ve sorun yok bu sırada düşündüm düşündüm neler yapabilirim diye ilk başlarda yapmayacaktım ancak bir **kaspersky** kullanıcısı olarak kendimi tutamadım ve bu ufak programı kodladım. Aslına bakarsanız programı yayınladığım tarih 20 Nisan 2014 Saat : 02.38 ancak illegalitesi yüksek olarak düşündüğümden paylaşma ihtiyacı duymadığım sırada bunun altında bir emek olduğunu da göz önünde bulundurarak eklemek istedim.

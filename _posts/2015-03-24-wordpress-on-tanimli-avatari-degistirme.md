@@ -5,7 +5,7 @@ date: 2015-03-24 14:13:41.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Wordpress de genel olarak kullanılabilir durumda bir kaç adet avatar mevcut isterseniz bunlardan bir tanesini seçebilirsiniz ama hiçbiri
 ---
 Wordpress de genel olarak kullanılabilir durumda bir kaç adet avatar mevcut isterseniz bunlardan bir tanesini seçebilirsiniz ama hiçbiri hoşunuza gitmediyse function dosyanıza tanımlayacağınız bir kaç kural ile yorumlarda gözükecek olan avatarınızı kalıcı olarak değiştirmeniz mümkün bu yöntem ile dışarıdan çıkışlarıda engellemiş olacaksınız bir bakıma sayfanızın load zamanıda düşecek diyebilirim.

@@ -5,7 +5,7 @@ date: 2015-02-19 12:26:00.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu üzerine varnish kurulumu oldukça basittir bir kaç komut yardımıyla kurabilirsiniz ancak size bu makalemizde ayarlamaları konusunda
 ---
 **Ubuntu** üzerine **varnish** kurulumu oldukça basittir bir kaç komut yardımıyla kurabilirsiniz ancak size bu makalemizde ayarlamaları konusunda yardımcı olamayacağım sadece kuracağız ayarlamalarımızı bir sonraki makalede anlatmaya çalışacağım ama ilk olarak kuralım sağlıklı bir şekilde

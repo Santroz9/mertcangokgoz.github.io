@@ -5,7 +5,7 @@ date: 2014-06-22 12:40:38.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu işletim sistemlerinde nedeni bilinmeyen bir hatadan dolayı oluşan ve neredeyse 3 sürümdür devam eden bu sorun bazı sistemlerde seslerin
 ---
 Ubuntu işletim sistemlerinde nedeni bilinmeyen bir hatadan dolayı oluşan ve neredeyse 3 sürümdür devam eden bu sorun bazı sistemlerde seslerin hiç gelmemesine bazı sistemlerde ise kulaklık takıldığı zaman sesin gelmesine sebebiyet vermektedir.Bu sorun ubuntunun 14.04 13.10 13.04 ve 12.10 sürümlerini genel olarak etkilemektedir.

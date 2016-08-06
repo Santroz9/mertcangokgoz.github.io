@@ -5,7 +5,7 @@ date: 2013-09-23 20:00:47.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Pazar günü okulların açılmasına bir gün kala ders programını ne şekilde götürsem diye düşünürken elimin altında telefonum duruyordu google
 ---
 

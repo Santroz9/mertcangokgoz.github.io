@@ -3,7 +3,7 @@ layout: post
 title: C ile Matris Toplama İşlemi
 date: 2015-03-28
 type: post
-categories: Programlama
+categories: programlama
 description: C ile tanımlamış olduğunuz 2 matrisi toplayabilirsiniz bunun için arraylar kullanıyoruz.Biraz
 ---
 

@@ -5,7 +5,7 @@ date: 2015-05-05 15:12:06.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: MariaDB kurdunuz herşey güzel giderken yedek almak istediniz ve karşınıza şunun gibi bir hata çıktıysa ki php tabanlı yedek alma uygulamalarında
 ---
 **MariaDB** kurdunuz herşey güzel giderken yedek almak istediniz ve karşınıza şunun gibi bir hata çıktıysa ki **php tabanlı yedek alma uygulamalarında sıkça gözüken bir durumdur**.Aşağıdaki adımı uygulayarak çözüme kavuşturabilirsiniz sorununuzu öncelikle **SSH** yardımı ile giriş yapıyorsuz sisteme sonrasında hatamıza bir bakıyoruz kütüphane hatası eksik birşeyler var diyoruz ve hemen **google** başına geçiyoruz arama yapıyoruz 4 farklı sonuç çıkacak ancak

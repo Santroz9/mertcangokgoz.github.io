@@ -5,7 +5,7 @@ date: 2013-09-15 01:51:50.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: bizim size tavsiyemiz ispconfig 3 kurulumu için debian 7 seçmeniz.kurulumu gerçekten basit kurulum esnasında sizden sadece 3-4 adet bilgi
 ---
 

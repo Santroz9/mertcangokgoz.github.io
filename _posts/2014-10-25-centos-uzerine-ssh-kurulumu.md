@@ -5,7 +5,7 @@ date: 2014-10-25 15:37:56.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Bu Makalemizdede OpenSSH yani herkesin bildiği SSH kuralım normalinde VPS,VDS,Dedicated alırsınız size verilir falan ama kendinize
 ---
 Bu Makalemizde de **OpenSSH** yani herkesin bildiği **SSH** kuralım normalinde VPS,VDS,Dedicated alırsınız size verilir falan ama kendinize ait bi sunucu aldınız diyelim birşey kurdurmadınız ve elinizde **KVM** yetkisi var diyelim genelde otomasyon sistemleri buna bile ihtiyaç duymuyor ama biz en fakiri&nbsp;olalım. **KVM** bağlantısı ile bağlanalım artık hangi **KVM** ise bilemem sonra komut satırını alırız elimize ve aşağıdakileri yazar devam ederiz

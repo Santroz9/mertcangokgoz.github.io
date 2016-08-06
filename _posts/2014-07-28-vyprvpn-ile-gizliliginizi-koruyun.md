@@ -5,7 +5,7 @@ date: 2014-07-28 17:28:49.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: VyprVPN gizliliğine önem veren ve devletlerin koymuş olduğu yasaklamalardan kurtulmak isteyenlerin uğrak noktalarından bir tanesi olma yolunda
 ---
 [VyprVPN](http://www.goldenfrog.com/vyprvpn/buy-vpn) gizliliğine önem veren ve devletlerin koymuş olduğu yasaklamalardan kurtulmak isteyenlerin uğrak noktalarından bir tanesi olma yolunda emin adımlarla ilerliyor.Normalde Ben kendi VPN sistemlerimi kurup yapılandırma taraftarıyımdır ancak üşendim ve denemek istediğim bir firma olsun demiştim yaklaşık 2 ay boyunca kullanmalarım sonucu [VyprVPN](http://www.goldenfrog.com/vyprvpn/buy-vpn) i sizlere anlatmak istiyorum viral falan ne derseniz deyin ama parasını verip alıyorum onuda bilin.

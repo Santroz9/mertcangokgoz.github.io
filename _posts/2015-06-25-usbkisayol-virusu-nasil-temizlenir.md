@@ -5,7 +5,7 @@ date: 2015-06-25 23:15:14.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Genelde okulda USB belleği taktığımız zaman bu virüs hemen belleğe yapışır sonrasında ise dosya içeriğimizi göremeyiz bize gösterdiği kısayollar
 ---
 

@@ -5,7 +5,7 @@ date: 2013-07-28
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Samsung Galaxy mega 6.3 devasa ekranı ile hoşuma gitmişti ilk başlarda note 2 den sıkılmış olmamdan dolayı yeni telefon
 ---
 

@@ -5,7 +5,7 @@ date: 2013-08-29 01:03:14.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Twitter kullanıcılarının mesajları kategorize etmesini sağlayan hashtag işaretini ‘bütün bu mesajlar aynı konuyla ilgilidir’ demenin bir yolu
 ---
 

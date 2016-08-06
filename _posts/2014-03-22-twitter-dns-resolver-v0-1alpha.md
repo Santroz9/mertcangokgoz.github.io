@@ -5,7 +5,7 @@ date: 2014-03-22 15:48:56.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Twitter'ın 20.03.2014 Tarihinde TİB tarafından erişimin yasaklanması sebebiyle bu ufak programı sizlere tanıtmak istiyorum tarafımızdan yazılan
 ---
 

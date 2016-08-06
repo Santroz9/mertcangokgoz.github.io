@@ -5,7 +5,7 @@ date: 2015-06-10 15:55:55.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: "İnternet'de haddinden fazla html makalesi ve kodlama derslerinin olduğunun farkındayım ancak adam akıllı olarak bir ders serisine başlamak"
 ---
 

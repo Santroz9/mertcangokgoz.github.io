@@ -5,7 +5,7 @@ date: 2014-10-22 19:07:19.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: sisteminde hali hazırda gelen bi sistem güvenli bir yol aslında Secure Copy olan bir açılımı var ve hızlı bir şekilde dosya atabilirsiniz özellik
 ---
 Merhabalar hasta olmamdan dolayı 4 gündür makale yazıp yayınlayamıyordum ve bugün serumu yedikten sonra kendime geldim yeni bir makale ile de karşınızdayım konumuz **SCP** ile dosya transferi olacak **SCP** dediğimiz şey linux dosya sisteminde hali hazırda gelen bi sistem güvenli bir yol aslında Secure Copy olan bir açılımı var ve hızlı bir şekilde dosya atabilirsiniz özellikle yedek alıp atma derdi yaşayan arkadaşlar kullansınlar zamandan tasarruf ederler baya bi

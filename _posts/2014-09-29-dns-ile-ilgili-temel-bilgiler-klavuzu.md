@@ -5,7 +5,7 @@ date: 2014-09-29 20:59:17.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Dns nedir ne değildir ile başlamak istiyorum.DNS(Domain Name System) olarak yani alan adı sistemi diye ifade edilir.Yani webin can damarlarındandır
 ---
 Dns nedir ne değildir ile başlamak istiyorum.DNS(Domain Name System) olarak yani alan adı sistemi diye ifade edilir.Yani webin can damarlarındandır Alan adlarını düzenleyen ve tanımlayan bir tür rehberdir.Misal siz bi yere gideceksinizdir.Abi şu sokak nerde dersin ilerde solda der işte DNS deki olay bu farzı misal yahoo.com gideceksiniz.Tarayıcıya yazıyorsunuz arkada neler dönüyor bunu bir trace komutu ile görmeniz mümkün yapalım hemen

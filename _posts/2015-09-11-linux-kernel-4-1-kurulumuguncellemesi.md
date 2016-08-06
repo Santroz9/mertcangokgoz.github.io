@@ -5,7 +5,7 @@ date: 2015-09-11 03:32:47.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Kernel 4.1.6 Güncellemesi uzun zaman önce duyuruldu ve çıktığında büyük ses getirdi özellikle bir çok hatanın düzeltildiği bu çekirdek işinize oldukça
 ---
 

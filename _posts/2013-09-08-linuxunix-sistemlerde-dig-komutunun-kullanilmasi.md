@@ -5,7 +5,7 @@ date: 2013-09-08 23:52:30.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Dig(domain information groper)Linux sistemlerde DNS kayıtlarına bakmak için kullanılır.DNS adreslerine bakmak istediğiniz siteyi dig komutu
 ---
 

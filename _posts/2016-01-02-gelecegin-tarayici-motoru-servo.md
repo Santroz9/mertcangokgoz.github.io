@@ -3,7 +3,7 @@ layout: post
 title: Geleceğin Tarayıcı Motoru Servo
 date: 2016-01-02 13:06:42.000000000 +02:00
 type: post
-categories: Linux
+categories: linux
 description: Bundan yaklaşık 3 yıl önce mozilla tarafından başlatılan bir proje olan servo tarayıcıların yavaşlığına çare olmak için geliyordu. Rust
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: C ile Faktöriyel Hesaplama
 date: 2015-03-18
 type: post
-categories: Programlama
+categories: programlama
 description: C ile girilen bir sayının faktöriyel kaç olduğunu aşağıda ki yazmış olduğumuz kod aracılığı ile kolaylıkla bulabilirsiniz.
 ---
 

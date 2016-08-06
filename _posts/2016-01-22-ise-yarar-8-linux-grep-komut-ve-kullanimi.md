@@ -3,7 +3,7 @@ layout: post
 title: "İşe Yarar 8 Linux Grep Komut ve Kullanımı"
 date: 2016-01-22 20:32:11.000000000 +02:00
 type: post
-categories: Linux
+categories: linux
 description: Linux sistemlerde grep ile kolaylıkla arama yapabilirsiniz.Özellikle dosya içlerinde arama yapmak için kullanabilirsiniz. Grep aslında metin parçalamaya
 ---
 

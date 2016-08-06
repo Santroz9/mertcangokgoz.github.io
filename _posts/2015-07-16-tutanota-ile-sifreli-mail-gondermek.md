@@ -5,7 +5,7 @@ date: 2015-07-16 04:28:01.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Tutanota ücretsiz bir şekilde kullanıcılara şifreli e-posta gönderme imkanı sağlıyor.Göndereceğiniz mailleri şifreliyorsunuz mantıken karşı
 ---
 

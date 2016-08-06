@@ -5,7 +5,7 @@ date: 2015-08-06 13:17:15.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Bildiğiniz gibi Windows 10 kullanıcılara ücretsiz olarak yüklenme imkanı sağlanmıştı bunun altında bir neden arayanlar haklıydı aslında.
 ---
 Bildiğiniz gibi **Windows 10** kullanıcılara ücretsiz olarak yüklenme imkanı sağlanmıştı bunun altında bir neden arayanlar haklıydı aslında. **Microsoft** kullanıcılardan pek çok bilgi topluyordu yani resmen **NSA** çalışıyor gibi bir durum söz konusu idi sonra alman bir tane geliştirici **DoNotSpy10** adında bir uygulama yayınladı bu uygulama **Windows 10** işletim sisteminin sizden istediği 35+ güvenlik ve gizlilik ayarlarını kapatıyor.Böylelikle **Microsoft** sizin bilgilerinizi alamıyor.

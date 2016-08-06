@@ -5,7 +5,7 @@ date: 2015-01-20 12:52:25.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Python paketlerini kurmak istediğiniz zaman ilk başka googleye koşarsınız deli gibi paketi ararsınız bulmaya çalışırsınız milletin yazdıklarına
 ---
 **Python** paketlerini kurmak istediğiniz zaman ilk başka googleye koşarsınız deli gibi paketi ararsınız bulmaya çalışırsınız _milletin yazdıklarına bakarsınız nafile_ kuramazsınız sonra dönersiniz kaç para lan bi **python** paketi dersiniz kendi kendinize sonrada düşünüp durursunuz bu paketi harbiden ben nasıl bulucam kuran adam bunu nasıl kurmuş diye düşünürsünüz birazda işte bu noktada **pip** karşımıza çıkıyor **Python** paketlerinin kurulumunda iş gören bir uygulama her türlü _python_ paketlerini arayıp bulup otomatik olarak kurar.Ama ilk önce **pip** uygulamasını sisteminize kurmanız lazım

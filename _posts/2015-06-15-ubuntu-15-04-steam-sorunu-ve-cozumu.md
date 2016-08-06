@@ -5,7 +5,7 @@ date: 2015-06-15 12:55:20.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu 15.04 üzerinde steam her zaman ki gibi çalışır ya dedim açmaya çalıştım.Sonradan hata vermediğini ama açılmadığını fark etmem ile
 ---
 

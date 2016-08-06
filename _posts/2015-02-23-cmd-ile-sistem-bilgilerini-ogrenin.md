@@ -5,7 +5,7 @@ date: 2015-02-23 14:39:00.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: "İlk kez windows bir sistemde komut satırı ile bilgi edinmenin bu kadar kolay olduğunu öğrendim ve yazmak istedim çünkü hiçbir program kurmadan"
 ---
 İlk kez **windows** bir sistemde komut satırı ile bilgi edinmenin bu kadar kolay olduğunu öğrendim ve yazmak istedim çünkü hiçbir program kurmadan komutlarla anakart bilgisini öğrenebiliyorsunuz.Mesela sürücüleri kuracaksanız yada güncellemek istiyorsanız işinize oldukça yarayacak.

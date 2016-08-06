@@ -5,7 +5,7 @@ date: 2015-06-19 19:19:43.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Birinci Dersimizde temel HTML kodlarına giriş yaptık ve kodların neler olduğundan kısaca bahsettik birer adım daha ilerleyerek devam
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: DeepWeb/DarkNet Hakkında Her Şey
 date: 2013-11-27 02:40.000000000 +02:00
 comments: true
-categories: Genel
+categories: genel
 description: deep web internetin belkide yarısından fazlasını oluşturuyor internet için buz dağının görünmeyen tarafı
 ---
 

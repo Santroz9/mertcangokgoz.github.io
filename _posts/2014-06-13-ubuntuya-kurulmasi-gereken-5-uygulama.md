@@ -5,7 +5,7 @@ date: 2014-06-13 01:38:31.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntunuzu kurdunuz aklınıza kuracak birşey gelmiyor ise doğru yere bakıyor olacaksınız.Ubuntunun güzel yanlarından birisi bahsettiğim
 ---
 Ubuntunuzu kurdunuz aklınıza kuracak birşey gelmiyor ise doğru yere bakıyor olacaksınız.Ubuntunun güzel yanlarından birisi bahsettiğim gibi az programa ihtiyaç duymamızdı işte 5 adet her işimize yarayacak olan uygulamaların kurulumuna sırasıyla verilen adımları uygulamanız programları kurmanız için yeterli olacaktır.

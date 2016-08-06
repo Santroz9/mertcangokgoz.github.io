@@ -3,7 +3,7 @@ layout: post
 title: PHP ile Cross-Origin Etkinleştirme
 date: 2015-12-04 12:30:53.000000000 +02:00
 type: post
-categories: Programlama
+categories: programlama
 description: CDN yada uzak dizinden dosya kullandıran sitelerdeki en büyük sorun tarayıcıların uzak dizin hatası vermesidir.CDN tarafında tuttuğunuz
 ---
 

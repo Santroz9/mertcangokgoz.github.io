@@ -5,7 +5,7 @@ date: 2015-05-12 12:24:37.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: DDos(Distributed Denial-Of-Service) sistemleri etkisiz hale getirmek için uzun yıllardan beri kullanılan bir teknik olarak karşımıza çıkmaktadır
 ---
 DDos(Distributed Denial-Of-Service) sistemleri etkisiz hale getirmek için uzun yıllardan beri kullanılan bir teknik olarak karşımıza çıkmaktadır ve son zamanlarda saldırı türleri oldukça gelişmiştir.Saldırıların çoğu Application Layer katmanına yapılırken aynı zamanda geliştirilen yeni teknikler ile saldırılar direk olarak **Network ve Transport** katmanlarınada yapılabilmektedir.Bu saldırılardan kurtulmak öncelikle o kadar kolay değil bu konuda profesyonel bir firma ile çalışmıyorsanız saldırı olduğunda yapacak pek birşeyiniz yok o yüzden firmanızı iyi seçmeniz gerekiyor.

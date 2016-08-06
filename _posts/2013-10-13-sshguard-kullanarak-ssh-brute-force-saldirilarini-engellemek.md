@@ -5,7 +5,7 @@ date: 2013-10-13 18:20:42.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: SSHGuard C dili ile yazılmış hızlı ve hafif bir uygulamadır günlük aktiviteleri takip ederek büyük çaptaki saldırılara karşı sisteminizi korumaya
 ---
 

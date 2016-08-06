@@ -5,7 +5,7 @@ date: 2015-02-20 13:45:51.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Wordpress de uzun bir süre önce otomatik güncelleme özelliği gelmişti pek çok arkadaşda bundan dert yanıyordu yok tema uyumsuzlukları eklenti
 ---
 **Wordpress** de uzun bir süre önce otomatik güncelleme özelliği gelmişti pek çok arkadaşda bundan dert yanıyordu yok tema uyumsuzlukları eklenti hataları vs uğraşıyoruz **otomatik** güncellemeyi nasıl kapatabiliriz deniliyordu wordpress ekibi sizleri düşünerek ufak bir iyilik yapmışlar aslında

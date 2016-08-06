@@ -5,7 +5,7 @@ date: 2013-10-16 04:54:32.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Birinin sizin sunucunuza erişmeye çalıştığını nasıl anlarsınız genel olarak loglara bakarsınız ancak bu uygulama onu bile yapmamanızı sağlayacak
 ---
 Birinin sizin sunucunuza erişmeye çalıştığını nasıl anlarsınız ? genel olarak loglara bakarsınız ancak bu uygulama onu bile yapmamanızı sağlayacak python ile yazılmış bu yazılım saldırganı sitenizden uzak tutmaya yetecek gibi gözüküyor.

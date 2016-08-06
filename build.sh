@@ -10,17 +10,21 @@ fi
 set -e
 
 # derle bro
+echo "+===================================+"
 echo "Site Olusturuluyor"
 echo "+===================================+"
 bundle exec jekyll build
 touch .nojekyll
+echo "+===================================+"
 echo "Statik Dosyalar Olusturuldu"
 echo "+===================================+"
 
 # html kodlarini guzellestir
+echo "+===================================+"
 echo "htmlbeautifier Calistiriliyor"
 echo "+===================================+"
 time find ./_site -name "*.html" -exec bundle exec htmlbeautifier {} \;
+echo "+===================================+"
 echo "htmlbeautifier Tamamlandi"
 echo "+===================================+"
 

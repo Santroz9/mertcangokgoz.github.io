@@ -5,7 +5,7 @@ date: 2015-07-07 23:55:29.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: Adsense hesabı olan arkadaşlar bilirler bu platformda da spam yapan ve googlenin gözünden kaçan politikaya uyumsuz pek çok reklam gösterilmekte
 ---
 **Adsense** hesabı olan arkadaşlar bilirler bu platformda da **spam** yapan ve **googlenin** gözünden kaçan politikaya uyumsuz pek çok reklam gösterilmekte bizde bunun için bir liste hazırladık ve yayınlamaya karar verdik liste güncellenmeye devam edecek.Sağlık siteleri arasında aşağıdaki liste gibi birçok rahatsız edici reklam veren var **+18** politikası kapalı olsa bile karşınıza çıkabiliyorlar.Siteniz eğer bu sektörde değilse kullanıcılar için hiç de hoş olmayacaktır bu yüzden engellemenizi tavsiye ediyorum.Ayrıca kontrol ettiğimde çoğu sitenin **TBM'leri** oldukça düşüktü

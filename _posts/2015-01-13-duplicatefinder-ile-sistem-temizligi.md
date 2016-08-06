@@ -5,7 +5,7 @@ date: 2015-01-13 15:34:37.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Geçtiğimiz günlerde Ubuntu için ikiz dosya bulup sistemi
 ---
 Geçtiğimiz günlerde Ubuntu için ikiz dosya bulup sistemi temizleyen uygulamayı paylaşmıştık bugün ise Windows için ikiz dosya bulucu yani sistem temizleyiciyi anlatacağım programın amacı sisteminizin sizin belirttiğiniz dosya yolunda eşit büyüklükde(ki buda baytı baytına kadar eşit olan) olan dosyaları bulup size gösterecektir hacı ne yapayım bak bunlar aynı diyecek sizde ardından istediğinizi yapacaksınız

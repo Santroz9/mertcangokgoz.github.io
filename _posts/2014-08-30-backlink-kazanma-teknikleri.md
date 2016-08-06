@@ -5,7 +5,7 @@ date: 2014-08-30 01:55:19.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: Şimdi hangi kelimede ne yapacağınızı öncelikle belirleyin teknoloji siteniz var diyelim kelimemizide "android" seçelim zorlu bir kelime
 ---
 Uzun zamandır [SEO](https://mertcangokgoz.com/) ile alakalı birşeyler yazmıyordum bunun nedenide googlenin sanki güncelleme yaptığı yada yapacağı izlenimini vermesi bazı kelime ve sektörlerde yapılan ciddi değişiklikler ve birazda benim gözlem yapmam gerekiyordu.Şimdi sizlere herkesin merak ettiği kelime odaklı yükselmenin tekniklerini vermek istiyorum aslına bakarsanız yapacaklarımız kelime bazlı pek fazla olmayacak deli gibi de spam yapıp backlink kasmayacağız herşeyin dozu çok önemli

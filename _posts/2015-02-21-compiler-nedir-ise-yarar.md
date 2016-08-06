@@ -5,7 +5,7 @@ date: 2015-02-21 21:45:14.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Bir Programcının işini kolaylaştıran ve yazılan herhangi bir dilin bilgisayarın anlayabileceği bir biçime (0 ve 1) çeviren programdır.Bunun
 ---
 

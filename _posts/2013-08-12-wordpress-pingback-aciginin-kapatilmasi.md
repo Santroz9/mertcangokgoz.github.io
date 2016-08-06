@@ -5,7 +5,7 @@ date: 2013-08-12 15:36:30.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: wordpress in bazı sürümlerinde olan ve wordpress kullanıcılarını etkileyen önemli bir açıktır bu açık sayesinde aslında fazla birşey yapılamaz
 ---
 <p><strong>wordpress</strong> in bazı sürümlerinde olan ve wordpress kullanıcılarını etkileyen önemli bir açıktır bu açık sayesinde aslında fazla birşey yapılamaz gibi görülsede ddos dan router hacking e kadar pek çok şeyin yapılabildiğini metasploit ile ufak bir <strong>exploit</strong> yardımıyla pek çok şey yapılabiliyor.</p>

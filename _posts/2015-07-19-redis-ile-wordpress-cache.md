@@ -5,7 +5,7 @@ date: 2015-07-19 19:42:49.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Redis Key/value türünde çalışan bir yüksek performanslı bir cache sistemidir NoSQL veri yapısına sahiptir.Veriyi bellek üzerinde tutmak
 ---
 

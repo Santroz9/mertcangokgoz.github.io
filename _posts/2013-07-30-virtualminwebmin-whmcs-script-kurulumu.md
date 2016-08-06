@@ -5,7 +5,7 @@ date: 2013-07-30 06:04:21.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Belkide benim en sevdiğim özelliklerden bir tanesi de bu tek tık ile uygulamaları kurabiliyorsunuz bu özelliği virtualmin/webmin de görmek
 ---
 

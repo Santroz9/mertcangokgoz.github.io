@@ -5,7 +5,7 @@ date: 2014-07-23 22:51:00.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: LEMP Paketi genellikle dinamik web siteleri ve uygulamalarını barındırmak amacıyla arka plan da çalışmasıyla ünlenmiş bir yazılım topluluğu
 ---
 **LEMP** Paketi genellikle dinamik web siteleri ve uygulamalarını barındırmak amacıyla arka plan da çalışmasıyla ünlenmiş bir yazılım topluluğu olarak adlandırabiliriz ve tamamen açık kaynak kodlu bir yazılım topluluğudur. ve ismini kurduğu açık kaynak kodlu programlardan almaktadır.

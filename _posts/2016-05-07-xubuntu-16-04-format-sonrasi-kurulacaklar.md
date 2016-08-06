@@ -3,7 +3,7 @@ layout: post
 title: Xubuntu 16.04 Format Sonrası Kurulması Gerekenler
 date: 2016-05-07
 type: post
-categories: Linux
+categories: linux
 description: Ubuntu için geçtiğimiz ay yeni sürüm yayınlandı ve pek çok paket güncellendi eksiklikleri giderildi diğer
 ---
 

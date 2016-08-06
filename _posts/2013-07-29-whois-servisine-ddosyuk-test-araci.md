@@ -5,7 +5,7 @@ date: 2013-07-29 00:23:31.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Servis dışı bırakma saldırıları günümüzde oldukça fazla gerçekleştirilen ve etkisi yüksek olan saldırı türüdür. Bu saldırı sonucunda
 ---
 

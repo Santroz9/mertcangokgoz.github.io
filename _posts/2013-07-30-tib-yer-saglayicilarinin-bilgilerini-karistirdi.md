@@ -5,7 +5,7 @@ date: 2013-07-30 22:20:27.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Ufak bir hosting işi için belgeleri kontrol etmek istedim ve direk TİB in web sitesine girdim ve birde ne göreyim bana verilen belge
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: OpenVPN El ile Güncelleme İşlemi
 date: 2016-05-22
 type: post
-categories: Linux
+categories: linux
 description: Bir sürü açık ve bir sürü sıkıntısının çıktığı OpenSSL den nasibini bizim
 ---
 

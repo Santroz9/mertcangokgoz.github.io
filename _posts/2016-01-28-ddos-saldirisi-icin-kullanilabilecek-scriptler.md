@@ -3,7 +3,7 @@ layout: post
 title: Ddos Saldırısı İçin Kullanılabilecek Scriptler
 date: 2016-01-28 15:12:36.000000000 +02:00
 type: post
-categories: Güvenlik
+categories: guvenlik
 description: Vakti zamanında kullanmış olduğum ve halen çalışmakta olan Ddos kaynak kodlarını artık paylaşma zamanın geldiğini düşünmekteyim.C dili ile yazıldığı
 ---
 

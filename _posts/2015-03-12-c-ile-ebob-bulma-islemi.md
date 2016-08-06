@@ -3,7 +3,7 @@ layout: post
 title: C ile Ebob Bulma İşlemi
 date: 2015-03-12
 type: post
-categories: Programlama
+categories: programlama
 description: C ile 2 sayının en büyük ortak bölenini yani Ebob'unu Bulma İşlemini kolay bir şekilde aşağıdaki kod parçacığı ile
 ---
 

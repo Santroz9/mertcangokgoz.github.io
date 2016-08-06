@@ -5,7 +5,7 @@ date: 2014-08-09 12:12:29.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Centos web panelimizi ilk kez kuruyorsak sistemimizde nameserver ayarlarınıda haliyle yapmamız gerekiyor.Bunun için centos web panel kullanıcıyı
 ---
 

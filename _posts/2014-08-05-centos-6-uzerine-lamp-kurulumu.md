@@ -5,7 +5,7 @@ date: 2014-08-05 16:03:10.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Centos 7 üzerine LEMP Kurulumu gerçekleştirdiğimiz konumuzu görmüşsünüzdür.Centos 6 kullanmak isteyen arkadaşlarımızıda unutmadık haliyle
 ---
 **Centos 7** üzerine **LEMP** Kurulumu gerçekleştirdiğimiz konumuzu görmüşsünüzdür.Centos 6 kullanmak isteyen arkadaşlarımızıda unutmadık haliyle onlar içinde bir rehber hazırlayalım dedik hiç bir panel kullanmadan **LAMP** kurulumu gerçekleştireceğiz panel gereksiz diye düşünmekteyim. [LAMP](https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29) nedir diyecek olursanız web server için kuracağımız programların isminin baş harflerinden oluşmuştur.

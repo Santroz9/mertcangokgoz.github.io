@@ -5,7 +5,7 @@ date: 2015-04-13 15:05:53.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Normalde bunun adı VPS SIMple ancak bu arkadaşlar ple ekini akıp VPSSIM yapmışlar.İyi de olmuş adamlar bizim yerimize çoğu uygulamayı tek
 ---
 Normalde bunun adı **VPS SIM** ple ancak bu arkadaşlar ple ekini akıp **VPSSIM** yapmışlar.İyi de olmuş adamlar bizim yerimize çoğu uygulamayı tek bir scriptde kurulum için toparlamış ve hazırlamışlar bu script sayesinde hiç uğraşmadan Web sunucunuzu kurup sitenizi yayınlayabilirsiniz.Script Sadece Centos işletim sistemlerinde çalışmaktadır tabi onlar içerisinde ise güncel olan 2 adet sürüm tercih edilmiş **CentOS 6** ve **CentOS 7** bu iş için kullanabilirsiniz.

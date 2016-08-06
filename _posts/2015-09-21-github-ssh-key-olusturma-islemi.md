@@ -5,7 +5,7 @@ date: 2015-09-21 15:48:47.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Github hesabınız varken genelde bir proje yada dosya eklemek isterseniz uzun uzun kullanıcı adı ve şifrenizi girmeniz gerekiyor.Ben bununla
 
 ---

@@ -5,7 +5,7 @@ date: 2014-08-22 12:16:37.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Blogumda bu Python nedir diye tanımlama yaparken versiyon 3 kullanacağımızdan bahsetmiştim ancak biraz düşündükten sonra 2 yi öğrenmeniz
 ---
 Blogumda bu [Python nedir](https://mertcangokgoz.com/python-nedir.html) diye tanımlama yaparken versiyon 3 kullanacağımızdan bahsetmiştim ancak biraz düşündükten sonra 2 yi öğrenmeniz ve sonrasında yavaş yavaş 3 e geçmeniz sizin için çok kolay olacaktır.Sonuç itibariyle python 2 yi bileceğiniz için python 3 e adaptasyon işleminiz daha kolay olacaktır.Bahsettiğim gibi modüllerin %80i [python 2](https://www.python.org/) ye yazılmaktadır.

@@ -5,7 +5,7 @@ date: 2014-08-17 05:07:54.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: CENTOS ve RHEL 7 seçipde kullanan arkadaşların belkide sorunlarından bir taneside extra repoların yüklenmesinin nasıl olduğu çünkü centos/rhel 6 serisine
 ---
 **CENTOS** ve **RHEL**  **7** seçipde kullanan arkadaşların belkide sorunlarından bir tanesi de extra repoların yüklenmesinin nasıl olduğu çünkü centos/rhel 6 serisine bakıldığı zaman 7 de tamamen kurulumlarının farklı olduğunu görmekdeyiz.Aslında centos/rhel 6 ile neredeyse aynı denebilirdi ancak repoların hem versiyon farklılığı hem kullandıkları parametreler standartlara göre değişik şimdi öncelikle bize centos 7 bir sistem lazım ki şuanda kullandığım web server centos 7

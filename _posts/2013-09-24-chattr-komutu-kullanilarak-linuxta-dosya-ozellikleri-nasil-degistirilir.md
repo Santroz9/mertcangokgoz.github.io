@@ -5,7 +5,7 @@ date: 2013-09-24 18:27:34.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: chattr ext2/ext3/ext4 tabanlı dosya sisteminde bulunan ve belli özellikleri ayarlamanız için olanak sağlayan bir linux sistem komutudur
 ---
 

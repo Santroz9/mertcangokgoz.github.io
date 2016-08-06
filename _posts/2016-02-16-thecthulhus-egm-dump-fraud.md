@@ -3,7 +3,7 @@ layout: post
 title: (EN)TheCthulhus EGM Dump Fraud
 date: 2016-02-16
 type: post
-categories: Güvenlik
+categories: guvenlik
 description: According to turkey time 05.02 PM, An English security activist @TheCthulhu published data that he claims
 ---
 

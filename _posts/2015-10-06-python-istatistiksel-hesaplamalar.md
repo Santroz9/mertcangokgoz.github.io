@@ -5,7 +5,7 @@ date: 2015-10-06 14:28:20.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Geçtiğimiz günlerde python ile yazmış olduğum.Betimsel İstatistiki hesaplamalar yapmaya yarayan örnek bir uygulamadır.Uygulama ile Mod,Medyan ve
 ---
 

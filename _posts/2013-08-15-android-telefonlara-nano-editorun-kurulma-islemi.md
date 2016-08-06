@@ -5,7 +5,7 @@ date: 2013-08-15 20:45:50.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Android telefonlaradki o sıkıcı text editörden sıkıldıysanız işte bu makalemiz tam size göre ancak baştan belirtiyim ROOT gerektirir ve oluşabilecek
 ---
 ![ss (2013-08-15 at 08.44.38)](/assets/ss-2013-08-15-at-08.44.381.jpg)

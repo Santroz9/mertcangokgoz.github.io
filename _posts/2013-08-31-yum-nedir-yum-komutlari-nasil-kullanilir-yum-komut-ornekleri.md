@@ -5,7 +5,7 @@ date: 2013-08-31 00:17:05.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Yum(Yellowdog Updater Modified)rpm tabanlı bir paket yöneticisidir.Redhat,centos,fedora vb bir çok farklı Linux işletim sistemi
 ---
 Yum nedir ?

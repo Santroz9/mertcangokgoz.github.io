@@ -5,7 +5,7 @@ date: 2015-03-21 14:45:46.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Her hangi bir kontrol paneli kullanmayan yada cpanel den farklı bir panel kullanan arkadaşların en büyük sıkıntılarından bir tanesi sunucudan
 ---
 Her hangi bir kontrol paneli kullanmayan yada cpanel den farklı bir panel kullanan arkadaşların en büyük sıkıntılarından bir tanesi sunucudan yedek almakdır hem veritabanı hemde ana dizini yedek almak gerekiyor herhangi bir arayüzümüz olmayacak tamamen SSH üzerinden yedek alacağız.

@@ -5,7 +5,7 @@ date: 2014-07-24 17:55:21.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: VestaCP nin belkide en kötü yanı mail server ayarlamalarını tam yapmaması ve firewall kurallarına portları eklememesi hal böyle
 ---
 **VestaCP** nin belkide en kötü yanı mail server ayarlamalarını tam yapmaması ve firewall kurallarına portları eklememesi hal böyle olunca sorun vuku buluyor ve sonrasında ne mail gönderebiliyoruz nede mail alabiliyoruz.Ama bu sorunun çözümü oldukça basit ben bu kurulumu yaparken Projelerimden biri olan **VPN** Sisteminin paneli olarak vesta kullanmayı seçtim çünkü **SSH** üzerinden tek tek Nginx mysql ve exim ile devecot ayarlarını yapacak vaktim yoktu.

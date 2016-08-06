@@ -5,7 +5,7 @@ date: 2015-03-03 14:44:12.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Windows sistemlerde yüklü gelen güvenlik duvarını Windows Firewall Control uygulaması ile kolaylıkla kontrol edebilir ve gereken kuralları
 ---
 **Windows** sistemlerde yüklü gelen güvenlik duvarını **Windows Firewall Control** uygulaması ile kolaylıkla kontrol edebilir ve gereken kuralları bir tık ile ayarlayabilirsiniz.Normal güvenlik duvarının ayarlarına normal bir kullanıcı kafa yormayacaktır bu uygulamayı geliştiren arkadaşlarımızda bunu düşünerek yola çıkmışlar arayüzünü oldukça basit tutmuşlar kuralları belirlemişler yapılacak herşeyi ellerinden geldiğince yapmışlar uygulama windows 7,windows 8,windows 8.1 ve windows server 2012 sürümlerinde sorunsuz çalışmaktadır.Uygulama son güncelleme ile . **NET Framework 4.5.2** için derlenmiş hızlı ve daha **stabil** çalışan bir uygulama ortaya çıkmış.

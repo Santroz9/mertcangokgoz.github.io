@@ -5,7 +5,7 @@ date: 2014-10-02 21:47:43.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Akıllarda soru işaretleri hala var iken ve Windows 9 dillerden düşmüyorken google bir süpriz yaparak Windows 10 adında bir sürümü tanıttı ve
 ---
 Akıllarda soru işaretleri hala var iken ve Windows 9 dillerden düşmüyorken google bir süpriz yaparak Windows 10 adında bir sürümü tanıttı ve Teknik önizleme sürümünü internete yayınladı.İnsanın başına ne gelirse ya meraktan yada .. gelir demişler haklılar aslında Windows 8 de Microsoft firması Başlat menüsünü "kaldırıyorum kardeşim" demiş sonrada millet yana döne "nasıl olurda kaldırırsın lan sen bu başlat menüsünü anamız bacımız gardaşımız ne yapacak lan"demiştir bunları bir kenara bırakırsak aslında Başlet menüsünün kaldırılması iyi olmuştu.Windows tuşununda bir işe yaradığını çoğu insan anlamıştı en azından(XP ve 7 kullananlar bilmez.) Şimdi Ne yaptık Sistemimize Windows 10 u kurduk ve gezdik tozduk takıldık biraz bu gezme sırasında gözümüze çarpan değişiklikleride sizlere göstermek istiyorum.

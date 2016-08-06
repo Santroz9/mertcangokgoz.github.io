@@ -3,7 +3,7 @@ layout: post
 title: Privatoria - Güvenli ve Gizli
 date: 2015-10-30 14:24:37.000000000 +03:00
 type: post
-categories: Güvenlik
+categories: guvenlik
 description: Geçtiğimiz günlerde ise ortaya çıkan yeni bir oluşum güvenli internetde gezinme yöntemlerimiz arasına bir yenisini daha ekledi Privatoria adıyla
 
 ---

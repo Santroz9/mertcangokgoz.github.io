@@ -5,7 +5,7 @@ date: 2015-07-10 14:49:58.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Javascript ile bu örneğimizde son kart yöntemini göreceğiz
     her girdiğimiz sayı bir sonrakinin arkasından gelecek ve sıralı bir şekilde devam
 ---

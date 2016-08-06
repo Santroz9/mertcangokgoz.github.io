@@ -5,7 +5,7 @@ date: 2013-09-06 21:10:59.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Sitelerinde yüksek performans isteyenlerin olmazsa olmazı memcached,memcache sayesinde veritabanı üzerindeki yükleri azaltarak gerekse dinamik
 ---
 

@@ -5,7 +5,7 @@ date: 2015-02-13 14:30:18.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: RoundCube Webmail açık kaynak kodlu ücretsiz tarayıcı tabanlı bir IMAP uygulaması RoundCube aynı zamanda kullanıcı dostu olduğu için kullanırken
 ---
 **RoundCube Webmail** açık kaynak kodlu ücretsiz tarayıcı tabanlı bir **IMAP** uygulaması **RoundCube** aynı zamanda kullanıcı dostu olduğu için kullanırken pek bir sıkıntı çıkartmıyor ve aradığınız herşeyi kolaylıkla bulabiliyorsunuz üstelik fazla hızlı bir arayüzü var uzatmadan kurulumu yapalım.

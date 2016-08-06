@@ -5,7 +5,7 @@ date: 2013-07-29
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: OVH temmuz ayının 25 inde kullanıcılarına gerçekten çok cazip fiyatlarla sunucu sağlamaya başladı özellikle düşük ücretli bu sunucular VDS yada
 ---
 

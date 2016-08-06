@@ -5,7 +5,7 @@ date: 2015-08-21 19:13:25.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: MacType keşfedeli sanırım yaklaşık 14 saat oluyor dün gece tam bilgisayarı kapatırken fark ettim MacOSX deki GDI yi windowsda nasıl kullanırız
 
 ---

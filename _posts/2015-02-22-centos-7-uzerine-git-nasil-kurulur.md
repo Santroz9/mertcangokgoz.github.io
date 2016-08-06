@@ -5,7 +5,7 @@ date: 2015-02-22 14:38:09.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Git geliştiricilerin büyük bir çoğunluğunun kullandığı versiyon kontrol uygulamasıdır.Hızlı ve kullanışlı olmasıyla popülerliğini korumakta ve
 ---
 

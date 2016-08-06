@@ -3,7 +3,7 @@ layout: post
 title: "İşe Yarar 3 Linux Konsol Komutu"
 date: 2016-01-18 11:10:17.000000000 +02:00
 type: post
-categories: Linux
+categories: linux
 description: Sürekli olarak bilgisayar başında SSH ile vakit geçiriyorsanız ve konsol sizin için vazgeçilmez ise bu günkü ipuçları sizin işinize oldukça fazla
 ---
 

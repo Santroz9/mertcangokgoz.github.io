@@ -5,7 +5,7 @@ date: 2015-03-02 18:15:12.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Benimde oldukça sevdiğim ve kullanmaktan keyif aldığım virtualminin kurulumunu göstermek istiyorum.Virtualmin kurulu sunucunuzda birden çok site
 ---
 Benimde oldukça sevdiğim ve kullanmaktan keyif aldığım virtualminin kurulumunu göstermek istiyorum.Virtualmin kurulu sunucunuzda birden çok site barındırabileceğiniz gibi ayarlamalarınıda kolaylıkla yapabileceksiniz.Arayüz bakımından zor olsada kullanılabilirlik ve stabilite bakımından oldukça iyi tamamen ücretsiz olan virtualmin hakkında daha fazla bilgi almak isterseniz [Resmi sitesini](http://www.virtualmin.com/) ziyaret edebilirsiniz.

@@ -5,7 +5,7 @@ date: 2013-08-26 16:36:49.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Merhaba arkadaşlar beklide wordpress in en önemli ve yapılması gereken işlemlerinden birisidir performans ayarları kullanıcıya hızlı bir şekilde
 ---
 

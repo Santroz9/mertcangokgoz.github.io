@@ -5,7 +5,7 @@ date: 2015-07-14 20:35:00.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: İnternet üzerinde kurumlar ve kişiler tarafından yakalanmış olan HackingTeam'in kullandığı nodeler aşağıda listelenmiştir.İp adresleri içerisinde
 ---
 

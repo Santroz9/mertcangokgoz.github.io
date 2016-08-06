@@ -5,7 +5,7 @@ date: 2015-12-07 11:45:52.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Javascript dilinde basit algoritmaları gerçekleştirmek oldukça kolaydır.Pek çok dilde olduğu gibi javascriptdede yazacağız artık standartlaşmaya
 ---
 

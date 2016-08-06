@@ -5,7 +5,7 @@ date: 2015-07-11 12:47:55.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: PHP ile pek çok şey yapılabileceği gibi sayfalar arasındaki verilerde parçalanarak alınabilmekte.Bu örnek de ben regex kullandım ve bir kaç
 ---
 

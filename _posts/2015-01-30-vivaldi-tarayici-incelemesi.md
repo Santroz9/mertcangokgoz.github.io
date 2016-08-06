@@ -5,7 +5,7 @@ date: 2015-01-30 14:40:57.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Operanın Eski CEO'su Jon von Tetzchner geliştirdiği vivaldi tarayıcı ile benim dikkatimi çekti geçtiğimiz günlerde yayınlanan vivaldi tarayıcısı
 ---
 ![vivalgianagorsel1](/assets/vivalgianagorsel1.jpg)

@@ -5,7 +5,7 @@ date: 2014-09-19 16:20:16.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: BleachBit uygulaması ilk olarak sisteminizin temizliğinde işe yarar gereksiz dosyaları temizler.Böylelikle sisteminizde ciddi anlamda boş
 ---
 BleachBit uygulaması ilk olarak sisteminizin temizliğinde işe yarar gereksiz dosyaları temizler.Böylelikle sisteminizde ciddi anlamda boş yer temin edebilirsiniz.Bunun yanı sıra sisteminizdeki boş disk alanınıda temizleyerek eski dosyalarınızın geri getirilmesini zorlaştırabilirsiniz.Ben bu uygulamayı ilk kullandığımda yaklaşık bi 5 GB gereksiz dosya bulunca anladım aradığım programın bu olduğunu ve sizlerede tavsiye ediyorum.Ücretsizdir ve reklam içermez insan şaşırıyor ücretsizde nasıl reklam olmaz diye ama yok güzel bir olay

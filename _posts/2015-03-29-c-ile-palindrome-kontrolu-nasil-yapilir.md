@@ -3,7 +3,7 @@ layout: post
 title: C ile Palindrome Kontrolü Nasıl Yapılır
 date: 2015-03-29
 type: post
-categories: Programlama
+categories: programlama
 description: C ile girilen bir sayının palindrome olup olmadığını bulmak istiyor olabilirsiniz.Bunu yapmak için
 ---
 

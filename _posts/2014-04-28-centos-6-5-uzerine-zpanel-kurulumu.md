@@ -5,7 +5,7 @@ date: 2014-04-28 17:34:29.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Cpanele alternatiflerden olan ve kullanıcıya ücretsiz olarak dağıtılan zpanel kullanışlı olmasıyla beraber cpanele benzerliğiyle benim
 ---
 Cpanele alternatiflerden olan ve kullanıcıya ücretsiz olarak dağıtılan zpanel kullanışlı olmasıyla beraber cpanele benzerliğiyle benim dikkatimi çekti. Sunucunuzu yönetmek istiyorsanız ücretsizler arasında webminden sonra en iyi kontrol paneli diyebilirim. Kurulumu Sunucunuzun işlemci ve internet hızına bağlı olarak 45 dakika kadar sürebilir sabırlı olmanızı tavsiye ediyorum.

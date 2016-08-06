@@ -5,7 +5,7 @@ date: 2015-02-03 14:39:48.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Centos işletim sistemlerinde eskisi gibi iptables özelliği olmadan geliyor yerine firewalld kullanılmış durumda ancak çoğu kullanıcı firewalld
 ---
 Centos işletim sistemlerinde eskisi gibi **iptables** özelliği olmadan geliyor yerine **firewalld** kullanılmış durumda ancak çoğu kullanıcı firewalld alışabilmiş değil hal böyle olunca yerine **iptables** kullanmak isteyen kullanıcıların sayısı oldukça fazla ilk olarak **centos** sistemimizin güncel olup olmadığına bakıyoruz ve mümkünse son sürüm olarak herşeyin yüklenmiş olduğuna özen gösteriyoruz

@@ -3,7 +3,7 @@ layout: post
 title: C Programlamaya Giriş Final Ders Notları
 date: 2015-05-22
 type: post
-categories: Programlama
+categories: programlama
 description: Başkent Üniversitesi Yönetim Bilişim Sistemleri Bölümü C Programlamaya giriş Prof. Dr. Afet GOLAYOĞLU Final Çalışma Ders
 ---
 

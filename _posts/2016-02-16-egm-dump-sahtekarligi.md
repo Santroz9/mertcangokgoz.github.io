@@ -3,7 +3,7 @@ layout: post
 title: EGM Dump Sahtekarlığı
 date: 2016-02-16
 type: post
-categories: Güvenlik
+categories: guvenlik
 description: Saat 17.02 sularında ingiliz bir adimiz Emniyet müdürlüğüne ait olduğunu iddaa ettiği bir takım
 ---
 

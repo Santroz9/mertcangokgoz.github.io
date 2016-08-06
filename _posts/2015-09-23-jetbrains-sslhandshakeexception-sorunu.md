@@ -5,7 +5,7 @@ date: 2015-09-23 16:10:14.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Geçtiğimiz günlerde JetBrains ürünlerini kurarken karşılaştığım bir hatayı nasıl çözdüğümü belirtmek isterim.Aslında bu hata son sürüm kurulum
 ---
 

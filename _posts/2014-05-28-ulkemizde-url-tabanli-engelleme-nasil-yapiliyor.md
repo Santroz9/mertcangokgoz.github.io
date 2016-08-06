@@ -5,7 +5,7 @@ date: 2014-05-28 01:23:27.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Bloğumda düşüncelerimi bilgi birikimimi yayınlamayı planlarken bunu akademik bir url ile yapmayı planlıyordum.Ancak internetde gördüm ki biraz
 ---
 

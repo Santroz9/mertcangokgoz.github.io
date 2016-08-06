@@ -5,7 +5,7 @@ date: 2013-08-14 22:22:34.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: linuxun temel komutları arasında gösterilebileceğimiz tar ssh üzerinden bizlere dosya sıkıştırma işlemlerini yapmamıza olanak sağlıyor pratik
 ---
 <p>belkide linuxun temel komutları arasında gösterilebileceğimiz tar ssh üzerinden bizlere dosya sıkıştırma işlemlerini yapmamıza olanak sağlıyor pratik kolay ve hızlı olması açısından gui li sistemlerden iyidir ve en sorunsuzudur.</p>

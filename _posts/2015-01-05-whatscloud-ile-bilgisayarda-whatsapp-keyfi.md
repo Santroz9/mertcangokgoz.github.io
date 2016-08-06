@@ -5,7 +5,7 @@ date: 2015-01-05 15:44:06.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: yaklaşık 2 hafta önce whatsapp yi bilgisayara birşey kurmadan nasıl kullanabileceğime bakıyordum gezinirken xda da bir konu gözüme çarptı ve
 ---
 yaklaşık 2 hafta önce whatsapp yi bilgisayara birşey kurmadan nasıl kullanabileceğime bakıyordum gezinirken xda da bir konu gözüme çarptı ve gerçektende güzel bir uygulama şahsen bu uygulamadan önce whatsapp da çile çekiyordum bilgisayarda klavyeden yazmak kadar kolay birşey yoktur haliyle ve dokunmatik telefonda bunu yapmak geçekten zor oluyor arada yanlış şeyler yazabiliyoruz sorunlarda sorunlar.Şimdi bu uygulamayı açıklamak istiyorum size

@@ -15,9 +15,6 @@ layout: defaultcategory
 
 <h1 class="title">{{ page.title }}</h1>
 
-{% unless page.content == '' %}
-  <p>{{ page.content }}</p>
-{% endunless %}
 {% if page.paginator %}
 {% assign paginator = page.paginator %}
 {% endif %}

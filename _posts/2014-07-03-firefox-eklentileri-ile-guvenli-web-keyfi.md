@@ -5,7 +5,7 @@ date: 2014-07-03 14:13:40.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Firefox Eklentileri ile güvenli web keyfine gerçektende ulaşabilirsiniz.Günümüzde örneklerini sıkça gördüğümüz tarayıcı virüslerinden firefox sayesinde kurtula
 ---
 Firefox Eklentileri ile güvenli web keyfine gerçektende ulaşabilirsiniz.Günümüzde örneklerini sıkça gördüğümüz tarayıcı virüslerinden firefox sayesinde kurtulabiliriz bu işlemleri yaparken neden Chromium yani chrome yi seçmedim en başta googlenin hali hazırda gizlilikleri ne kadar ihlal ettiğini ve bu konuda ki yaptırımlarının ne kadar az olduğunu görüyoruz ve chromenin bilgi sızdırmadaki üstünlüğünüzde internetdeki bir çok makaleden okuyabilirsiniz bu açıdan firefox kullanmanız hem güvenliğiniz hemde gizliliğiniz için gerekli.

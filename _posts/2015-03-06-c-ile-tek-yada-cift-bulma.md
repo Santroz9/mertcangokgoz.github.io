@@ -3,7 +3,7 @@ layout: post
 title: C ile Tek yada Çift Bulma
 date: 2015-03-06
 type: post
-categories: Programlama
+categories: programlama
 description: C ile tek yada çift bulma işlemi için aşağıdaki kodu kullanabilirsiniz.Bu yaptığımız işlemde hocalar tarafından
 ---
 

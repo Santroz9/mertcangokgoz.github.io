@@ -5,7 +5,7 @@ date: 2014-07-30 23:32:20.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu sisteminizde MP4 olan dosyalarınızı kolay bir şekilde MP3 dönüştürebilirsiniz bunun için yapmanız gereken sadece ffmpeg kurmak ve gerekli
 ---
 Ubuntu sisteminizde MP4 olan dosyalarınızı kolay bir şekilde MP3 dönüştürebilirsiniz bunun için yapmanız gereken sadece ffmpeg kurmak ve gerekli paremetreleri çevrilecek olan dosyalar için vermek.Program kullanmak istersenizde google yardımıyla pek çok programa ulaşabilirsiniz.

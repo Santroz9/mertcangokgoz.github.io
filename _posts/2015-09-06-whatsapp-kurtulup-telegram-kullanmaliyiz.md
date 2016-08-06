@@ -5,7 +5,7 @@ date: 2015-09-06 19:07:46.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: whatsapp yerine telegram kullanın,whatsappden kurtulup
 
 ---

@@ -3,7 +3,7 @@ layout: post
 title: C ile En Buyuk Sayıyı Bulma İşlemi
 date: 2015-03-16
 type: post
-categories: Programlama
+categories: programlama
 description: C ile uygulamaya girilen 3 adet sayıdan en büyük sayıyı bulmak için aşağıdaki vermiş olduğum kod parçacığını kullanabilirsiniz.Bu örneği değişken
 ---
 

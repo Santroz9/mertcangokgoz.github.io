@@ -5,7 +5,7 @@ date: 2014-07-04 14:23:00.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Hyper-v uygulaması vmware ye alternatif olarak kullanılabilen oldukça başarılı bir sanallaştırma uygulamasıdır.Günümüzde çoğu sunucu üzerin
 ---
 Hyper-v uygulaması vmware ye alternatif olarak kullanılabilen oldukça başarılı bir sanallaştırma uygulamasıdır.Günümüzde çoğu sunucu üzerindede Hyper-V ile sanallaştırma gerçekleştirilmektedir.Tabi böyle söyleyerek sanallaştırma devi vmwareyide yabana atmamak lazım bilgisayar kullanıcıları arasında popüler olarak kullanılmaktadır.Hyper-V den kullanması daha kolay ve bazı sistemlerde kurulumları kendisi yapmaktadır Hyper-V de ise tüm ayarlamaları genel olarak kullanıcıya bırakır.Bugün sizlere Hyper-V kullanarak sanal bir makine oluşturmayı anlatacağım Windows 8 ve Windows 8.1 kullanıyorsanız vmware yerine Hyper-V kullanmanızı şiddetle tavsiye ediyorum hem kullanıcı arayüzü hemde esnekliği açısından vmwareden 1 adım öndedir.Özellikle belirtmek istiyorum Hyper-V de vmwaredeki gibi dosya sürükleyip bırakma gibi bir özellik bulunmamaktadır bunun için ayrı kurallar gerekmektedir.

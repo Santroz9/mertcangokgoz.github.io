@@ -5,7 +5,7 @@ date: 2015-01-10 19:52:05.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu işletim sisteminde aslında temizliğe falan gerek yoktur sonuçta linux bu windows kadar başınızı ağrıtmaz sıkıntı çıkartmaz
 ---
 Ubuntu işletim sisteminde aslında temizliğe falan gerek yoktur sonuçta linux bu windows kadar başınızı ağrıtmaz sıkıntı çıkartmaz.Ama birden aynı dosyayı birden fazla yere kopyaladıysanız yada aynı dosyayı farklı yerlere indirdiyseniz yada ne bileyim bir şekilde aynı dosyanın ikincisinden farklı bir dosya yolunda varsa silmek istiyorsanız ubuntuda ne yapacaksınız şimdi size bunu göstermek istiyorum.dupeGuru duplicate olmuş yani çoğalmış çoğaltılmış fazlalaştırılmış dosyaların temizliğinde yada hepsinin tek bi çatı altında toparlanmasını sağlar.Python ile yazılmış olduğu içinde gerçek anlamda efektif bir şekilde çalışır.Böylelikle hiç sıkıntı çekmeksiniz herhangi bir dosyayı boyutu ne olursa olsun gereken işlemi yapabilirsiniz.

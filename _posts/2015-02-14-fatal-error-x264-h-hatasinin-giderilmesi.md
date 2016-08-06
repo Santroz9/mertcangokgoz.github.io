@@ -5,7 +5,7 @@ date: 2015-02-14 14:34:37.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu için x264 derlerken fatal error x264.h hatası ile karşılaştım hal böyle olunca codec kurmak işkence haline geliyordu
 ---
 Ubuntu için **x264** derlerken fatal error: x264.h hatası ile karşılaştım hal böyle olunca codec kurmak işkence haline geliyordu.sorunu kolay bir şekilde çözebileceğimi stackoverflow da fark ettim ve sizede açıklamak istiyorum.Hata tam olarak şu şekilde gözüküyor terminalde

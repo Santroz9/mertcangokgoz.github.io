@@ -5,7 +5,7 @@ date: 2015-04-06 12:00:19.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Bilgisayarlar günümüzde birçok konuda bizlere yardımcı olmaktadır. Özellikle yeni bilgisayarların kurulumu oldukça fazla süre almaktadır.
 ---
 Bilgisayarlar günümüzde birçok konuda bizlere yardımcı olmaktadır. Özellikle yeni bilgisayarların kurulumu oldukça fazla süre almaktadır. Programların çeşitliliği ile birlikte çöken bilgisayarları yeniden kurmak zorlu bir şekilde olmaktadır. Bu noktada **programlar tek tıkla nasıl geri yüklenir** sorusu ön plana çıkmaktadır.

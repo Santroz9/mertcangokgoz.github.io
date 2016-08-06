@@ -5,7 +5,7 @@ date: 2014-07-13 21:35:27.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: SQL server 2014 ün hem yeni çıkması hemde kurulumunun pek net de görmediğimden kurulumunun nasıl olduğunu göstermek istiyorum. Ben SQL
 ---
 

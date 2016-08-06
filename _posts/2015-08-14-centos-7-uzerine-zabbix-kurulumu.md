@@ -5,7 +5,7 @@ date: 2015-08-14 14:36:15.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Zabbix açık kaynak kodlu kurumsal düzeyde bir izleme uygulamasıdır aktif ve pasif bir şekilde izleme yapılabilmektedir.Zabbix ile sunucular,ağ cihazları
 ---
 

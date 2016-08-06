@@ -5,7 +5,7 @@ date: 2015-02-18 12:15:35.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Wordpress bir yazı yazarken wordpress bunu mümkün olduğunca kayıt ederek acil durumlarda sizi korumuş olur ama bu süre default olarak siz
 ---
 **Wordpress** bir yazı yazarken wordpress bunu mümkün olduğunca kayıt ederek acil durumlarda sizi korumuş olur ama bu süre default olarak siz yazmayı bitirdikten **60 saniye** sonradır.Biz işimizi sağlama alalım ve bunu düşürelim çünkü kimi zaman en olmadık yerde bir iş gelebilir.

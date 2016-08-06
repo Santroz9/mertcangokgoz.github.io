@@ -5,7 +5,7 @@ date: 2014-07-05 23:46:02.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Unbound güvenlik ön planda tutularak yazılmış bir DNS sunucusudur.Bildiğiniz üzere Türk telekom vakti zamanında DNS manipülasyonu yaparak insanları fişlemiş
 ---
 

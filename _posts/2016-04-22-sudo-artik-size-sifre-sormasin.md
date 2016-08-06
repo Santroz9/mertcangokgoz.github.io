@@ -3,7 +3,7 @@ layout: post
 title: Sudo Artık İşlem Yaparken Şifre Sormasın
 date: 2016-04-22
 type: post
-categories: Linux
+categories: linux
 description: Sudo ile yetkilendirme işlemi yapılan işletim sistemlerinde benim en ucuz olduğum
 ---
 

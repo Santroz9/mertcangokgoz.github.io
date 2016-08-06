@@ -3,7 +3,7 @@ layout: post
 title: Ubuntu NodeJs Sürüm Yükseltme İşlemi
 date: 2016-03-20
 type: post
-categories: Linux
+categories: linux
 description: Dün standart bir şekilde nodejs kurulumumu yaptıktan sonra uygulamayı kurayımda
 ---
 

@@ -5,7 +5,7 @@ date: 2013-07-30 03:32:42.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: cgi konfigure etmek gerçekten de zor bir olay permission yani izinleri insanları deli edebilecek kadar zor diyemem lakin birazcık ayarlarken
 ---
 

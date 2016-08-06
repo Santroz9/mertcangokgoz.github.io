@@ -5,7 +5,7 @@ date: 2015-03-07 14:34:43.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: YoutubeCenter ücretsiz olarak sunulan ve youtubede bulunmayan özelliklerin eklenmesini sağlayan bir eklentidir.Bu eklenti ile youtube üzerinde
 ---
 

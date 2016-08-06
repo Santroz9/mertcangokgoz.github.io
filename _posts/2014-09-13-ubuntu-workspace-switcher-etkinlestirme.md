@@ -5,7 +5,7 @@ date: 2014-09-13 12:11:46.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu ile yüklü olarak gelen çoklu pencere desteğini açmanız gerekiyor ama nasıl yapacağınızı bilmiyorsanız olay çok basit aslında ek olarak
 ---
 Ubuntu ile yüklü olarak gelen çoklu pencere desteğini açmanız gerekiyor ama nasıl yapacağınızı bilmiyorsanız olay çok basit aslında ek olarak her hangi bir paket kurmanıza gerek yok çünkü ubuntu içerisinde yüklü bir şekilde geliyor ancak kapalı olabiliyor.Açmak için hemen Aşağıdaki adımları yapıyoruz.

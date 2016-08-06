@@ -5,7 +5,7 @@ date: 2015-12-08 13:25:44.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: OrangeHRM İnsan kaynakları yönetimi için gerekli olan tüm şartları sağlamakta ve açık kaynak kodlu olarak dağıtılmaktadır üstelik ücretsiz
 ---
 

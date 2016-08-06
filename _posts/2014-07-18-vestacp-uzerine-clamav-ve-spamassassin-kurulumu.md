@@ -5,7 +5,7 @@ date: 2014-07-18 22:16:25.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: VestaCP Kurulu sunucunuza ClamAV ve SpamAssassin kurmak isteyebilirsiniz. Hem güvenliğiniz hemde spam maillerden kurtulmak isterseniz bu makalede
 ---
 **VestaCP** Kurulu sunucunuza **ClamAV** ve **SpamAssassin** kurmak isteyebilirsiniz. Hem güvenliğiniz hemde spam maillerden kurtulmak isterseniz bu makalede yapacağınız ayarlamalar tam size göre olacaktır. Ancak şimdiden belirtmemde fayda var daha iyi çalışmaksı için sunucunuzda **3GB** den düşük ram olmaması gerekiyor.

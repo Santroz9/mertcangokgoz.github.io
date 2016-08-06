@@ -5,7 +5,7 @@ date: 2013-08-11 03:23:44.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Linux sistemlerde genellikle disk kullanımını görmek ve hangi uygulamanın yada dosya alt sisteminin ne kadar yer kapladığını görmek için
 ---
 <p>Linux sistemlerde genellikle disk kullanımını görmek ve hangi uygulamanın yada dosya alt sisteminin ne kadar yer kapladığını görmek için <strong>"du"</strong> komutunu kullanmak gerekmektedir.ve bu komut bize istediğimiz tüm disk kullanım bilgilerini <strong>Megabyte</strong> ve <strong>Gigabyte</strong> cinsinden verebilmektedir.</p>

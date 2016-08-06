@@ -5,7 +5,7 @@ date: 2015-07-08 21:38:34.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Nginx
+categories: nginx
 description: Centoz 7 Üzerine varnish kurmak istediyseniz doğru yere geldiniz daha önceden farklı sistemler üzerine kurulumları göstermiştik bugün ise son sürüm
 ---
 Centoz 7 Üzerine **varnish** kurmak istediyseniz doğru yere geldiniz daha önceden farklı sistemler üzerine kurulumları göstermiştik bugün ise son sürüm centos üzerine kurulumu yapacağız.Ayrıca kurulum yapılan sistemde kurulu olan uygulamalar sırasıyla

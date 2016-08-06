@@ -5,7 +5,7 @@ date: 2014-10-29 15:50:58.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Komut Satırı ile sistemin özelliklerini ekrana yazdırma gibi bi fantazimiz varmış gibi durmasın GUI sistemler kullanabilirsiniz ama komut satırı
 ---
 Komut Satırı ile sistemin özelliklerini ekrana yazdırma gibi bi fantazimiz varmış gibi durmasın GUI sistemler kullanabilirsiniz ama komut satırı daha iyi diye düşünüyorum ve nasıl yapılır onuda burada anlatacağım yapacak bir şey yok ama güzel yanı tüm sistem bilgisi elinizde olacak misler gibi

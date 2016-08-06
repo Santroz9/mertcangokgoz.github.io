@@ -3,7 +3,7 @@ layout: post
 title:  Pokemon GO'da Bot Nasıl Kullanılır
 date: 2016-07-31
 type: post
-categories: Linux
+categories: linux
 description: Pokemon GO oynayan arkadaşlar bilirler dağ tepe gezmeniz gerekir. Telefon elinizde bir günüz pokemon ararken diğer gözünüzde
 ---
 

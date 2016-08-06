@@ -5,7 +5,7 @@ date: 2015-06-23 22:22:36.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: "Çift ekran kartı olan laptoplar için kurulmasını şiddetle önerdiğimiz bir uygulama var oda Bumblebee bu uygulama sayesinde intel"
 ---
 

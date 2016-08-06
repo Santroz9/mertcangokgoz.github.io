@@ -5,7 +5,7 @@ date: 2013-09-20 00:12:17.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Bilgisayar ve internetin bir diğer avantajı olarak sürekli gelişim içerisinde olduğunu gösterebiliriz. Sürekli olarak karşımıza çok daha
 ---
 

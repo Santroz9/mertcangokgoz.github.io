@@ -5,7 +5,7 @@ date: 2015-02-28 14:01:21.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Mumble açık kaynak kodlu,gecikme süresi düşük ve yüksek kaliteli bir sesli sohbet uygulamasıdır.TeamSpeak ve Ventrilo gibi uygulamalara benzer
 ---
 **Mumble** açık kaynak kodlu,gecikme süresi düşük ve yüksek kaliteli bir sesli sohbet uygulamasıdır. **TeamSpeak** ve **Ventrilo** gibi uygulamalara benzer oyuncular tarafından kullanılabilmesi için geliştirilmiştir sesi net ve anlaşılır bir biçimde ilettiği için tercih edilmesi gerekmektedir. **Mumble** kullanıcıları aynı server üzerinden birbirleriyle sesli sohbet yapabilmeleri için izin veren bir istemci-sunucu mimari yapısı kullanır.

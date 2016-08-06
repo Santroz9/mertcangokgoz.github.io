@@ -5,7 +5,7 @@ date: 2014-10-07 17:45:49.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Wordpress Dünyanın en iyi CMS yani içerik yönetim sistemidir deniliyor haklılar tamam eyvallah ama hala şu beyaz sayfa sorununu çözmüş değiller
 ---
 Wordpress Dünyanın en iyi CMS yani içerik yönetim sistemidir deniliyor haklılar tamam eyvallah ama hala şu beyaz sayfa sorununu çözmüş değiller yada sorunun nerden kaynaklandığını bi yere bi wiki sayfasına falan yazmış değiller hal böyle olunca çözmekde bize düşüyor.Ancak çözmek o kadarda kolay olmayacak çünkü deneme yanılma ile yapacağız ama ben size deneyeceklerimizi şöyle bi sıralamak istiyorum.

@@ -5,7 +5,7 @@ date: 2014-07-25 19:26:42.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Webuzo bilindiği üzere Cpanel içerisindeki hani şu otomatik scriptlerin kurulumu ile tanıdığımız softaculous firmasına ait ve internette gördüğümüz
 ---
 WebuzoCP bilindiği üzere Cpanel içerisindeki hani şu otomatik scriptlerin kurulumu ile tanıdığımız softaculous firmasına ait ve internette gördüğümüz neredeyse tüm yazılımları tek tık ile kurmamızı sağlıyor.Bunların içerisinde

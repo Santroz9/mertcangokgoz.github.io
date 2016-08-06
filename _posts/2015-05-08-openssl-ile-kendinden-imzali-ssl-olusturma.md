@@ -5,7 +5,7 @@ date: 2015-05-08 23:28:56.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Llinux
+categories: linux
 description: OpenSSL Açık kaynak kodlu SSL ve TLS protokolleri için geliştirilmiş bir uygulamalar.Son zamanlarda adı pekde iyi anılmasada OpenSSL şuan için bu protokolde
 ---
 

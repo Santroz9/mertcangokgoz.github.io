@@ -5,7 +5,7 @@ date: 2015-05-01 14:51:49.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu 14.10 Utopic Unicorn Sürümünden Ubuntu 15.04 Vivid Vervet Sürümüne geçiş yapmak için yapmanız gerekenler oldukça basit olmakla birlikde
 ---
 

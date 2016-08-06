@@ -5,7 +5,7 @@ date: 2015-10-10 13:28:23.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Programlamaya başlayacaksınız ama nasıl bir yol izleyeceğinizi bilmiyorsunuz yada eğitim aldığınız kurumda tarafınıza böyle bir ders verilecek
 ---
 

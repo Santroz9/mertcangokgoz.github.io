@@ -5,7 +5,7 @@ date: 2014-09-26 17:27:07.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: bu tarz şeylere maaruz kalmamak için ise ManageFlitter Kullanabilirsiniz.Genel olarak ManageFlitterin özelliği ise twitterinizi gerçek anlamda özelleştirmek
 ---
 Geçenlerde bi google işlemi yapıyordum ve kullanıcıların twitter üzerine uygulamalar aradığını fark ettim hal böyle olunca piyasada bol miktarda virüslü uygulamaları indiriyor ve sonrasında hesabım çalındı yok bota döndük hesabımdan tweet atıldı vs vs bu tarz şeylere maaruz kalmamak için ise ManageFlitter Kullanabilirsiniz.Genel olarak ManageFlitterin özelliği ise twitterinizi gerçek anlamda özelleştirmek gerek takip etmeyenleri görme gerek takip edenlerin istatistiklerine bakmak için birebir Öncelikle nasıl başlayacağız...Start diyoruz sonrasında twitter hesabımıza uygulamaya izin vermemiz için bizi uyarır he diyip geçin

@@ -3,7 +3,7 @@ layout: post
 title: C ile Hipotenüs Hesaplama
 date: 2015-05-26
 type: post
-categories: Programlama
+categories: programlama
 description: C ile iki Dik kenarı bilinen bir üçgenin hipotenüsü bulmaya yarayan program aşağıdadır.Hipotenüsün bulunması için
 ---
 

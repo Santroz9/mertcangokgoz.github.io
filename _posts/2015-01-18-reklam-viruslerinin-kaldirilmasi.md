@@ -5,7 +5,7 @@ date: 2015-01-18 22:54:08.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Tarayıcılara oldukça çabuk yayılan ve oldukça kötü görüntülere yol açan tarayıcı virüslerini aşağıdaki video aracılığı ile kurtulabilirsiniz.Üstelik
 ---
 

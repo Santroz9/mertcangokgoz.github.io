@@ -5,7 +5,7 @@ date: 2013-09-18 01:58:05.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: SEO Zor bir iş olmasına rağmen bu kadar önemli ve avantajlı kılan şeyin ne olduğunu herkes merak ediyordur.Günümüzde insanlar internetde aradıkları
 ---
 

@@ -5,7 +5,7 @@ date: 2015-07-26 03:17:05.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Firefox üzerinde oldukça fazla durmaktayım bunun nedeni özellikle güvenlik açıkları konusunda oldukça hassas davranması gerekse virüslerin direk
 ---
 

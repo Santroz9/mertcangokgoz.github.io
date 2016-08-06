@@ -5,7 +5,7 @@ date: 2015-06-04 20:27:23.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Paylaşacağım betik Wordpress dışında genel olarak tüm scriptlerden yedek almaya yarar.Basitleştirilmiş yapısı ve kullanım kolaylığı ile tercih edilebilir.
 ---
 

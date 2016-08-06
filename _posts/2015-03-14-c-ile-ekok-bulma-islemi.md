@@ -3,7 +3,7 @@ layout: post
 title: C ile EKOK Bulma İşlemi
 date: 2015-03-14
 type: post
-categories: Programlama
+categories: programlama
 description: C ile klavyeden girilen 2 sayının kolaylıkla en küçük ortak katını yani Ekokunu kolaylıkla
 ---
 

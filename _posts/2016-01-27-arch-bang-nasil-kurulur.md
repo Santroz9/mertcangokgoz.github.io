@@ -5,7 +5,7 @@ date: 2016-01-27 12:39:25.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Arch Bang Arch Linux tabanlı ve OpenBox Ekipmanını kullanan kurulumu kolay oldukça sade,güçlü ve stabil bir Arch Linux dağıtımıdır. tint menu ile ve conky
 ---
 

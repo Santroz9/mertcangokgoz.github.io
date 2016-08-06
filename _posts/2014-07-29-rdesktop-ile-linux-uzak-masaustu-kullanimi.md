@@ -5,7 +5,7 @@ date: 2014-07-29 15:23:48.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Rdesktop ile Linux Uzak Masaüstü Kullanımı aslında göründüğü kadar zor değil Teamviewer yerine kullanabileceğimiz bir alternatif olarak gözükebilir
 ---
 **Rdesktop** ile Linux Uzak Masaüstü Kullanımı aslında göründüğü kadar zor değil **Teamviewer** yerine kullanabileceğimiz bir alternatif olarak gözükebilir Windowsdaki **RDP** nin linux sürümü zaten bunun kullanımıda oldukça basit sadece bağlanacağınız sistemlerin **RDP** bağlantısına izinleri açıp ubuntu üzerinden işlemlerimize geçebiliriz öncelikle izni vermemiz lazım bunun için

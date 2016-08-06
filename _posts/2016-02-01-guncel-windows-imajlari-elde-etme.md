@@ -3,7 +3,7 @@ layout: post
 title: Güncel Windows İmajları Elde Etme
 date: 2016-02-01 16:21:12.000000000 +02:00
 type: post
-categories: Windows
+categories: windows
 description: Windows kullanan arkadaşların en büyük problemleri sistemlerini güncel tutma sorunsalıdır. Kullandıkları format DVD leri yada USB bellekleri genelde
 ---
 

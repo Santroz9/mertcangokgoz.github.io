@@ -5,7 +5,7 @@ date: 2013-09-09 23:12:45.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Bilgisayar ve internet kullanımı sayesinde kişiler, kurumlar, şirketler arasındaki iletişim çok daha hızlı ve kolay bir şekilde gerçekleşmektedir
 ---
 

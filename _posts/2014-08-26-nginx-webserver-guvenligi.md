@@ -5,7 +5,7 @@ date: 2014-08-26 20:42:43.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Sistemi az kasan ve yüksek performans veren çoğu yüksek trafiği olan sitenin kullandığı bir altyapıdır.peki nginx ne yapar da bu kadar sistem
 ---
 Sistemi az kasan ve yüksek performans veren çoğu yüksek trafiği olan sitenin kullandığı bir altyapıdır.peki **nginx** ne yapar da bu kadar sistem kaynaklarını iyi kullanır.Nginx geleneksek sunucu sistemlerinin aksine iş parçacıklarını farklı bir şekilde değerlendirir kategorize eder ve ona göre çalışır yani tamamını ele alıpda işlem yapmaz parça parça işlem yapar daha ölçeklenebilirdir.Nginx i hali hazırda wordpress,github,hulu gibi aşırı yüksek trafikli siteler kullanıyor bi bildikleri var illaki aynı anda milyonlarca adam girdimi apache gibi kitlenmesin diye engin abimize başvurmuşlar misler gibi şimdi bu engin abimiz arada açık verebiliyor vermese bile biz totomuzu koruyalım sonra sıkıntı çıkmasın diye popüler olan güvenlik yöntemlerinden 20 sini sizin için toparladım.Burada anlatacaklarım genel olarak tüm linux sistemlerinde sorunsuz çalışır ama söylememde fayda var anlatımlarımı her zaman ki gibi **Centos/RHEL** için yaptım.

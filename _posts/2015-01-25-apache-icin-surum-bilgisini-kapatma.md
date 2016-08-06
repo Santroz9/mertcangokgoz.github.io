@@ -5,7 +5,7 @@ date: 2015-01-25 13:05:43.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Apachede Her ne kadar web server taraflı açıkların yarısından çoğu kapatılmış olsada hala piyasada eski açıklardan etkilenen sunucu ve sistemler
 ---
 **Apachede** Her ne kadar web server taraflı açıkların yarısından çoğu kapatılmış olsada hala piyasada eski açıklardan etkilenen sunucu ve sistemler olduğu bilinmektedir.Özelikle Apache kullananların yapması gerekenlerden biri sürüm bilgisini hatalara karşı kapatmaktır.Peki bu ne demek oluyor. **Hatalı** sayfalar olduğu zaman **Apachede** eğer tanımlanmış birşey yoksa kendi hata sayfalarını gösterir bu gösterilen sayfalarda ise aşağıdaki gibi _sürüm bilgisi barınır_

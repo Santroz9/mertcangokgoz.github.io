@@ -5,7 +5,7 @@ date: 2015-10-28 01:53:40.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Linux sistemler üzerinde zorunlu olarak kimi zaman windows kullanmamız gerekir.Özellikle C# geliştirilecek bir iş size verildiği zaman oldukça
 ---
 

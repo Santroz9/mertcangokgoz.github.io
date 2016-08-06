@@ -3,7 +3,7 @@ layout: post
 title: Wordpress-Basic-Cache Eklentisi
 date: 2016-01-20 21:54:02.000000000 +02:00
 type: post
-categories: Programlama
+categories: programlama
 description: Wordpress tüm sürümleri ile sorunsuz bir şekilde çalışması amaçlanmış yerleşik olarak sisteme dahil edilen bir cache sistemidir. Eklenti
 ---
 **Wordpress** tüm sürümleri ile sorunsuz bir şekilde çalışması amaçlanmış yerleşik olarak sisteme dahil edilen bir cache sistemidir.Eklenti yapısı gereği dizinde bulunan ve kullanıcılar tarafından ziyaret edilmiş tüm her şeyi 1 kereye mahsus olmak sureti ile cache dosyasına almakta boş yere bekleme yapan sorguları ortadan kaldırdığı için yani saf olarak html kayıt tuttuğu için daha sonradan kullanıcı çağırdığında oldukça performanslı bir şekilde çalışmaktadır.

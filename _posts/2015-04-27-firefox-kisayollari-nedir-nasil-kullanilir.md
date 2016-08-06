@@ -5,7 +5,7 @@ date: 2015-04-27 21:03:35.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Mozilla Firefox, internet tarayıcıları arasında, en fazla kullanılanların içindedir. Etkili kullanımı ve hızı sayesinde çok tercih edilmektedir.
 ---
 

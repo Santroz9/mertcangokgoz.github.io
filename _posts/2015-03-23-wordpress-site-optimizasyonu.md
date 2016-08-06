@@ -5,7 +5,7 @@ date: 2015-03-23 17:44:40.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Bu makalemizde Wordpress CMS kullanan web sitelerini daha performanslı hale nasıl getirebileceği daha az nasıl CPU kullanılabileceği gibi
 ---
 Bu makalemizde Wordpress **CMS** kullanan web sitelerini daha performanslı hale nasıl getirebileceği **daha az nasıl CPU kullanılabileceği** gibi bir takım bilgiler vereceğim böylelikle Host firmanızdan **Aşırı CPU** kullanıyorsunuz sitenizi optimize ediniz laflarınıda duymamış olacaksınız **Wordpress** site sahipleri illaki duymuşlardır.

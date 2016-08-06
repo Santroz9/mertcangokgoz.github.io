@@ -5,7 +5,7 @@ date: 2015-01-08 15:55:52.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu kullanan çoğu arkadaşda aynı problemle karşılaştım ve çözümü yok gibi gözüküyordu en olmadık yerde en önemli işin arasında hemen
 ---
 Ubuntu kullanan çoğu arkadaşda aynı problemle karşılaştım ve çözümü yok gibi gözüküyordu en olmadık yerde en önemli işin arasında hemen sistem size " **System Program Problem detected**" hatasını basıyor.Sonrada sövüp duruyordunuz sanırım ben öyleydim zamanında çözümü bir forum sitesinde gördüm ve türkçe olarak yazmak istiyorum hatamız

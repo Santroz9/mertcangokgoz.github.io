@@ -5,7 +5,7 @@ date: 2014-08-07 14:56:53.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Son zamanlarda yüklü miktarda bruteforce saldırıları almaktaydım.Sonra internetten araştırınca milyonlarca wordpress kullanıcısına aynı anda bir saldırı
 ---
 Son zamanlarda yüklü miktarda bruteforce saldırıları almaktaydım.Sonra internetten araştırınca milyonlarca wordpress kullanıcısına aynı anda bir saldırı gerçekleştirildiğini okudum haliyle bunu kesmemiz gerekiyordu çünkü tekde 40 kez şifre denemesi yapıyordu bulacağından değil ama CPU yu kastırma durumu vardı MySQL boşu boşuna yoracaktı ne yapalım ne yapalım derken saldırının nasıl geldiğine bi bakmamız gerekiyordu.Bir baktım ki gelen Saldırılar POST şeklinde bize ulaşıyor botlar aracılığı ile

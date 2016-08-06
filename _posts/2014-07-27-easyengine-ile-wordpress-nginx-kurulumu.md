@@ -5,7 +5,7 @@ date: 2014-07-27 17:28:24.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: EasyEngine Adının hakkını gerçektende veren bir Linux shell-script dir aslında wordpress-nginx yapılandırmasını bunun aracılığı ile sadece bir kaç
 ---
 EasyEngine Adının hakkını gerçektende veren bir Linux shell-script dir aslında wordpress-nginx yapılandırmasını bunun aracılığı ile sadece bir kaç koda yapabilirsiniz.EasyEngine Kullandığınız taktirde ayrıca sisteme Nginx, PHP, MySQL, Postfix, phpMyAdmin gibi sistem araçlarını ayrıca ihtiyacı olan diğer şeyleride otomatik olarak kuracak ve yapılandıracaktır.Bu wordpress-nginx web sitelerini kurmak ve yönetme işlemini çok kolaya indirger böylelikle saatlerde kod girip paketleri yükleme derdiniz ortadan kalkıyor.Herşey siz ana komutu verdiğiniz anda arka planda gerçekleşiyor ve sizde gereken sefayı sürüyorsunuz.EasyEngine sadece Ubuntunun LTS sürümleirnde çalışmaktadır 12.04/14.04 aynı zamanda Debian 6/7 sürümlerindede çalışmaktadır.

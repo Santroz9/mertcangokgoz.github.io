@@ -5,7 +5,7 @@ date: 2015-03-28 14:33:03.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Geçen gün bir arkadaşım ya dosyalarım ve raporlarım içerinde tek tek arama yapmakdan sıkıldım bunun bir çaresi yokmuş kardeş dedi Notepad++
 ---
 Geçen gün bir arkadaşım ya dosyalarım ve raporlarım içerinde tek tek arama yapmakdan sıkıldım bunun bir çaresi yokmuş kardeş dedi **Notepad++** dan haberdar olmadığı için haliyle normal notepad ile uğraşmak zorunda kalmış ve sorununu haliyle çözememiş.

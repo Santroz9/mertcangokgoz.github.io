@@ -5,7 +5,7 @@ date: 2014-07-07 16:12:32.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Bu Makalemizde sizlere ubuntu 14.04 Desktop LTS sürümünün nasıl kurulduğunu resimli bir şekilde göstermek istiyorum kurulumu oldukça basit
 ---
 

@@ -5,7 +5,7 @@ date: 2015-06-26 13:29:39.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Nmap hangi hostların ve servislerin çalıştığını belirlemekte kullanılan bir araçtır.Nmap aracılığı ile sistemde hangi servisin hangi hostda
 ---
 

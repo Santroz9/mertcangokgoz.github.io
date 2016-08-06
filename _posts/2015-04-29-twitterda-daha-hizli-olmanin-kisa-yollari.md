@@ -5,7 +5,7 @@ date: 2015-04-29 14:32:30.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Twitter sayısızca kullanıcının tercih ettiği, kullandığı bir platformdur. Sizde Twitter kullanıyorsanız ve kişileri, güncellemeleri takip
 ---
 Twitter sayısızca kullanıcının tercih ettiği, kullandığı bir platformdur. Sizde Twitter kullanıyorsanız vekişileri,güncellemeleri takip etmekte zorlanıyorsanız, hızlı olmak zorundasınız. Hızlı olmanın yolu isekısayollardan geçer. Bu yazımızda siz değerli kullanıcılarımıza twitter kısayolları neler onları anlatacağız.

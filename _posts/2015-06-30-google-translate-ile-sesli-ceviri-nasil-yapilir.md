@@ -5,7 +5,7 @@ date: 2015-06-30 22:38:37.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Google translate özellikle android sistemler için web sürümünden mobil olarak uyarlanmış oldukça popüler dil çeviri servisidir. 64 dilde kaliteli
 ---
 

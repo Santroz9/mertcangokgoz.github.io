@@ -3,7 +3,7 @@ layout: post
 title: Debian Tabanlı Sistemler'de Swap Etkinleştirme
 date: 2016-04-15
 type: post
-categories: Linux
+categories: linux
 description: Swap dosyası oluşturmadan sistemi kurmuş olabilirsiniz yada ne bileyim bir şekilde bir sıkıntı çıktı
 ---
 

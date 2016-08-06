@@ -5,7 +5,7 @@ date: 2014-08-27 20:41:14.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Derin paket analizi’nde Türkiye, hükümet tarafından getirilen internete yapılan bir nevi sansürdür. İnternete sansür donanımı şeklinde yapılan
 ---
 **Derin paket analizi’nde Türkiye** , hükümet tarafından getirilen internete yapılan bir nevi sansürdür. İnternete sansür donanımı şeklinde yapılan haberle gazetelerde yayınlanarak, insanları şaşırtmaya yetmiştir. Neden böyle bir şey Türkiye’ye geliyor diye düşündüren bu yazılımın uygulamaya konulup konulmadığı hala tartışma konusudur. Hükümet internet ortamında kimin ne yaptığını en detayına kadar bilmek istediğinden böyle bir uygulama ile yurtdışından alınmıştır ve bu uygulama sayesinde bütün yolsuzlukları ve herkesin ne yaptığı görülecektir. **Derin paket analizi’nde Türkiye** için Türk Telekom ihale açıp Amerika Birleşik Devletleri’nden bir yazılım ve donanım satın alarak uygulamaya koydu.

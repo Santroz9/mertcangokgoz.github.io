@@ -3,7 +3,7 @@ layout: post
 title: C ile Sayıya kadar İkinin Katlarını Bulma
 date: 2015-03-30
 type: post
-categories: Programlama
+categories: programlama
 description: C ile Girilen Sayıya kadar ikinin katlarını yazdırma ve girilen sayının en büyük ikinin kuvvetini yazdıran
 ---
 

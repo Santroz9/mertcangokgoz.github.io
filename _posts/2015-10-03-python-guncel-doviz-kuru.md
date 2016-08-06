@@ -5,7 +5,7 @@ date: 2015-10-03 23:07:58.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Can sıkıntısından yazmış olduğum investing sitesi kullanılarak hazırladığım güncel döviz kuru uygulaması örneğimiz.Uygulama geliştirilirken BeautifulSou
 ---
 

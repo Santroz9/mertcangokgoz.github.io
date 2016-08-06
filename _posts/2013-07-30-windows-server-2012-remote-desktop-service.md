@@ -5,7 +5,7 @@ date: 2013-07-30 04:54:09.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Windows Server 2012 Remote Desktop servisinin yapılandırılmasını
 ---
 Windows Server 2012 Remote Desktop servisinin yapılandırılmasını aşağıdaki video ile yapabilirsiniz.

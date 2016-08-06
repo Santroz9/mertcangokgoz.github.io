@@ -3,7 +3,7 @@ layout: post
 title: MaryTTS Deneyimlerim 2
 date: 2016-03-05
 type: post
-categories: Analiz
+categories: analiz
 description: Evet arkadaşlar, uzunca bir süre boyunca MaryTTS'nin Vikipedi makalelerinden devrişirilen
 ---
 

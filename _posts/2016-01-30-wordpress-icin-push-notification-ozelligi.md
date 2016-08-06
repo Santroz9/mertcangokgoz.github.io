@@ -3,7 +3,7 @@ layout: post
 title: Wordpress İçin Push Notification Özelliği
 date: 2016-01-30 18:57:41.000000000 +02:00
 type: post
-categories: Genel
+categories: genel
 description: Chrome üzerinde hali hazırda bulunan Push Notification özelliğini geçtiğimiz günlerde Firefox bir güncelleme ile betadan çıkartarak getirmişti
 ---
 

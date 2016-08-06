@@ -5,7 +5,7 @@ date: 2014-05-29 18:04:59.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: Günümüzde adsense nedir ne değildir az çok herkes biliyordur diye düşünüyorum ancak bazı insanların yaptıklarını görünce haksız olarak para
 ---
 

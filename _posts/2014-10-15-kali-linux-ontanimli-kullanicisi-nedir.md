@@ -5,7 +5,7 @@ date: 2014-10-15 14:08:38.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Uzun uzun düşündüm bunu cidden yazayımmı diye ancak bilmeyen arkadaşlarımızın olacağını farz ederek yazayım dedim çünkü ya abi kali linux
 ---
 

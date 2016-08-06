@@ -5,7 +5,7 @@ date: 2015-03-31 12:20:21.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Wordpress 4.1 sürümü geliştirilirken Nisan ayında kararlı bir Wordpress 4.2 sürümü çıkarılacağını duyuran wordpress beni şaşırtmadı değil
 ---
 Wordpress 4.1 sürümü geliştirilirken Nisan ayında kararlı bir Wordpress 4.2 sürümü çıkarılacağını duyuran wordpress beni şaşırtmadı değil ancak beta test aşamasına katıldığımda fark ettiğim bir kaç özellikden Wordpress 4.2 sürümü yayınlanmadan bahsetmek istiyorum.

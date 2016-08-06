@@ -5,7 +5,7 @@ date: 2015-12-16 13:27:38.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Tripwire sistemlerde dosya bütünlüğünü kontrol edebilmeniz için geliştirilmiş bir uygulamadır.Çalıştığı anda dosya bütünlüklerini kontrol
 ---
 

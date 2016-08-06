@@ -5,7 +5,7 @@ date: 2015-07-04 18:21:34.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Javascript ile geçtiğimiz dönem algoritmalar yazıyorduk bana pek mantıklı gelmese de aslında güzel birer örnek oluyordu.Bu örneğimizde ise
 ---
 

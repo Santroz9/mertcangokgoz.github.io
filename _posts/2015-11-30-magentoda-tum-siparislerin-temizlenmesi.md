@@ -5,7 +5,7 @@ date: 2015-11-30 15:54:05.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Geçtiğimiz günlerde Magento üzerine bir e-ticaret sitesi kurarken sistemde testler neticesinde çok ilginç veritabanı sorunları ile karşılaştım
 
 ---

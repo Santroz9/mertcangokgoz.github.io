@@ -3,7 +3,7 @@ layout: post
 title: Tor Relay Olmak için Yapılması Gerekenler
 date: 2015-11-26 12:57:13.000000000 +02:00
 type: post
-categories: Güvenlik
+categories: guvenlik
 description: Tor(The Online Routing) yıllardır kullanıcıların internet üzerindeki faliyetlerini anonimleştirmek için geliştirilmiş bir yazılım projesidir.Kendi
 ---
 

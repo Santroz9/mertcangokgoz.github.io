@@ -5,7 +5,7 @@ date: 2013-11-19 18:45:15.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: İnternetten tanıtım yapmak artık pek çok firma için zorunlu hale gelmiştir. Dolayısıyla hemen hemen her firma kendine ait bir web sitesi oluşturmak
 ---
 

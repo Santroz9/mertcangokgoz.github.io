@@ -5,7 +5,7 @@ date: 2015-06-18 17:12:49.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: ASUS N550JV ilk aldığınızda içerisinde windows 8 ile gelmekte sonradan güncelleme ile 8.1 olmakta ancak windows sistemlerden benim gibi hoşlanmayan
 ---
 

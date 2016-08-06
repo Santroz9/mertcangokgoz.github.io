@@ -5,7 +5,7 @@ date: 2015-06-09 23:59:30.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Bildiğiniz üzere SSLv3 üzerinde bulunan açıklar sunucu ve sistemleri ciddi bir şekilde etkiliyordu sonraları anlaşıldıki bu protokolün kapatılması
 ---
 

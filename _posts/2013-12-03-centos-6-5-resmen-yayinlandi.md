@@ -5,7 +5,7 @@ date: 2013-12-03 15:05:03.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: CentOS 6.5 Enterprise Linux (1 Aralık 2013) tarihinde resmen yayınlandı. Red Hat tarafından geliştirilip kullanıcıların kullanımına
 ---
 

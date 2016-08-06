@@ -5,7 +5,7 @@ date: 2015-10-14 22:31:36.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Sunucunun toplam harcadığı trafik kullanımını aşağıda verilen komut ile görebilirsiniz.Komutu kullandığınız yapıya göre düzenlemeniz gerekebilir.Genel
 ---
 

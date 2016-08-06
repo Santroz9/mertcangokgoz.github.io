@@ -3,7 +3,7 @@ layout: post
 title: Manjaro Keyring Sorunu
 date: 2016-04-09
 type: post
-categories: Linux
+categories: linux
 description: Merhaba arkadaşlar bir takım düzenlemeler yaparken heleki sistemi yeni kurmuşsanız
 ---
 

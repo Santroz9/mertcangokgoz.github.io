@@ -3,7 +3,7 @@ layout: post
 title: Nginx ve Apache Üzerinde XSS Engelleme
 date: 2016-01-23 12:38:30.000000000 +02:00
 type: post
-categories: Nginx
+categories: nginx
 description: XSS yani normal adıyla "Cross Site Scripting" çok eski bir açık.Ancak günümüzde önlemi alınmadığı taktirde bu açığa oldukça fazla denk gelmemiz
 ---
 

@@ -5,7 +5,7 @@ date: 2014-11-02 15:50:42.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: VestaCP benimde gerçekten beğenerek kullandığım ve özellikle küçük ve orta ölçekli web sitelerinin webmin haricinde kullanabileceği kullanımı
 ---
 VestaCP benimde gerçekten beğenerek kullandığım ve özellikle küçük ve orta ölçekli web sitelerinin webmin haricinde kullanabileceği kullanımı kolay ve aşırı şekilde esnek bir panel olmasıyla ünlü Bunun yanısıra diğer panellerden farklı bir yanı ise yedeklemenin gerçekten kolay olması ve farklı bir sunucu yada sisteme upload edilmesini sağlar.

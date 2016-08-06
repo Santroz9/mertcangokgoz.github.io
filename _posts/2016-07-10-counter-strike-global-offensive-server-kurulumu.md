@@ -3,8 +3,8 @@ layout: post
 title:  Counter Strike Global Offensive Server Kurulumu
 date: 2016-07-10
 type: post
-categories: Linux
-description: Counter Strike Global Offensive oyununu oynayan bir kaç arkadaş mail aracılığı ile bana ulaşarak kurulumu göstermemi istedi 
+categories: linux
+description: Counter Strike Global Offensive oyununu oynayan bir kaç arkadaş mail aracılığı ile bana ulaşarak kurulumu göstermemi istedi
 ---
 
 Counter Strike Global Offensive oyununu oynayan bir kaç arkadaş mail aracılığı ile bana ulaşarak kurulumu göstermemi istedi bende onları kırmayarak kurulumun nasıl gerçekleştirildiğinden kısaca bahsetmek istedim.

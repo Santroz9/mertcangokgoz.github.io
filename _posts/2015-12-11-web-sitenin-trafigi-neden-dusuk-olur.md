@@ -4,7 +4,7 @@ title: Web Sitenin Trafiği Neden Düşük Olur
 date: 2015-12-11 13:05:14.000000000 +02:00
 type: post
 published: true
-categories: Genel
+categories: genel
 description: Artık internet çağında yaşadığımız şu dönemde web siteleri de doğru orantıda artmakta ve ayakta kalmaya çalışmaktadır. Web sitesi açan çoğu
 ---
 

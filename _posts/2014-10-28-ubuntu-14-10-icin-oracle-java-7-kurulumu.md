@@ -5,7 +5,7 @@ date: 2014-10-28 14:50:33.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntuda java ya yazılım geliştirmek isteyen arkadaşlar yana döne türkçe içerik aramaktadırlar eski sürümler için var ancak ubuntunun son sürümüne
 ---
 Ubuntuda java ya yazılım geliştirmek isteyen arkadaşlar yana döne türkçe içerik aramaktadırlar eski sürümler için var ancak ubuntunun son sürümüne göre kurulum yapmaktan korkuyorsanız biz sizin için yapalım sizde izleyin bakın yapın sorunsuz ve güncel

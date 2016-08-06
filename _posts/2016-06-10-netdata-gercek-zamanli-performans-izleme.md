@@ -3,7 +3,7 @@ layout: post
 title: Netdata İle Gerçek Zamanlı Performans İzleme
 date: 2016-06-10
 type: post
-categories: Linux
+categories: linux
 description: Netdata yüksek bir oranda optimize edilmiş bir deamon üzerinden gerçek zamanlı olarak linux sistemlerin izlenmesi için geliştirilmiş
 ---
 

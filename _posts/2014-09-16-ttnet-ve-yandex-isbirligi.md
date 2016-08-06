@@ -5,7 +5,7 @@ date: 2014-09-16 16:18:19.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: Uzun zaman önce bu TTNET'in Phorm aracılığı ile milletin hayatını zehir ettiğini söylemiştik.Şimdi ise Yandex ile işbirliği yaparak bizi
 ---
 Uzun zaman önce bu TTNET'in Phorm aracılığı ile milletin hayatını zehir ettiğini söylemiştik.Şimdi ise Yandex ile işbirliği yaparak bizi hayattan soğutmaya devam ediyor peki ne yapıyor.İnternette bağlı olmadığınız süre boyunca resmen takip ediyor ve bilgisayarı açtığınızda ki buna modemde dahil karşınıza şöyle bir ekran çıkartıyor...

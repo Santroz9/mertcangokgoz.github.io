@@ -5,7 +5,7 @@ date: 2016-02-06 17:01:14.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Tüm çalışmalarınızı ve özel bilgilerinizi sakladığınız sistemlerinizin dış tehditlere karşı korunmasını sağlayan anti virüs programları her zaman
 ---
 

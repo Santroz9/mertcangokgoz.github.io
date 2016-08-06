@@ -5,7 +5,7 @@ date: 2014-07-09 12:22:12.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Yazacağım ve açıklayacağım Linux komutları hali hazırda yayınlanmış olan tüm Linux dağıtımlarında çalışmakta olup en işe yarar komutların
 ---
 

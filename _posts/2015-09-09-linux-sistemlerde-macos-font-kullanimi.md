@@ -5,7 +5,7 @@ date: 2015-09-09 00:21:39.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: MacOS işletim sisteminde kullanılan fontlara takık olduğumu bir kaç arkadaşım bilir bunun en büyük nedenlerinden biride göze daha hoş gelmesidir
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: OpenSSH Kritik Güvenlik Zafiyeti
 date: 2016-01-16 07:56:36.000000000 +02:00
 type: post
-categories: Güvenlik
+categories: guvenlik
 description: OpenSSH projesinde 15 Ocak itibari ile tespit edilmiş ve sunucu tarafındaki gizli anahtarların çalınmasına yol açabilecek olan kritik güvenlik
 ---
 

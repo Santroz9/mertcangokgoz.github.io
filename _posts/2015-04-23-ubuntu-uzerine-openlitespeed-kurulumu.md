@@ -5,7 +5,7 @@ date: 2015-04-23 16:19:02.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: OpenLiteSpeed Ücretsiz olarak LiteSpeed Technologie tarafından geliştirilen açık kaynak kodlu bir web server uygulamasıdır.OpenLiteSpeed yüksek
 ---
 **OpenLiteSpeed** Ücretsiz olarak LiteSpeed Technologie tarafından geliştirilen açık kaynak kodlu bir web server uygulamasıdır.OpenLiteSpeed yüksek performanslı ölçeklenebilir ve hafif bir uygulama olarak tasarlanmıştır ücretsiz olarak geliştirilir,kullanılır ve dağıtılır yada isterseniz kafanıza göre kaynak kodlar ile değiştirebilirsiniz.Apache tabanlı olduğu için Apache sistemlerde kullandığınız tüm yönergeler **OpenLiteSpeed** ilede çalışmaktadır.

@@ -5,7 +5,7 @@ date: 2015-08-26 16:06:22.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Speedtest internet hızınızı test etmek için kullanabileceğiniz bir servis ama flash kullandığı için güvenliğimizi tehdit ediyor.Hal böyle olunca
 ---
 

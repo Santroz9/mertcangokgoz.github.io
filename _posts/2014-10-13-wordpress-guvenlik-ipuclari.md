@@ -5,7 +5,7 @@ date: 2014-10-13 13:50:03.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Popülerliği yüksek olan Wordpress bildiğimiz gibi pek çok saldırıyada mağruz kalıyor.Peki biz blog sahipleri bu saldırılardan mümkün olduğunca
 ---
 Popülerliği yüksek olan Wordpress bildiğimiz gibi pek çok saldırıyada mağruz kalıyor.Peki biz blog sahipleri bu saldırılardan mümkün olduğunca en az zarara uğrayarak nasıl paçayı sıyırabiliriz.İşte bugün sizlere bu konuda hakkınba bir kaç ufak bilgi biraz eklenti birazda tavsiye vereceğim aslında

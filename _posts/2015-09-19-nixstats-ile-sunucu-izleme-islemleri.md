@@ -5,7 +5,7 @@ date: 2015-09-19 13:02:10.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Sunucu yada domain bazında izleme işlemi yapmak istiyorsunuz ama pek fazla bilginiz yok ise nixstats sizin işinize oldukça yarayacak monitoring
 ---
 

@@ -5,7 +5,7 @@ date: 2014-10-16 13:50:47.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Ortalıkla son zamanlarda bol miktarda POST isteği ile sitelere saldıran yada birşeyler yapmak isteyen script ve botcuklar dolaşmakta olduğunu
 ---
 Ortalıkla son zamanlarda bol miktarda POST isteği ile sitelere saldıran yada birşeyler yapmak isteyen script ve botcuklar dolaşmakta olduğunu gördüm bunlardan bir kaçı benide ziyaret etti aynı anda farklı şekillerde bir sürü POST isteği sunucuyuda yoracağı için buna bir çözüm olarak .htacc kuralları ile tüm POST isteklerini ve sitemde kullanmadığım istekleri kapatmak aklıma geldi.GET isteğini yasaklarsak sıkıntı çıkar o yüzden POST u yasaklayalım GET sonuçta sitelerin can damarı zaten POST isteklerini kapattığınızda yüksek oranda Spam mesajlarında gelmesi kesilecek

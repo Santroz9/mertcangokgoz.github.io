@@ -5,7 +5,7 @@ date: 2015-07-30 03:19:55.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: VestaCP kullanan sistemlerinde genelde 512 MB yada 1 GB ram barındıran VPS sunucularının temel sorunlarından bir tanesi mysql pidlerinin kendi
 ---
 

@@ -5,7 +5,7 @@ date: 2015-09-15 15:54:21.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Firefox güvenlik sıkılaştırmalarına tam gaz devam ediyoruz şimdi ise firefoxdaki dns cachesini kapatmayı göstereceğim bunu yapma nedenimiz
 ---
 

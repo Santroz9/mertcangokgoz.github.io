@@ -3,7 +3,7 @@ layout: post
 title: C ile Decimal'den Binary Dönüştürme İşlemi
 date: 2015-06-09
 type: post
-categories: Programlama
+categories: programlama
 description: C ile Ondalık sayıları ikilik sayı sistemine yani bilgisayarın anlayabildiği bir biçime dönüştürmek istiyorsanız.Aşağıdaki
 ---
 

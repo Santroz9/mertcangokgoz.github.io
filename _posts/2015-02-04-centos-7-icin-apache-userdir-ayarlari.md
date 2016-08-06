@@ -5,7 +5,7 @@ date: 2015-02-04 14:30:17.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Tüm kullanıcıların tek bir public_html kullanması yerine UserDir aktif ederek kullanıcılara aynı alan tanımlaması yapabilirsiniz.Böylelikle
 ---
 Tüm kullanıcıların tek bir **public\_html** kullanması yerine **UserDir** aktif ederek kullanıcılara aynı alan tanımlaması yapabilirsiniz.Böylelikle kendi bölgelerinde _kullanıcılar_ istediklerini yapabilirler.

@@ -5,7 +5,7 @@ date: 2015-02-12 14:07:59.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Logwatch sisteminizdeki logların analizinde kullanabileceğiniz bir uygulama aslına bakarsanız.Bu uygulama sistem loglarını iyi bir biçimde sizlere
 ---
 **Logwatch** sisteminizdeki logların analizinde kullanabileceğiniz bir uygulama aslına bakarsanız.Bu uygulama sistem loglarını iyi bir biçimde sizlere sunmayı amaçlıyor.kurulumu oldukça basit olan bu uygulamayı ubuntu 14.04 üzerine kurup ayarlarını yapacağız.

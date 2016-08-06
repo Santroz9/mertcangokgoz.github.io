@@ -5,7 +5,7 @@ date: 2014-06-24 11:43:31.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Güvenliğinizi ve gizliliğinizi sağlamak istiyorsanız ve ülkenizin yapmış olduğu yasaklamalardan kurtulmak istiyorsanız işte tam yerine geldiniz.Bu
 ---
 

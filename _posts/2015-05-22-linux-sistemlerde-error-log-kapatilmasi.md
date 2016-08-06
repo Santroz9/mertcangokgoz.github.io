@@ -5,7 +5,7 @@ date: 2015-05-22 18:34:23.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Yeni kurduğunuz linux sunucuda herşey güzelce ilerlerken bir anda sistem kitlenip kaldı ve siteniz gerekli gereksiz kasıyor yada hiç açılmıyor
 ---
 

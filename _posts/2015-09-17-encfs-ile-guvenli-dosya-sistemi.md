@@ -5,7 +5,7 @@ date: 2015-09-17 12:05:40.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: EncFS Açık kaynak kodlu bir Encrypttion uygulamasıdır.Fuse library kullanır yani dizin içerisindeki veriyi başka bir yollarda saklar.Ayrıca
 ---
 

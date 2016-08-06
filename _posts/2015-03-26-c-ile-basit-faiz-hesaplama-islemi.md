@@ -3,7 +3,7 @@ layout: post
 title: C ile Basit Faiz Hesaplama İşlemi
 date: 2015-03-26
 type: post
-categories: Programlama
+categories: programlama
 description: C ile Basit Faiz Hesaplama işlemini aşağıdaki gibi yapabilirsiniz.Bu örnek kodumuzda
 ---
 

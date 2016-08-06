@@ -5,7 +5,7 @@ date: 2015-07-13 21:23:57.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Sentora indirmesi ve kullanması ücretsiz olan ve eski Zpanel geliştiricileri tarafından yazılan açık kaynak kodlu bir kontrol panelidir. Linux,
 ---
 

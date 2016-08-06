@@ -5,7 +5,7 @@ date: 2013-07-30 05:07:49.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Windows Server 2012 VPN ayarlarını aşağıdaki video ile kolaylıkla yapabilirsiniz.
 ---
 Windows Server 2012 VPN ayarlarını aşağıdaki video ile kolaylıkla yapabilirsiniz.

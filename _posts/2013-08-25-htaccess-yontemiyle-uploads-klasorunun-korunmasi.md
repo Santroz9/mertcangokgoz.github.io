@@ -5,7 +5,7 @@ date: 2013-08-25 19:43:47.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Merhaba arkadaşlar biliyorsunuz ki wordpress de resimler vs vs kullanacağınız materyalleri eklemeniz gereken bir klasördür uploads klasorunu
 ---
 

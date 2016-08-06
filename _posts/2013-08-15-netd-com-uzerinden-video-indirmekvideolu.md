@@ -5,7 +5,7 @@ date: 2013-08-15 00:12:17.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: bu videolu anlatımımızda kolaylıkla netd sitesinden video indirebilirsiniz
 ---
 

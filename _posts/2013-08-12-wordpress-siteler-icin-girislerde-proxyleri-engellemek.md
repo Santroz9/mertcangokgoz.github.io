@@ -5,7 +5,7 @@ date: 2013-08-12 14:58:40.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Farklı bir saldırı türü olarakta karşımıza çıkan bu sinir bozucu proxyleri engelleyerek gerek sitemizin güvenliğini artırıp gerekse gerçek
 ---
 <p>Farklı bir saldırı türü olarakta karşımıza çıkan bu sinir bozucu <strong>proxyleri engelleyerek</strong> gerek sitemizin güvenliğini artırıp gerekse gerçek kullanıcılardan gelen hiti görmemiz mümkün. Googlede ufak bir kaç araştırma sonrasında <strong>.htaccess</strong> ile kolaylıkla engelleyebileceğimizi anladıktan sonra blogum da bu konuyu tekrardan yazmaya karar verdim. <strong>Proxy</strong> ile sahte Hit çekmeye çalışanlar yada <strong>Proxy</strong> Saldırıları ile canınızı sıkanlar oluyorsa işte bu ayarlar tam site göre olacaktır.</p>

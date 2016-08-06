@@ -5,7 +5,7 @@ date: 2014-08-02 23:23:24.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: 1GB sunucunuz yada VPS iniz varsa ve sitenizi yayına sokmak istiyorsunuz ve mysqliniz sıkıntı çıkartıyor çöküyor,kitleniyor,şişiyor ve sorunlar
 ---
 1GB sunucunuz yada VPS iniz varsa ve sitenizi yayına sokmak istiyorsunuz ve mysqliniz sıkıntı çıkartıyor çöküyor,kitleniyor,şişiyor ve sorunlar yaşatmaya başladıysa size bu vereceğim ayarlar bir nebze olsun rahatlatmaya yarayacaktır.Ayrıca mysql tarafından sistem kaynaklarınızın daha efektif bir şekilde çalışmasınada olanak sağlayacaktır.

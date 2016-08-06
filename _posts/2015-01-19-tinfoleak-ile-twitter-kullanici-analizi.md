@@ -5,7 +5,7 @@ date: 2015-01-19 16:00:12.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Tinfoleak uygulaması adındanda anlaşılacağı gibi bir kullanıcı analiz uygulamasıdır python ile yazılmış olan bu uygulama sayesinde istediğiniz
 ---
 **Tinfoleak** uygulaması adındanda anlaşılacağı gibi bir kullanıcı analiz uygulamasıdır **python** ile yazılmış olan bu uygulama sayesinde istediğiniz kullanıcının bilgilerini görebilir ve analiz yapabilirsiniz.Başlıca özellikleri ise şunlardır

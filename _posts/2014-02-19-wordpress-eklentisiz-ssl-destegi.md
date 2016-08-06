@@ -5,7 +5,7 @@ date: 2014-02-19 12:44:09.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Türkiye'de Tarih 18.02.2014 gösterirken cumhurbaşkanımız tarafından internet yasası onaylandı bende bunu fırsat bularak bloğumu SSL desteği
 ---
 

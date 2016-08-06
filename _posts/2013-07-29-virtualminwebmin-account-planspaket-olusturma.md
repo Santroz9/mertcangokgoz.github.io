@@ -5,7 +5,7 @@ date: 2013-07-29
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Default Gelen üyelik paketleri yetmiyor ve yeni güzel paketler oluşturmak için virtualmin bizlere gene kolayca ayarlanabilir bir GUI sunmuş
 ---
 **Default** Gelen üyelik paketleri yetmiyor ve yeni güzel paketler oluşturmak için virtualmin bizlere gene kolayca ayarlanabilir bir GUI sunmuş üstüne üstlük de detaylı bir izin ve ayar kısmı ile bizlere gerçekten muhteşem bir panel sunmuş ücretsiz olması ve bu kadar detaya inilmiş olmasıda webmin/virtualmin i cazip kılmaya yetiyor

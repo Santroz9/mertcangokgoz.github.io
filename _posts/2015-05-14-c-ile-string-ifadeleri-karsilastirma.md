@@ -3,7 +3,7 @@ layout: post
 title: C ile String İfadeleri Karşılaştırma
 date: 2015-05-14
 type: post
-categories: Programlama
+categories: programlama
 description: Bu kodumuz ile C üzerine kullanıcıdan alınan 50 karakter uzunluğundaki bir string ifadeyi karşılaştırıyoruz.Eğer
 ---
 

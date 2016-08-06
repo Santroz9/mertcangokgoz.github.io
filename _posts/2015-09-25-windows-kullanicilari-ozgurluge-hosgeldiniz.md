@@ -5,7 +5,7 @@ date: 2015-09-25 12:15:46.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: Windows kullanıcıları sizi düşünerek oldukça faydalı bir rehber hazırladık işin ucunda özgürlüğe ulaştıracağız oldukça memnun olacağınıza
 ---
 

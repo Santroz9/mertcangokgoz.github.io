@@ -5,7 +5,7 @@ date: 2015-02-26 14:38:57.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: İnternet bağlantısında bir takım sorunlar yaşayan ve bu sorundan kalıcı olarak kurtulmak istiyorsanız doğru yere geldiniz
 ---
 İnternet bağlantısında bir takım sorunlar yaşayan ve bu sorundan kalıcı olarak kurtulmak istiyorsanız doğru yere geldiniz diyebilirim.Açık kaynak kodlu olarak yürütülen bir projenin ürünü olan Complete internet repair uygulaması ile internet bağlantısnızdaki tüm sorunlar ortadan kalıcı olarak kalkacak hemde zahmetsizce

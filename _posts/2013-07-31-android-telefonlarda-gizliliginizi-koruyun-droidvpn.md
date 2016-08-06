@@ -1,11 +1,9 @@
 ---
 layout: post
 title: DroidVPN ile Gizliliğinizi Koruyun
-date: 2013-07-31 04:52:38.000000000 +03:00
+date: 2013-07-31
 type: post
-published: true
-status: publish
-categories: Genel
+categories: genel
 description: Wifi yada 3G internetiniz ile bağlanırken güvenliğiniz konusunda şüphe ediyorsanız internete bağlanırken saçma saçma reklamlar karşınıza çıkıyorsa
 ---
 

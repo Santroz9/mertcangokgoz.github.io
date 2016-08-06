@@ -5,7 +5,7 @@ date: 2013-09-01 05:11:51.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Niniteye yaklaşık 1 yıl önce türkiye deki fatih projesi için verilen seminere yanlışlıkla katılmamdan sonra keşfettim normal bir birey googlede
 ---
 

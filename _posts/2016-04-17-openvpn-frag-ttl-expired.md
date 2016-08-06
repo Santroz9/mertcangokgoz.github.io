@@ -3,7 +3,7 @@ layout: post
 title: OpenVPN Frag TTL Expired
 date: 2016-04-17
 type: post
-categories: Linux
+categories: linux
 description: OpenVPN ile gizliliğimizi koruyacaz diye patates olmaya gerek yok keza UDP bağlantılarda
 ---
 

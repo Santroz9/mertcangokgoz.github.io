@@ -3,7 +3,7 @@ layout: post
 title: Nginx için Yoast’s SEO Sitemap Ayarları
 date: 2016-01-24 11:00:49.000000000 +02:00
 type: post
-categories: Nginx
+categories: nginx
 description: Google XML Sitemap üzerinde bulunan hatalar ve uzun süredir güncelleme almamasından dolayı yeni bir Sitemap eklentisi arıyordum Yoast's SEO
 ---
 

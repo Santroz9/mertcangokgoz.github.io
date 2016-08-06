@@ -5,7 +5,7 @@ date: 2015-01-26 15:45:25.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Whatsapp geçtiğimiz günlerde web uygulamasını yürürlüğe koyadursun bizde whatsapp için piyasaya çıkmış farklı bir konsept ürüne göz atalım.Teknoloji
 ---
 **Whatsapp** geçtiğimiz günlerde web uygulamasını yürürlüğe koyadursun bizde **whatsapp** için piyasaya çıkmış farklı bir konsept ürüne göz atalım.Teknoloji dergilerindede görmüşsünüzdür bazı web sitelerinde whatsapp nin internetsiz kullanılabileceği ve ücretsiz olacağı konusunda haberler vardı bir bakıma bu haberi doğrulayan bir ürün aslında Whatsim, peki nedir ulan bu **WhatSim** Bu Sim kartı kullanıcıların internet olmadan Dünya çapında mesajlaşma servisini yani **WhatsApp** kullanmaya izin verir, ve bu bir yıl için tamamen ücretsiz. WhatSim kullanarak, dünyanın herhangi bir yerinde **WhatsApp** ile arkadaş, aile veya iş arkadaşlarınızla sohbet edebilirsiniz.

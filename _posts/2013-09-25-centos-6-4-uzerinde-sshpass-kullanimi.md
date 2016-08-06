@@ -5,7 +5,7 @@ date: 2013-09-25 00:33:04.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Normalde Linux root kullanıcıları ya ssh server üzerinden yada key based ile giriş yaparlar. SSHPASS işlemi yaparak otomatik olarak şifre
 ---
 

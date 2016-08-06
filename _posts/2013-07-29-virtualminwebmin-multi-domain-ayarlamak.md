@@ -5,7 +5,7 @@ date: 2013-07-29 01:26:23.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Virtualminin Cpanel,Plesk,Kloxo gibi diğer sistemlerden farkı biraz daha detaya inmesi sunucunun en ince ayarlarına kadar ulaşabilir ve değiştirebilirsiniz
 ---
 Virtualminin Cpanel,Plesk,Kloxo gibi diğer sistemlerden farkı biraz daha detaya inmesi sunucunun en ince ayarlarına kadar ulaşabilir ve değiştirebilirsiniz bunlardan en kolay multi domain eklemektir çünkü belirlediklerinizin dışında yapacağınız bir iş yok çünkü gereken ayarları **Virtualmin** eğer doğru kurmuş iseniz yapmaktadır.

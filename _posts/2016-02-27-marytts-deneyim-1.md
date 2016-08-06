@@ -3,7 +3,7 @@ layout: post
 title: MaryTTS Deneyimlerim 1
 date: 2016-02-27
 type: post
-categories: Analiz
+categories: analiz
 description: Çok uzun sayılmaz ama bir süredir MaryTTS'nin Türkçe desteğini iyileştirmeye
 ---
 

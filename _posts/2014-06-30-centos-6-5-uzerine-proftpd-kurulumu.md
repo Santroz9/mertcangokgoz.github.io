@@ -5,7 +5,7 @@ date: 2014-06-30 16:22:05.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Centos sistemlerin hemen hepsinde bulunan özelliklede web serverlarda sıkça görülen bu uygulama sayesinde uzaktan sunucunuza dosya
 ---
 

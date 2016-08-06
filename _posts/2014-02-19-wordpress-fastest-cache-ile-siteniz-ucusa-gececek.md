@@ -5,7 +5,7 @@ date: 2014-02-19 13:37:39.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Evet yanlış duymadınız bu eklenti sayesinde wordpress siteniz hiç olmadığı kadar hızlı ve stabil olacak nasıl mı dediğinizi duyar gibiyim bu
 ---
 Evet yanlış duymadınız bu eklenti sayesinde wordpress siteniz hiç olmadığı kadar hızlı ve stabil olacak nasıl mı dediğinizi duyar gibiyim bu eklentiyi hiç kullanmadıysanız eski cache eklentinizi silip denemenizi tavsiye ediyorum özellikle yüksek trafikli sitelerin kullanması gerektiğini düşünüyorum.Ayrıca eklenti tamamen php ve htaccess üzerinden çalıştığı için sitenizde gereksiz SQL sorguları ve döngüleri çalıştırmaz böylelikle CPU sorunu yaşamazsınız ve stabil bir şekilde sitenizi kullanmaya devam edebilirsiniz. Geliştirilmiş arayüzü sayesinde ayarlamalarınızı sorunsuz bir şekilde yapabilirsiniz. Bununla birlikte eklentimizin Türkçe dil seçeneğide mevcut

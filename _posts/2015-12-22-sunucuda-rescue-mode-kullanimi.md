@@ -5,7 +5,7 @@ date: 2015-12-22 12:54:09.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Geçtiğimiz günlerde sistemsel olarak bir sorun yaşadım bunun sonucundada sunucuya hiçbir şekilde bağlanamıyordum.Rescue Mode sağolsun çözüme
 ---
 

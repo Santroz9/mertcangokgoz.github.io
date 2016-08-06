@@ -5,7 +5,7 @@ date: 2015-01-06 15:45:54.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: "İnternetin gidişatı için VPN in mantığını ve önemini bu makalede anlatacak değilim konuya direk girmek lazım VPN şifreli bir network sunar"
 ---
 İnternetin gidişatı için **VPN** in mantığını ve önemini bu makalede anlatacak değilim konuya direk girmek lazım **VPN** şifreli bir network sunar böylelikle güvenliğinizi sağlayabilirsiniz.Tabi Türkiye şartlarında yasakları delik deşik etmek için kullanılıyor.Makalemizde Centos 7 üzerine **OpenVPN** kurulumunu komutlar ile göstermeye çalışacağım elimde çalışan hali hazırda bi centos 7 olsaydı resimli olarak göstermeye çalışacaktım ancak mali sıkıntılar olduğunu unutmamak lazım

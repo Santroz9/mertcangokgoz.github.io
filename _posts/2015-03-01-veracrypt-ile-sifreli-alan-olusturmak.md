@@ -5,7 +5,7 @@ date: 2015-03-01 14:26:14.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: VeraCrypt çok uzun zaman önce bir kaç açık yüzünden patlayan TrueCryptın küllerinden doğmuş bir uygulamadır TrueCrypt ile aynı özelliklere
 ---
 

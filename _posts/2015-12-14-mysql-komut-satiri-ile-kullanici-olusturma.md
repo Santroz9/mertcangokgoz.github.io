@@ -5,7 +5,7 @@ date: 2015-12-14 12:35:53.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Web Serveri kurduğunuzu varsayıyorum ve veritabanınıza kullanıcı eklemeniz gerekiyor.Panel yada herhangi bir arayüz kullanmadığınızı düşünelim
 ---
 

@@ -5,7 +5,7 @@ date: 2015-09-25 16:27:16.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Nginx
+categories: nginx
 description: Uzun süredir http/2 biye bize SPDY birşey yutturmuştu geliştiriciler şimdi ise bunu bir kenara bırakıp ciddi ciddi http2 ye geçmeye başladık nginx
 ---
 

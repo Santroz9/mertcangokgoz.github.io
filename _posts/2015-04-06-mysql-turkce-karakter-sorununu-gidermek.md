@@ -5,7 +5,7 @@ date: 2015-04-06 15:27:49.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: MySQL de yedeklerini taşırken yada yeni bir site kurarken illaki böyle bir hata ile karşılaşanlar olmuştur türkçe karakterlerin aşırı derecede
 ---
 

@@ -5,7 +5,7 @@ date: 2015-07-09 22:53:34.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: cPanel dünyada ve Türkiye'de linux işletim sistemlerini yönetmek için kullanılan oldukça popüler bir kontrol panelidir. Kolaylıkla sitelerinizi
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Manjaro Siyah Ekran Sorunu Ve Çözümü
 date: 2016-04-13
 type: post
-categories: Linux
+categories: linux
 description: Deneme amaçlı 2 adet laptobuma Manjaro kordum hali hazırda birinde sıkıntı yaşatmazken diğerinde
 ---
 

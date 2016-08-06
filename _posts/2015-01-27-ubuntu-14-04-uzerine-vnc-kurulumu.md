@@ -5,7 +5,7 @@ date: 2015-01-27 14:48:42.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Centos üzerine VNC kurulumu makalemizde anlatmıştım.Şimdi Sıra geldi Ubuntu kullanan kullanıcılar için VNC kurmaya centos gibi aşırı kolay
 ---
 **Centos** üzerine **VNC** kurulumu makalemizde [anlatmıştım](https://mertcangokgoz.com/centos-6-4-uzerine-vnc-server-kurulumu.html).Şimdi Sıra geldi Ubuntu kullanan kullanıcılar için **VNC** kurmaya centos gibi aşırı kolay olduğunu belirtmek isterim.Linux sunucularda uzaktan yönetiminde önemini vurgulamadan geçmek istemiyorum özellikle SSH kullanamayan ve sunucusunu yönetmek isteyen arkadaşlar için birebir.

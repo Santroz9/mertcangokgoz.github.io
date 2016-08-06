@@ -5,10 +5,8 @@ date: 2015-07-03 06:46:15.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
-description: Skype bilindiği gibi dünya üzerinde popüler olarak kullanılan
-    bir yazışma,sesli konuşma uygulaması popüler olmasından dolayıda saldırılar ve
-    buna bağlı
+categories: guvenlik
+description: Skype bilindiği gibi dünya üzerinde popüler olarak kullanılan bir yazışma,sesli konuşma uygulaması popüler olmasından dolayıda saldırılar ve buna bağlı
 ---
 
 **Skype** bilindiği gibi dünya üzerinde popüler olarak kullanılan bir yazışma,sesli konuşma uygulaması popüler olmasından dolayıda saldırılar ve buna bağlı olarak sızıntılarında kaynağı örnek vermek gerekirse bu makalede de göreceğiniz gibi ip adresiniz belirlenebiliyor.Buna bağlı olarak **ip** adresinize saldırı alabiliyorsunuz yada ip adresiniz belli ise bu adres üzerinden skype adresiniz çözümlenebiliyor.

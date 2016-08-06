@@ -3,7 +3,7 @@ layout: post
 title: C ile Sayıların Toplanması ve Ortalamaları
 date: 2015-03-23
 type: post
-categories: Programlama
+categories: programlama
 description: C ile Programa girilen sayıların toplanması ve bu girilen sayıların ortalamalarının alınması basit bir şekilde aşağıdaki örnekde gösterilmiştir.
 ---
 

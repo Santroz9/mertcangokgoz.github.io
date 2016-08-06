@@ -5,7 +5,7 @@ date: 2015-07-12 19:32:50.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Bu makalemizde açık kaynak kodlu ve bir birinden güzel özelliği olan Ajenti kurulumunu göstereceğim oldukça basit olan kurulumunda işletim
 ---
 

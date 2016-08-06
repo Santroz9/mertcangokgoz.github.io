@@ -5,7 +5,7 @@ date: 2013-07-30 04:42:47.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Windows Server 2012 DNS Ayarlamalarını aşağıdaki video aracılığı
 ---
 Windows Server 2012 DNS Ayarlamalarını aşağıdaki video aracılığı ile kolaylıkla yapabilirsiniz.

@@ -5,7 +5,7 @@ date: 2015-11-16 13:30:51.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: AppArmor açıklanabilecek en kısa açıklaması ile sisteme verilebilecek zararı sınırlandırır veya yapılan bu işlemi tamamen durdururan bir uygulamadır.Selinux
 ---
 

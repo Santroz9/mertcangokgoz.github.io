@@ -5,7 +5,7 @@ date: 2015-01-28 13:41:09.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Centos 7 de ipv6 yı kullanmak istemiyorsanız yapmanız gerekenler çok basit ben ipv4 den alır yürür giderim diyorsanız devre dışı bırakabilirsiniz
 ---
 

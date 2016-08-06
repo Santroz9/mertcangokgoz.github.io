@@ -5,7 +5,7 @@ date: 2015-03-22 18:13:05.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Bir web sitesi kurdunuz ve sonrasında domain adresinizi değiştirmeniz gerekti eski yedeklerinizi taşıdınız ayarlamalarınızı yaptınız ve sıra yönlendirme
 ---
 Bir web sitesi kurdunuz ve sonrasında domain adresinizi değiştirmeniz gerekti eski yedeklerinizi taşıdınız ayarlamalarınızı yaptınız ve sıra yönlendirme işlemine geldi ve yönlendirmeyi .htaccess kullanarak yapmak istemiyorsanız.Aşağıdaki **PHP** kodu işinize çok yarayacak yapmanız gereken domaininizin bulunduğu eski sunucu içerisindeki **index.php** içerisine satırları eklemek

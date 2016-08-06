@@ -3,7 +3,7 @@ layout: post
 title: MaryTTS Deneyimlerim 3
 date: 2016-03-12
 type: post
-categories: Analiz
+categories: analiz
 description: En son MaryTTS için Türkçe lexicon wordlisti hazırlamıştım
 ---
 

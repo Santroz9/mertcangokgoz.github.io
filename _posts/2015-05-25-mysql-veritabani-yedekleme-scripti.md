@@ -5,7 +5,7 @@ date: 2015-05-25 12:42:15.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Sunucunuzda kullanabileceğiniz oldukça kullanışlı bir script'dir.Mysql ve MariaDB(percona dahil) pek çok sistemin yedeğini kolaylıkla alabilirsiniz.
 ---
 

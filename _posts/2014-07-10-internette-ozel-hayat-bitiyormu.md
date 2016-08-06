@@ -5,7 +5,7 @@ date: 2014-07-10 10:28:30.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: İnternette son zamanlarda adı çokça geçen yeni düzenlemeler ve torba yasa ile hayatımıza girecek olan bazı denetlemelerin yapacağı tehlikelere
 ---
 

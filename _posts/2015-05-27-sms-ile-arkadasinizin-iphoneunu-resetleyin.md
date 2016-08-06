@@ -5,7 +5,7 @@ date: 2015-05-27 23:34:10.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Yanlış duymadınız bugün public edilen bir bug ile uzaktan arkadaşınızın telefonunu yeniden başlatabilirsiniz.Yapmanız gereken tek şey ise
 ---
 

@@ -5,7 +5,7 @@ date: 2014-05-10 22:56:24.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: Şimdi soracaksınız "lan böyle bir blog da bu konunun ne işi var" diye haklısınız aslında ancak video çekerken özellikle youtube deki bazı
 ---
 

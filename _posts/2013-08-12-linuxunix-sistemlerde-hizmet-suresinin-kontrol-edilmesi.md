@@ -5,7 +5,7 @@ date: 2013-08-12 02:07:53.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Bu günkü makalemizde sizlere uptime w ve top komutlarını nasıl kullanabileceğinizi resimli ve detaylı bir biçimde anlatmaya çalışacağım
 ---
 <p>Bu günkü makalemizde sizlere uptime w ve top komutlarını nasıl kullanabileceğinizi resimli ve detaylı bir biçimde anlatmaya çalışacağım.bir linux kullanıcısının bilmesi gereken temel komutlarından bazılarıdır GUIli sistemler sizi yanıltıyorsa ve size anlık değerler gerekiyor ise vereceklerim işte tam size göre</p>

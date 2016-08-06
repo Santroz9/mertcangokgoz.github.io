@@ -5,7 +5,7 @@ date: 2015-02-05 14:30:27.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Trafiğini limitlemek istediğiniz bir sisteminiz ve bir interface olsun genelde bunu yapmaz çoğu kişi ve sistemde çok adam olduğu zaman internetde
 ---
 

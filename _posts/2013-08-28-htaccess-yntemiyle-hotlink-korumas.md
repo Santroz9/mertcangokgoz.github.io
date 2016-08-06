@@ -5,7 +5,7 @@ date: 2013-08-28 02:36:13.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Hotlink bir web sitesinin başka web sitelerinde kayıtlı bulunan resim,pdf vb dosyaların kendi sayfaları içinde göstermesidir.Hotlink aslında htaccess
 ---
 

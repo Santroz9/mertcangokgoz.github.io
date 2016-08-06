@@ -5,7 +5,7 @@ date: 2015-02-06 15:33:33.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Tarayıcınıza sülük gibi yapışan gereksiz uygulamaları,reklam yazılımlarını,araç çubuklarını ve her türlü istemeyeceğiniz uygulamayı bilgisayarınızdan
 ---
 

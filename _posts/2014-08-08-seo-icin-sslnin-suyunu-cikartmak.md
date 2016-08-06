@@ -5,7 +5,7 @@ date: 2014-08-08 18:26:14.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: 6 Ağustos tarihinde yağılan ve heryerde SSL adı altında googlenin lanse ettiği ve SEO ya katkısının olacağını belirttiği için dünyanın 4 bir yanında
 ---
 6 Ağustos tarihinde yağılan ve [heryerde SSL](http://googlewebmastercentral.blogspot.com.tr/2014/08/https-as-ranking-signal.html) adı altında googlenin lanse ettiği ve [SEO](https://mertcangokgoz.com) ya katkısının olacağını belirttiği için dünyanın 4 bir yanında SEO ile uğraşan arkadaşlar illa bi 443 portuna geçecekler zaten güvenlik değilde böyle bi çıkar için bi işlerin yapılmasıda garip Olayın aslı şu videoya dayanıyor.

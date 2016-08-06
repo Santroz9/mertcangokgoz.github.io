@@ -5,7 +5,7 @@ date: 2013-07-28
 type: post
 published: true
 status: publish
-categories: Virtualmin/webmin
+categories: linux
 description: Bu soruna test amaçlı almış olduğum centos 5.9 serverim de domainler de oluşan record sorunlarına çözüm ararken google de bulmuş olduğum
 ---
 

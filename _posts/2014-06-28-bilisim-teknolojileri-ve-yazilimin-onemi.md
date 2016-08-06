@@ -5,7 +5,7 @@ date: 2014-06-28 12:45:08.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: Bilişim teknolojileri ve yazılım hızla gelişmekte olan ve günümüzün vazgeçilmezlerinden biri haline gelen büyük bir araçtır. Bu teknolojiler
 ---
 **![programlamagorsel1](/assets/programlamagorsel1.jpg)

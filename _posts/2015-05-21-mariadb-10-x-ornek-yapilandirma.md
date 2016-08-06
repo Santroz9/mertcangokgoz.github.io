@@ -5,7 +5,7 @@ date: 2015-05-21 18:15:29.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: MariaDB Geçtik ama ayarlamalarını nasıl yapacağız sorgularımız nasıl hızlı olacak ve en önemlisi sistemde kaynak kullanımı ne kadar olacak diye
 ---
 

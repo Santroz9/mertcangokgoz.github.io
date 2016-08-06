@@ -3,7 +3,7 @@ layout: post
 title:  Linux Sunucu Güvenliği Eğitim Seti
 date: 2016-07-09
 type: post
-categories: Eğitimler
+categories: egitimler
 description: 20 Videoyu geçmeyecek bir seri düşündüm ve bu seride sizlere linux sunucu güvenliği hakkında bilgiler vermek istedim.
 ---
 

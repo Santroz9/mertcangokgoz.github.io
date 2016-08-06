@@ -5,7 +5,7 @@ date: 2014-07-22 19:31:28.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: CTRL + ALT + T bastırdığınız zaman karşınıza o siyah ekran çıkıyor ya heh işte ona uçbirim deniyor.Bu yazımızdada işte biz o ekranda
 ---
 CTRL + ALT + T bastırdığınız zaman karşınıza o siyah ekran çıkıyor ya heh işte ona uçbirim deniyor.Bu yazımızdada işte biz o ekranda eğleneceğiz nasıl diye sormayın ufak ASCII karakterler işimize yarayacak ama önce bunu yapmamız için bi Ubuntu sürümünün sisteminizde kurulu olması lazım bildiğiniz gibi ben ubuntu kullanıyorum. ve benim eğlence anlayışım bu şekilde haliyle

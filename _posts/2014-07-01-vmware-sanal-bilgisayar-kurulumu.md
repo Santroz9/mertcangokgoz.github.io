@@ -5,7 +5,7 @@ date: 2014-07-01 19:55:17.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: vmware workstation üzerine sanal bilgisayar kurulumunu nasıl yaparız bunu anlatmak istedim aslında internet de bir sürü anlatım var ancak güncel
 ---
 

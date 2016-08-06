@@ -5,7 +5,7 @@ date: 2015-02-27 14:07:53.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Firefox ilk çıktığı yıllardan beri ramı oldukça fazla tüketmektedir internetde kimi blog sahibi arkadaşımız konuya değinmiş olsada şuanda en geçerli
 ---
 **Firefox** ilk çıktığı yıllardan beri ramı oldukça fazla tüketmektedir internetde kimi blog sahibi arkadaşımız konuya değinmiş olsada şuanda en geçerli olarak ram kullanımını düşüren uygulamanın adı **Firemin** yaptıkları bu kadarda sınırlı değil aslında çünkü eskiden kasan ve kitlenen bir **firefox** tarayıcınız var ise bu uygulama sayesinde ondanda kurtuluyorsunuz.

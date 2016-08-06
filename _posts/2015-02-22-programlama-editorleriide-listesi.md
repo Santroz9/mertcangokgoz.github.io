@@ -5,7 +5,7 @@ date: 2015-02-22 12:45:42.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Bilgisayar programcılarının hızlı,kolay ve rahat bir şekilde uygulama geliştirmeleri için geliştirilmiş programlardır.Kimisinde oldukça hızlı
 ---
 Bilgisayar **programcılarının** hızlı,kolay ve rahat bir şekilde uygulama geliştirmeleri için geliştirilmiş programlardır.Kimisinde oldukça hızlı uygulama geliştirilirken kimisindede oldukça zor bir şekilde uygulama geliştirilmektedir.Ben ise sizlere başlıca kullanabileceğiniz **programlama** editörlerini listeleyeceğim.

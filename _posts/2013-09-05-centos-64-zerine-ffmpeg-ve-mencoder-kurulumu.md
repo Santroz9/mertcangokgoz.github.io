@@ -5,7 +5,7 @@ date: 2013-09-05 11:35:16.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: centos işletim sisteminde gerek çoğu arkadaşımızın takıldığı yerlerden biriside bu iki uygulamanın kurulumları aslında rutorrent yüklenecek
 ---
 

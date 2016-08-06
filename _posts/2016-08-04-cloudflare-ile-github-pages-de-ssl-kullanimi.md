@@ -3,7 +3,7 @@ layout: post
 title:  Cloudflare ile Github Pages'de SSL Kullanımı
 date: 2016-08-04
 type: post
-categories: Genel
+categories: genel
 description:  Github Pages de kullandığım SSL konusu bazı arkadaşların dikkatini çekmiş custom domain de SSL kullanmamdan
 ---
 

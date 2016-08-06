@@ -5,7 +5,7 @@ date: 2015-01-18 15:35:50.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Telegramın ne olduğunu az çok biliyorsunuzdur.Telegram tüm platformlarda kullanılabilen popüler bir anlık mesajlaşma uygulamasıdır.Arkadaşlarınız
 ---
 **Telegram** ın ne olduğunu az çok biliyorsunuzdur. **Telegram** tüm platformlarda kullanılabilen popüler bir anlık mesajlaşma uygulamasıdır.Arkadaşlarınız ve dünyanın başka yerlerindeki insanlar ile konuşabilirsiniz.Telegram **Whatsapp** benzerliği ile ilk başlarda gözümüze çarpmaktadır ancak Telegramın farkı ücretsiz olması ve dünyanın dört bir yanında kullanılmasıdır.Reklam ve kısıtlamada içermez._Telegram Açık kaynak kodlu bir yazılımdır herkes uygulamanın gelişmesinde katkı sağlayabilir_ ve bence en önemli özelliği ise _APİ_ desteğinin bulunması Ayrıca uygulama **Linux** ,İOS,_Android_,MAC OS X,Windows ,Windows Phone destekler yani **multi-platform** bir üründür.

@@ -5,7 +5,7 @@ date: 2013-10-11 01:30:10.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Birçok kişi bilgisayarların basit bir iki parçadan oluştuğunu düşünmektedir ancak bilgisayarların çalışabilmesi için sayamayacağınız
 ---
 

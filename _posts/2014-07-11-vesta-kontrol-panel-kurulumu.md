@@ -5,7 +5,7 @@ date: 2014-07-11 18:16:05.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Karmaşık ve zor kontrol panellerine uğraşmasa son Vesta tüm sorunlarınıza çözüm olmaya geliyor. Bu Paneli keşfetmem nginx ile uğraşmam
 ---
 Karmaşık ve zor kontrol panellerine uğraşmasa son **Vesta** tüm sorunlarınıza çözüm olmaya geliyor. Bu Paneli keşfetmem **nginx** ile uğraşmam ile birlikte başladı gerçekten harika bir panel ve ufak çaplı web siteleriniz için kullanımı da oldukça kolay sitesinde belirttiği gibi kullanıcıya temiz bir ara yüz sunmakta ve bilmeyen bir insana bile sunucu yönetimini sevdirecek kadar güzel

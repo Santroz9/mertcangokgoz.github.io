@@ -5,7 +5,7 @@ date: 2014-10-24 16:35:33.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: ThePirateBay Tarafından lanse edilen ve reklam kampanyası yapılan FrootVPN ile karşınızdayız diğer kullandığınız VPN firmalarından tek farkı
 ---
 

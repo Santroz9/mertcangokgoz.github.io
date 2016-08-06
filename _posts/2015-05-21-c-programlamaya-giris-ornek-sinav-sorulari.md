@@ -3,7 +3,7 @@ layout: post
 title: C Programlamaya Giriş Örnek Sınav Soruları
 date: 2015-05-21
 type: post
-categories: Programlama
+categories: programlama
 description: Başkent Üniversitesi C Programlamaya Giriş Dersi için daha önceden yapılmış vize ve final sınavlarında
 ---
 

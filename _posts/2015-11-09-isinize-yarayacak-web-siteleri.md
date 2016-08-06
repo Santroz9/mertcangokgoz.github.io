@@ -3,7 +3,7 @@ layout: post
 title: "İşinize Yarayacak Web Siteleri"
 date: 2015-11-09 21:23:36.000000000 +02:00
 type: post
-categories: Genel
+categories: genel
 description: "İnternetde bulunan ve oldukça işinize yarayacak web sitelerini sizin için bir araya getirdim.Bunlar arasında online compiler siteleri js ve html"
 ---
 

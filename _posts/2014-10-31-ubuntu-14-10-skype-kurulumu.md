@@ -5,7 +5,7 @@ date: 2014-10-31 15:50:17.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu 14.10 Skype kurulumunu hep birlikte yapalım aşırı kolay bir durum zor değil yapılır yani korkmayın skype nedir demeyin dünya çapında
 ---
 Ubuntu 14.10 Skype kurulumunu hep birlikte yapalım aşırı kolay bir durum zor değil yapılır yani korkmayın skype nedir demeyin dünya çapında kullanılan bi görüşme uygulaması işte kuralım bunu güzel programdır iyidir.Bundan iyiside var tabi orasını karıştırmayın ama popüler olan bu olunca kanka skypen varmı dediklerinde yaparsınız artık birşeyler

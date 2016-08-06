@@ -5,7 +5,7 @@ date: 2015-03-26 17:36:48.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Açık kaynak kodlu yazılım dediğimiz zaman çoğu kişinin aklına ücretsiz kullanılabilen uygulamalar gelir.Çünkü benimde ilk olarak aklıma bu geldi
 ---
 Açık kaynak kodlu yazılım dediğimiz zaman çoğu kişinin aklına ücretsiz kullanılabilen uygulamalar gelir.Çünkü benimde ilk olarak aklıma bu geldi bilgisayar ile tanıştığım zamanlarda görmüştüm ana ne güzel beleş uygulamalar la demiştim ancak insan zamanla mentalitesini anlıyor ve açık kaynağın dünya üzerindeki tüm geliştiriciler,firmalar ve kuruluşlar için ne kadar önemli olduğunu görüyorum.Güvenliğine önem veren kodlarda ne yapıldığını görmek isteyen devletlerde **açık kaynak kodlu** bir şekilde uygulamalarını geliştiriyor ve eğer yeni bir uygulama yapılacak ise bu mentalite ile yola çıkıyorlar

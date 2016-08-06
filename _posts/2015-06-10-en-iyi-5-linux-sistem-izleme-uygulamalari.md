@@ -5,7 +5,7 @@ date: 2015-06-10 12:55:37.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Herhangi bir linux sunucunuz var sağlıklı güzel bir şekilde çalışıyor ama siz sisteminizi kontrol etmek istiyorsunuz ve sağlığının bozulmasını
 ---
 

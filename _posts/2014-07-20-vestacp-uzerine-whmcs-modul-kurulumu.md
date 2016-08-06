@@ -5,7 +5,7 @@ date: 2014-07-20 11:40:10.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: VestaCP geliştirilirken gerçekten de esnek ve bir o kadar da kolay olabilmesi amacıyla yazıldığını belirtmekte fayda var bu modül sayesinde
 ---
 **VestaCP** geliştirilirken gerçekten de esnek ve bir o kadar da kolay olabilmesi amacıyla yazıldığını belirtmekte fayda var bu modül sayesinde tüm işlemlerinizi tek seferde yapabilirsiniz.

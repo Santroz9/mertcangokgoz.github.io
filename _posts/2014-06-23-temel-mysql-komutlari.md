@@ -5,7 +5,7 @@ date: 2014-06-23 14:30:19.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Bu makalemizde veritabanı içerisindeki tablolarda bulunan verileri yönetmek için kullanılan bazı temel SQL komutlarını açıklamak istiyorum.
 ---
 Bu makalemizde veritabanı içerisindeki tablolarda bulunan verileri yönetmek için kullanılan bazı temel **SQL** komutlarını açıklamak istiyorum.

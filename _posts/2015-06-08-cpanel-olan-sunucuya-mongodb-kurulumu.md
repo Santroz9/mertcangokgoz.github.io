@@ -5,7 +5,7 @@ date: 2015-06-08 22:09:40.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: MongoDB veritabanları ile etkileşimli bir şekilde çalışabilen bir uygulama biz kurulumumuzu Centos üzerinde yapacağız ve sunucumuzda Cpanel
 ---
 **MongoDB** veritabanları ile etkileşimli bir şekilde çalışabilen bir uygulama biz kurulumumuzu Centos üzerinde yapacağız ve sunucumuzda Cpanel kurulu olduğu varsayılacak. **MongoDB** BSON alt yapısı sayesinde **MySQL** gibi sistemler ile çabucak etkileşime girebilen ve ayarlanabilen bir yapıya sahip en önemli özelliklerinden bir taneside büyük ölçekli sitelerin vaz geçilmezi

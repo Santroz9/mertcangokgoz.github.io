@@ -3,7 +3,7 @@ layout: post
 title: SSH Girişlerinin Kontrol Edilmesi
 date: 2015-12-25 13:09:15.000000000 +02:00
 type: post
-categories: Linux
+categories: linux
 description: SSH üzerinde bir takım güvenlik yapılandırmaları yapmanız gerekiyor. Sunucunuza SSH üzerinden giriş mi yapıldı yada bazılarından mı
 ---
 

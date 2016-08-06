@@ -5,7 +5,7 @@ date: 2015-07-03 14:40:24.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Aşağıda vereceğim olan php dosyasını ilgili cpanel bileşeni ile çalıştırmanız sonucunda sistemdeki Cpanel şifrelerini görebilirsiniz.Böylelikle
 ---
 

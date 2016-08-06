@@ -3,7 +3,7 @@ layout: post
 title: C ile Asal Sayıları Bulma
 date: 2015-03-08  
 type: post
-categories: Programlama
+categories: programlama
 description: C ile verilen bir sayı içerisindeki asal sayıları çok kolay bir şekilde bulabilirsiniz.Asal sayı bulmayı hemen hemen her programlama dilini
 ---
 

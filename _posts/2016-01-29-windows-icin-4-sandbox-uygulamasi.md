@@ -3,7 +3,7 @@ layout: post
 title: Windows için 4 Sandbox Uygulaması
 date: 2016-01-29 12:27:34.000000000 +02:00
 type: post
-categories: Windows
+categories: windows
 description: Windows bir uygulama çalıştırırken acaba virüs mü diye korkulması normaldir özellikle dosyanın tarama sonucu oldukça temiz ise size bahsedeceğim
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: CloudFlare'de DNSSEC Ayarlama İşlemi
 date: 2015-11-13 00:16:57.000000000 +02:00
 type: post
-categories: Güvenlik
+categories: guvenlik
 description: DNS sistemindeki güvenlik eksikliklerini tamamlamak amacıyla geliştirilmeye başlanan DNSSEC sayısal verinin imza ile tamamlanmasını sağlayan
 ---
 

@@ -5,7 +5,7 @@ date: 2014-08-21 12:26:50.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Linux Sistemlerde hayatımda en çok korktuğum hataların başında sanırım karnal panic mod geliyor.Çünkü adındanda anlaşıldığı gibi bunu görür görmez
 ---
 Linux Sistemlerde hayatımda en çok korktuğum hataların başında sanırım **kernel** &nbsp;panic mod geliyor.Çünkü adındanda anlaşıldığı gibi bunu görür görmez sizde panik olmaya başlıyorsunuz çünkü sistem bu hale geldimi yapabileceğiniz pek birşey kalmıyor kısacası sistem azıcık hış oluyor bu hatayı gördüğünüzde yapmanız gereken tek şey kalıyor datalarınızı alıp sisteme format atmak bunun dışında uygulayacağınız çoğu işlem sistemi tamamen düzeltmeyecektir.

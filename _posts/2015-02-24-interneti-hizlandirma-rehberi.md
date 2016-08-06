@@ -5,7 +5,7 @@ date: 2015-02-24 14:28:48.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: Belirtmek isterim ki İnterneti hızlandırma gibi bir lüxümüz bulunmuyor ama bu makalede size oranında internetinizi verimli bir şekilde nasıl
 ---
 Belirtmek isterim ki İnterneti hızlandırma gibi bir lüxümüz bulunmuyor ama bu makalede size **%15** oranında internetinizi verimli bir şekilde nasıl kullanabilirsiniz bunu göstereceğim.İlk olarak interneti hangi hangi firmadan alıyorsunuz bunu bi bilmemiz gerekiyor.

@@ -5,7 +5,7 @@ date: 2015-04-27 12:03:12.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Atomia DNS Sistemdeki DNS serverların yönetilmesinde kullanılabilir.Bir veya birden çok sistemde kullanılabilir.Local kurallar üzerinde etkisi büyüktür
 ---
 Atomia DNS Sistemdeki DNS serverların yönetilmesinde kullanılabilir.Bir veya birden çok sistemde kullanılabilir.Local kurallar üzerinde etkisi büyüktür yerel bir veritabanı oluşturarak sorguların o veritabanı üzerinden akmasını sağlar yönetilebilirlik açısından oldukça kolaydır.Hiyararşik bir yapıya sahip olursunuz.

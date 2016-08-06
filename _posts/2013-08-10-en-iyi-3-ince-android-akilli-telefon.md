@@ -1,11 +1,9 @@
 ---
 layout: post
 title: En İyi İnce 3 Android Akıllı Telefon
-date: 2013-08-10 23:40:44.000000000 +03:00
+date: 2013-08-10
 type: post
-published: true
-status: publish
-categories: Genel
+categories: genel
 description: Evet geçtiğimiz günlerde google araştırması yaparken gsmarenada bir kaç dikkatimi çeken telefon oldu fiyatı 300 doların altında olması ve özellikleri
 ---
 

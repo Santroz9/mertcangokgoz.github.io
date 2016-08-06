@@ -5,7 +5,7 @@ date: 2014-08-01 23:32:19.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Nginx Günümüzde bazı yüksek ölçekli sitelerin arka planında yükü azaltmak adına çokca kullanılan bir yazılımdır.Apacheye oranla yüksek yük
 ---
 **Nginx** Günümüzde bazı yüksek ölçekli sitelerin arka planında yükü azaltmak adına çokça kullanılan bir yazılımdır.Apacheye oranla yüksek yük altında performansı oldukça fazladır. **Nginx** daha dayanıklı olmasının yanında daha esnektir ve hafiftir sistemi asla yormaz işte sizlere bu makalemizde Nginxi centos 7 üzerine sade olarak nasıl kurabileceğimizi göstereceğim.Oldukça basit bir yol izleyeceğiz.

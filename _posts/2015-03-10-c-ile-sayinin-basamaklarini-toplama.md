@@ -3,7 +3,7 @@ layout: post
 title: C ile Sayının Basamaklarını Toplama
 date: 2015-03-10
 type: post
-categories: Programlama
+categories: programlama
 description: C programlama dili ile girilen bir sayının basamaklarını toplayacağız ve bu sayının bölünüp bölünmediğini kontrol
 ---
 

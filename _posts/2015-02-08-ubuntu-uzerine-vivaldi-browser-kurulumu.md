@@ -5,7 +5,7 @@ date: 2015-02-08 14:25:24.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu için vivaldiyi kurmazsak olmazdı yakın bir zaman dilimi içerisinde yayınlanmış ve sevilen bir tarayıcı haline gelmişti linux sürümlerini
 ---
 **Ubuntu** için vivaldi'yi kurmazsak olmazdı yakın bir zaman dilimi içerisinde yayınlanmış ve **sevilen** bir tarayıcı haline gelmişti **linux** sürümlerini de destekleyen vivaldi'yi bu makalemizde ubuntu üzerine kurmayı anlatacağım özellikle _debian tabanlı linux dağıtımlarında_ kolaylıkla kurulabilsin diye paketi hazır olarak vermişler aslında

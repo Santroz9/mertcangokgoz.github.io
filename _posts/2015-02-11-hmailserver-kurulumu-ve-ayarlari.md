@@ -5,7 +5,7 @@ date: 2015-02-11 14:42:22.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: hMailServer açık kaynak kodlu ve ücretsiz windows için yapılmış bir mail sunucusudur.Tüm maillerinizi almanıza ve göndermenize izin verir üstelik
 ---
 **hMailServer** açık kaynak kodlu ve ücretsiz windows için yapılmış bir mail sunucusudur.Tüm maillerinizi almanıza ve göndermenize izin verir üstelik herhangi bir firma ile çalışmanıza gerekde yok desteklediği protokoller ise standart olarak **IMAP** , **SMTP** , **POP3** kolaylıkla ayarlanabilir ve entegre edilebilmektedir.

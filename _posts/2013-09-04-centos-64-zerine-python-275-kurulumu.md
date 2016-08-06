@@ -5,7 +5,7 @@ date: 2013-09-04 01:22:10.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: sanal centos üzerine python ile çalışan bir uygulama yüklemem ve ısrarla 2.4 üstü olması lazım demesi ve beni çileden çıkartmasıdır ama  google
 ---
 

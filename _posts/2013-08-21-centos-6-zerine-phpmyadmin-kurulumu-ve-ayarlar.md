@@ -5,7 +5,7 @@ date: 2013-08-21 19:07:11.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Sunucu üzerinde web sitesi barındırma işlemi yapacak arkadaşların işine yarayacak olan bu makalemiz ile kolaylıkla phpmyadmin kurarak
 ---
 

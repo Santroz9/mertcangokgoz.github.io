@@ -5,7 +5,7 @@ date: 2015-11-24 14:27:54.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Wordpress
+categories: wordpress
 description: Eski adıyla Project Spartan olarak bilinen Microsoft Edge, Windows işletim sisteminin sürümlerinden yalnızca bir tanesi olan Windows 10’un
 ---
 

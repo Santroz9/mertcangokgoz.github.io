@@ -5,7 +5,7 @@ date: 2015-01-04 15:45:02.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: DNS ye her zaman adres defteri dediler yasaklı sitelere giriş kapısı olarak gördüler ,örselediler ,aşağıladılar buna artık dur demenin vakti
 ---
 DNS ye her zaman adres defteri dediler yasaklı sitelere giriş kapısı olarak gördüler ,örselediler ,aşağıladılar buna artık dur demenin vakti gelmedimi bence geldi çünkü dns nin asıl amacı yasaklı sitelere sizi sokmak falan değil yada net hızınızı arttırmak gibi bir işlevi yok DNS klasik bi tabir ile küreselleşen dünyadaki tüm sitelerin iplerinin tutulduğu sistem ve haliyle buna pek çok alternatif var ve kullanacağınız DNS nin öncelikle bizim TİB ,BTK ve&nbsp;malicious(kötücüllerden) arındırılmış olması gerekiyor.Normal bir birey için kötücüllerden arındırılmış olması yeterliydi ancak Türkiye standartlarında TİB ve BTK nında dürtmediği DNSleri kullanmalıyız.

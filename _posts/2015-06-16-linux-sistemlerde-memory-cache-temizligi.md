@@ -5,7 +5,7 @@ date: 2015-06-16 16:54:40.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ram üzerinde biriken önbellek aslında çok faydalı yani bu elmanın vitaminin kabuğunda olması gibi birşey ancak kimi durumlarda temizlememiz
 ---
 

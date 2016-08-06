@@ -5,7 +5,7 @@ date: 2015-06-01 20:29:11.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Son zamanlarda saldırıların artması üzerine potansiyel gereksiz ülkeleri güvenlik duvarı ile yasaklamanız mümkün bende biraz analiz ettikden sonra
 ---
 

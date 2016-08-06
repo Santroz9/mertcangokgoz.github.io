@@ -5,7 +5,7 @@ date: 2015-02-10 15:50:38.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu işletim sistemi kullanıyorsunuz ve şifrenizi unuttunuz diyelim ne yapmanız gerekiyor bu gün sizlere bundan bahsetmek istiyorum.Unutulan
 ---
 ![ubuntugorseli1](/assets/ubuntugorseli1.jpg)

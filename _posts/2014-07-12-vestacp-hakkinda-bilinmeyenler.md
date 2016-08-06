@@ -5,7 +5,7 @@ date: 2014-07-12 11:18:27.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: VestaCP de genel olarak gördüğüm insanların sistem üzerinde yazan terimleri yada fonksiyonların ne anlama geldiğini bilmemesi ve loğların
 ---
 **VestaCP** de genel olarak gördüğüm insanların sistem üzerinde yazan terimleri yada fonksiyonların ne anlama geldiğini bilmemesi ve **logların** ve **configlerin** hangi yerde tutulduğu konusunda bilgilendirmenin yapılması gerekmektedir.

@@ -3,7 +3,7 @@ layout: post
 title: Google Webmaster Tools Nedir
 date: 2015-11-28 13:55:34.000000000 +02:00
 type: post
-categories: Genel
+categories: genel
 description: Google Webmaster Tools, Google tarafından ücretsiz olarak sunulan site yönetim ve hata ayıklama aracıdır. Sitenizde oluşan tüm problemleri
 ---
 

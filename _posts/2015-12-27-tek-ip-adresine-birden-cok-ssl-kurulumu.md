@@ -3,7 +3,7 @@ layout: post
 title: Tek İP Adresine Birden Çok SSL Kurulumu
 date: 2015-12-27 13:23:06.000000000 +02:00
 type: post
-categories: Nginx
+categories: nginx
 description: Herhangi bir web sitesinde SSL aktif etmek için özel bir ip adresi gerekiyor.Hem sunucu sahipleri hemse hosting firmalar özel ip tahsisi
 ---
 

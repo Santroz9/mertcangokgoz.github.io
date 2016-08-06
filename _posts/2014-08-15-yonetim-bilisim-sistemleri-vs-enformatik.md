@@ -5,7 +5,7 @@ date: 2014-08-15 22:08:53.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: Günümüzde YBS ya da işletme enformatiği sistemleri kuramsal zeka uygulamalarının bir bölümünü oluşturuyor. Böylece sistemin temelini oluşturan
 ---
 İşletme yönetimini ve bilgisayar bilimlerini kapsamakta olan işletme enformatiği sosyo – teknik bir disiplindir. İşletme enformatiği uzmanı olan kişiler, üniversitelerin lisans düzeyinde verilmekte olan işletme enformatiği bölümü mezunlarıdır. Türkiye’de dahil olmak üzere dünyanın birçok ülkesinde lisans, yüksek lisans ve doktora düzeyinde işletme enformatiği eğitimleri üniversitelerde verilmektedir. verilen bu eğitimlerle, kurumsal yapılanmayı, iş süreçlerini ve bilişim ihtiyaçlarının çözümlenmesi, her geçen gün gelişmekte olan bilişim ve iletişim teknolojilerinin etkin bir şekilde kullanılması sayesinde kurumların ihtiyaç duyduğu bilişim çözümlerinin tasarlanması, hayata geçirilmesi ve uygulanması amaçlanmaktadır. Aynı zamanda tasarlanan ve hayat geçirilen çözümlerin kullanılması ile kurumların yapısı, işleyişi ve çevresel ilişkilerinin nasıl etkileneceğinin tespit edilmesi ile birlikte ileride bu alanlarda hem deneysel hem de kuramsal olarak yapılacak olan araştırmaların arttırılması amaçlanmaktadır.

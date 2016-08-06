@@ -5,7 +5,7 @@ date: 2013-07-29
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Herkesin merakla beklediği bir konu olan rutorrent ve seedbox kurulumunu sizlere burada kısaca açıklayacağım aslında gerçekten kurulumu çok
 ---
 

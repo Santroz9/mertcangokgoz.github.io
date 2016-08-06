@@ -5,7 +5,7 @@ date: 2014-08-20 20:26:13.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: başlıktada belirttiğim gibi ubuntu terminalden twitter kullanabilirsiniz.nasıl olacak lan bu diyorsanız adamlar yapmış aga twitter API ile python üzerinde
 ---
 başlıktada belirttiğim gibi ubuntu terminalden twitter kullanabilirsiniz.nasıl olacak lan bu diyorsanız adamlar yapmış aga twitter API ile python üzerinde geliştirmişler ve gerçekten kaliteli bir ürün ortaya çıkmış bende böyle birşeyin olduğunu twitterdan öğrendim açıkcası.

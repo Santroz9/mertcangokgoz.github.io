@@ -3,7 +3,7 @@ layout: post
 title: Manjaro DNSCrypt ve Dnsmasq Kurulumu
 date: 2016-01-15 11:07:49.000000000 +02:00
 type: post
-categories: Linux
+categories: linux
 description: OpenDNS öncülüğünde geliştirilmeye başlayan ve sorguları şifreleyen bir uygulama olan DNSCrypt Arch tabanlı sistemler de nasıl
 ---
 

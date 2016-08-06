@@ -5,7 +5,7 @@ date: 2014-10-23 14:00:48.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Bugün Ubuntu 14.10 un final betası yayınlandı eskisine göre pek çok hatayı gidermişler dediklerine göre ve bir kaç yenilik yapılmış bilgim
 ---
 Bugün Ubuntu 14.10 un final betası yayınlandı eskisine göre pek çok hatayı gidermişler dediklerine göre ve bir kaç yenilik yapılmış bilgim yok okumadım.Ancak yayın notlarında Final Sürüm yayınlanma günü 26 sı ancak bugün final beta yayınlanarak Büyük bir adım atılmış oldu peki güncellemek için ne yapmamız gerekiyor.

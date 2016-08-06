@@ -5,7 +5,7 @@ date: 2014-07-15 17:19:10.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Sizlere örnek olarak bir veritabanı tasarlamak istiyorum, özellikle de belirtmek istiyorum veritabanı tasarlamak oldukça önemli
 ---
 

@@ -5,7 +5,7 @@ date: 2014-10-11 16:30:01.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: WP-CLI Linux işletim sistemleri için geliştirilen bir wordpress kurulum ve özelleştirme uygulamasıdır bunu yaparkende hiçbir grafik arayüz kullanmaz
 ---
 **WP-CLI** Linux işletim sistemleri için geliştirilen bir wordpress kurulum ve özelleştirme uygulamasıdır bunu yaparkende hiçbir grafik arayüz kullanmaz tamamen komut satısı ile işlem yapar.Böylelikle hızlı bir şeykilde 0 dan Wordpress kurulumu yapabilirsiniz üstelik eklentiler ile birlikte bu işlemi rahatlıkla tamamlayabilirsiniz.

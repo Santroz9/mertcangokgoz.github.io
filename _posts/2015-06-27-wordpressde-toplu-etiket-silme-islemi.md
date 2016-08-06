@@ -5,7 +5,7 @@ date: 2015-06-27 13:28:37.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Wordpress sitenizde toplu olarak tüm etiketleri silmek isteyebilirsiniz.Bunun için yapacaklarınız basittir ilk olarak googleden /tag/ dizinini
 ---
 

@@ -5,7 +5,7 @@ date: 2014-09-28 17:33:43.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: Google varken niye yandex diyenleriniz vardır elbet öncelikle belirteyim bu makalemizde yandexin niye kullanılamayacağını ve ilk kez rus yapımı
 ---
 Google varken niye yandex diyenleriniz vardır elbet öncelikle belirteyim bu makalemizde yandexin niye kullanılamayacağını ve ilk kez rus yapımı bir üründen niye uzak durmamız gerektiğini anlatmaya çalışacağım.Olayın baş sorumlusu tekrar ve tekrar söylemek gerekirse TTNET olmakla beraber işbirlikçisi Yandextir.Yandex gelişmekte olan bir arama motoru olduğu için mümkün olduğunca kendisini gerek reklamlar gerekse TTNET gibi ISPler ile kullanıcıya "Köpek gibi kullanıcaksın lan bunu"diretmelerinde bulunmaktadır.Öncelikle Kullanıcısı sıkarsanız kullanıcı öncelikle ne yapar sizin sitelerinize girmekten vazgeçer ürünlerinizi almaz ve nefret dolu söylemler ile ortalıkta gezer ki bu eleman haklıdırda sonuçta adamın kafasına bunu yapacaksın demişsin ve adamda seni istememiş.

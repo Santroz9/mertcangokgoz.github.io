@@ -5,7 +5,7 @@ date: 2015-06-15 14:09:53.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Nginx
+categories: nginx
 description: SSL Aktif ettiğim zaman apache kullanıyordum.Sonradan baktım apacheden bir yol olmayacak geçtim nginx e bu seferde http yönlendirmesinin kolay
 ---
 

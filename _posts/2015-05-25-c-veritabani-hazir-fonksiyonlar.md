@@ -3,7 +3,7 @@ layout: post
 title: C# Veritabanı Hazır Fonksiyonlar
 date: 2015-05-25
 type: post
-categories: Programlama
+categories: programlama
 description: Veritabanında çoğu işlemleri uzun uzadıya kod yazarak çözmeye çalışıyoruz.Yada tablodan veri çekilecekse,veritabanına
 ---
 

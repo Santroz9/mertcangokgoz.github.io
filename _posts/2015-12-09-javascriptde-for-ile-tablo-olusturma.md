@@ -3,7 +3,7 @@ layout: post
 title: Javascript'de For ile Tablo Oluşturma
 date: 2015-12-09 12:56:45.000000000 +02:00
 type: post
-categories: Programlama
+categories: programlama
 description: Javascript for döngüsünü kullanarak satır ve sütun sayısı belirli olan herhangi bir tabloyu yapabilirsiniz.Kod yazarken size kolaylık sağlayacaktır.
 ---
 

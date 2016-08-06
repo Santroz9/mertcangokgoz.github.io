@@ -3,7 +3,7 @@ layout: post
 title: En iyi 3 Stress Test Aracı
 date: 2016-01-08 16:13:54.000000000 +02:00
 type: post
-categories: Güvenlik
+categories: guvenlik
 description: Stress test araçları günümüzde oldukça fazla yaygın bir biçimde kullanılan legal çalışma ortamlarıdır.kendiniz oluşturabileceğiniz gibi hazır
 ---
 

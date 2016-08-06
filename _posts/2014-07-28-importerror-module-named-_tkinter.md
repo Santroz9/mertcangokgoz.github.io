@@ -5,7 +5,7 @@ date: 2014-07-28 14:38:13.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Merhaba arkadaşlar python hakkında bir kaç yazı çizi bişiler ve eğitim niteliğinde şeyler paylaşacağım ancak bundan önce oluşabilecek sorunları
 ---
 Merhaba arkadaşlar python hakkında bir kaç yazı çizi bişiler ve eğitim niteliğinde şeyler paylaşacağım ancak bundan önce oluşabilecek sorunları gidermemiz gerektiğide ayrı bir olay sonra öğrenirken bu hataya değinmek pek hoş olmayacak hemen öğrenelimde sonrasında sıkıntı çıkmasın bu sorunda belirli bir kütüphane eklemek istersen çıkıyor. hatamız

@@ -5,7 +5,7 @@ date: 2015-01-09 21:20:22.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Bugün centos network ile ilgili bir uygulama kuruyordum ismi lazım değil kurarken bir paketinde bir hata ile karşılaştım.böyle adını ilk kez
 ---
 Bugün **centos** network ile ilgili bir uygulama kuruyordum ismi lazım değil kurarken bir paketinde bir hata ile karşılaştım.böyle adını ilk kez duyduğum bi script var mı kurmam gerekiyormuş açmadan önce falan filan ama asıl amacımız kuracak olduğumuz network uygulaması olunca bu hatadan kurtulmamız gerekiyor.

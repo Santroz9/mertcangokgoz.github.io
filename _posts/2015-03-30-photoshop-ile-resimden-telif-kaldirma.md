@@ -5,7 +5,7 @@ date: 2015-03-30 18:10:17.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Googlede arayıp bulduğunuz tüm resimleri kafanıza göre kullanamayacağınızı biliyormuydunuz ? yüksek ihtimal ile bunu yeni öğreniyor olabilirsiniz.
 ---
 **Googlede** arayıp bulduğunuz tüm resimleri kafanıza göre kullanamayacağınızı biliyormuydunuz ? yüksek ihtimal ile bunu yeni öğreniyor olabilirsiniz.Aslında google sizi bunun için her daim uyarmakta ve aşağıda ufak olarak **"Görseller Telif Haklarına Tabi Olabilir"** yazmaktadır.

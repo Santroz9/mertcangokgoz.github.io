@@ -5,7 +5,7 @@ date: 2015-01-24 13:52:45.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: SSH yardımıyla uzak sunucuda bulunan MP3 dosyalarınızı sisteminize indirmeden Stream etmeniz mümkün bunu yapabilmek için sisteminizde vlc player
 ---
 **SSH** yardımıyla uzak sunucuda bulunan **MP3** dosyalarınızı sisteminize indirmeden Stream etmeniz mümkün bunu yapabilmek için sisteminizde vlc player yada her hangi stream destekleyen bütünleşik bi player lazım sonrasında ise dinleyecek **mp3**

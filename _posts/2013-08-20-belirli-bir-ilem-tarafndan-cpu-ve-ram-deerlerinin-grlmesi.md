@@ -5,7 +5,7 @@ date: 2013-08-20 14:23:13.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Linux sistemlerde kullanabileceğiniz bu komutumuz sizin belirtmiş olduğunuz işlemlerin Ram ve CPU kullanımını % değer olarak belirtmektedir.
 ---
 

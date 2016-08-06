@@ -5,7 +5,7 @@ date: 2015-05-19 13:28:47.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Nginx
+categories: nginx
 description: Arkadaşlar SEO ya uyumludur diye kullanılan .html tipi kalıcı bağlantılar Nginx üzerinde ciddi oranda sıkıntı yaratmaktadır.Ancak bunu bir kaç
 ---
 

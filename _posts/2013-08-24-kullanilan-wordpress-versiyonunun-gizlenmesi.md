@@ -5,7 +5,7 @@ date: 2013-08-24 22:07:25.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Merhaba arkadaşlar bu makalemizde size kullandığınız wordpress versiyonunu nasıl gizliyeceğinizi göstereceğim bunu niye yapıyoruz diye soruyorsanız
 ---
 

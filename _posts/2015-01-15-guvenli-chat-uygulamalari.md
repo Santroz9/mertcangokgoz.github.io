@@ -5,7 +5,7 @@ date: 2015-01-15 15:40:40.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Günümüzde güvenlik,gizlilik aşırı şekilde önem kazandı özelliklede chat yaparken özellikle baskıcı toplumlarda ve bağlantıyı dinleyip yaptırım yapan
 ---
 

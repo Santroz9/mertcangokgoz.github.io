@@ -5,7 +5,7 @@ date: 2015-02-16 14:43:49.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Bir önceki makalemizde centos 6 için node.js kurulumu yapmıştık tabiki bilgi sahibi olmadığımız içinde ufak bi anlatım yapamamıştık.Node.js sunucu
 ---
 

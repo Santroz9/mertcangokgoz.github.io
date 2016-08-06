@@ -5,7 +5,7 @@ date: 2014-07-16 16:54:40.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: SQL ortamında oluşturduğunuz tabloların her alanı her sütunu içerisinde saklanan verilerin haliyle bir veri tipinde tanımlanmış olması gerekmektedir.
 ---
 ![SQL-Server-2014-Logo](/assets/SQL-Server-2014-Logo.png)

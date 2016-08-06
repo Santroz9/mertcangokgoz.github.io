@@ -5,7 +5,7 @@ date: 2013-09-16 00:30:27.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Beklide hepinize en zor gelen ispconfig 3 de dns ayarlarıdır ama bu ayar sanıldığı kadar zor değil çünkü ispconfig 3 ün kolay anlaşılır arayüzü
 ---
 

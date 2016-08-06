@@ -3,7 +3,7 @@ layout: post
 title: Let’s Encrypt ile Web Server Yapılandırma
 date: 2015-12-05 12:14:24.000000000 +02:00
 type: post
-categories: Güvenlik
+categories: guvenlik
 description: Internet Security Research Group (ISRG) tarafından yürütülen bir proje olarak geçtiğimiz aylarda karşımıza çıkmaktadır. Transport Layer Security
 ---
 

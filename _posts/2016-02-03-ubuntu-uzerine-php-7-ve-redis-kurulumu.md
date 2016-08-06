@@ -5,7 +5,7 @@ date: 2016-02-03 15:45:27.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: PHP 7 yayınlanalı çok oluyor yeni sürüme geçmeyenler yada hali hazırda php5-fpm kullananlar olabilir nginx üzerinde sıkıntı çekeceğini düşünenler
 
 ---

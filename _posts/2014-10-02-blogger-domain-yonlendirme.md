@@ -5,7 +5,7 @@ date: 2014-10-02 17:39:35.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Blog açtınız ama bloğunuz Bloggerda bulunuyor ve domaine geçmek istiyorsunuz o zaman çok basit birşey yapacağız.Blogger kardeş 3.parti
 ---
 

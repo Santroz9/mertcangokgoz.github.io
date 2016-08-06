@@ -5,7 +5,7 @@ date: 2013-09-29 02:24:33.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: Spinner denen olay bana göre emek hırsızlığından başka bir şey değildir. Allah dan google algoritmasını bizim spinnercilere 
 ---
 

@@ -5,7 +5,7 @@ date: 2015-07-06 16:15:02.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Javascript ile algoritma yazmaya devam ediyoruz ve bu makalemizde javascript kullanarak modulus işlemini gerçekleştireceğiz.verilen sayıya kadar
 ---
 

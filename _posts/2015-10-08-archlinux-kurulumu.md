@@ -5,7 +5,7 @@ date: 2015-10-08 14:48:04.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: ArchLinux en son çıkan sürümünü aşağıdaki dokümantasyonu kullanarak oldukça kolay bir şekilde kurabilirsiniz.Kurulum sırasındaki aşamalar
 ---
 

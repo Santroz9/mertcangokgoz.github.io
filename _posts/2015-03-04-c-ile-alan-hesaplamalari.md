@@ -3,7 +3,7 @@ layout: post
 title: C ile Alan Hesaplamaları
 date: 2015-03-04
 type: post
-categories: Programlama
+categories: programlama
 description: Alan hesaplamalarını yapacağımız geometrik şekilleri aşağıdaki gibi belirledik ortaya çıkan kodumuz
 ---
 

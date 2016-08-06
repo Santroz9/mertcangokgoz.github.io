@@ -3,7 +3,7 @@ layout: post
 title: C Dilinde Karşılaşılan Hatalar ve Çözümleri
 date: 2015-03-27
 type: post
-categories: Programlama
+categories: programlama
 description: C dilinde yazılan uygulamalarda genelde 3 tip hatalar bulunur.Tamamı kullanıcı kaynaklı
 ---
 

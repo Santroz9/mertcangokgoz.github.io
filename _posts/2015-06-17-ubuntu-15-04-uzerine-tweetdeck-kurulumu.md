@@ -5,7 +5,7 @@ date: 2015-06-17 23:01:59.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntuya hali hazırda TweetDeck bulunmuyor.Twitter yapmamış sanki linux işletim sistemleri yokmuş gibi ama chromede bulunan uygulama çok işimize
 ---
 

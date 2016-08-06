@@ -5,7 +5,7 @@ date: 2014-10-08 16:35:52.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Kısaltılmış linklerin tehlikesini hepimiz biliyoruzdur diye ümit ediyorum.Bilmiyorsanız söyleyin bilmemek değil öğrenmemek ayıp demişler
 ---
 Kısaltılmış linklerin tehlikesini hepimiz biliyoruzdur diye ümit ediyorum.Bilmiyorsanız söyleyin bilmemek değil öğrenmemek ayıp demişler.Herneyse sahibinin türk olduğunu düşündüğüm ve gerçekten benimde aşırı bir şekilde işime yarayan hatta yakın bir zamanda masaüstü uygulamasını yazacak olduğum bir servis kısaca bu servis internet sitelerinde çokça dolaşan kısaltılmış linklerin decrypt edilmesi yani linki veriyorsunuz linkin nereye yönlendiğini sana gösteriyor aslında linklerin kısaltılması yer kazanma açısından iyi olsada kötü yanlarıda yok değil(phishing,tracker vb)

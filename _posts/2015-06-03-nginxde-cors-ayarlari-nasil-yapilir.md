@@ -5,7 +5,7 @@ date: 2015-06-03 20:16:23.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Nginx
+categories: nginx
 description: Cors belkide internet ortamında en fazla aradığım şeylerden bir tanesi olabilir.Yaklaşık 2 hafta aramışımdır en iyi ayarı bulana kadar deneme
 ---
 

@@ -5,7 +5,7 @@ date: 2015-11-05 19:17:16.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Kloxo-MR açık kaynak kodlu bir kontrol panelidir kullanımı diğer paneller gidi değildir biraz daha kolay bir yapıya sahiptir ve otomatik
 ---
 

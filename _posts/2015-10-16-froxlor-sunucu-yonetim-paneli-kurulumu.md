@@ -3,7 +3,7 @@ layout: post
 title: Froxlor Sunucu Yönetim Paneli
 date: 2015-10-16 17:14:03.000000000 +03:00
 type: post
-categories: Linux
+categories: linux
 description: Froxlor çoklu-kullanıcı hizmetlerini yönetmek için kullanılan bir sunucu yönetim paneli. Alan adı hizmetleri, e-posta hesapları ve web sunucusu
 ---
 

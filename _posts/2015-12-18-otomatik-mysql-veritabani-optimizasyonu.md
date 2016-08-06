@@ -3,7 +3,7 @@ layout: post
 title: Otomatik MySQL Veritabanı Optimizasyonu
 date: 2015-12-18 12:24:09.000000000 +02:00
 type: post
-categories: Programlama
+categories: programlama
 description: MySQL nadirende olsa sıkıntı çıkartabiliyor bunu çözmek adına ise yapabileceğimiz bir kaç işlem var günlük yada haftalık olarak veritabanında
 ---
 

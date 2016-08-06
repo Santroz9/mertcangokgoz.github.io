@@ -5,7 +5,7 @@ date: 2013-11-16 18:31:26.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Bu makalemizde Bitcoin hakkında öğrenmek istediğiniz birçok bilgiye ulaşabileceksiniz. Öncelikle isterseniz Bitcoin’in ne olduğundan bahsedelim.
 ---
 

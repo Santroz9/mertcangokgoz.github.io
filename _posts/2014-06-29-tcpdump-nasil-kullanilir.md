@@ -5,7 +5,7 @@ date: 2014-06-29 23:36:37.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: TCPDump Linux işletim sistemlerinde sıkça kullanılan bir paket analiz programından başka bir şey değildir ve kullanan kişiye detaylı
 ---
 

@@ -5,7 +5,7 @@ date: 2013-11-15 00:02:23.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: Virtual Private Network(VPN) yani sanal özel ağ anlamına gelen bu sistem sayesinde ağlara uzak erişim sağlanmış olur. Bu işlemi basit olarak
 ---
 

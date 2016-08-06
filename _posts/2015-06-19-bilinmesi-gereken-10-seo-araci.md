@@ -5,7 +5,7 @@ date: 2015-06-19 12:10:51.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: SEO Konusunda zorluk çekenler için araçları tek bir çatı altında sizler için toparladık gerekli olabilecek tüm herşeyi tek bir çatı altında
 ---
 

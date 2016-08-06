@@ -3,7 +3,7 @@ layout: post
 title: Whatsapp Tüm Resimleri İndirme
 date: 2016-02-28 11:05:00 +03:00
 type: post
-categories: Programlama
+categories: programlama
 description: whatsapp web çıktı çıkalı resimleri telefon dışında indirmek pek mümkün
 ---
 

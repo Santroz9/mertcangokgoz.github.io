@@ -5,7 +5,7 @@ date: 2015-05-14 12:38:28.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Oracle Express kurulumunu geçen bir arkadaşın isteği üzerine centos bir sisteme kurdum ama internetdeki çoğu makale eski olduğu için hafif
 ---
 Oracle Express kurulumunu geçen bir arkadaşın isteği üzerine centos bir sisteme kurdum ama internetdeki çoğu makale eski olduğu için hafif zorlandım ama hata bende kendi sitesine bakmalıydım bakmadığım için sıkıntı çıktı ve uğraştık şimdi size kullandığım yöntemi göstereceğim oldukça basit kurulumu hemen yapıp kullanabilirsiniz.

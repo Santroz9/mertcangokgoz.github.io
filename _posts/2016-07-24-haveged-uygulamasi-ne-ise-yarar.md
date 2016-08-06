@@ -3,7 +3,7 @@ layout: post
 title:  Haveged Uygulaması Ne İşe Yarar
 date: 2016-07-24
 type: post
-categories: Linux
+categories: linux
 description:   Haveged(Hardware Volatile Entropy Gathering and Expansion) kısaltılmış halidir. HAVAGE projesinden esinlenilerek yapılmıştır aslında benzersiz
 ---
 

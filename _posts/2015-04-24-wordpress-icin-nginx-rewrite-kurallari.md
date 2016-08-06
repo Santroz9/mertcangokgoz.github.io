@@ -5,7 +5,7 @@ date: 2015-04-24 12:20:44.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Nginx
+categories: nginx
 description: Wordpress Olan bir adet siteniz var ve hitleriniz yükseldi yada anlık 512 üstü kullanıcı gördünüz sisteminizde hal böyle oluncada Apache
 ---
 Wordpress Olan bir adet siteniz var ve hitleriniz yükseldi yada anlık 512 üstü kullanıcı gördünüz sisteminizde hal böyle oluncada Apache altyapısını kullanan sitenizde kasmalar takılmalar kitlenmeler olmaya başladı sizde çağre ararken NGİNX ile tanıştınız peki Wordpressin düzgün çalışması için ne yapmamız gerekiyor.Hangi ayarlamaları yaparsak daha iyi bir şekilde sitemizi kurmuş oluruz diyorsanız ben burayı yani bu siteyi Nginx alt yapısına taşırken yazmış olduğun kuralları sizlerle paylaşacağım.

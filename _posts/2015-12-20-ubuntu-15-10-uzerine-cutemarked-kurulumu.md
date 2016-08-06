@@ -5,7 +5,7 @@ date: 2015-12-20 14:02:52.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Qt tabanlı bir şekilde geliştirilen ve Markdown yazmanızı kolaylaştıran bir uygulamadır CuteMarkEd dedikleri gibi tatlı bir uygulama bir
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  Raspberry Pi İle OwnCloud Yapılandırma
 date: 2016-07-18
 type: post
-categories: Linux
+categories: linux
 description:  Dosyalarımı cloudda barındırıp para vermekten usanmıştım elimde 2 adet Raspberry pi bulunuyordu bende bunlardan bir
 ---
 

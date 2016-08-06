@@ -5,7 +5,7 @@ date: 2015-01-17 15:30:15.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Whatsapp bilindiğü üzere 700 milyon kullanıcının aktif olarak kullandığı günyanın en yaygın anlık mesajlaşma uygulamasıdır.Uygulama haddinden
 ---
 **Whatsapp** bilindiğü üzere 700 milyon kullanıcının aktif olarak kullandığı günyanın en yaygın anlık mesajlaşma uygulamasıdır.Uygulama haddinden fazla mesaj,resim,video gönderilebilmekte ancak bunların her birinin bir sınıra tabi olduğunu elbetteki biliyorsunuzdur bunun nedenide _700 milyon_ adamın aynı anda yüksek boyutlu dosyalar gönderdiği zamanki yaratacağı sıkıntıdan ibaret olduğunu düşünüyorum.Ancak bizim yapacağımız bir kaç ufak değişiklik ile bu dosya gönderim boyutunu **2 GB** ye kadar yükseltebileceğimizi herhalde bilmiyordunuz.İlk olarak bize gerekli olan bir adet rootlanmış Android telefon

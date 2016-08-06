@@ -5,7 +5,7 @@ date: 2015-01-07 14:45:30.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Başlıkta belirttiğim gibi sisteminize mouse taktınız ama touchpad hala aktif mi yada birşeyler yazıyorsunuz bilediğiniz yada eliniz ikide
 ---
 Başlıkta belirttiğim gibi sisteminize mouse taktınız ama touchpad hala aktif mi yada birşeyler yazıyorsunuz bilediğiniz yada eliniz ikide bir touchpade gidiyor ve yazdıklarınız farklı bir hal alıyor ise sizde benim gibi touchpad sevmeyen birisisinizdir ve bunu ubuntuda çözmenin bir yolu elbetteki var kurulum için sisteminizin 14.10 yada 15.04 olması gerekmekte

@@ -5,7 +5,7 @@ date: 2014-06-21 12:45:31.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Sitenizin hiti yükselmiştir yada sitenizde birazda olsa performans artışı istiyorsunuzdur işte o zaman Nginx yani benim deyimimle engin abimiz biçilmiş
 ---
 Sitenizin hiti yükselmiştir yada sitenizde birazda olsa performans artışı istiyorsunuzdur işte o zaman Nginx yani benim deyimimle engin abimiz biçilmiş bir kaftan diğer panelleri bilemem ancak virtualmin/webmin çatısı altında gerçekten çok işinize yarayacağını düşünüyorum ama hepsinden önemlisi düşük RAM kullanımı belkide nginx in en büyük özelliklerinden bir tanesi ve bu makalemizde virtualmin/webmin için nginx kurulumunu göstereceğim

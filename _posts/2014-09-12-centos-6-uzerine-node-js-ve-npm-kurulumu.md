@@ -5,7 +5,7 @@ date: 2014-09-12 17:52:52.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: zaten girmeyeceğim çünkü girersek işin içinden çıkmayız şimdi ne yapacaz bugün güzelce centos VPS üzerine node.js ve yanına hemen
 ---
 Bugün bi **node.js** ve **express.js** kurup hello world yazdıralım dedim aslında bu **node.js** chrome için yapılmış aşırı hızlı bi javascriptcik sistemi kasmaz yormaz sıkıntı çıkartmaz ama uzmanlık gerektirir uzun vadede kullanılacak ise herkes ile çalışılmaz bende dokümantasyona şöyle bi göz attım kurulumunda bir zorluk yok ince ayarlamalarında sıkıntılar olduğunu fark ettim ve bende bu ince ayarlara zaten girmeyeceğim çünkü girersek işin içinden çıkmayız şimdi ne yapacaz bugün güzelce **centos**  **VPS** üzerine **node.js** ve yanına hemen **express.js** kurup yolumuza devam edicez kurulum sistem ve network hızına göre 10 ila 25 dk arasında sürebilir.

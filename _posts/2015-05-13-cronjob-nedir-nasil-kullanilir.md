@@ -5,7 +5,7 @@ date: 2015-05-13 23:42:35.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Cronjob panel kullanıcısından dakika, saat, gün, ay ve haftanın gününün yanı sıra çalıştırılmak istenen dosyanın konumunu talep etmektedir
 ---
 Web sitesi tasarımcıları ve yazılımcılar için sıklıkla karşılaşılan bir işlem olan **Cronjob** , daha önceden zamanlanma işlemine tabii tutulmuş dosyaların mevcut sunucu tarafından otomatik olarak periyodik biçimde çalıştırılması işlemi olarak nitelendirilebilinir.

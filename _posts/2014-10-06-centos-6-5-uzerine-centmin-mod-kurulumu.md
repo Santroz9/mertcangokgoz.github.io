@@ -5,7 +5,7 @@ date: 2014-10-06 12:19:11.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: panellere çoğu zaman ihtiyaç yoktur ayrıyetten sistemleri zaten panellerde çokça kastırmaktadır.Şimdi sizlere bir kurulum betiği olarak
 ---
 Yeni web sitesi kuracak olabilirsiniz yada eski siteniz gelişmiştir sistem kaynakları yetmiyordur ve sistemi hem efektif bir şekilde kullanmak hemde panellerden sıkılmış olabilirsiniz.İşte bu noktada benim gözüme çarpan internet ortamında panelsiz kurulum ve kullanım konusunda makalenin az olması kaldı ki panellere çoğu zaman ihtiyaç yoktur ayrıyetten sistemleri zaten panellerde çokça kastırmaktadır.Şimdi sizlere bir kurulum betiği olarak 3 yıl önce ortaya çıkan Centmin Modu tanıtmak istiyorum.Öncelikle kesinlikle bir panel değildir sadece çabuk kurulum için oluşturulmuş ve halende geliştirilmekte olan muazzam bir scriptdir.Üşeniyorsanız bazı şeyleri kurmaya ve compile etmeye bu scripti kurup geçin **Centos 6.5** üzerinde muazzam bir etkiye sahip ayrıca sistem kaynaklarını sorunsuz bir şekilde kullanmanıza olanak sağlar. **512MB** ramlı **VPS** de bile rahatlıkla **10k** tekil site barındırabilirsiniz.

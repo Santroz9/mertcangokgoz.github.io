@@ -5,7 +5,7 @@ date: 2013-08-16 15:21:47.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: Galaxy S3 ve Galaxy S4 lerde olan ve kullanımı oldukça kolay olmakla birlikte adım sayar,yakılan kalori gösterimi ve pek çok sportif işi
 ---
 

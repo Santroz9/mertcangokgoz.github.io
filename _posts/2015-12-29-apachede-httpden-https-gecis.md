@@ -3,7 +3,7 @@ layout: post
 title: Apache'de HTTP'den HTTPS Geçiş
 date: 2015-12-29 12:05:10.000000000 +02:00
 type: post
-categories: Linux
+categories: linux
 description: Apache tabanlı veya direk olarak apache kullanan kişilerin SSL alımından sonra http den gelen tüm trafiği https yönlendirmemiz gerekiyor
 ---
 

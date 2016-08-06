@@ -5,7 +5,7 @@ date: 2015-01-14 15:30:25.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Microsoft Office uygulamalarını hepimiz biliyoruz bi araba parası neredeyse bazı sürümleri üstelik kullanıcı dostuda değil ancak ülkemizde
 ---
 ![wpsofficegorsel1]( /assets/wpsofficegorsel1.jpg)

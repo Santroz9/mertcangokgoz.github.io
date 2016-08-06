@@ -3,7 +3,7 @@ layout: post
 title: Debian Tabanlı Sistemler'e Docker Kurulumu
 date: 2016-04-12
 type: post
-categories: Linux
+categories: linux
 description: Docker sistem yöneticileri ve yazılım geliştiriciler için ortaya çıkan açık kaynak kodlu
 ---
 

@@ -5,7 +5,7 @@ date: 2013-10-08 19:41:57.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Linux kullanan arkadaşlar sistemlerini uzaktan yönetmek isteyebilirler buna biraz görsellik katmak isteyebilirler işte VNC burada devreye giriyor.
 ---
 

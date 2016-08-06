@@ -5,7 +5,7 @@ date: 2014-02-21 20:00:27.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Arkadaşlar teamspeak server bilindiği gibi oyun tutkunu bir çok bireyin kullanıyor olduğu anlık sesli görüşme uygulamasıdır clan savaşlarında,guild
 ---
 Arkadaşlar **teamspeak** server bilindiği gibi oyun tutkunu bir çok bireyin kullanıyor olduğu anlık sesli görüşme uygulamasıdır clan savaşlarında,guild konuşmalarında temel olarak kullanılmaktadır adından da anlaşılacağı üzere takımınız ile yada topluluk ile sesli görüşmenize olanak sağlıyor. Ancak linux server üzerine kurulumu konusunda sıkıntı yaşayan arkadaşlar olduğunu görüyoruz lafı fazla dolandırmadan **centos** üzerine **teamspeak** 3 nasıl kurulur size kısaca anlatmak istiyorum.

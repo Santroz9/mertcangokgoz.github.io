@@ -5,7 +5,7 @@ date: 2015-05-22 12:11:49.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Mod_pagespeed bilindiği üzere açık kaynak kodlu sunucu taraflı bir performans uygulamasıdır apache ve nginx web serverlarında sorunsuz bir şekilde
 ---
 

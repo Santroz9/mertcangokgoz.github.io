@@ -5,7 +5,7 @@ date: 2013-09-26 23:44:04.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: DDL(Data Definition Language) tablo veri veya şema veritabanı yapısını tanımlamak veya var olanı değiştirmek için kullanılır. mysql içerisinde
 ---
 

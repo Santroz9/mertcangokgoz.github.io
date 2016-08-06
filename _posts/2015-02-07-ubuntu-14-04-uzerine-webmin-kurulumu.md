@@ -5,7 +5,7 @@ date: 2015-02-07 15:06:28.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Açık kaynak kodlu webmin bünyesinde bir çok uygulamayı barındırıyor ve otomatik olarak kuruyor sizede kurulan bu uygulamaları yönetmek kalıyor bu
 ---
 Açık kaynak kodlu webmin bünyesinde bir çok uygulamayı barındırıyor ve otomatik olarak kuruyor sizede kurulan bu uygulamaları yönetmek kalıyor bu iş için bugün ubuntu 14.04 seçtim gelin kurulumu hemen yapalım ve kullanmaya başlayalım.

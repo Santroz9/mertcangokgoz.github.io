@@ -5,7 +5,7 @@ date: 2014-09-12 21:14:25.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntuda misafir hesabına ne gerek var kapatayım da kurtulayım evime misafir gelmiyor ben miyim lan misafir diyen arkadaşlar için güzel bir kapatma
 ---
 Ubuntuda misafir hesabına ne gerek var kapatayım da kurtulayım evime misafir gelmiyor ben miyim lan misafir diyen arkadaşlar için güzel bir kapatma yöntemi bulunmakta ubuntu 14.04 sürümü kullanıyorum bildiğiniz gibi kapatmaya çalışmam zor olmadı tekde işini bitirdim.Komutumuz aşağıdadır.

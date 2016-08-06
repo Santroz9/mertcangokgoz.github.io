@@ -5,7 +5,7 @@ date: 2015-01-16 15:02:58.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Bir Galaxy Note 2 kullanıcısı olarak root için sanırım piyasada yapmadığım kalmamıştır.Son olarak ve galiba en iyisi olan bi root tekniğini anlatmak
 ---
 Bir Galaxy Note 2 kullanıcısı olarak root için sanırım piyasada yapmadığım kalmamıştır.Son olarak ve galiba en iyisi olan bi root tekniğini anlatmak istiyorum.Yapılışı gayet basıt olan bir yöntem ancak buna başlamadan önce telefonunuzu şarja takıyorsunuz ve tamamen şarjın dolmasını bekliyorsunuz.bundan sonraki yapacağınız işlemler sizin hünerinize ve sabrınıza kalmış durumda bunun dışında yapacağınız hatalardanda siz sorumlusunuz unutmayın!!!

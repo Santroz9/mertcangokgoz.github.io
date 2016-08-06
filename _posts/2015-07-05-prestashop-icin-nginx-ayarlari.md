@@ -5,7 +5,7 @@ date: 2015-07-05 15:15:42.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Nginx
+categories: nginx
 description: Prestashop açık kaynak kodlu ve ücretsiz bir E-Ticaret tabanlı içerik yönetim sistemidir.Bu sistem Apache alt yapısında sorunsuz çalışmakta ama
 ---
 

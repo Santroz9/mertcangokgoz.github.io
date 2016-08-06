@@ -5,7 +5,7 @@ date: 2015-03-25 14:06:20.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Genel
+categories: genel
 description: HTTP/1.1 istemcisi 1999 yılında tanıtılan ve günümüze kadar kullanılan bir HTTP istemcisidir.Ancak gelişen teknolojiye ayak uydurması açısından
 ---
 

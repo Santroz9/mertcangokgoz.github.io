@@ -5,7 +5,7 @@ date: 2015-09-13 21:23:49.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Windows
+categories: windows
 description: Arkadaşlar bildiğiniz gibi Windows 10 hakkında aynı içerikli bir makale yayınlamıştım.Microsoft boş durmuyor ve diğer sistemlerdede veri madenciliği
 
 ---

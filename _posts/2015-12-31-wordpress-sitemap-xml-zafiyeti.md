@@ -3,7 +3,7 @@ layout: post
 title: Wordpress Sitemap.xml Zafiyeti
 date: 2015-12-31 19:21:12.000000000 +02:00
 type: post
-categories: Güvenlik
+categories: guvenlik
 description: Başlığın ilginç geldiğinin farkındayım.Bu günkü yılbaşı özel yazımızda sizlere wordpress sitelerde kullanılan ve statik olarak tutulmayan
 ---
 

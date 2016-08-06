@@ -5,7 +5,7 @@ date: 2015-02-17 12:05:20.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Wordpress eklenen içeriğin kaç kere düzenlendiği yada revize edildiği konusunda ufak bir bilgi tutulur belki fark etmişsinizdir yazıyı yayımlamadan
 ---
 **Wordpressde** eklenen içeriğin kaç kere düzenlendiği yada revize edildiği konusunda ufak bir bilgi tutulur belki fark etmişsinizdir yazıyı yayımlamadan öncede çıkar karşımıza veritabanına ek yük bindirmek dışında bir zararı yok ama kapatalım gitsin her mysql sorgusu bizim için değerli

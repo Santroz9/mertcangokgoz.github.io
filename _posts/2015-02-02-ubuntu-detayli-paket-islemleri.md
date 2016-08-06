@@ -5,7 +5,7 @@ date: 2015-02-02 14:15:15.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Ubuntu yada Debian işletim sistemli sunucularınıza paket yüklerken genelde apt-get yada dpkg bir uygulamayı yüklemek yada silmek için kullanıyorsunuz
 ---
 

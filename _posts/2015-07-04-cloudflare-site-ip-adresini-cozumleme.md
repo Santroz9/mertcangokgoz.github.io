@@ -5,7 +5,7 @@ date: 2015-07-04 10:19:02.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Güvenlik
+categories: guvenlik
 description: CloudFlare kullanara bilindiği üzere sitenizi koruma altına alabilirsiniz ip adresinizi gizleyebilir ve gelecek olan saldırılardan bir nebzede
 ---
 

@@ -5,7 +5,7 @@ date: 2016-01-10 14:24:21.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Linux
+categories: linux
 description: Geçtiğimiz Aralık 23 de Manjaro 15.12 sürümünün duyurulması ile birlikte oldukça güzel işlere de imza atıldı. LTS kernel kullanımı gerekse
 ---
 

@@ -5,7 +5,7 @@ date: 2014-07-08 15:39:26.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Analiz
+categories: analiz
 description: Sizinde dikkatinizi herkesin seocu olması çekmedimi adım başı bir seocuya rastlamak mümkün seocu demişken benim tabirimde googleyi zorlayarak
 ---
 

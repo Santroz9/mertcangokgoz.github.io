@@ -3,7 +3,7 @@ layout: post
 title: Web Siteleri için Favicon ve Diğerleri
 date: 2016-02-04 18:22:51.000000000 +02:00
 type: post
-categories: Programlama
+categories: programlama
 description: Web siteleri için önemli olan bir nokta favicon kullanımıdır eskiden olsa kullanmasanız da olur derdim ama günümüzde bu görseller ile pek çok iş yerine
 ---
 

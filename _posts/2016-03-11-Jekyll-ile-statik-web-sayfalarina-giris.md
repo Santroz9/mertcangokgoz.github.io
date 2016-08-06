@@ -3,7 +3,7 @@ layout: post
 title: Jekyll ile Statik Web Sayfalarına Giriş
 date: 2016-03-11
 type: post
-categories: Linux
+categories: linux
 description: Şubat 20 de bir karar alarak Wordpress kullanımını bırakma kararı
 ---
 

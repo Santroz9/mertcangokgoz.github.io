@@ -5,7 +5,7 @@ date: 2014-07-26 20:11:01.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Python adındanda anlaşılacağı üzere bir programlama dilidir.Hayatında en az bir programlama dili ile uğraşmış insanlarında gözüne illaki çarpmıştır.Python
 ---
 ![pythonnedirgorsel1](/assets/pythonnedirgorsel1.jpg)

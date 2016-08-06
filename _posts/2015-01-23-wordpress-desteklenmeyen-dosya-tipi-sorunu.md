@@ -5,7 +5,7 @@ date: 2015-01-23 15:49:36.000000000 +02:00
 type: post
 published: true
 status: publish
-categories: Programlama
+categories: programlama
 description: Wordpress dünya üzerinde en çok kullanılan CMS(içerik yönetim sistemi)bir tanesidir hal böyle olunca en ummadık hatalarda karşınıza çıkabilir.Bunlardan
 ---
 **Wordpress** dünya üzerinde en çok kullanılan **CMS** (içerik yönetim sistemi)bir tanesidir hal böyle olunca en ummadık hatalarda karşınıza çıkabilir.Bunlardan bir taneside "this file type is not permitted for security reasons" bu hatayı wordpressin ön tanımlı dosya formatları dışında **dosya** yüklüyorsanız alacaksınız peki ön tanımlı formatlar neler

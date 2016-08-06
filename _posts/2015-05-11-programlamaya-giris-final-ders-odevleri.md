@@ -3,7 +3,7 @@ layout: post
 title: Programlamaya Giriş Final Ders Ödevleri
 date: 2015-05-11
 type: post
-categories: Programlama
+categories: programlama
 description: Başkent Üniversitesi Programlamaya Giriş dersinde Prof. Dr. Afet GOLAYOĞLU Tarafından verilmiş olan Final
 ---
 

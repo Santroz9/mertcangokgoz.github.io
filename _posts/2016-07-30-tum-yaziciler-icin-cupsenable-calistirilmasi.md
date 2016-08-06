@@ -3,7 +3,7 @@ layout: post
 title:  Tüm Yazıcılar İçin Cupsenable Çalıştırılması
 date: 2016-07-30
 type: post
-categories: Linux
+categories: linux
 description: Sistemde birden çok yazıcı bulunuyor ise ve bunlardan bazıları disable moduna geçmiş ise ve normal şartlar altında otomatik
 ---
 

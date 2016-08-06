@@ -3,7 +3,7 @@ layout: post
 title: C ile Alfabetik Sıralama Yapma
 date: 2015-05-29
 type: post
-categories: Programlama
+categories: programlama
 description: C ile string bir şekilde girilen ifadelerin sıralamaları ile oynamak ve bunları alfabetik olarak sıralayabilirsiniz.
 ---
 

@@ -5,7 +5,7 @@ date: 2015-07-06 14:42:48.000000000 +03:00
 type: post
 published: true
 status: publish
-categories: Lilnux
+categories: linux
 description: VestaCP popülerliği git gide artan bir panel olarak karşımıza
     çıkmakta hal böyle olunca şifre saldırılarına da direk olarak savunmasız kalmakadır.Ama
 ---

@@ -3,7 +3,7 @@ layout: post
 title: C ile Sayının Tam Bölenlerini Bulma
 date: 2015-03-24
 type: post
-categories: Programlama
+categories: programlama
 description: C ile programa girilen herhangi bir sayının içindeki tam bölenleri bulmak isterseniz aşağıdaki kodu kullanabilirsiniz.istersenizde sayının
 ---
 

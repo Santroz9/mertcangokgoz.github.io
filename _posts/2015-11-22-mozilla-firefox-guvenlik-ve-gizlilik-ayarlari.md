@@ -3,7 +3,7 @@ layout: post
 title: Mozilla Firefox Güvenlik ve Gizlilik Ayarları
 date: 2015-11-22 15:18:08.000000000 +02:00
 type: post
-categories: Güvenlik
+categories: guvenlik
 description: Mozilla firefox kullanan kullanıcıları için güncel güvenlik ve gizlilik parametrelerini içerir.Tüm işlemler about:config bölümü altında yapılacak
 ---
 
