@@ -24,15 +24,6 @@ time find ./_site -name "*.html" -exec bundle exec htmlbeautifier {} \;
 echo "htmlbeautifier Tamamlandi"
 echo "+===================================+"
 
-sleep 1
-
-# html kodlarini kontrol et
-echo "htmlproofer Calistiriliyor"
-echo "+===================================+"
-time bundle exec htmlproofer ./_site --disable-external --check-html --only-4xx
-echo "htmlbeautifier Tamamlandi"
-echo "+===================================+"
-
 # temizlik
 rm -rf ../mertcangokgoz.github.io.master
 
