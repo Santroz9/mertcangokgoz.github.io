@@ -9,9 +9,6 @@ fi
 # hatalari goster
 set -e
 
-# dizin temizle
-rm -r ./_site
-
 # derle bro
 bundle exec jekyll build
 touch .nojekyll

@@ -10,6 +10,8 @@ gems:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-paginate-category
+  - html-proofer
+  - htmlbeautifier
   - nokogiri
 
 #Jekyll Gist
@@ -23,7 +25,7 @@ encoding: 'utf-8'
 
 #Category Pagination
 category_dir: "category"
-category_layout: "index.html"
+category_layout: "category.html"
 
 #Markdown Settings
 markdown: kramdown
