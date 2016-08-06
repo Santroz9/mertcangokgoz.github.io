@@ -9,13 +9,21 @@ gems:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-paginate-category
+  - nokogiri
 
+#Jekyll Gist
 gist:
   noscript: false
 
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, .travis.yml, .ruby-version, .bundle]
+#Main Settings
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, .travis.yml, .ruby-version, .bundle, build.sh]
 timezone: 'Europe/Istanbul'
 encoding: 'utf-8'
+
+#Category Pagination
+category_dir: "category"
+category_layout: "index.html"
 
 #Markdown Settings
 markdown: kramdown

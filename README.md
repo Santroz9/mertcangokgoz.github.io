@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/MertcanGokgoz/mertcangokgoz.github.io.svg?branch=jekyll)](https://travis-ci.org/MertcanGokgoz/mertcangokgoz.github.io)
+
 # Jekyll Lagom Theme + Extras
 
 Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm yazılanlar [Creative Commons Atıf-Paylaşım Lisansı](https://creativecommons.org/licenses/by-sa/3.0/) Altındadır.
@@ -180,9 +182,16 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Arama sayfasında bulunan input için kontrol yapısı eklendi
 - Arkadaşlar bölümünün düzenlenmesi
 
-## Güncelleme 5 Agustos 2016
+## Güncelleme 6 Agustos 2016
 
+- Disqus için ayrıca bir template oluşturuldu
+- Travis-ci kullanımına geçildi
+- Kategorilere sayfalama eklendi
+- Gitignore güncellendi
+- nojekyll dosyası eklendi
 - Gitignore dosyası eklendi
 - Tarih düzeltildi
 - Hizalama sorunları çözüldü (Adil ÖZTAŞER)
 - Mobile görünümdeki sorunun giderilmesi (Ömer İPEK)
+- HTML dosyalarının otomatik düzeltilmesi sağlandı [https://github.com/threedaymonk/htmlbeautifier](htmlbeautifier)
+- HTML dosyalarının doğrulanması işlemi sağlandı [https://github.com/gjtorikian/html-proofer](html-proofer)
