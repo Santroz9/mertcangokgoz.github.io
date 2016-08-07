@@ -186,12 +186,11 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 
 - Disqus için ayrıca bir template oluşturuldu
 - Travis-ci kullanımına geçildi
-- Kategorilere sayfalama eklendi
 - Gitignore güncellendi
 - nojekyll dosyası eklendi
 - Gitignore dosyası eklendi
 - Tarih düzeltildi
 - Hizalama sorunları çözüldü (Adil ÖZTAŞER)
 - Mobile görünümdeki sorunun giderilmesi (Ömer İPEK)
-- HTML dosyalarının otomatik düzeltilmesi sağlandı [https://github.com/threedaymonk/htmlbeautifier](htmlbeautifier)
-- HTML dosyalarının doğrulanması işlemi sağlandı [https://github.com/gjtorikian/html-proofer](html-proofer)
+- HTML dosyalarının otomatik düzeltilmesi sağlandı [htmlbeautifier](https://github.com/threedaymonk/htmlbeautifier)
+- HTML dosyalarının doğrulanması işlemi sağlandı [html-proofer](https://github.com/gjtorikian/html-proofer)
