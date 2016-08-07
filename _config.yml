@@ -9,7 +9,6 @@ gems:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-paginate
-  - jekyll-paginate-category
   - htmlbeautifier
   - nokogiri
 
@@ -21,10 +20,6 @@ gist:
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, .travis.yml, .ruby-version, .bundle, build.sh]
 timezone: 'Europe/Istanbul'
 encoding: 'utf-8'
-
-#Category Pagination
-category_dir: "category"
-category_layout: "_layouts/category.html"
 
 #Markdown Settings
 markdown: kramdown
