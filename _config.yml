@@ -10,7 +10,6 @@ gems:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-paginate-category
-  - html-proofer
   - htmlbeautifier
   - nokogiri
 
