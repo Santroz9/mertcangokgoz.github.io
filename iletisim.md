@@ -11,5 +11,5 @@ Soru ve Görüşleriniz,
 
 ve diğer tüm konular için<br>
 
-E-Mail : <a href="mailto:mertcan.gokgoz@gmail.com">mertcan.gokgoz@gmail.com</a><br>
+E-Mail : <a href="mailto:{{ 'mertcan.gokgoz@gmail.com' | encode_email }}" title="Mail Gonder">mertcan.gokgoz@gmail.com</a><br>
 </center>

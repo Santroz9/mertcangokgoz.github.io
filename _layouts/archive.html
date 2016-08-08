@@ -1,0 +1,25 @@
+---
+layout: defaultcategory
+---
+{% include mobile.html %}
+
+<p class="meta">
+  {{ page.date | date: "%B %d, %Y" }}
+  <a href="/">
+    <i class="home fa fa-home fa-2x"></i>
+  </a>
+  <a href="/search/">
+  <i class="home fa fa-search fa-2x"></i>
+  </a>
+</p>
+
+<h1 class="title">{{ page.date | date: "%Y" }} Yılının yazıları</h1>
+
+<ul id="blog-posts" class="posts">
+{% for post in page.posts %}
+  <li>
+    <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  </li>
+{% endfor %}
+</ul>

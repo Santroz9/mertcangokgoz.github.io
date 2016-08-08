@@ -2,7 +2,7 @@
 
 # PR degilse calistir.
 if [ $TRAVIS_PULL_REQUEST == "true" ]; then
-  echo "this is PR, exiting"
+  echo "PR Gonderildi. Cikiliyor"
   exit 0
 fi
 
@@ -43,6 +43,19 @@ echo "+===================================+"
 cd ../mertcangokgoz.github.io.master
 touch .nojekyll
 
+#Gitignore olustur
+echo "+===================================+"
+echo "Gitignore Olusturuluyor"
+echo "+===================================+"
+cat >.gitignore <<EOF
+.ruby-version
+.bundle
+Gemfile.lock
+EOF
+echo "+===================================+"
+echo "Gitignore Olusturuldu"
+echo "+===================================+"
+
 #CNAME Olustur
 echo "+===================================+"
 echo "CNAME Olusturuluyor"
@@ -52,6 +65,7 @@ echo "+===================================+"
 echo "CNAME Olusturuldu"
 echo "+===================================+"
 
+#biraz bekle
 sleep 2
 
 #Githuba gonder

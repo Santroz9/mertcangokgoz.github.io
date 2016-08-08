@@ -5,20 +5,29 @@ highlighter: rouge
 lsi: false
 gems:
   - jekyll-sitemap
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-email-protect
+  - jekyll-archives
   - htmlbeautifier
   - nokogiri
+
+#Archives Settings
+jekyll-archives:
+  enabled:
+    - year
+  layout: 'archive'
+  permalinks:
+    year: '/arsiv/:year/'
 
 #Jekyll Gist
 gist:
   noscript: false
 
 #Main Settings
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, .travis.yml, .ruby-version, .bundle, build.sh]
-timezone: 'Europe/Istanbul'
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, .travis.yml, .ruby-version, .bundle, build.sh, vendor]
+timezone: Europe/Istanbul
 encoding: 'utf-8'
 
 #Markdown Settings

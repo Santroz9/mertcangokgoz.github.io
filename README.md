@@ -194,3 +194,12 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Mobile görünümdeki sorunun giderilmesi (Ömer İPEK)
 - HTML dosyalarının otomatik düzeltilmesi sağlandı [htmlbeautifier](https://github.com/threedaymonk/htmlbeautifier)
 - HTML dosyalarının doğrulanması işlemi sağlandı [html-proofer](https://github.com/gjtorikian/html-proofer)
+
+## Güncelleme 8 Agustos 2016
+
+- Font Awesome satırları güncellendi
+- Atom Feed yerine RSS Feed kullanımına geçildi
+- Travis-ci Komutları güncellendi
+- jekyll-feed artık kullanılmıyor.
+- Arşiv özelliği eklendi
+- Mail adresleri için encode özelliği getirildi
