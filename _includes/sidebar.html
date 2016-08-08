@@ -5,16 +5,7 @@
   <h3><a href="/">{{ site.data.theme.name }}</a></h3>
   <div id="bio">
     <p>
-        <i class="fa fa-map-marker"> root@0x2e88ce4: ~#</i><br><br>
-        <div class="dropdown">
-        <button onclick="myFunction()" class="dropbtn">Arşiv</button>
-          <div id="myDropdown" class="dropdown-content">
-            <a href="/arsiv/2013/">2013</a>
-            <a href="/arsiv/2014/">2014</a>
-            <a href="/arsiv/2015/">2015</a>
-            <a href="/arsiv/2016/">2016</a>
-          </div>
-        </div><br>
+        <i class="fa fa-map-marker"> root@0x2e88ce4: ~#</i><br>
         Kategoriler:<br>
         <a href="https://mertcangokgoz.com/category/analiz/">Analiz</a><br>
         <a href="https://mertcangokgoz.com/category/egitimler/">Eğitimler</a><br>
@@ -37,23 +28,3 @@
     {% include social.html %}
   </div>
 </nav>
-
-<script>
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
-</script>
