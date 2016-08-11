@@ -18,8 +18,7 @@ layout: defaultcategory
 <ul id="blog-posts" class="posts">
 {% for post in page.posts %}
   <li>
-    <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <span>{{ post.date | date: "%d/%m/%Y" }} &raquo;</span><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </li>
 {% endfor %}
 </ul>
