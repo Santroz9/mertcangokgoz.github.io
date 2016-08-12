@@ -216,4 +216,5 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - SoundCloud desteği getirildi
 - Emoji desteği getirildi
 - Mentions desteği getirildi
-- Sıkıştırılma(html) desteği getirildi
+- İçeriklerin sıkıştırılma desteği getirildi(css, js, html)
+- Build işlemi Rakefile ile yapılmaya başlandı

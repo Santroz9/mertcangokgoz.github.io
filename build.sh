@@ -9,7 +9,7 @@ fi
 # hatalari goster
 set -e
 
-if [ $TRAVIS_BRANCH == 'master' ] ; then
+if [ $TRAVIS_BRANCH == 'jekyll' ] ; then
 # derle bro
 echo "+===================================+"
 echo "Site Olusturuluyor"
@@ -97,5 +97,5 @@ echo "+===================================+"
 echo "Githuba Gonderildi"
 echo "+===================================+"
 else
-    echo "Olusturulamadı. Branch Master Degil"
+    echo "Olusturulamadı. Branch Jekyll Degil"
 fi
