@@ -79,7 +79,7 @@ git add -A .
 git commit -a -m "Generated Jekyll site by Travis CI #$TRAVIS_BUILD_NUMBER"
 
 #guvenlik icin push ciktisi gosterilmeyecek
-git push --quiet origin master #> /dev/null 2>&1
+git push --quiet origin master > /dev/null 2>&1
 
 echo "+===================================+"
 echo "Githuba Gonderildi"
