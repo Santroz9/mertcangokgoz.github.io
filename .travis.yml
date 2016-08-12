@@ -1,29 +1,23 @@
 os: linux
 language: ruby
 install:
-  - bundle install
-
+- bundle install
 before_script:
-  - sudo apt-get install ditaa
-  - chmod +x build.sh
-
+- sudo apt-get install ditaa
+- chmod +x build.sh
 script: "./build.sh"
-
 branches:
   only:
   - jekyll
-
 rvm:
 - 2.3.1
-
 notifications:
   email:
     recipients:
-      - mertcan.gokgoz@gmail.com
-      - admin@mertcangokgoz.com
+    - mertcan.gokgoz@gmail.com
+    - admin@mertcangokgoz.com
     on_success: never
     on_failure: always
-
 env:
   global:
-    secure: VirRvcQ2VXPbqbwoGobuHlj5XQfckh21Ca4hr6mne/ENZE2o1aBu1hVKTlvM4/YFVarX+a1lZcuQbE0AC1YROoF9sBI6DWROo7t2RcanM71pOjH4WNOTK6tvFPSP2CiU9WYsKJyt+ssgvXNKxuSrba4efHYLev2Qtr25FEbCnAu78WwkGscvH+wAS5rjHvRZqAvHJb/qN9569e821mPazO57WTNs+6sT4KNhzMkkyIHXUCy3RNJ86qsqsJVRBuVZ4DXV790S7B2a7plZn23IRrctyQxHcVrDONlBQYeZDrZ5B7gSbakC82y0VRhhF86POrngBFq/9t3SqgJcRF5oqQcXzDatXIyQWUg/yXJwEsmRI86QUOBNTnwxAAumh10Rj9ceHTN9UvAJhIoDkOR70ZBostEELeU1JDyCaQyL8xQvT0ExqxeKtVwK8eDxu1kHvXL8kBLxpDY8bk1YIZOTW09eBTk0KcK1rAlwXznvWOoxiUY2IPFFBrz1qZ3/MEEr2J2iOkp2oYtHxa7+hEFf6bvs8IBNp9zy89ZWV59Zsh0WqzpABXHWdxmiCAcxm9vEr1Wgi/w655BDG2MCWU4ogTOJfVn3+Iej8r0z76m9zz/G9SXEGVHZpauYXWzRuqLArQujB5StnMyThU9UXr6QmO8CX1BPtOBMIQNn5srpEp4=
+    secure: xxIYA11M+tc3dzdhozzvjABhPub9XC6s3TbuF1sBe2REQbtE0M3hiXXVYZk2vhc5Zpdxr1WORaTE2bpduBeuZDb4dkhk3RYH98KjKkm4CWDAFXrtjWurOwKytM56ALtnmJaClk4r8Dxc8J+z2S3iEY6MFgwxQfSGhDl3iIirWsSMV37a3o+GeTJYbjITEniOLHRr6zHRB53lclogzG5eMPbS+BVctoBCoEYl0J1Ob3hZYtggWHG03kZ7Hm6qMQHfo+fXmLVO4Qf9h3EsMwFrkBpLyqQbcS7Jtd17zJQCiy9JliBWzW1PynF7t9PRbrJYc4fot7dRNVMgydVkGfx6HxEHLRZuEGVHauFmSp+fest1hrIDWbrmaZa2WCPpUIFaMvbIy6T8friGP8PQIXp/ITOuaF3gVzwIPqP06Cx7bRkA6clQiHf+ESzEIjC3J1uC7eghkExuXLI2bFeipHuqUR1c/6QJs3rxPpcho9suCzLBggLpH8ofMA7XVposoedFmw1CbcqgGzWnu7qZgPrebV+jh+jwJtSBtXFAaSsrc7TbjoFJVojAH3wYIiKYz/VI+c6Xo6KgHhuCfTt6lDBeNrptAjKkviznbmEbenh+KSLr4l7nVPa1XkTLQI+/XNlEBavNlbvuFQ9j8JqdpnPKxSoL610PNP7xuw5KeFl34qE=
