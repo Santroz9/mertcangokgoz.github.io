@@ -9,7 +9,6 @@ fi
 # hatalari goster
 set -e
 
-if [ $TRAVIS_BRANCH == 'jekyll' ] ; then
 # derle bro
 echo "+===================================+"
 echo "Site Olusturuluyor"
@@ -19,17 +18,6 @@ bundle exec rake build
 
 echo "+===================================+"
 echo "Statik Dosyalar Olusturuldu"
-echo "+===================================+"
-
-# html kodlarini guzellestir
-echo "+===================================+"
-echo "htmlbeautifier Calistiriliyor"
-echo "+===================================+"
-
-time find ./_site -name "*.html" -exec bundle exec htmlbeautifier {} \;
-
-echo "+===================================+"
-echo "htmlbeautifier Tamamlandi"
 echo "+===================================+"
 
 # temizlik
@@ -96,6 +84,3 @@ git push --quiet origin master > /dev/null 2>&1
 echo "+===================================+"
 echo "Githuba Gonderildi"
 echo "+===================================+"
-else
-    echo "Olusturulamadı. Branch Jekyll Degil"
-fi
