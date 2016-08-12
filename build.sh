@@ -15,7 +15,7 @@ echo "+===================================+"
 echo "Site Olusturuluyor"
 echo "+===================================+"
 
-bundle exec jekyll build
+bundle exec rake build
 
 echo "+===================================+"
 echo "Statik Dosyalar Olusturuldu"

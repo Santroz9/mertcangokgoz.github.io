@@ -1,8 +1,8 @@
 # coding: utf-8
-task :default => [:build]
-
 require "yui/compressor"
 require "html_compressor"
+
+task :default => [:build]
 
 desc "Minify CSS"
 task :minify_css do
@@ -43,13 +43,14 @@ task :minify_html do
   end
 end
 
+desc "Build jekyll locally"
 task :build do
+  puts "## Building Markdown File"
 	system("bundle exec jekyll build")
+  puts "## Building Finished"
   # Apply minification tasks
   Rake::Task[:minify_css].execute
   Rake::Task[:minify_js].execute
   Rake::Task[:minify_html].execute
-
-  Rake::Task[:copydot].invoke(source_dir, public_dir)
-  Rake::Task["#{deploy_default}"].execute
+  puts "## Minifying Finished"
 end

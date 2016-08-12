@@ -1,0 +1,3258 @@
+[
+
+	"debian-tabanli-sistemler-icin-spotify-kurulum":	{
+		"title": "Debian Tabanlı Sistemler İçin Spotify Kurulum",
+		"url": "/debian-tabanli-sistemler-icin-spotify-kurulum/",
+		"date": "Thu, 11 Aug 2016 00:00:00 +0300",
+		"categories": ["Linux"]
+	} ,
+
+	"kullanisli-bash-script-kodlari":	{
+		"title": "Kullanışlı Bash Script Kodları",
+		"url": "/kullanisli-bash-script-kodlari/",
+		"date": "Wed, 10 Aug 2016 00:00:00 +0300",
+		"categories": ["Linux"]
+	} ,
+
+	"cloudflare-ile-github-pages-de-ssl-kullanimi":	{
+		"title": "Cloudflare ile Github Pages'de SSL Kullanımı",
+		"url": "/cloudflare-ile-github-pages-de-ssl-kullanimi/",
+		"date": "Thu, 04 Aug 2016 00:00:00 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"linux-icin-homebrew-nasil-kurulur":	{
+		"title": "Linux İçin Homebrew Nasıl kurulur",
+		"url": "/linux-icin-homebrew-nasil-kurulur/",
+		"date": "Tue, 02 Aug 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"pokemon-go-da-bot-nasil-kullanilir":	{
+		"title": "Pokemon GO'da Bot Nasıl Kullanılır",
+		"url": "/pokemon-go-da-bot-nasil-kullanilir/",
+		"date": "Sun, 31 Jul 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"tum-yaziciler-icin-cupsenable-calistirilmasi":	{
+		"title": "Tüm Yazıcılar İçin Cupsenable Çalıştırılması",
+		"url": "/tum-yaziciler-icin-cupsenable-calistirilmasi/",
+		"date": "Sat, 30 Jul 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"haveged-uygulamasi-ne-ise-yarar":	{
+		"title": "Haveged Uygulaması Ne İşe Yarar",
+		"url": "/haveged-uygulamasi-ne-ise-yarar/",
+		"date": "Sun, 24 Jul 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"tmux-komut-ve-kisayollari":	{
+		"title": "TMUX Komut ve Kısayolları",
+		"url": "/tmux-komut-ve-kisayollari/",
+		"date": "Wed, 20 Jul 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"raspberry-pi-ile-owncloud-yapilandirma":	{
+		"title": "Raspberry Pi İle OwnCloud Yapılandırma",
+		"url": "/raspberry-pi-ile-owncloud-yapilandirma/",
+		"date": "Mon, 18 Jul 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"piyasadaki-paypal-alternatifleri":	{
+		"title": "Piyasadaki Paypal Alternatifleri",
+		"url": "/piyasadaki-paypal-alternatifleri/",
+		"date": "Sun, 17 Jul 2016 00:00:00 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"tum-docker-containerlarini-silme":	{
+		"title": "Tüm Docker Containerlarını Silme",
+		"url": "/tum-docker-containerlarini-silme/",
+		"date": "Tue, 12 Jul 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"counter-strike-global-offensive-server-kurulumu":	{
+		"title": "Counter Strike Global Offensive Server Kurulumu",
+		"url": "/counter-strike-global-offensive-server-kurulumu/",
+		"date": "Sun, 10 Jul 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"linux-sunucu-guvenligi-egitim-seti":	{
+		"title": "Linux Sunucu Güvenliği Eğitim Seti",
+		"url": "/linux-sunucu-guvenligi-egitim-seti/",
+		"date": "Sat, 09 Jul 2016 00:00:00 +0300",
+		"categories": ["egitimler"]
+	} ,
+
+	"yazicilar-icin-css-duzenlemeleri":	{
+		"title": "Yazıcılar İçin CSS Düzenlemeleri",
+		"url": "/yazicilar-icin-css-duzenlemeleri/",
+		"date": "Tue, 05 Jul 2016 00:00:00 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"temel-linux-komutlari":	{
+		"title": "Temel Linux Komutları",
+		"url": "/temel-linux-komutlari/",
+		"date": "Sat, 18 Jun 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"sunucu-kurulum-optimizasyon-tasima-isleriniz-yapilir":	{
+		"title": "Sunucu kurulum, Optimizasyon ve Bakım işleriniz yapılır",
+		"url": "/sunucu-kurulum-optimizasyon-tasima-isleriniz-yapilir/",
+		"date": "Fri, 17 Jun 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"netdata-gercek-zamanli-performans-izleme":	{
+		"title": "Netdata İle Gerçek Zamanlı Performans İzleme",
+		"url": "/netdata-gercek-zamanli-performans-izleme/",
+		"date": "Fri, 10 Jun 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"dd-komutunda-ilerlemeyi-gorelim":	{
+		"title": "DD Komutunda İlerlemeyi Görelim",
+		"url": "/dd-komutunda-ilerlemeyi-gorelim/",
+		"date": "Fri, 27 May 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"openvpn-nasil-el-ile-guncellenir":	{
+		"title": "OpenVPN El ile Güncelleme İşlemi",
+		"url": "/openvpn-nasil-el-ile-guncellenir/",
+		"date": "Sun, 22 May 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"xubuntu-16-04-format-sonrasi-kurulacaklar":	{
+		"title": "Xubuntu 16.04 Format Sonrası Kurulması Gerekenler",
+		"url": "/xubuntu-16-04-format-sonrasi-kurulacaklar/",
+		"date": "Sat, 07 May 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"arch-tabanli-sistemlerde-dig-ve-nslookup-komutu":	{
+		"title": "Arch Tabanlı Sistemler'de Dig ve Nslookup Komutu",
+		"url": "/arch-tabanli-sistemlerde-dig-ve-nslookup-komutu/",
+		"date": "Tue, 26 Apr 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"github-lfs-nasil-kullanilir":	{
+		"title": "GitHub LFS Nasıl Kullanılır",
+		"url": "/github-lfs-nasil-kullanilir/",
+		"date": "Sun, 24 Apr 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"sudo-artik-size-sifre-sormasin":	{
+		"title": "Sudo Artık İşlem Yaparken Şifre Sormasın",
+		"url": "/sudo-artik-size-sifre-sormasin/",
+		"date": "Fri, 22 Apr 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"video-dosyalarini-ffmpeg-araciligi-ile-mp3-cevirme":	{
+		"title": "Video Dosyalarını FFMPEG ile MP3 Çevirme",
+		"url": "/video-dosyalarini-ffmpeg-araciligi-ile-mp3-cevirme/",
+		"date": "Wed, 20 Apr 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"openvpn-frag-ttl-expired":	{
+		"title": "OpenVPN Frag TTL Expired",
+		"url": "/openvpn-frag-ttl-expired/",
+		"date": "Sun, 17 Apr 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"debian-tabanli-sistemlerde-swap-etkinlestirme":	{
+		"title": "Debian Tabanlı Sistemler'de Swap Etkinleştirme",
+		"url": "/debian-tabanli-sistemlerde-swap-etkinlestirme/",
+		"date": "Fri, 15 Apr 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"manjaro-siyah-ekran-sorunu-ve-cozumu":	{
+		"title": "Manjaro Siyah Ekran Sorunu Ve Çözümü",
+		"url": "/manjaro-siyah-ekran-sorunu-ve-cozumu/",
+		"date": "Wed, 13 Apr 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"debian-tabanli-sistemlere-docker-kurulumu":	{
+		"title": "Debian Tabanlı Sistemler'e Docker Kurulumu",
+		"url": "/debian-tabanli-sistemlere-docker-kurulumu/",
+		"date": "Tue, 12 Apr 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"manjaroda-sistem-bilgilerinin-sorgulanmasi-islemi":	{
+		"title": "Manjaro'da Sistem Bilgilerini Sorgulama İşlemi",
+		"url": "/manjaroda-sistem-bilgilerinin-sorgulanmasi-islemi/",
+		"date": "Sun, 10 Apr 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"manjaro-keyring-sorunu":	{
+		"title": "Manjaro Keyring Sorunu",
+		"url": "/manjaro-keyring-sorunu/",
+		"date": "Sat, 09 Apr 2016 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"synaptic-touchpad-olusturdugu-mouse-sorunu":	{
+		"title": "Synaptic Touchpad Oluşturduğu Mouse Sorunu",
+		"url": "/synaptic-touchpad-olusturdugu-mouse-sorunu/",
+		"date": "Sat, 26 Mar 2016 00:00:00 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"linuxde-java-uygulamalarini-calistirma":	{
+		"title": "Linux'de Java Uygulamalarını Çalıştırma",
+		"url": "/linuxde-java-uygulamalarini-calistirma/",
+		"date": "Fri, 25 Mar 2016 00:00:00 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"jekyll-ile-statik-web-sayfalari-bolum-4":	{
+		"title": "Jekyll ile Statik Web Sayfaları Bölüm 4",
+		"url": "/jekyll-ile-statik-web-sayfalari-bolum-4/",
+		"date": "Mon, 21 Mar 2016 00:00:00 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-nodejs-surum-yukseltme-islemi":	{
+		"title": "Ubuntu NodeJs Sürüm Yükseltme İşlemi",
+		"url": "/ubuntu-nodejs-surum-yukseltme-islemi/",
+		"date": "Sun, 20 Mar 2016 00:00:00 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"jekyll-ile-statik-web-sayfalari-bolum-3":	{
+		"title": "Jekyll ile Statik Web Sayfaları Bölüm 3",
+		"url": "/jekyll-ile-statik-web-sayfalari-bolum-3/",
+		"date": "Thu, 17 Mar 2016 00:00:00 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"marytts-deneyim-3":	{
+		"title": "MaryTTS Deneyimlerim 3",
+		"url": "/marytts-deneyim-3/",
+		"date": "Sat, 12 Mar 2016 00:00:00 +0200",
+		"categories": ["analiz"]
+	} ,
+
+	"jekyll-statik-web-sayfalari-bolum-2":	{
+		"title": "Jekyll ile Statik Web Sayfaları Bölüm 2",
+		"url": "/jekyll-statik-web-sayfalari-bolum-2/",
+		"date": "Sat, 12 Mar 2016 00:00:00 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"jekyll-ile-statik-web-sayfalarina-giris":	{
+		"title": "Jekyll ile Statik Web Sayfalarına Giriş",
+		"url": "/Jekyll-ile-statik-web-sayfalarina-giris/",
+		"date": "Fri, 11 Mar 2016 00:00:00 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"marytts-deneyim-2":	{
+		"title": "MaryTTS Deneyimlerim 2",
+		"url": "/marytts-deneyim-2/",
+		"date": "Sat, 05 Mar 2016 00:00:00 +0200",
+		"categories": ["analiz"]
+	} ,
+
+	"whatsapp-tum-resimleri-indirme":	{
+		"title": "Whatsapp Tüm Resimleri İndirme",
+		"url": "/whatsapp-tum-resimleri-indirme/",
+		"date": "Sun, 28 Feb 2016 10:05:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"marytts-deneyim-1":	{
+		"title": "MaryTTS Deneyimlerim 1",
+		"url": "/marytts-deneyim-1/",
+		"date": "Sat, 27 Feb 2016 00:00:00 +0200",
+		"categories": ["analiz"]
+	} ,
+
+	"thecthulhus-egm-dump-fraud":	{
+		"title": "(EN)TheCthulhus EGM Dump Fraud",
+		"url": "/thecthulhus-egm-dump-fraud/",
+		"date": "Tue, 16 Feb 2016 00:00:00 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"egm-dump-sahtekarligi":	{
+		"title": "EGM Dump Sahtekarlığı",
+		"url": "/egm-dump-sahtekarligi/",
+		"date": "Tue, 16 Feb 2016 00:00:00 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"tivibu-ev-yayinlarini-stream-etmek":	{
+		"title": "Tivibu Ev Yayınlarını Bilgisayar ve Telefonda Stream Etmek",
+		"url": "/tivibu-ev-yayinlarini-stream-etmek/",
+		"date": "Mon, 15 Feb 2016 00:00:00 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"cocuklara-kodlamayi-sevdirin":	{
+		"title": "Çocuklara Kodlamayı Sevdirin",
+		"url": "/cocuklara-kodlamayi-sevdirin/",
+		"date": "Sun, 07 Feb 2016 00:00:00 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"windows-icin-en-iyi-3-antivirus-uygulamasi":	{
+		"title": "Windows için En iyi 3 Antivirüs Uygulaması",
+		"url": "/windows-icin-en-iyi-3-antivirus-uygulamasi/",
+		"date": "Sat, 06 Feb 2016 17:01:14 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"web-siteleri-icin-favicon-ve-digerleri":	{
+		"title": "Web Siteleri için Favicon ve Diğerleri",
+		"url": "/web-siteleri-icin-favicon-ve-digerleri/",
+		"date": "Thu, 04 Feb 2016 18:22:51 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"ubuntu-uzerine-php-7-ve-redis-kurulumu":	{
+		"title": "Ubuntu Üzerine Php 7 ve Redis Kurulumu",
+		"url": "/ubuntu-uzerine-php-7-ve-redis-kurulumu/",
+		"date": "Wed, 03 Feb 2016 15:45:27 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"guncel-windows-imajlari-elde-etme":	{
+		"title": "Güncel Windows İmajları Elde Etme",
+		"url": "/guncel-windows-imajlari-elde-etme/",
+		"date": "Mon, 01 Feb 2016 16:21:12 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"wordpress-icin-push-notification-ozelligi":	{
+		"title": "Wordpress İçin Push Notification Özelliği",
+		"url": "/wordpress-icin-push-notification-ozelligi/",
+		"date": "Sat, 30 Jan 2016 18:57:41 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"windows-icin-4-sandbox-uygulamasi":	{
+		"title": "Windows için 4 Sandbox Uygulaması",
+		"url": "/windows-icin-4-sandbox-uygulamasi/",
+		"date": "Fri, 29 Jan 2016 12:27:34 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"ddos-saldirisi-icin-kullanilabilecek-scriptler":	{
+		"title": "Ddos Saldırısı İçin Kullanılabilecek Scriptler",
+		"url": "/ddos-saldirisi-icin-kullanilabilecek-scriptler/",
+		"date": "Thu, 28 Jan 2016 15:12:36 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"arch-bang-nasil-kurulur":	{
+		"title": "Arch Bang Nasıl Kurulur",
+		"url": "/arch-bang-nasil-kurulur/",
+		"date": "Wed, 27 Jan 2016 12:39:25 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"nginx-icin-yoasts-seo-sitemap-ayarlari":	{
+		"title": "Nginx için Yoast’s SEO Sitemap Ayarları",
+		"url": "/nginx-icin-yoasts-seo-sitemap-ayarlari/",
+		"date": "Sun, 24 Jan 2016 11:00:49 +0200",
+		"categories": ["nginx"]
+	} ,
+
+	"nginx-ve-apache-uzerinde-xss-engelleme":	{
+		"title": "Nginx ve Apache Üzerinde XSS Engelleme",
+		"url": "/nginx-ve-apache-uzerinde-xss-engelleme/",
+		"date": "Sat, 23 Jan 2016 12:38:30 +0200",
+		"categories": ["nginx"]
+	} ,
+
+	"ise-yarar-8-linux-grep-komut-ve-kullanimi":	{
+		"title": "İşe Yarar 8 Linux Grep Komut ve Kullanımı",
+		"url": "/ise-yarar-8-linux-grep-komut-ve-kullanimi/",
+		"date": "Fri, 22 Jan 2016 20:32:11 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"linux-kernel-3-8-ve-uzeri-icin-kritik-zafiyet":	{
+		"title": "Linux Kernel 3.8 ve Üzeri için Kritik Zafiyet",
+		"url": "/linux-kernel-3-8-ve-uzeri-icin-kritik-zafiyet/",
+		"date": "Fri, 22 Jan 2016 09:27:11 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"wordpress-basic-cache-eklentisi":	{
+		"title": "Wordpress-Basic-Cache Eklentisi",
+		"url": "/wordpress-basic-cache-eklentisi/",
+		"date": "Wed, 20 Jan 2016 21:54:02 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"ise-yarar-4-linux-konsol-komutu":	{
+		"title": "İşe Yarar 3 Linux Konsol Komutu",
+		"url": "/ise-yarar-4-linux-konsol-komutu/",
+		"date": "Mon, 18 Jan 2016 11:10:17 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"linux-tek-bir-komut-icin-gecmisi-temizleme":	{
+		"title": "Linux Tek Bir Komut için Geçmişi Temizleme",
+		"url": "/linux-tek-bir-komut-icin-gecmisi-temizleme/",
+		"date": "Sun, 17 Jan 2016 13:05:43 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"openssh-kritik-guvenlik-zafiyeti":	{
+		"title": "OpenSSH Kritik Güvenlik Zafiyeti",
+		"url": "/openssh-kritik-guvenlik-zafiyeti/",
+		"date": "Sat, 16 Jan 2016 07:56:36 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"manjaro-dnscrypt-dnsmasq-kurulumu":	{
+		"title": "Manjaro DNSCrypt ve Dnsmasq Kurulumu",
+		"url": "/manjaro-dnscrypt-dnsmasq-kurulumu/",
+		"date": "Fri, 15 Jan 2016 11:07:49 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"manjaro-15-12-kurulumu":	{
+		"title": "Manjaro 15.12 Kurulumu",
+		"url": "/manjaro-15-12-kurulumu/",
+		"date": "Sun, 10 Jan 2016 14:24:21 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"en-iyi-3-stress-test-araci":	{
+		"title": "En iyi 3 Stress Test Aracı",
+		"url": "/en-iyi-3-stress-test-araci/",
+		"date": "Fri, 08 Jan 2016 16:13:54 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"gelecegin-tarayici-motoru-servo":	{
+		"title": "Geleceğin Tarayıcı Motoru Servo",
+		"url": "/gelecegin-tarayici-motoru-servo/",
+		"date": "Sat, 02 Jan 2016 13:06:42 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"wordpress-sitemap-xml-zafiyeti":	{
+		"title": "Wordpress Sitemap.xml Zafiyeti",
+		"url": "/wordpress-sitemap-xml-zafiyeti/",
+		"date": "Thu, 31 Dec 2015 19:21:12 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"apachede-httpden-https-gecis":	{
+		"title": "Apache'de HTTP'den HTTPS Geçiş",
+		"url": "/apachede-httpden-https-gecis/",
+		"date": "Tue, 29 Dec 2015 12:05:10 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"tek-ip-adresine-birden-cok-ssl-kurulumu":	{
+		"title": "Tek İP Adresine Birden Çok SSL Kurulumu",
+		"url": "/tek-ip-adresine-birden-cok-ssl-kurulumu/",
+		"date": "Sun, 27 Dec 2015 13:23:06 +0200",
+		"categories": ["nginx"]
+	} ,
+
+	"ssh-girislerinin-kontrol-edilmesi":	{
+		"title": "SSH Girişlerinin Kontrol Edilmesi",
+		"url": "/ssh-girislerinin-kontrol-edilmesi/",
+		"date": "Fri, 25 Dec 2015 13:09:15 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"sunucuda-rescue-mode-kullanimi":	{
+		"title": "Sunucuda Rescue Mode Kullanımı",
+		"url": "/sunucuda-rescue-mode-kullanimi/",
+		"date": "Tue, 22 Dec 2015 12:54:09 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-15-10-uzerine-cutemarked-kurulumu":	{
+		"title": "Ubuntu 15.10 Üzerine CuteMarkEd Kurulumu",
+		"url": "/ubuntu-15-10-uzerine-cutemarked-kurulumu/",
+		"date": "Sun, 20 Dec 2015 14:02:52 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"otomatik-mysql-veritabani-optimizasyonu":	{
+		"title": "Otomatik MySQL Veritabanı Optimizasyonu",
+		"url": "/otomatik-mysql-veritabani-optimizasyonu/",
+		"date": "Fri, 18 Dec 2015 12:24:09 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"tripwire-ile-sunucu-saldiri-tespiti":	{
+		"title": "Tripwire ile Sunucu Saldırı Tespiti",
+		"url": "/tripwire-ile-sunucu-saldiri-tespiti/",
+		"date": "Wed, 16 Dec 2015 13:27:38 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"mysql-komut-satiri-ile-kullanici-olusturma":	{
+		"title": "Komut Satırı ile MySQL Kullanıcı Oluşturma",
+		"url": "/mysql-komut-satiri-ile-kullanici-olusturma/",
+		"date": "Mon, 14 Dec 2015 12:35:53 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"web-sitenin-trafigi-neden-dusuk-olur":	{
+		"title": "Web Sitenin Trafiği Neden Düşük Olur",
+		"url": "/web-sitenin-trafigi-neden-dusuk-olur/",
+		"date": "Fri, 11 Dec 2015 13:05:14 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"javascriptde-for-ile-tablo-olusturma":	{
+		"title": "Javascript'de For ile Tablo Oluşturma",
+		"url": "/javascriptde-for-ile-tablo-olusturma/",
+		"date": "Wed, 09 Dec 2015 12:56:45 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"ubuntu-sistemler-icin-orangehrm-kurulumu":	{
+		"title": "Ubuntu Sistemler için OrangeHRM Kurulumu",
+		"url": "/ubuntu-sistemler-icin-orangehrm-kurulumu/",
+		"date": "Tue, 08 Dec 2015 13:25:44 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"javascript-ile-toplama-ve-ortalama-bulma":	{
+		"title": "Javascript ile Toplama ve Ortalama Bulma",
+		"url": "/javascript-ile-toplama-ve-ortalama-bulma/",
+		"date": "Mon, 07 Dec 2015 11:45:52 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"lets-encrypt-ile-web-server-yapilandirma":	{
+		"title": "Let’s Encrypt ile Web Server Yapılandırma",
+		"url": "/lets-encrypt-ile-web-server-yapilandirma/",
+		"date": "Sat, 05 Dec 2015 12:14:24 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"php-ile-cross-origin-etkinlestirme":	{
+		"title": "PHP ile Cross-Origin Etkinleştirme",
+		"url": "/php-ile-cross-origin-etkinlestirme/",
+		"date": "Fri, 04 Dec 2015 12:30:53 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"magentoda-tum-siparislerin-temizlenmesi":	{
+		"title": "Magento'da Tüm Siparişlerin Temizlenmesi",
+		"url": "/magentoda-tum-siparislerin-temizlenmesi/",
+		"date": "Mon, 30 Nov 2015 15:54:05 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"php-ile-link-kisaltma-nasil-yapilir":	{
+		"title": "PHP ile Link Kısaltma Nasıl Yapılır",
+		"url": "/php-ile-link-kisaltma-nasil-yapilir/",
+		"date": "Sat, 28 Nov 2015 22:21:02 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"google-webmaster-tools-nedir":	{
+		"title": "Google Webmaster Tools Nedir",
+		"url": "/google-webmaster-tools-nedir/",
+		"date": "Sat, 28 Nov 2015 13:55:34 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"tor-relay-olmak-icin-yapilmasi-gerekenler":	{
+		"title": "Tor Relay Olmak için Yapılması Gerekenler",
+		"url": "/tor-relay-olmak-icin-yapilmasi-gerekenler/",
+		"date": "Thu, 26 Nov 2015 12:57:13 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"microsoft-edge-reklamlari-nasil-engellenir":	{
+		"title": "Microsoft Edge Reklamları Nasıl Engellenir",
+		"url": "/microsoft-edge-reklamlari-nasil-engellenir/",
+		"date": "Tue, 24 Nov 2015 14:27:54 +0200",
+		"categories": ["wordpress"]
+	} ,
+
+	"mozilla-firefox-guvenlik-ve-gizlilik-ayarlari":	{
+		"title": "Mozilla Firefox Güvenlik ve Gizlilik Ayarları",
+		"url": "/mozilla-firefox-guvenlik-ve-gizlilik-ayarlari/",
+		"date": "Sun, 22 Nov 2015 15:18:08 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"ubuntu-sistemlerde-apparmor-nedir":	{
+		"title": "Ubuntu Sistemlerde AppArmor Nedir ?",
+		"url": "/ubuntu-sistemlerde-apparmor-nedir/",
+		"date": "Mon, 16 Nov 2015 13:30:51 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"cloudflarede-dnssec-ayarlama-islemi":	{
+		"title": "CloudFlare'de DNSSEC Ayarlama İşlemi",
+		"url": "/cloudflarede-dnssec-ayarlama-islemi/",
+		"date": "Fri, 13 Nov 2015 00:16:57 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"isinize-yarayacak-web-siteleri":	{
+		"title": "İşinize Yarayacak Web Siteleri",
+		"url": "/isinize-yarayacak-web-siteleri/",
+		"date": "Mon, 09 Nov 2015 21:23:36 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"centos-kloxo-mr-kontrol-panel-kurulumu":	{
+		"title": "Centos Kloxo-MR Kontrol Panel Kurulumu",
+		"url": "/centos-kloxo-mr-kontrol-panel-kurulumu/",
+		"date": "Thu, 05 Nov 2015 19:17:16 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"privatoria-guvenli-ve-gizli":	{
+		"title": "Privatoria - Güvenli ve Gizli",
+		"url": "/privatoria-guvenli-ve-gizli/",
+		"date": "Fri, 30 Oct 2015 14:24:37 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"vmware-workstation-12-0-linux-kurulumu":	{
+		"title": "VMware Workstation 12.0 Linux Kurulumu",
+		"url": "/vmware-workstation-12-0-linux-kurulumu/",
+		"date": "Wed, 28 Oct 2015 01:53:40 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-15-10-wily-werewolf-surumune-gecis":	{
+		"title": "Ubuntu 15.10 Wily Werewolf Sürümüne Geçiş",
+		"url": "/ubuntu-15-10-wily-werewolf-surumune-gecis/",
+		"date": "Fri, 23 Oct 2015 22:25:25 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"openvas-vulnerability-scanner-kurulumu":	{
+		"title": "OpenVAS Vulnerability Scanner Kurulumu",
+		"url": "/openvas-vulnerability-scanner-kurulumu/",
+		"date": "Tue, 20 Oct 2015 18:08:21 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"froxlor-sunucu-yonetim-paneli-kurulumu":	{
+		"title": "Froxlor Sunucu Yönetim Paneli",
+		"url": "/froxlor-sunucu-yonetim-paneli-kurulumu/",
+		"date": "Fri, 16 Oct 2015 17:14:03 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ssh-ile-trafik-kullanimini-goruntuleme":	{
+		"title": "SSH ile Trafik Kullanımını Görüntüleme",
+		"url": "/ssh-ile-trafik-kullanimini-goruntuleme/",
+		"date": "Wed, 14 Oct 2015 22:31:36 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"wordpress-temalar-icin-guvenlik-onlemleri":	{
+		"title": "Wordpress Temalar için Güvenlik Önlemleri",
+		"url": "/wordpress-temalar-icin-guvenlik-onlemleri/",
+		"date": "Mon, 12 Oct 2015 12:21:28 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"programlamaya-nasil-baslanir":	{
+		"title": "Programlamaya Nasıl Başlanır ?",
+		"url": "/programlamaya-nasil-baslanir/",
+		"date": "Sat, 10 Oct 2015 13:28:23 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"archlinux-kurulumu":	{
+		"title": "ArchLinux Kurulumu",
+		"url": "/archlinux-kurulumu/",
+		"date": "Thu, 08 Oct 2015 14:48:04 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"python-istatistiksel-hesaplamalar":	{
+		"title": "Python İstatistiksel Hesaplamalar",
+		"url": "/python-istatistiksel-hesaplamalar/",
+		"date": "Tue, 06 Oct 2015 14:28:20 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"debian-tabanli-sistemlerde-logrotate-islemi":	{
+		"title": "Debian Tabanlı Sistemlerde Logrotate İşlemi",
+		"url": "/debian-tabanli-sistemlerde-logrotate-islemi/",
+		"date": "Sun, 04 Oct 2015 13:02:04 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"python-guncel-doviz-kuru":	{
+		"title": "Python Güncel Döviz Kuru",
+		"url": "/python-guncel-doviz-kuru/",
+		"date": "Sat, 03 Oct 2015 23:07:58 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"libreoffice-5-0-x-turkce-kurulumu":	{
+		"title": "LibreOffice 5.0.x Türkçe Kurulumu",
+		"url": "/libreoffice-5-0-x-turkce-kurulumu/",
+		"date": "Fri, 02 Oct 2015 16:58:36 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"nginx-uzerinde-http2-yapilandirilmasi":	{
+		"title": "Nginx Üzerinde HTTP/2 Yapılandırılması",
+		"url": "/nginx-uzerinde-http2-yapilandirilmasi/",
+		"date": "Fri, 25 Sep 2015 16:27:16 +0300",
+		"categories": ["nginx"]
+	} ,
+
+	"windows-kullanicilari-ozgurluge-hosgeldiniz":	{
+		"title": "Windows Kullanıcıları Özgürlüğe Hoşgeldiniz",
+		"url": "/windows-kullanicilari-ozgurluge-hosgeldiniz/",
+		"date": "Fri, 25 Sep 2015 12:15:46 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"jetbrains-sslhandshakeexception-sorunu":	{
+		"title": "JetBrains SSLHandshakeException Sorunu",
+		"url": "/jetbrains-sslhandshakeexception-sorunu/",
+		"date": "Wed, 23 Sep 2015 16:10:14 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"github-ssh-key-olusturma-islemi":	{
+		"title": "Github SSH Key Oluşturma İşlemi",
+		"url": "/github-ssh-key-olusturma-islemi/",
+		"date": "Mon, 21 Sep 2015 15:48:47 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"nixstats-ile-sunucu-izleme-islemleri":	{
+		"title": "NixStats ile Sunucu İzleme İşlemleri",
+		"url": "/nixstats-ile-sunucu-izleme-islemleri/",
+		"date": "Sat, 19 Sep 2015 13:02:10 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"encfs-ile-guvenli-dosya-sistemi":	{
+		"title": "EncFS ile Güvenli Dosya Sistemi",
+		"url": "/encfs-ile-guvenli-dosya-sistemi/",
+		"date": "Thu, 17 Sep 2015 12:05:40 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"firefox-dns-onbellegini-kapatma":	{
+		"title": "Firefox DNS Önbelleğini Kapatma",
+		"url": "/firefox-dns-onbellegini-kapatma/",
+		"date": "Tue, 15 Sep 2015 15:54:21 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"windows-7-8-ve-8-1-icin-gizlilik-ayarlari":	{
+		"title": "Windows 7, 8 ve 8.1 için Gizlilik Ayarları",
+		"url": "/windows-7-8-ve-8-1-icin-gizlilik-ayarlari/",
+		"date": "Sun, 13 Sep 2015 21:23:49 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"linux-kernel-4-1-kurulumuguncellemesi":	{
+		"title": "Linux Kernel 4.1 Kurulumu/Güncellemesi",
+		"url": "/linux-kernel-4-1-kurulumuguncellemesi/",
+		"date": "Fri, 11 Sep 2015 03:32:47 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"linux-sistemlerde-macos-font-kullanimi":	{
+		"title": "Linux Sistemlerde MacOS Font Kullanımı",
+		"url": "/linux-sistemlerde-macos-font-kullanimi/",
+		"date": "Wed, 09 Sep 2015 00:21:39 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"whatsapp-kurtulup-telegram-kullanmaliyiz":	{
+		"title": "Whatsapp Kurtulup Telegram Kullanmalıyız",
+		"url": "/whatsapp-kurtulup-telegram-kullanmaliyiz/",
+		"date": "Sun, 06 Sep 2015 19:07:46 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"centos-7-uzerine-speedtest-server-kurmak":	{
+		"title": "Centos 7 Üzerine SpeedTest Server Kurmak",
+		"url": "/centos-7-uzerine-speedtest-server-kurmak/",
+		"date": "Wed, 26 Aug 2015 16:06:22 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"mactype-ile-windowsda-font-manipulation":	{
+		"title": "MacType ile Windows'da Font Manipulation",
+		"url": "/mactype-ile-windowsda-font-manipulation/",
+		"date": "Fri, 21 Aug 2015 19:13:25 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"centos-7-uzerine-zabbix-kurulumu":	{
+		"title": "Centos 7 Üzerine Zabbix Kurulumu",
+		"url": "/centos-7-uzerine-zabbix-kurulumu/",
+		"date": "Fri, 14 Aug 2015 14:36:15 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"donotspy10-windows-10-gizlilik-ayarlari":	{
+		"title": "DoNotSpy10 - Windows 10 Gizlilik Ayarları",
+		"url": "/donotspy10-windows-10-gizlilik-ayarlari/",
+		"date": "Thu, 06 Aug 2015 13:17:15 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"linux-onyukleme-sureci":	{
+		"title": "Linux Önyükleme Süreci",
+		"url": "/linux-onyukleme-sureci/",
+		"date": "Sun, 02 Aug 2015 19:31:30 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"vestacpde-mysql-sorununun-cozulmesi":	{
+		"title": "VestaCP'de Mysql Sorununun Çözülmesi",
+		"url": "/vestacpde-mysql-sorununun-cozulmesi/",
+		"date": "Thu, 30 Jul 2015 03:19:55 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"firefox-guvenlik-sikilastirmasi":	{
+		"title": "Firefox Güvenlik Sıkılaştırması",
+		"url": "/firefox-guvenlik-sikilastirmasi/",
+		"date": "Sun, 26 Jul 2015 03:17:05 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"redis-ile-wordpress-cache":	{
+		"title": "Redis ile Wordpress Cache",
+		"url": "/redis-ile-wordpress-cache/",
+		"date": "Sun, 19 Jul 2015 19:42:49 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"tutanota-ile-sifreli-mail-gondermek":	{
+		"title": "Tutanota ile Şifreli Mail Göndermek",
+		"url": "/tutanota-ile-sifreli-mail-gondermek/",
+		"date": "Thu, 16 Jul 2015 04:28:01 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"hackingteamin-kullandigi-nodelar":	{
+		"title": "HackingTeam'in Kullandığı Node'lar",
+		"url": "/hackingteamin-kullandigi-nodelar/",
+		"date": "Tue, 14 Jul 2015 20:35:00 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"linux-sistemler-icin-sentora-kurulumu":	{
+		"title": "Linux Sistemler için Sentora Kurulumu",
+		"url": "/linux-sistemler-icin-sentora-kurulumu/",
+		"date": "Mon, 13 Jul 2015 21:23:57 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"linux-sistemler-icin-ajenti-kurulumu":	{
+		"title": "Linux Sistemler için Ajenti Kurulumu",
+		"url": "/linux-sistemler-icin-ajenti-kurulumu/",
+		"date": "Sun, 12 Jul 2015 19:32:50 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"regex-kullanarak-ip-adreslerini-alma":	{
+		"title": "Regex Kullanarak İP Adreslerini Alma",
+		"url": "/regex-kullanarak-ip-adreslerini-alma/",
+		"date": "Sat, 11 Jul 2015 12:47:55 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"javascript-sonkart-yontemi":	{
+		"title": "Javascript Sonkart Yöntemi",
+		"url": "/javascript-sonkart-yontemi/",
+		"date": "Fri, 10 Jul 2015 14:49:58 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"cloudlinux-ve-centos-icin-cpanel-kurulumu":	{
+		"title": "CloudLinux ve Centos için cPanel Kurulumu",
+		"url": "/cloudlinux-ve-centos-icin-cpanel-kurulumu/",
+		"date": "Thu, 09 Jul 2015 22:53:34 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"centos-7-uzerine-varnish-kurulumu":	{
+		"title": "Centos 7 Üzerine Varnish Kurulumu",
+		"url": "/centos-7-uzerine-varnish-kurulumu/",
+		"date": "Wed, 08 Jul 2015 21:38:34 +0300",
+		"categories": ["nginx"]
+	} ,
+
+	"adsensedeki-spam-reklamlari-yasaklama":	{
+		"title": "Adsense'deki Spam Reklamları Yasaklama",
+		"url": "/adsensedeki-spam-reklamlari-yasaklama/",
+		"date": "Tue, 07 Jul 2015 23:55:29 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"javascript-ile-modulus-bulma":	{
+		"title": "Javascript ile Modulus Bulma",
+		"url": "/javascript-ile-modulus-bulma/",
+		"date": "Mon, 06 Jul 2015 16:15:02 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"vestacp-icin-fail2ban-kurulumu":	{
+		"title": "VestaCP İçin Fail2Ban Kurulumu",
+		"url": "/vestacp-icin-fail2ban-kurulumu/",
+		"date": "Mon, 06 Jul 2015 14:42:48 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"prestashop-icin-nginx-ayarlari":	{
+		"title": "Prestashop için Nginx Ayarları",
+		"url": "/prestashop-icin-nginx-ayarlari/",
+		"date": "Sun, 05 Jul 2015 15:15:42 +0300",
+		"categories": ["nginx"]
+	} ,
+
+	"javascript-ile-fibonacci-sayilarini-bulma":	{
+		"title": "Javascript ile Fibonacci Sayılarını Bulma",
+		"url": "/javascript-ile-fibonacci-sayilarini-bulma/",
+		"date": "Sat, 04 Jul 2015 18:21:34 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"cloudflare-site-ip-adresini-cozumleme":	{
+		"title": "Cloudflare Site İp Adresini Çözümleme",
+		"url": "/cloudflare-site-ip-adresini-cozumleme/",
+		"date": "Sat, 04 Jul 2015 10:19:02 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"unutulan-cpanel-sifrelerini-belirlemek":	{
+		"title": "Unutulan Cpanel Şifrelerini Belirlemek",
+		"url": "/unutulan-cpanel-sifrelerini-belirlemek/",
+		"date": "Fri, 03 Jul 2015 14:40:24 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"skypede-kullanici-ipsini-ogrenmek":	{
+		"title": "Skype'de Kullanıcı İPsini Öğrenmek",
+		"url": "/skypede-kullanici-ipsini-ogrenmek/",
+		"date": "Fri, 03 Jul 2015 06:46:15 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"linux-kernel-4-0-kurulumuguncellemesi":	{
+		"title": "Linux Kernel 4.0 Kurulumu/Güncellemesi",
+		"url": "/linux-kernel-4-0-kurulumuguncellemesi/",
+		"date": "Wed, 01 Jul 2015 22:30:50 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"google-translate-ile-sesli-ceviri-nasil-yapilir":	{
+		"title": "Google Translate İle Sesli Çeviri Nasıl Yapılır",
+		"url": "/google-translate-ile-sesli-ceviri-nasil-yapilir/",
+		"date": "Tue, 30 Jun 2015 22:38:37 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"wordpressde-toplu-etiket-silme-islemi":	{
+		"title": "Wordpress'de Toplu Etiket Silme İşlemi",
+		"url": "/wordpressde-toplu-etiket-silme-islemi/",
+		"date": "Sat, 27 Jun 2015 13:28:37 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"linux-nmap-icin-10-kullanisli-parametre":	{
+		"title": "Linux Nmap için 10 Kullanışlı Parametre",
+		"url": "/linux-nmap-icin-10-kullanisli-parametre/",
+		"date": "Fri, 26 Jun 2015 13:29:39 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"usbkisayol-virusu-nasil-temizlenir":	{
+		"title": "USB/Kısayol Virüsü Nasıl Temizlenir",
+		"url": "/usbkisayol-virusu-nasil-temizlenir/",
+		"date": "Thu, 25 Jun 2015 23:15:14 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"ubuntu-15-04-uzerine-spotify-kurulumu":	{
+		"title": "Ubuntu 15.04 Üzerine Spotify Kurulumu",
+		"url": "/ubuntu-15-04-uzerine-spotify-kurulumu/",
+		"date": "Wed, 24 Jun 2015 18:37:08 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-15-04-bumblebee-kurulum-ve-ayarlari":	{
+		"title": "Ubuntu 15.04 Bumblebee Kurulum ve Ayarları",
+		"url": "/ubuntu-15-04-bumblebee-kurulum-ve-ayarlari/",
+		"date": "Tue, 23 Jun 2015 22:22:36 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntuda-istenmeyen-reklamlarin-kaldirilmasi":	{
+		"title": "Ubuntu'da İstenmeyen Reklamların Kaldırılması",
+		"url": "/ubuntuda-istenmeyen-reklamlarin-kaldirilmasi/",
+		"date": "Mon, 22 Jun 2015 15:46:36 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"angularjs-vs-reactjs-inceleme":	{
+		"title": "AngularJS vs ReactJS İnceleme",
+		"url": "/angularjs-vs-reactjs-inceleme/",
+		"date": "Mon, 22 Jun 2015 12:24:53 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"html-kodlama-dersleri-bolum-2":	{
+		"title": "HTML Kodlama Dersleri - Bölüm 2",
+		"url": "/html-kodlama-dersleri-bolum-2/",
+		"date": "Fri, 19 Jun 2015 19:19:43 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"bilinmesi-gereken-10-seo-araci":	{
+		"title": "Bilinmesi Gereken 10 SEO Aracı",
+		"url": "/bilinmesi-gereken-10-seo-araci/",
+		"date": "Fri, 19 Jun 2015 12:10:51 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"asus-n550jv-icin-linux-sorunlari-ve-cozumleri":	{
+		"title": "ASUS N550JV İçin Linux Sorunları ve Çözümleri",
+		"url": "/asus-n550jv-icin-linux-sorunlari-ve-cozumleri/",
+		"date": "Thu, 18 Jun 2015 17:12:49 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-15-04-uzerine-tweetdeck-kurulumu":	{
+		"title": "Ubuntu 15.04 Üzerine TweetDeck Kurulumu",
+		"url": "/ubuntu-15-04-uzerine-tweetdeck-kurulumu/",
+		"date": "Wed, 17 Jun 2015 23:01:59 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"server-bilgilerinin-kontrol-edilmesi":	{
+		"title": "Server Bilgilerinin Kontrol Edilmesi",
+		"url": "/server-bilgilerinin-kontrol-edilmesi/",
+		"date": "Tue, 16 Jun 2015 23:17:10 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"linux-sistemlerde-memory-cache-temizligi":	{
+		"title": "Linux Sistemlerde Memory Cache Temizliği",
+		"url": "/linux-sistemlerde-memory-cache-temizligi/",
+		"date": "Tue, 16 Jun 2015 16:54:40 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"nginx-ssl-yonlendirme":	{
+		"title": "Nginx SSL Yönlendirme",
+		"url": "/nginx-ssl-yonlendirme/",
+		"date": "Mon, 15 Jun 2015 14:09:53 +0300",
+		"categories": ["nginx"]
+	} ,
+
+	"ubuntu-15-04-steam-sorunu-ve-cozumu":	{
+		"title": "Ubuntu 15.04 Steam Sorunu ve Çözümü",
+		"url": "/ubuntu-15-04-steam-sorunu-ve-cozumu/",
+		"date": "Mon, 15 Jun 2015 12:55:20 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"html-kodlama-dersleri-bolum-1":	{
+		"title": "HTML Kodlama Dersleri - Bölüm 1",
+		"url": "/html-kodlama-dersleri-bolum-1/",
+		"date": "Wed, 10 Jun 2015 15:55:55 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"en-iyi-5-linux-sistem-izleme-uygulamalari":	{
+		"title": "En iyi 5 Linux Sistem İzleme Uygulamaları",
+		"url": "/en-iyi-5-linux-sistem-izleme-uygulamalari/",
+		"date": "Wed, 10 Jun 2015 12:55:37 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"sunucularda-sslv3-devre-disi-birakma-islemi":	{
+		"title": "Sunucularda SSLv3 Devre Dışı Bırakma İşlemi",
+		"url": "/sunucularda-sslv3-devre-disi-birakma-islemi/",
+		"date": "Tue, 09 Jun 2015 23:59:30 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"c-ile-decimalden-binary-donusturme-islemi":	{
+		"title": "C ile Decimal'den Binary Dönüştürme İşlemi",
+		"url": "/c-ile-decimalden-binary-donusturme-islemi/",
+		"date": "Tue, 09 Jun 2015 00:00:00 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"cpanel-olan-sunucuya-mongodb-kurulumu":	{
+		"title": "Cpanel Olan Sunucuya MongoDB Kurulumu",
+		"url": "/cpanel-olan-sunucuya-mongodb-kurulumu/",
+		"date": "Mon, 08 Jun 2015 22:09:40 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"wordpress-otomatik-full-yedek-alma-islemi":	{
+		"title": "Wordpress Otomatik Full Yedek Alma İşlemi",
+		"url": "/wordpress-otomatik-full-yedek-alma-islemi/",
+		"date": "Thu, 04 Jun 2015 20:27:23 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"nginxde-cors-ayarlari-nasil-yapilir":	{
+		"title": "Nginx'de Cors Ayarları Nasıl Yapılır",
+		"url": "/nginxde-cors-ayarlari-nasil-yapilir/",
+		"date": "Wed, 03 Jun 2015 20:16:23 +0300",
+		"categories": ["nginx"]
+	} ,
+
+	"nginxde-spam-referrer-trafigi-yasaklama":	{
+		"title": "Nginx'de Spam Referrer Trafiği Yasaklama",
+		"url": "/nginxde-spam-referrer-trafigi-yasaklama/",
+		"date": "Tue, 02 Jun 2015 12:37:15 +0300",
+		"categories": ["nginx"]
+	} ,
+
+	"web-sitesi-girislerini-belirli-ulkelere-kapatma":	{
+		"title": "Web Sitesi Girişlerini Belirli Ülkelere Kapatma",
+		"url": "/web-sitesi-girislerini-belirli-ulkelere-kapatma/",
+		"date": "Mon, 01 Jun 2015 20:29:11 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"c-ile-alfabetik-siralama-yapma":	{
+		"title": "C ile Alfabetik Sıralama Yapma",
+		"url": "/c-ile-alfabetik-siralama-yapma/",
+		"date": "Fri, 29 May 2015 00:00:00 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"sms-ile-arkadasinizin-iphoneunu-resetleyin":	{
+		"title": "SMS ile arkadaşınızın iPhone'unu resetleyin",
+		"url": "/sms-ile-arkadasinizin-iphoneunu-resetleyin/",
+		"date": "Wed, 27 May 2015 23:34:10 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"c-ile-hipotenus-hesaplama":	{
+		"title": "C ile Hipotenüs Hesaplama",
+		"url": "/c-ile-hipotenus-hesaplama/",
+		"date": "Tue, 26 May 2015 00:00:00 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"mysql-veritabani-yedekleme-scripti":	{
+		"title": "MySQL Veritabanı Yedekleme Scripti",
+		"url": "/mysql-veritabani-yedekleme-scripti/",
+		"date": "Mon, 25 May 2015 12:42:15 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"c-veritabani-hazir-fonksiyonlar":	{
+		"title": "C# Veritabanı Hazır Fonksiyonlar",
+		"url": "/c-veritabani-hazir-fonksiyonlar/",
+		"date": "Mon, 25 May 2015 00:00:00 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"linux-sistemlerde-error-log-kapatilmasi":	{
+		"title": "Linux Sistemlerde Error Log Kapatılması",
+		"url": "/linux-sistemlerde-error-log-kapatilmasi/",
+		"date": "Fri, 22 May 2015 18:34:23 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"cpanel-sunuculara-mod-pagespeed-kurulumu":	{
+		"title": "Cpanel Sunuculara mod_pagespeed Kurulumu",
+		"url": "/cpanel-sunuculara-mod_pagespeed-kurulumu/",
+		"date": "Fri, 22 May 2015 12:11:49 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"c-programlamaya-giris-final-ders-notlari":	{
+		"title": "C Programlamaya Giriş Final Ders Notları",
+		"url": "/c-programlamaya-giris-final-ders-notlari/",
+		"date": "Fri, 22 May 2015 00:00:00 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"mariadb-10-x-ornek-yapilandirma":	{
+		"title": "MariaDB 10.x Örnek Yapılandırma",
+		"url": "/mariadb-10-x-ornek-yapilandirma/",
+		"date": "Thu, 21 May 2015 18:15:29 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"imagets-resim-cekme-ve-ozgunlestirme-botu":	{
+		"title": "ImageTS-Resim Çekme Ve Özgünleştirme Botu",
+		"url": "/imagets-resim-cekme-ve-ozgunlestirme-botu/",
+		"date": "Thu, 21 May 2015 12:07:58 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"c-programlamaya-giris-ornek-sinav-sorulari":	{
+		"title": "C Programlamaya Giriş Örnek Sınav Soruları",
+		"url": "/c-programlamaya-giris-ornek-sinav-sorulari/",
+		"date": "Thu, 21 May 2015 00:00:00 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"nginx-statik-dosyalarda-browser-cache-islemi":	{
+		"title": "Nginx Statik Dosyalar'da Browser Cache İşlemi",
+		"url": "/nginx-statik-dosyalarda-browser-cache-islemi/",
+		"date": "Wed, 20 May 2015 15:26:44 +0300",
+		"categories": ["nginx"]
+	} ,
+
+	"postname-html-den-postname-yonlendirme":	{
+		"title": "/%postname%.html den /%postname%/ yönlendirme",
+		"url": "/postname-html-den-postname-yonlendirme/",
+		"date": "Tue, 19 May 2015 13:28:47 +0300",
+		"categories": ["nginx"]
+	} ,
+
+	"c-ile-kabarcik-siralamasi":	{
+		"title": "C ile Kabarcık Sıralaması",
+		"url": "/c-ile-kabarcik-siralamasi/",
+		"date": "Mon, 18 May 2015 00:00:00 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"centos-uzerine-oracle-express-kurulumu":	{
+		"title": "CentOS üzerine Oracle Express Kurulumu",
+		"url": "/centos-uzerine-oracle-express-kurulumu/",
+		"date": "Thu, 14 May 2015 12:38:28 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"c-ile-string-ifadeleri-karsilastirma":	{
+		"title": "C ile String İfadeleri Karşılaştırma",
+		"url": "/c-ile-string-ifadeleri-karsilastirma/",
+		"date": "Thu, 14 May 2015 00:00:00 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"cronjob-nedir-nasil-kullanilir":	{
+		"title": "Cronjob Nedir, Nasıl Kullanılır?",
+		"url": "/cronjob-nedir-nasil-kullanilir/",
+		"date": "Wed, 13 May 2015 23:42:35 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ddos-saldirilarindaki-dogru-bilinen-yanlislar":	{
+		"title": "Ddos Saldırılarındaki Doğru Bilinen Yanlışlar",
+		"url": "/ddos-saldirilarindaki-dogru-bilinen-yanlislar/",
+		"date": "Tue, 12 May 2015 12:24:37 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"programlamaya-giris-final-ders-odevleri":	{
+		"title": "Programlamaya Giriş Final Ders Ödevleri",
+		"url": "/programlamaya-giris-final-ders-odevleri/",
+		"date": "Mon, 11 May 2015 00:00:00 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"openssl-ile-kendinden-imzali-ssl-olusturma":	{
+		"title": "OpenSSL ile Kendinden İmzalı SSL Oluşturma",
+		"url": "/openssl-ile-kendinden-imzali-ssl-olusturma/",
+		"date": "Fri, 08 May 2015 23:28:56 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"mariadb-10-x-ve-mysql-5-x-innodb-kapatmak":	{
+		"title": "MariaDB 10.x ve MySQL 5.x InnoDB Kapatmak",
+		"url": "/mariadb-10-x-ve-mysql-5-x-innodb-kapatmak/",
+		"date": "Thu, 07 May 2015 18:34:36 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"headers-and-client-library-minor-version-hatasi":	{
+		"title": "Headers and client library minor version Hatası",
+		"url": "/headers-and-client-library-minor-version-hatasi/",
+		"date": "Tue, 05 May 2015 15:12:06 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-15-04-vivid-vervet-surumune-gecis":	{
+		"title": "Ubuntu 15.04 Vivid Vervet Sürümüne Geçiş",
+		"url": "/ubuntu-15-04-vivid-vervet-surumune-gecis/",
+		"date": "Fri, 01 May 2015 14:51:49 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-15-04-uzerine-lamp-kurulumu":	{
+		"title": "Ubuntu 15.04 Üzerine LAMP Kurulumu",
+		"url": "/ubuntu-15-04-uzerine-lamp-kurulumu/",
+		"date": "Thu, 30 Apr 2015 14:01:01 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-uzerine-nginx-ile-web-server-kurma":	{
+		"title": "Ubuntu Üzerine Nginx ile Web Server Kurma",
+		"url": "/ubuntu-uzerine-nginx-ile-web-server-kurma/",
+		"date": "Wed, 29 Apr 2015 18:37:25 +0300",
+		"categories": ["nginx"]
+	} ,
+
+	"twitterda-daha-hizli-olmanin-kisa-yollari":	{
+		"title": "Twitter'da Daha Hızlı Olmanın Kısa Yolları",
+		"url": "/twitterda-daha-hizli-olmanin-kisa-yollari/",
+		"date": "Wed, 29 Apr 2015 14:32:30 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"firefox-kisayollari-nedir-nasil-kullanilir":	{
+		"title": "Firefox Kısayolları Nedir, Nasıl Kullanılır ?",
+		"url": "/firefox-kisayollari-nedir-nasil-kullanilir/",
+		"date": "Mon, 27 Apr 2015 21:03:35 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"ubuntu-uzerine-atomia-dns-kurulumu":	{
+		"title": "Ubuntu Üzerine Atomia DNS Kurulumu",
+		"url": "/ubuntu-uzerine-atomia-dns-kurulumu/",
+		"date": "Mon, 27 Apr 2015 12:03:12 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"wordpress-icin-nginx-rewrite-kurallari":	{
+		"title": "Wordpress İçin NGİNX Rewrite Kuralları",
+		"url": "/wordpress-icin-nginx-rewrite-kurallari/",
+		"date": "Fri, 24 Apr 2015 12:20:44 +0300",
+		"categories": ["nginx"]
+	} ,
+
+	"ubuntu-uzerine-openlitespeed-kurulumu":	{
+		"title": "Ubuntu Üzerine OpenLiteSpeed Kurulumu",
+		"url": "/ubuntu-uzerine-openlitespeed-kurulumu/",
+		"date": "Thu, 23 Apr 2015 16:19:02 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"windowsta-toplu-dosya-ismi-nasil-degistirilir":	{
+		"title": "Windows’ta Toplu Dosya İsmi Nasıl Değiştirilir",
+		"url": "/windowsta-toplu-dosya-ismi-nasil-degistirilir/",
+		"date": "Mon, 20 Apr 2015 15:55:29 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"centos-uzerine-vpssim-kurulumu":	{
+		"title": "CentOS Üzerine VPSSIM Kurulumu",
+		"url": "/centos-uzerine-vpssim-kurulumu/",
+		"date": "Mon, 13 Apr 2015 15:05:53 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"tek-telefon-ile-whatsapp-hesabi-kullanma":	{
+		"title": "Tek Telefon ile 2 Whatsapp Hesabı Kullanma",
+		"url": "/tek-telefon-ile-whatsapp-hesabi-kullanma/",
+		"date": "Mon, 13 Apr 2015 12:35:31 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"islemci-uretiminde-wafer-nedir":	{
+		"title": "İşlemci Üretiminde Wafer Nedir ?",
+		"url": "/islemci-uretiminde-wafer-nedir/",
+		"date": "Fri, 10 Apr 2015 21:48:50 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"mysql-turkce-karakter-sorununu-gidermek":	{
+		"title": "MySQL Türkçe Karakter Sorununu Gidermek",
+		"url": "/mysql-turkce-karakter-sorununu-gidermek/",
+		"date": "Mon, 06 Apr 2015 15:27:49 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"programlar-tek-tikla-nasil-geri-yuklenir":	{
+		"title": "Programlar Tek Tıkla Nasıl Geri Yüklenir ?",
+		"url": "/programlar-tek-tikla-nasil-geri-yuklenir/",
+		"date": "Mon, 06 Apr 2015 12:00:19 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"c-programlamaya-giris-ders-notlari":	{
+		"title": "C Programlamaya Giriş Ders Notları",
+		"url": "/c-programlamaya-giris-ders-notlari/",
+		"date": "Mon, 06 Apr 2015 00:00:00 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"wordpress-4-2-ile-gelecek-olan-ozellikler":	{
+		"title": "Wordpress 4.2 İle Gelecek Olan Özellikler",
+		"url": "/wordpress-4-2-ile-gelecek-olan-ozellikler/",
+		"date": "Tue, 31 Mar 2015 12:20:21 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"photoshop-ile-resimden-telif-kaldirma":	{
+		"title": "Photoshop ile Resimden Telif Kaldırma",
+		"url": "/photoshop-ile-resimden-telif-kaldirma/",
+		"date": "Mon, 30 Mar 2015 18:10:17 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"c-ile-sayiya-kadar-ikinin-katlarini-bulma":	{
+		"title": "C ile Sayıya kadar İkinin Katlarını Bulma",
+		"url": "/c-ile-sayiya-kadar-ikinin-katlarini-bulma/",
+		"date": "Mon, 30 Mar 2015 00:00:00 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"wampserverda-htaccess-calistirma":	{
+		"title": "WampServer’da .htaccess Çalıştırma",
+		"url": "/wampserverda-htaccess-calistirma/",
+		"date": "Sun, 29 Mar 2015 14:14:27 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"spam-sitelerin-tamamen-yasaklanma-islemi":	{
+		"title": "Spam Sitelerin Tamamen Yasaklanma İşlemi",
+		"url": "/spam-sitelerin-tamamen-yasaklanma-islemi/",
+		"date": "Sun, 29 Mar 2015 00:00:00 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"c-ile-palindrome-kontrolu-nasil-yapilir":	{
+		"title": "C ile Palindrome Kontrolü Nasıl Yapılır",
+		"url": "/c-ile-palindrome-kontrolu-nasil-yapilir/",
+		"date": "Sun, 29 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"notepad-ile-dosyalar-icinde-arama-yapma":	{
+		"title": "Notepad++ ile Dosyalar İçinde Arama Yapma",
+		"url": "/notepad-ile-dosyalar-icinde-arama-yapma/",
+		"date": "Sat, 28 Mar 2015 14:33:03 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"c-ile-matris-toplama-islemi":	{
+		"title": "C ile Matris Toplama İşlemi",
+		"url": "/c-ile-matris-toplama-islemi/",
+		"date": "Sat, 28 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"c-dilinde-karsilasilan-hatalar-cozumleri":	{
+		"title": "C Dilinde Karşılaşılan Hatalar ve Çözümleri",
+		"url": "/c-dilinde-karsilasilan-hatalar-cozumleri/",
+		"date": "Fri, 27 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"acik-kaynak-nedir":	{
+		"title": "Açık Kaynak Nedir ?",
+		"url": "/acik-kaynak-nedir/",
+		"date": "Thu, 26 Mar 2015 17:36:48 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"c-ile-basit-faiz-hesaplama-islemi":	{
+		"title": "C ile Basit Faiz Hesaplama İşlemi",
+		"url": "/c-ile-basit-faiz-hesaplama-islemi/",
+		"date": "Thu, 26 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"http2-hakkinda-bilgilendirme":	{
+		"title": "HTTP/2 Hakkında Bilgilendirme",
+		"url": "/http2-hakkinda-bilgilendirme/",
+		"date": "Wed, 25 Mar 2015 14:06:20 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"c-ile-sayinin-asal-olup-olmadigini-bulma":	{
+		"title": "C ile Sayının Asal Olup Olmadığını Bulma",
+		"url": "/c-ile-sayinin-asal-olup-olmadigini-bulma/",
+		"date": "Wed, 25 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"wordpress-on-tanimli-avatari-degistirme":	{
+		"title": "Wordpress Ön Tanımlı Avatarı değiştirme",
+		"url": "/wordpress-on-tanimli-avatari-degistirme/",
+		"date": "Tue, 24 Mar 2015 14:13:41 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"c-ile-sayinin-tam-bolenlerini-bulma":	{
+		"title": "C ile Sayının Tam Bölenlerini Bulma",
+		"url": "/c-ile-sayinin-tam-bolenlerini-bulma/",
+		"date": "Tue, 24 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"wordpress-site-optimizasyonu":	{
+		"title": "Wordpress Site Optimizasyonu",
+		"url": "/wordpress-site-optimizasyonu/",
+		"date": "Mon, 23 Mar 2015 17:44:40 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"c-ile-sayilarin-toplanmasi-ortalamalari":	{
+		"title": "C ile Sayıların Toplanması ve Ortalamaları",
+		"url": "/c-ile-sayilarin-toplanmasi-ortalamalari/",
+		"date": "Mon, 23 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"sitemi-nasil-yonlendirebilirim":	{
+		"title": "Sitemi Nasıl Yönlendirebilirim ?",
+		"url": "/sitemi-nasil-yonlendirebilirim/",
+		"date": "Sun, 22 Mar 2015 18:13:05 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"c-ile-kar-payi-hesaplama":	{
+		"title": "C ile Kâr Payı Hesaplama",
+		"url": "/c-ile-kar-payi-hesaplama/",
+		"date": "Sun, 22 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"ssh-ile-yedek-alma-islemi":	{
+		"title": "SSH İle Yedek Alma İşlemi",
+		"url": "/ssh-ile-yedek-alma-islemi/",
+		"date": "Sat, 21 Mar 2015 14:45:46 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"c-ile-fibonacci-sayilarinin-bulunmasi":	{
+		"title": "C ile Fibonacci Sayılarının Bulunması",
+		"url": "/c-ile-fibonacci-sayilarinin-bulunmasi/",
+		"date": "Fri, 20 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"c-ile-faktoriyel-hesaplama":	{
+		"title": "C ile Faktöriyel Hesaplama",
+		"url": "/c-ile-faktoriyel-hesaplama/",
+		"date": "Wed, 18 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"c-ile-buyuk-sayiyi-bulma-islemi":	{
+		"title": "C ile En Buyuk Sayıyı Bulma İşlemi",
+		"url": "/c-ile-buyuk-sayiyi-bulma-islemi/",
+		"date": "Mon, 16 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"c-ile-ekok-bulma-islemi":	{
+		"title": "C ile EKOK Bulma İşlemi",
+		"url": "/c-ile-ekok-bulma-islemi/",
+		"date": "Sat, 14 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"c-ile-ebob-bulma-islemi":	{
+		"title": "C ile Ebob Bulma İşlemi",
+		"url": "/c-ile-ebob-bulma-islemi/",
+		"date": "Thu, 12 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"c-ile-sayinin-basamaklarini-toplama":	{
+		"title": "C ile Sayının Basamaklarını Toplama",
+		"url": "/c-ile-sayinin-basamaklarini-toplama/",
+		"date": "Tue, 10 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"ubuntu-varcacheaptarchives-hatasi":	{
+		"title": "ubuntu /var/cache/apt/archives/ hatası",
+		"url": "/ubuntu-varcacheaptarchives-hatasi/",
+		"date": "Mon, 09 Mar 2015 00:00:00 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"c-ile-asal-sayilari-bulma":	{
+		"title": "C ile Asal Sayıları Bulma",
+		"url": "/c-ile-asal-sayilari-bulma/",
+		"date": "Sun, 08 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"youtubecenter-ile-farkli-bir-youtube-keyfi":	{
+		"title": "YoutubeCenter İle Farklı Bir Youtube Keyfi",
+		"url": "/youtubecenter-ile-farkli-bir-youtube-keyfi/",
+		"date": "Sat, 07 Mar 2015 14:34:43 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"c-ile-tek-yada-cift-bulma":	{
+		"title": "C ile Tek yada Çift Bulma",
+		"url": "/c-ile-tek-yada-cift-bulma/",
+		"date": "Fri, 06 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"ubuntu-uzerine-onlyoffice-kurulumu":	{
+		"title": "Ubuntu Üzerine OnlyOffice Kurulumu",
+		"url": "/ubuntu-uzerine-onlyoffice-kurulumu/",
+		"date": "Thu, 05 Mar 2015 14:40:18 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"c-ile-alan-hesaplamalari":	{
+		"title": "C ile Alan Hesaplamaları",
+		"url": "/c-ile-alan-hesaplamalari/",
+		"date": "Wed, 04 Mar 2015 00:00:00 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"windows-firewall-control":	{
+		"title": "Windows Firewall Control",
+		"url": "/windows-firewall-control/",
+		"date": "Tue, 03 Mar 2015 14:44:12 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"centos-6-6-uzerine-virtualmin-kurulumu":	{
+		"title": "Centos 6.6 Üzerine Virtualmin Kurulumu",
+		"url": "/centos-6-6-uzerine-virtualmin-kurulumu/",
+		"date": "Mon, 02 Mar 2015 18:15:12 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"veracrypt-ile-sifreli-alan-olusturmak":	{
+		"title": "VeraCrypt ile Şifreli Alan Oluşturmak",
+		"url": "/veracrypt-ile-sifreli-alan-olusturmak/",
+		"date": "Sun, 01 Mar 2015 14:26:14 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"ubuntu-uzerine-mumble-server-kurulumu":	{
+		"title": "Ubuntu Üzerine Mumble Server Kurulumu",
+		"url": "/ubuntu-uzerine-mumble-server-kurulumu/",
+		"date": "Sat, 28 Feb 2015 14:01:21 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"firefox-ram-kullaniminin-dusurulmesi":	{
+		"title": "Firefox Ram Kullanımının Düşürülmesi",
+		"url": "/firefox-ram-kullaniminin-dusurulmesi/",
+		"date": "Fri, 27 Feb 2015 14:07:53 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"internet-baglanti-sorunlarinizi-giderin":	{
+		"title": "İnternet Bağlantı Sorunlarınızı Giderin",
+		"url": "/internet-baglanti-sorunlarinizi-giderin/",
+		"date": "Thu, 26 Feb 2015 14:38:57 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"windowsda-dns-isteklerinin-sifrelenmesi":	{
+		"title": "Windows'da DNS İsteklerinin Şifrelenmesi",
+		"url": "/windowsda-dns-isteklerinin-sifrelenmesi/",
+		"date": "Wed, 25 Feb 2015 14:24:23 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"interneti-hizlandirma-rehberi":	{
+		"title": "İnterneti Hızlandırma Rehberi",
+		"url": "/interneti-hizlandirma-rehberi/",
+		"date": "Tue, 24 Feb 2015 14:28:48 +0200",
+		"categories": ["analiz"]
+	} ,
+
+	"cmd-ile-sistem-bilgilerini-ogrenin":	{
+		"title": "CMD ile Sistem bilgilerini öğrenin",
+		"url": "/cmd-ile-sistem-bilgilerini-ogrenin/",
+		"date": "Mon, 23 Feb 2015 14:39:00 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"centos-7-uzerine-git-nasil-kurulur":	{
+		"title": "Centos 7 üzerine git nasıl kurulur",
+		"url": "/centos-7-uzerine-git-nasil-kurulur/",
+		"date": "Sun, 22 Feb 2015 14:38:09 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"programlama-editorleriide-listesi":	{
+		"title": "Programlama Editörleri(IDE) Listesi",
+		"url": "/programlama-editorleriide-listesi/",
+		"date": "Sun, 22 Feb 2015 12:45:42 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"compiler-nedir-ise-yarar":	{
+		"title": "Compiler Nedir? Ne İşe Yarar ?",
+		"url": "/compiler-nedir-ise-yarar/",
+		"date": "Sat, 21 Feb 2015 21:45:14 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"sublime-text-3-nasil-kurulur":	{
+		"title": "Sublime Text 3 Nasıl Kurulur",
+		"url": "/sublime-text-3-nasil-kurulur/",
+		"date": "Sat, 21 Feb 2015 14:29:23 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"otomatik-guncellemeyi-acma-veya-kapatma":	{
+		"title": "Otomatik güncellemeyi açma veya kapatma",
+		"url": "/otomatik-guncellemeyi-acma-veya-kapatma/",
+		"date": "Fri, 20 Feb 2015 13:45:51 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"youtube-videolarini-webm-donusturmek":	{
+		"title": "Youtube Videolarını Webm'ye Dönüştürmek",
+		"url": "/youtube-videolarini-webm-donusturmek/",
+		"date": "Thu, 19 Feb 2015 18:23:13 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"ubuntu-uzerine-varnish-kurulumu":	{
+		"title": "Ubuntu üzerine varnish kurulumu",
+		"url": "/ubuntu-uzerine-varnish-kurulumu/",
+		"date": "Thu, 19 Feb 2015 12:26:00 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"wordpress-otomatik-kayit-araligi":	{
+		"title": "Wordpress otomatik kayıt aralığı",
+		"url": "/wordpress-otomatik-kayit-araligi/",
+		"date": "Wed, 18 Feb 2015 12:15:35 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"wordpress-revisions-ozelligini-kapatma":	{
+		"title": "WordPress Revisions özelliğini kapatma",
+		"url": "/wordpress-revisions-ozelligini-kapatma/",
+		"date": "Tue, 17 Feb 2015 12:05:20 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"centos-7-uzerine-node-js-kurulumu":	{
+		"title": "Centos 7 Üzerine Node.js Kurulumu",
+		"url": "/centos-7-uzerine-node-js-kurulumu/",
+		"date": "Mon, 16 Feb 2015 14:43:49 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"cop-kutusunu-silme-araligini-degistime":	{
+		"title": "Çöp kutusunu silme aralığını değiştime",
+		"url": "/cop-kutusunu-silme-araligini-degistime/",
+		"date": "Sun, 15 Feb 2015 12:25:57 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"fatal-error-x264-h-hatasinin-giderilmesi":	{
+		"title": "fatal error x264.h hatasının giderilmesi",
+		"url": "/fatal-error-x264-h-hatasinin-giderilmesi/",
+		"date": "Sat, 14 Feb 2015 14:34:37 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-icin-roundcube-webmail-kurulumu":	{
+		"title": "Ubuntu için RoundCube Webmail Kurulumu",
+		"url": "/ubuntu-icin-roundcube-webmail-kurulumu/",
+		"date": "Fri, 13 Feb 2015 14:30:18 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-14-04-uzerine-logwatch-kurulumu":	{
+		"title": "Ubuntu 14.04 üzerine LogWatch kurulumu",
+		"url": "/ubuntu-14-04-uzerine-logwatch-kurulumu/",
+		"date": "Thu, 12 Feb 2015 14:07:59 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"hmailserver-kurulumu-ve-ayarlari":	{
+		"title": "hMailServer kurulumu ve ayarları",
+		"url": "/hmailserver-kurulumu-ve-ayarlari/",
+		"date": "Wed, 11 Feb 2015 14:42:22 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"ubuntuda-unutulan-sifreyi-sifirlama-islemi":	{
+		"title": "Ubuntu'da unutulan şifreyi sıfırlama işlemi",
+		"url": "/ubuntuda-unutulan-sifreyi-sifirlama-islemi/",
+		"date": "Tue, 10 Feb 2015 15:50:38 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"spam-trafigin-engellenme-islemi":	{
+		"title": "Spam Trafiğin Engellenme işlemi",
+		"url": "/spam-trafigin-engellenme-islemi/",
+		"date": "Mon, 09 Feb 2015 14:38:48 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"ubuntu-uzerine-vivaldi-browser-kurulumu":	{
+		"title": "Ubuntu üzerine Vivaldi Browser kurulumu",
+		"url": "/ubuntu-uzerine-vivaldi-browser-kurulumu/",
+		"date": "Sun, 08 Feb 2015 14:25:24 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-14-04-uzerine-webmin-kurulumu":	{
+		"title": "Ubuntu 14.04 üzerine webmin kurulumu",
+		"url": "/ubuntu-14-04-uzerine-webmin-kurulumu/",
+		"date": "Sat, 07 Feb 2015 15:06:28 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"tarayici-viruslerinin-temizlenmesi":	{
+		"title": "Tarayıcı virüslerinin temizlenmesi",
+		"url": "/tarayici-viruslerinin-temizlenmesi/",
+		"date": "Fri, 06 Feb 2015 15:33:33 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"linux-sistemlerde-trafik-limitleme":	{
+		"title": "Linux sistemlerde trafik limitleme",
+		"url": "/linux-sistemlerde-trafik-limitleme/",
+		"date": "Thu, 05 Feb 2015 14:30:27 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"centos-7-icin-apache-userdir-ayarlari":	{
+		"title": "Centos 7 için Apache UserDir Ayarları",
+		"url": "/centos-7-icin-apache-userdir-ayarlari/",
+		"date": "Wed, 04 Feb 2015 14:30:17 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"centos-7-firewalld-yerine-iptables-kullanmak":	{
+		"title": "Centos 7 firewalld yerine Iptables kullanmak",
+		"url": "/centos-7-firewalld-yerine-iptables-kullanmak/",
+		"date": "Tue, 03 Feb 2015 14:39:48 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-detayli-paket-islemleri":	{
+		"title": "Ubuntu detaylı paket işlemleri",
+		"url": "/ubuntu-detayli-paket-islemleri/",
+		"date": "Mon, 02 Feb 2015 14:15:15 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"php-ini-erisimini-engellemek":	{
+		"title": "Php.ini erişimini engellemek",
+		"url": "/php-ini-erisimini-engellemek/",
+		"date": "Sun, 01 Feb 2015 12:15:49 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"slay-ile-belirli-kullanici-islemlerini-kapatma":	{
+		"title": "Slay ile belirli kullanıcı işlemlerini kapatma",
+		"url": "/slay-ile-belirli-kullanici-islemlerini-kapatma/",
+		"date": "Sat, 31 Jan 2015 13:45:31 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"vivaldi-tarayici-incelemesi":	{
+		"title": "Vivaldi Tarayıcı İncelemesi",
+		"url": "/vivaldi-tarayici-incelemesi/",
+		"date": "Fri, 30 Jan 2015 14:40:57 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"mega-encrypted-chat-ile-guvenli-sohbet":	{
+		"title": "MEGA Encrypted Chat ile Güvenli Sohbet",
+		"url": "/mega-encrypted-chat-ile-guvenli-sohbet/",
+		"date": "Thu, 29 Jan 2015 14:04:17 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"centos-7de-ipv6-devre-disi-birakmak":	{
+		"title": "Centos 7'de IPv6 Devre dışı Bırakmak",
+		"url": "/centos-7de-ipv6-devre-disi-birakmak/",
+		"date": "Wed, 28 Jan 2015 13:41:09 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-14-04-uzerine-vnc-kurulumu":	{
+		"title": "Ubuntu 14.04 Üzerine VNC Kurulumu",
+		"url": "/ubuntu-14-04-uzerine-vnc-kurulumu/",
+		"date": "Tue, 27 Jan 2015 14:48:42 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"whatsim-ile-dunya-capinda-whatsapp-keyfi":	{
+		"title": "WhatSim ile dünya çapında whatsapp keyfi",
+		"url": "/whatsim-ile-dunya-capinda-whatsapp-keyfi/",
+		"date": "Mon, 26 Jan 2015 15:45:25 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"apache-icin-surum-bilgisini-kapatma":	{
+		"title": "Apache için Sürüm bilgisini kapatma",
+		"url": "/apache-icin-surum-bilgisini-kapatma/",
+		"date": "Sun, 25 Jan 2015 13:05:43 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"ssh-araciligi-ile-mp3-stream-yapmak":	{
+		"title": "SSH aracılığı ile MP3 Stream yapmak",
+		"url": "/ssh-araciligi-ile-mp3-stream-yapmak/",
+		"date": "Sat, 24 Jan 2015 13:52:45 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"wordpress-desteklenmeyen-dosya-tipi-sorunu":	{
+		"title": "Wordpress desteklenmeyen dosya tipi sorunu",
+		"url": "/wordpress-desteklenmeyen-dosya-tipi-sorunu/",
+		"date": "Fri, 23 Jan 2015 15:49:36 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"json-verilerini-okunabilir-hale-getirme":	{
+		"title": "JSON Verilerini Okunabilir Hale Getirme",
+		"url": "/json-verilerini-okunabilir-hale-getirme/",
+		"date": "Thu, 22 Jan 2015 14:30:57 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"unknown-url-type-https-hatasinin-giderilmesi":	{
+		"title": "unknown url type: https Hatasının Giderilmesi",
+		"url": "/unknown-url-type-https-hatasinin-giderilmesi/",
+		"date": "Wed, 21 Jan 2015 13:20:18 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"linux-uzerine-pip-kurulumu":	{
+		"title": "Linux Üzerine pip Kurulumu",
+		"url": "/linux-uzerine-pip-kurulumu/",
+		"date": "Tue, 20 Jan 2015 12:52:25 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"tinfoleak-ile-twitter-kullanici-analizi":	{
+		"title": "TinfoLeak ile Twitter Kullanıcı Analizi",
+		"url": "/tinfoleak-ile-twitter-kullanici-analizi/",
+		"date": "Mon, 19 Jan 2015 16:00:12 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"reklam-viruslerinin-kaldirilmasi":	{
+		"title": "Reklam Virüslerinin Kaldırılması",
+		"url": "/reklam-viruslerinin-kaldirilmasi/",
+		"date": "Sun, 18 Jan 2015 22:54:08 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"ubuntu-uzerine-telegram-kurulumu":	{
+		"title": "Ubuntu Üzerine Telegram Kurulumu",
+		"url": "/ubuntu-uzerine-telegram-kurulumu/",
+		"date": "Sun, 18 Jan 2015 15:35:50 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"whatsapp-dosya-boyutu-limitini-arttirmak":	{
+		"title": "WhatsApp Dosya boyutu limitini arttırmak",
+		"url": "/whatsapp-dosya-boyutu-limitini-arttirmak/",
+		"date": "Sat, 17 Jan 2015 15:30:15 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"galaxy-note-2-gt-n7100-kitkat-4-4-2-root":	{
+		"title": "Galaxy Note 2 GT-N7100 Kitkat 4.4.2 Root",
+		"url": "/galaxy-note-2-gt-n7100-kitkat-4-4-2-root/",
+		"date": "Fri, 16 Jan 2015 15:02:58 +0200",
+		"categories": ["programlama"]
+	} ,
+
+	"guvenli-chat-uygulamalari":	{
+		"title": "Güvenli Chat Uygulamaları",
+		"url": "/guvenli-chat-uygulamalari/",
+		"date": "Thu, 15 Jan 2015 15:40:40 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"microsoft-office-alternatifi-sonunda-bulduk":	{
+		"title": "Microsoft Office alternatifi sonunda bulduk",
+		"url": "/microsoft-office-alternatifi-sonunda-bulduk/",
+		"date": "Wed, 14 Jan 2015 15:30:25 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"duplicatefinder-ile-sistem-temizligi":	{
+		"title": "DuplicateFinder ile sistem temizliği",
+		"url": "/duplicatefinder-ile-sistem-temizligi/",
+		"date": "Tue, 13 Jan 2015 15:34:37 +0200",
+		"categories": ["windows"]
+	} ,
+
+	"anonim-olarak-torrent-indirmenin-4-yolu":	{
+		"title": "Anonim olarak torrent indirmenin 4 yolu",
+		"url": "/anonim-olarak-torrent-indirmenin-4-yolu/",
+		"date": "Mon, 12 Jan 2015 17:28:42 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"dupeguru-ile-ubuntu-sistem-temizligi":	{
+		"title": "dupeGuru ile Ubuntu Sistem temizliği",
+		"url": "/dupeguru-ile-ubuntu-sistem-temizligi/",
+		"date": "Sat, 10 Jan 2015 19:52:05 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"centos-lsb-release-hatasinin-giderilmesi":	{
+		"title": "Centos lsb_release hatasının giderilmesi",
+		"url": "/centos-lsb_release-hatasinin-giderilmesi/",
+		"date": "Fri, 09 Jan 2015 21:20:22 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"sistem-program-sorunu-hatasini-gidermek":	{
+		"title": "Sistem Program Sorunu Hatasını Gidermek",
+		"url": "/sistem-program-sorunu-hatasini-gidermek/",
+		"date": "Thu, 08 Jan 2015 15:55:52 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntuda-touchpad-nasil-kapatilir":	{
+		"title": "Ubuntuda Touchpad Nasıl Kapatılır",
+		"url": "/ubuntuda-touchpad-nasil-kapatilir/",
+		"date": "Wed, 07 Jan 2015 14:45:30 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"centos-7-uzerine-openvpn-kurulumu":	{
+		"title": "Centos 7 Üzerine OpenVPN Kurulumu",
+		"url": "/centos-7-uzerine-openvpn-kurulumu/",
+		"date": "Tue, 06 Jan 2015 15:45:54 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"whatscloud-ile-bilgisayarda-whatsapp-keyfi":	{
+		"title": "WhatsCloud ile Bilgisayarda Whatsapp Keyfi",
+		"url": "/whatscloud-ile-bilgisayarda-whatsapp-keyfi/",
+		"date": "Mon, 05 Jan 2015 15:44:06 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"alternatif-dns-adresleri":	{
+		"title": "Alternatif DNS Adresleri",
+		"url": "/alternatif-dns-adresleri/",
+		"date": "Sun, 04 Jan 2015 15:45:02 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"vestacp-otomatik-yedeklemeyi-acmak":	{
+		"title": "VestaCP Otomatik Yedeklemeyi Açmak",
+		"url": "/vestacp-otomatik-yedeklemeyi-acmak/",
+		"date": "Sun, 02 Nov 2014 15:50:42 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-14-10-skype-kurulumu":	{
+		"title": "Ubuntu 14.10 Skype Kurulumu",
+		"url": "/ubuntu-14-10-skype-kurulumu/",
+		"date": "Fri, 31 Oct 2014 15:50:17 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"komut-satiri-ile-sistem-bilgisi-almak":	{
+		"title": "Komut Satırı ile Sistem bilgisi almak",
+		"url": "/komut-satiri-ile-sistem-bilgisi-almak/",
+		"date": "Wed, 29 Oct 2014 15:50:58 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-14-10-icin-oracle-java-7-kurulumu":	{
+		"title": "Ubuntu 14.10 için Oracle Java 7 Kurulumu",
+		"url": "/ubuntu-14-10-icin-oracle-java-7-kurulumu/",
+		"date": "Tue, 28 Oct 2014 14:50:33 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-14-10-unity-online-aramayi-kapatma":	{
+		"title": "Ubuntu 14.10 Unity Online Aramayı Kapatma",
+		"url": "/ubuntu-14-10-unity-online-aramayi-kapatma/",
+		"date": "Mon, 27 Oct 2014 16:40:23 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"komut-satiri-ile-mysql-yedek-alma-islemi":	{
+		"title": "Komut Satırı ile MySQL Yedek Alma İşlemi",
+		"url": "/komut-satiri-ile-mysql-yedek-alma-islemi/",
+		"date": "Sun, 26 Oct 2014 11:28:45 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"centos-uzerine-ssh-kurulumu":	{
+		"title": "Centos Üzerine SSH Kurulumu",
+		"url": "/centos-uzerine-ssh-kurulumu/",
+		"date": "Sat, 25 Oct 2014 15:37:56 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ucretsiz-frootvpn-sahibi-olun":	{
+		"title": "Ücretsiz FrootVPN Sahibi Olun",
+		"url": "/ucretsiz-frootvpn-sahibi-olun/",
+		"date": "Fri, 24 Oct 2014 16:35:33 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"ubuntu-14-04-surumunu-14-10-yukseltme":	{
+		"title": "Ubuntu 14.04 Sürümünü 14.10 Yükseltme",
+		"url": "/ubuntu-14-04-surumunu-14-10-yukseltme/",
+		"date": "Thu, 23 Oct 2014 14:00:48 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"scpsecure-copy-kullanimi":	{
+		"title": "SCP(Secure Copy) Kullanımı",
+		"url": "/scpsecure-copy-kullanimi/",
+		"date": "Wed, 22 Oct 2014 19:07:19 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"windows-calistir-komutlari":	{
+		"title": "Windows Çalıştır Komutları",
+		"url": "/windows-calistir-komutlari/",
+		"date": "Fri, 17 Oct 2014 13:50:18 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"istenmeyen-post-isteklerinden-kurtulma":	{
+		"title": "İstenmeyen POST isteklerinden kurtulma",
+		"url": "/istenmeyen-post-isteklerinden-kurtulma/",
+		"date": "Thu, 16 Oct 2014 13:50:47 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"kali-linux-ontanimli-kullanicisi-nedir":	{
+		"title": "Kali Linux Öntanımlı kullanıcısı Nedir",
+		"url": "/kali-linux-ontanimli-kullanicisi-nedir/",
+		"date": "Wed, 15 Oct 2014 14:08:38 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"wordpress-guvenlik-ipuclari":	{
+		"title": "Wordpress Güvenlik İpuçları",
+		"url": "/wordpress-guvenlik-ipuclari/",
+		"date": "Mon, 13 Oct 2014 13:50:03 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"wordpress-kurulumunuzu-ozellestirin":	{
+		"title": "Wordpress Kurulumunuzu Özelleştirin",
+		"url": "/wordpress-kurulumunuzu-ozellestirin/",
+		"date": "Sat, 11 Oct 2014 16:30:01 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"linux-sistemler-icin-avg-scan-kurulumu":	{
+		"title": "Linux Sistemler için AVG Scan Kurulumu",
+		"url": "/linux-sistemler-icin-avg-scan-kurulumu/",
+		"date": "Fri, 10 Oct 2014 16:30:01 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"kisaltilmis-web-adreslerini-uzatma":	{
+		"title": "Kısaltılmış Web Adreslerini Uzatma",
+		"url": "/kisaltilmis-web-adreslerini-uzatma/",
+		"date": "Wed, 08 Oct 2014 16:35:52 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"wordpress-beyaz-sayfa-sorunu-ve-cozumu":	{
+		"title": "Wordpress Beyaz Sayfa Sorunu ve Çözümü",
+		"url": "/wordpress-beyaz-sayfa-sorunu-ve-cozumu/",
+		"date": "Tue, 07 Oct 2014 17:45:49 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"statcounter-wordpress-eklenti-sorunu":	{
+		"title": "StatCounter Wordpress Eklenti Sorunu",
+		"url": "/statcounter-wordpress-eklenti-sorunu/",
+		"date": "Mon, 06 Oct 2014 15:05:01 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"centos-6-5-uzerine-centmin-mod-kurulumu":	{
+		"title": "Centos 6.5 Üzerine Centmin Mod Kurulumu",
+		"url": "/centos-6-5-uzerine-centmin-mod-kurulumu/",
+		"date": "Mon, 06 Oct 2014 12:19:11 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"windows-10-detayli-incelemesi":	{
+		"title": "Windows 10 Detaylı İncelemesi",
+		"url": "/windows-10-detayli-incelemesi/",
+		"date": "Thu, 02 Oct 2014 21:47:43 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"blogger-domain-yonlendirme":	{
+		"title": "Blogger Domain Yönlendirme",
+		"url": "/blogger-domain-yonlendirme/",
+		"date": "Thu, 02 Oct 2014 17:39:35 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"dns-ile-ilgili-temel-bilgiler-klavuzu":	{
+		"title": "DNS ile İlgili Temel Bilgiler Klavuzu",
+		"url": "/dns-ile-ilgili-temel-bilgiler-klavuzu/",
+		"date": "Mon, 29 Sep 2014 20:59:17 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"yandexin-basarili-olamamasinin-sebepleri":	{
+		"title": "Yandex'in Başarılı Olamamasının Sebepleri",
+		"url": "/yandexin-basarili-olamamasinin-sebepleri/",
+		"date": "Sun, 28 Sep 2014 17:33:43 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"twitterinizi-ozellestirin":	{
+		"title": "Twitterinizi özelleştirin",
+		"url": "/twitterinizi-ozellestirin/",
+		"date": "Fri, 26 Sep 2014 17:27:07 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"windows-dosya-yolu-cok-uzun-sorunsali":	{
+		"title": "Windows Dosya Yolu Çok Uzun Sorunsalı",
+		"url": "/windows-dosya-yolu-cok-uzun-sorunsali/",
+		"date": "Mon, 22 Sep 2014 20:21:58 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"bleachbit-ile-sistem-temizligi":	{
+		"title": "BleachBit ile Sistem Temizliği",
+		"url": "/bleachbit-ile-sistem-temizligi/",
+		"date": "Fri, 19 Sep 2014 16:20:16 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"ttnet-ve-yandex-isbirligi":	{
+		"title": "TTNET ve Yandex İşbirliği",
+		"url": "/ttnet-ve-yandex-isbirligi/",
+		"date": "Tue, 16 Sep 2014 16:18:19 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"klasorde-terminal-ekranini-calistirmak":	{
+		"title": "Klasörde Terminal Ekranını Çalıştırmak",
+		"url": "/klasorde-terminal-ekranini-calistirmak/",
+		"date": "Sun, 14 Sep 2014 22:52:33 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-workspace-switcher-etkinlestirme":	{
+		"title": "Ubuntu Workspace Switcher Etkinleştirme",
+		"url": "/ubuntu-workspace-switcher-etkinlestirme/",
+		"date": "Sat, 13 Sep 2014 12:11:46 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-guest-hesabini-devredisi-birakmak":	{
+		"title": "Ubuntu Guest Hesabını Devredışı Bırakmak",
+		"url": "/ubuntu-guest-hesabini-devredisi-birakmak/",
+		"date": "Fri, 12 Sep 2014 21:14:25 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"centos-6-uzerine-node-js-ve-npm-kurulumu":	{
+		"title": "Centos 6 Üzerine Node.js ve NPM Kurulumu",
+		"url": "/centos-6-uzerine-node-js-ve-npm-kurulumu/",
+		"date": "Fri, 12 Sep 2014 17:52:52 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"instagram-downloader-yayinlandi":	{
+		"title": "İnstagram Downloader Yayınlandı",
+		"url": "/instagram-downloader-yayinlandi/",
+		"date": "Thu, 04 Sep 2014 00:52:11 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"linux-sistemlerde-3g4g-modem-kullanimi":	{
+		"title": "Linux Sistemlerde 3G/4G Modem Kullanımı",
+		"url": "/linux-sistemlerde-3g4g-modem-kullanimi/",
+		"date": "Tue, 02 Sep 2014 13:47:57 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"backlink-kazanma-teknikleri":	{
+		"title": "Backlink Kazanma Teknikleri",
+		"url": "/backlink-kazanma-teknikleri/",
+		"date": "Sat, 30 Aug 2014 01:55:19 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"ubuntu-touch-hakkinda-sey":	{
+		"title": "Ubuntu Touch Hakkında Her şey",
+		"url": "/ubuntu-touch-hakkinda-sey/",
+		"date": "Thu, 28 Aug 2014 15:57:50 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"derin-paket-analizi-ve-turkiyenin-yeri":	{
+		"title": "Derin Paket Analizi ve Türkiyenin Yeri",
+		"url": "/derin-paket-analizi-ve-turkiyenin-yeri/",
+		"date": "Wed, 27 Aug 2014 20:41:14 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"nginx-webserver-guvenligi":	{
+		"title": "Nginx WebServer Güvenliği",
+		"url": "/nginx-webserver-guvenligi/",
+		"date": "Tue, 26 Aug 2014 20:42:43 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"python-print-komutu":	{
+		"title": "Python Print Komutu",
+		"url": "/python-print-komutu/",
+		"date": "Fri, 22 Aug 2014 12:16:37 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"linux-kernel-panic-disk-sorunlari":	{
+		"title": "Linux Kernel Panic Disk Sorunları",
+		"url": "/linux-kernel-panic-disk-sorunlari/",
+		"date": "Thu, 21 Aug 2014 12:26:50 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-terminal-ile-twitter-keyfi":	{
+		"title": "Ubuntu Terminal ile Twitter Keyfi",
+		"url": "/ubuntu-terminal-ile-twitter-keyfi/",
+		"date": "Wed, 20 Aug 2014 20:26:13 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"centos-7-ve-rhel-7-epel-repo-yukleme":	{
+		"title": "Centos 7 ve RHEL 7 EPEL Repo Yükleme",
+		"url": "/centos-7-ve-rhel-7-epel-repo-yukleme/",
+		"date": "Sun, 17 Aug 2014 05:07:54 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"yonetim-bilisim-sistemleri-vs-enformatik":	{
+		"title": "Yönetim bilişim sistemleri vs enformatik",
+		"url": "/yonetim-bilisim-sistemleri-vs-enformatik/",
+		"date": "Fri, 15 Aug 2014 22:08:53 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"centos-web-panel-nameserver-ayarlari":	{
+		"title": "Centos Web Panel Nameserver Ayarları",
+		"url": "/centos-web-panel-nameserver-ayarlari/",
+		"date": "Sat, 09 Aug 2014 12:12:29 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"seo-icin-sslnin-suyunu-cikartmak":	{
+		"title": "SEO için SSLnin Suyunu Çıkartma(k)",
+		"url": "/seo-icin-sslnin-suyunu-cikartmak/",
+		"date": "Fri, 08 Aug 2014 18:26:14 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"centos-web-panel-kurulumu":	{
+		"title": "Centos Web Panel Kurulumu",
+		"url": "/centos-web-panel-kurulumu/",
+		"date": "Fri, 08 Aug 2014 12:43:46 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"wp-login-php-bruteforce-saldirisi":	{
+		"title": "Wp-login.php Bruteforce Saldırısı",
+		"url": "/wp-login-php-bruteforce-saldirisi/",
+		"date": "Thu, 07 Aug 2014 14:56:53 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"centos-6-uzerine-lamp-kurulumu":	{
+		"title": "Centos 6 Üzerine LAMP Kurulumu",
+		"url": "/centos-6-uzerine-lamp-kurulumu/",
+		"date": "Tue, 05 Aug 2014 16:03:10 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"1gb-sunucular-icin-mysql-optimizasyonu":	{
+		"title": "1Gb Sunucular için Mysql Optimizasyonu",
+		"url": "/1gb-sunucular-icin-mysql-optimizasyonu/",
+		"date": "Sat, 02 Aug 2014 23:23:24 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"centos-7-uzerine-nginx-kurulumu":	{
+		"title": "Centos 7 Üzerine Nginx Kurulumu",
+		"url": "/centos-7-uzerine-nginx-kurulumu/",
+		"date": "Fri, 01 Aug 2014 23:32:19 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"dropbox-uploader-ile-backup-alma":	{
+		"title": "Dropbox Uploader ile Backup Alma",
+		"url": "/dropbox-uploader-ile-backup-alma/",
+		"date": "Thu, 31 Jul 2014 18:30:34 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntuda-mp4-den-mp3-donusturme-islemi":	{
+		"title": "Ubuntuda MP4 den MP3 Dönüştürme işlemi",
+		"url": "/ubuntuda-mp4-den-mp3-donusturme-islemi/",
+		"date": "Wed, 30 Jul 2014 23:32:20 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"rdesktop-ile-linux-uzak-masaustu-kullanimi":	{
+		"title": "Rdesktop ile Linux Uzak Masaüstü Kullanımı",
+		"url": "/rdesktop-ile-linux-uzak-masaustu-kullanimi/",
+		"date": "Tue, 29 Jul 2014 15:23:48 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"vyprvpn-ile-gizliliginizi-koruyun":	{
+		"title": "VyprVPN ile Gizliliğinizi Koruyun",
+		"url": "/vyprvpn-ile-gizliliginizi-koruyun/",
+		"date": "Mon, 28 Jul 2014 17:28:49 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"importerror-module-named-tkinter":	{
+		"title": "“ImportError: No module named _tkinter”",
+		"url": "/importerror-module-named-_tkinter/",
+		"date": "Mon, 28 Jul 2014 14:38:13 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"easyengine-ile-wordpress-nginx-kurulumu":	{
+		"title": "EasyEngine ile Wordpress-Nginx kurulumu",
+		"url": "/easyengine-ile-wordpress-nginx-kurulumu/",
+		"date": "Sun, 27 Jul 2014 17:28:24 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"python-nedir":	{
+		"title": "Python Nedir ?",
+		"url": "/python-nedir/",
+		"date": "Sat, 26 Jul 2014 20:11:01 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"centos-6-5-uzerine-webuzocp-kurulumu":	{
+		"title": "Centos 6.5 Üzerine WebuzoCP Kurulumu",
+		"url": "/centos-6-5-uzerine-webuzocp-kurulumu/",
+		"date": "Fri, 25 Jul 2014 19:26:42 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"vestacp-mail-server-ayarlari":	{
+		"title": "VestaCP Mail Server Ayarları",
+		"url": "/vestacp-mail-server-ayarlari/",
+		"date": "Thu, 24 Jul 2014 17:55:21 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"centos-7-uzerine-nginx-mysql-php-lemp-kurulumu":	{
+		"title": "Centos 7 Üzerine (LEMP) Kurulumu",
+		"url": "/centos-7-uzerine-nginx-mysql-php-lemp-kurulumu/",
+		"date": "Wed, 23 Jul 2014 22:51:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ucbirimin-eglenceli-tarafi":	{
+		"title": "Uçbirimin Eğlenceli Tarafı",
+		"url": "/ucbirimin-eglenceli-tarafi/",
+		"date": "Tue, 22 Jul 2014 19:31:28 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"vestacp-uzerine-whmcs-modul-kurulumu":	{
+		"title": "VestaCP Üzerine WHMCS Modül Kurulumu",
+		"url": "/vestacp-uzerine-whmcs-modul-kurulumu/",
+		"date": "Sun, 20 Jul 2014 11:40:10 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"vestacp-uzerine-clamav-ve-spamassassin-kurulumu":	{
+		"title": "VestaCP Üzerine ClamAV ve SpamAssassin Kurulumu",
+		"url": "/vestacp-uzerine-clamav-ve-spamassassin-kurulumu/",
+		"date": "Fri, 18 Jul 2014 22:16:25 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"sql-veri-tipleri":	{
+		"title": "SQL Veri Tipleri",
+		"url": "/sql-veri-tipleri/",
+		"date": "Wed, 16 Jul 2014 16:54:40 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"iliskisel-veritabani-tasarlamak":	{
+		"title": "İlişkisel Veritabanı Tasarlamak",
+		"url": "/iliskisel-veritabani-tasarlamak/",
+		"date": "Tue, 15 Jul 2014 17:19:10 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"sql-server-2014-kurulumunda-onemli-noktalar":	{
+		"title": "SQL Server 2014 Önemli Kurulum Bilgileri",
+		"url": "/sql-server-2014-kurulumunda-onemli-noktalar/",
+		"date": "Mon, 14 Jul 2014 15:42:50 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"windows-sql-server-2014-kurulumu":	{
+		"title": "Windows SQL Server 2014 Kurulumu",
+		"url": "/windows-sql-server-2014-kurulumu/",
+		"date": "Sun, 13 Jul 2014 21:35:27 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"vestacp-hakkinda-bilinmeyenler":	{
+		"title": "VestaCP Hakkında Bilinmeyenler",
+		"url": "/vestacp-hakkinda-bilinmeyenler/",
+		"date": "Sat, 12 Jul 2014 11:18:27 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"vesta-kontrol-panel-kurulumu":	{
+		"title": "Vesta Kontrol Panel Kurulumu",
+		"url": "/vesta-kontrol-panel-kurulumu/",
+		"date": "Fri, 11 Jul 2014 18:16:05 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"internette-ozel-hayat-bitiyormu":	{
+		"title": "İnternette Özel Hayat Bitiyormu ?",
+		"url": "/internette-ozel-hayat-bitiyormu/",
+		"date": "Thu, 10 Jul 2014 10:28:30 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"orta-duzey-linux-komutlari-bolum-1":	{
+		"title": "Orta Düzey Linux Komutları",
+		"url": "/orta-duzey-linux-komutlari-bolum-1/",
+		"date": "Wed, 09 Jul 2014 12:22:12 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"seocuyum-seocusun-seocu":	{
+		"title": "SEOcuyum SEOcusun SEOcu",
+		"url": "/seocuyum-seocusun-seocu/",
+		"date": "Tue, 08 Jul 2014 15:39:26 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"ubuntu-desktop-14-04-lts-kurulumu":	{
+		"title": "Ubuntu Desktop 14.04 LTS Kurulumu",
+		"url": "/ubuntu-desktop-14-04-lts-kurulumu/",
+		"date": "Mon, 07 Jul 2014 16:12:32 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"hitman-pro-ile-malware-temizligi":	{
+		"title": "Hitman Pro ile Malware Temizliği",
+		"url": "/hitman-pro-ile-malware-temizligi/",
+		"date": "Sun, 06 Jul 2014 23:55:51 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"unbound-ile-guvenli-dns-kurulumu":	{
+		"title": "Unbound ile Güvenli DNS Kurulumu",
+		"url": "/unbound-ile-guvenli-dns-kurulumu/",
+		"date": "Sat, 05 Jul 2014 23:46:02 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"microsoft-hyperv-sanal-makine-kurulumu":	{
+		"title": "Microsoft Hyper-V Sanal Makine Kurulumu",
+		"url": "/microsoft-hyperv-sanal-makine-kurulumu/",
+		"date": "Fri, 04 Jul 2014 14:23:00 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"firefox-eklentileri-ile-guvenli-web-keyfi":	{
+		"title": "Firefox Eklentileri ile güvenli web keyfi",
+		"url": "/firefox-eklentileri-ile-guvenli-web-keyfi/",
+		"date": "Thu, 03 Jul 2014 14:13:40 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"deep-web-uzerinde-web-sitesi-yayinlamak":	{
+		"title": "Deep web üzerinde web sitesi yayınlamak",
+		"url": "/deep-web-uzerinde-web-sitesi-yayinlamak/",
+		"date": "Wed, 02 Jul 2014 23:45:14 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"vmware-sanal-bilgisayar-kurulumu":	{
+		"title": "Vmware Sanal Bilgisayar Kurulumu",
+		"url": "/vmware-sanal-bilgisayar-kurulumu/",
+		"date": "Tue, 01 Jul 2014 19:55:17 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"centos-6-5-uzerine-proftpd-kurulumu":	{
+		"title": "Centos 6.5 Üzerine ProFTPD Kurulumu",
+		"url": "/centos-6-5-uzerine-proftpd-kurulumu/",
+		"date": "Mon, 30 Jun 2014 16:22:05 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"tcpdump-nasil-kullanilir":	{
+		"title": "TCPDump Nasıl Kullanılır",
+		"url": "/tcpdump-nasil-kullanilir/",
+		"date": "Sun, 29 Jun 2014 23:36:37 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"bilisim-teknolojileri-ve-yazilimin-onemi":	{
+		"title": "Bilişim Teknolojileri ve Yazılımın Önemi",
+		"url": "/bilisim-teknolojileri-ve-yazilimin-onemi/",
+		"date": "Sat, 28 Jun 2014 12:45:08 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"gizlilik-sartlarini-mutla-okuyun":	{
+		"title": "Gizlilik Şartlarını Mutla Okuyun",
+		"url": "/gizlilik-sartlarini-mutla-okuyun/",
+		"date": "Wed, 25 Jun 2014 11:10:17 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"ubuntu-zerine-openvpn-kurulumu":	{
+		"title": "Ubuntu Üzerine OpenVPN Kurulumu",
+		"url": "/ubuntu-zerine-openvpn-kurulumu/",
+		"date": "Tue, 24 Jun 2014 11:43:31 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"temel-mysql-komutlari":	{
+		"title": "Temel MYSQL Komutları",
+		"url": "/temel-mysql-komutlari/",
+		"date": "Mon, 23 Jun 2014 14:30:19 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"ubuntu-14-04-ses-sorunun-giderilmesi":	{
+		"title": "Ubuntu 14.04 Ses Sorunun Giderilmesi",
+		"url": "/ubuntu-14-04-ses-sorunun-giderilmesi/",
+		"date": "Sun, 22 Jun 2014 12:40:38 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"virtualminwebmin-icin-nginx-kurulumu":	{
+		"title": "Virtualmin/Webmin İçin Nginx Kurulumu",
+		"url": "/virtualminwebmin-icin-nginx-kurulumu/",
+		"date": "Sat, 21 Jun 2014 12:45:31 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntuya-kurulmasi-gereken-5-uygulama":	{
+		"title": "Ubuntuya Kurulması Gereken 5 Uygulama",
+		"url": "/ubuntuya-kurulmasi-gereken-5-uygulama/",
+		"date": "Fri, 13 Jun 2014 01:38:31 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ubuntu-up-windows-down":	{
+		"title": "Ubuntu UP Windows DOWN",
+		"url": "/ubuntu-up-windows-down/",
+		"date": "Wed, 11 Jun 2014 14:29:47 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"adsense-tiki-ile-yardim-yaptigini-sanmak":	{
+		"title": "Adsense tiki ile yardım yaptığını sanmak",
+		"url": "/adsense-tiki-ile-yardim-yaptigini-sanmak/",
+		"date": "Thu, 29 May 2014 18:04:59 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"ulkemizde-url-tabanli-engelleme-nasil-yapiliyor":	{
+		"title": "Ülkemizde URL Tabanlı Engelleme Nasıl Yapılıyor ?",
+		"url": "/ulkemizde-url-tabanli-engelleme-nasil-yapiliyor/",
+		"date": "Wed, 28 May 2014 01:23:27 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"adobe-audition-kullanlarak-ses-temizleme":	{
+		"title": "Adobe Audition Kullanılarak Ses Temizleme",
+		"url": "/adobe-audition-kullanlarak-ses-temizleme/",
+		"date": "Sat, 10 May 2014 22:56:24 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"centos-6-x-sistemlerde-ssh-girislerinin-izlenmesi":	{
+		"title": "Centos 6.x Sistemlerde SSH Girişlerinin İzlenmesi",
+		"url": "/centos-6-x-sistemlerde-ssh-girislerinin-izlenmesi/",
+		"date": "Thu, 01 May 2014 16:47:28 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"centos-6-5-uzerine-zpanel-kurulumu":	{
+		"title": "Centos 6.5 Üzerine Zpanel Kurulumu",
+		"url": "/centos-6-5-uzerine-zpanel-kurulumu/",
+		"date": "Mon, 28 Apr 2014 17:34:29 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"kaspersky-product-trial-resetter-2014-yeni":	{
+		"title": "Kaspersky Product Trial Resetter 2014",
+		"url": "/kaspersky-product-trial-resetter-2014-yeni/",
+		"date": "Tue, 22 Apr 2014 19:53:39 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"twitter-dns-resolver-v0-1alpha":	{
+		"title": "Twitter DNS Resolver v0.1[Alpha]",
+		"url": "/twitter-dns-resolver-v0-1alpha/",
+		"date": "Sat, 22 Mar 2014 15:48:56 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"centos-6-uzerine-teamspeak-server-kurulumu":	{
+		"title": "Centos 6 Üzerine Teamspeak server kurulumu",
+		"url": "/centos-6-uzerine-teamspeak-server-kurulumu/",
+		"date": "Fri, 21 Feb 2014 20:00:27 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"wordpress-fastest-cache-ile-siteniz-ucusa-gececek":	{
+		"title": "Wordpress Fastest Cache ile siteniz uçuşa geçecek",
+		"url": "/wordpress-fastest-cache-ile-siteniz-ucusa-gececek/",
+		"date": "Wed, 19 Feb 2014 13:37:39 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"wordpress-eklentisiz-ssl-destegi":	{
+		"title": "Wordpress Eklentisiz SSL Desteği",
+		"url": "/wordpress-eklentisiz-ssl-destegi/",
+		"date": "Wed, 19 Feb 2014 12:44:09 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"nasil-bitcoin-kazanabilirim":	{
+		"title": "Nasıl bitcoin kazanabilirim ?",
+		"url": "/nasil-bitcoin-kazanabilirim/",
+		"date": "Wed, 15 Jan 2014 14:39:11 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"bilgisayarin-ic-donanim-birimleri-nelerdir":	{
+		"title": "Bilgisayarın İç Donanım Birimleri Nelerdir",
+		"url": "/bilgisayarin-ic-donanim-birimleri-nelerdir/",
+		"date": "Sat, 21 Dec 2013 16:08:09 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"sayi-sistemleri-hakkinda":	{
+		"title": "Sayı Sistemleri Hakkında",
+		"url": "/sayi-sistemleri-hakkinda/",
+		"date": "Sat, 21 Dec 2013 15:17:57 +0200",
+		"categories": ["analiz"]
+	} ,
+
+	"centos-6-5-resmen-yayinlandi":	{
+		"title": "CentOS 6.5 Resmen Yayınlandı!",
+		"url": "/centos-6-5-resmen-yayinlandi/",
+		"date": "Tue, 03 Dec 2013 15:05:03 +0200",
+		"categories": ["linux"]
+	} ,
+
+	"deepwebdarknet-hakkinda-her-sey":	{
+		"title": "DeepWeb/DarkNet Hakkında Her Şey",
+		"url": "/deepwebdarknet-hakkinda-her-sey/",
+		"date": "Wed, 27 Nov 2013 02:40:00 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"internetten-tanitimi-avantajli-hale-getirin":	{
+		"title": "İnternetten Tanıtımı Avantajlı Hale Getirin",
+		"url": "/internetten-tanitimi-avantajli-hale-getirin/",
+		"date": "Tue, 19 Nov 2013 18:45:15 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"bitcoin-hakkinda-her-sey":	{
+		"title": "Bitcoin hakkında her şey",
+		"url": "/bitcoin-hakkinda-her-sey/",
+		"date": "Sat, 16 Nov 2013 18:31:26 +0200",
+		"categories": ["genel"]
+	} ,
+
+	"virtual-private-networkvpn-hakkinda-her-sey":	{
+		"title": "Virtual Private Network(VPN) Hakkında Her şey",
+		"url": "/virtual-private-networkvpn-hakkinda-her-sey/",
+		"date": "Fri, 15 Nov 2013 00:02:23 +0200",
+		"categories": ["guvenlik"]
+	} ,
+
+	"kippo-ssh-honeypot-ile-linux-server-guvenligi":	{
+		"title": "Kippo SSH Honeypot ile Linux Server Güvenliği",
+		"url": "/kippo-ssh-honeypot-ile-linux-server-guvenligi/",
+		"date": "Wed, 16 Oct 2013 04:54:32 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"sshguard-kullanarak-ssh-brute-force-saldirilarini-engellemek":	{
+		"title": "SSHGuard kullanarak SSH Brute Force saldırılarını engellemek",
+		"url": "/sshguard-kullanarak-ssh-brute-force-saldirilarini-engellemek/",
+		"date": "Sun, 13 Oct 2013 18:20:42 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"cpu-ve-ram-arasindaki-iliski-nedir":	{
+		"title": "CPU ve Ram Arasındaki İlişki Nedir",
+		"url": "/cpu-ve-ram-arasindaki-iliski-nedir/",
+		"date": "Fri, 11 Oct 2013 01:30:10 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"starboardda-pdf-kullanim-islemipdf-to-yar":	{
+		"title": "Starboard'da PDF Dönüştürme[PDF to YAR]",
+		"url": "/starboardda-pdf-kullanim-islemipdf-to-yar/",
+		"date": "Wed, 09 Oct 2013 00:24:44 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"centos-6-4-uzerine-vnc-server-kurulumu":	{
+		"title": "Centos 6.4 Üzerine VNC Server Kurulumu",
+		"url": "/centos-6-4-uzerine-vnc-server-kurulumu/",
+		"date": "Tue, 08 Oct 2013 19:41:57 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"wordpress-dmca-eklentisindeki-sorunlari-gidermek":	{
+		"title": "Wordpress DMCA Sorununu Gidermek",
+		"url": "/wordpress-dmca-eklentisindeki-sorunlari-gidermek/",
+		"date": "Sat, 05 Oct 2013 22:57:31 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"trtspor-mac-ozetlerini-kolaylikla-indirin":	{
+		"title": "TRTSpor Maç Özetlerini Kolaylıkla İndirin",
+		"url": "/trtspor-mac-ozetlerini-kolaylikla-indirin/",
+		"date": "Fri, 04 Oct 2013 22:04:22 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"rkhunter-kullanarak-linux-sunucularda-rootkit-ve-malware-tespiti":	{
+		"title": "Rkhunter Kullanarak Linux'de Malware",
+		"url": "/rkhunter-kullanarak-linux-sunucularda-rootkit-ve-malware-tespiti/",
+		"date": "Tue, 01 Oct 2013 18:33:03 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"spinner-cikti-mertlik-bozuldu":	{
+		"title": "Spinner çıktı mertlik bozuldu",
+		"url": "/spinner-cikti-mertlik-bozuldu/",
+		"date": "Sun, 29 Sep 2013 02:24:33 +0300",
+		"categories": ["analiz"]
+	} ,
+
+	"mysql-veri-tanimlamaya-giris":	{
+		"title": "MYSQL Veri Tanımlamaya Giriş",
+		"url": "/mysql-veri-tanimlamaya-giris/",
+		"date": "Thu, 26 Sep 2013 23:44:04 +0300",
+		"categories": ["programlama"]
+	} ,
+
+	"centos-6-4-uzerinde-sshpass-kullanimi":	{
+		"title": "Centos 6.4 Üzerinde SSHPASS Kullanımı",
+		"url": "/centos-6-4-uzerinde-sshpass-kullanimi/",
+		"date": "Wed, 25 Sep 2013 00:33:04 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"chattr-komutu-kullanilarak-linuxta-dosya-ozellikleri-nasil-degistirilir":	{
+		"title": "Linux'ta Dosya Özellikleri Nasıl Değiştirilir",
+		"url": "/chattr-komutu-kullanilarak-linuxta-dosya-ozellikleri-nasil-degistirilir/",
+		"date": "Tue, 24 Sep 2013 18:27:34 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ders-program-uygulamas-timetable":	{
+		"title": "Ders Programı Uygulaması Timetable",
+		"url": "/ders-program-uygulamas-timetable/",
+		"date": "Mon, 23 Sep 2013 20:00:47 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"gunumuzde-bilgisayar-ve-internet-kullanimi":	{
+		"title": "Günümüzde Bilgisayar Ve İnternet Kullanımı",
+		"url": "/gunumuzde-bilgisayar-ve-internet-kullanimi/",
+		"date": "Fri, 20 Sep 2013 00:12:17 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"seo-hakknda-herey-blm-2":	{
+		"title": "SEO Hakkında Herşey Bölüm 2",
+		"url": "/seo-hakknda-herey-blm-2/",
+		"date": "Thu, 19 Sep 2013 01:50:48 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"seo-hakkinda-hersey-bolum-1":	{
+		"title": "Seo Hakkında Her şey Bölüm 1",
+		"url": "/seo-hakkinda-hersey-bolum-1/",
+		"date": "Wed, 18 Sep 2013 01:58:05 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"linux-nedir-programlar-ve-kullanm-alanlar":	{
+		"title": "Linux nedir programlar ve kullanım alanları",
+		"url": "/linux-nedir-programlar-ve-kullanm-alanlar/",
+		"date": "Tue, 17 Sep 2013 01:09:57 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ispconfig-3-dns-ayarlari":	{
+		"title": "ISPConfig 3 DNS Ayarları",
+		"url": "/ispconfig-3-dns-ayarlari/",
+		"date": "Mon, 16 Sep 2013 00:30:27 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"debian-uzerine-ispconfig-3-kurulumu":	{
+		"title": "Debian Üzerine ISPConfig 3 Kurulumu",
+		"url": "/debian-uzerine-ispconfig-3-kurulumu/",
+		"date": "Sun, 15 Sep 2013 01:51:50 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"cagi-yakalamak-icin-bilgisayar-ve-internet-kullanim-alanlari":	{
+		"title": "Bilgisayar Ve İnternet Kullanım Alanları",
+		"url": "/cagi-yakalamak-icin-bilgisayar-ve-internet-kullanim-alanlari/",
+		"date": "Mon, 09 Sep 2013 23:12:45 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"linuxunix-sistemlerde-dig-komutunun-kullanilmasi":	{
+		"title": "Linux Sistemlerde Dig Komutu Kullanımı",
+		"url": "/linuxunix-sistemlerde-dig-komutunun-kullanilmasi/",
+		"date": "Sun, 08 Sep 2013 23:52:30 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"centos-64-zerine-memcached-kurulumu-ve-ayarlar":	{
+		"title": "Centos 6 Üzerine Memcached Kurulumu",
+		"url": "/centos-64-zerine-memcached-kurulumu-ve-ayarlar/",
+		"date": "Fri, 06 Sep 2013 21:10:59 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"centos-64-zerine-ffmpeg-ve-mencoder-kurulumu":	{
+		"title": "Centos 6.x üzerine ffmpeg ve mencoder kurulumu",
+		"url": "/centos-64-zerine-ffmpeg-ve-mencoder-kurulumu/",
+		"date": "Thu, 05 Sep 2013 11:35:16 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"centos-64-zerine-python-275-kurulumu":	{
+		"title": "Centos 6.4 Üzerine Python Kurulumu",
+		"url": "/centos-64-zerine-python-275-kurulumu/",
+		"date": "Wed, 04 Sep 2013 01:22:10 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ninite-ile-format-dan-sonra-kurulmasi-gereken-uygulamalari-kolaylikla-kurun":	{
+		"title": "Ninite Kolay Kurulum Sihirbazı",
+		"url": "/ninite-ile-format-dan-sonra-kurulmasi-gereken-uygulamalari-kolaylikla-kurun/",
+		"date": "Sun, 01 Sep 2013 05:11:51 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"yum-nedir-yum-komutlari-nasil-kullanilir-yum-komut-ornekleri":	{
+		"title": "Yum Komutları Nasıl Kullanılır",
+		"url": "/yum-nedir-yum-komutlari-nasil-kullanilir-yum-komut-ornekleri/",
+		"date": "Sat, 31 Aug 2013 00:17:05 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"twitterda-hashtag-kullanmann-pf-noktalar":	{
+		"title": "Twitter’da Hashtag Kullanmanın Püf Noktaları",
+		"url": "/twitterda-hashtag-kullanmann-pf-noktalar/",
+		"date": "Thu, 29 Aug 2013 01:03:14 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"htaccess-yntemiyle-hotlink-korumas":	{
+		"title": "Htaccess Yöntemiyle Hotlink Koruması",
+		"url": "/htaccess-yntemiyle-hotlink-korumas/",
+		"date": "Wed, 28 Aug 2013 02:36:13 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"htaccess-yontemiyle-spamlara-karsi-blogunuzu-koruyun":	{
+		"title": "Htaccess yöntemiyle Spamlara karşı blogunuzu koruyun",
+		"url": "/htaccess-yontemiyle-spamlara-karsi-blogunuzu-koruyun/",
+		"date": "Tue, 27 Aug 2013 01:46:12 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"wordpress-performans-ayarlarnn-yaplmas":	{
+		"title": "Wordpress Performans Ayarlamaları",
+		"url": "/wordpress-performans-ayarlarnn-yaplmas/",
+		"date": "Mon, 26 Aug 2013 16:36:49 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"htaccess-yontemiyle-uploads-klasorunun-korunmasi":	{
+		"title": "Htaccess yöntemiyle Uploads klasörünün korunması",
+		"url": "/htaccess-yontemiyle-uploads-klasorunun-korunmasi/",
+		"date": "Sun, 25 Aug 2013 19:43:47 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"kullanilan-wordpress-versiyonunun-gizlenmesi":	{
+		"title": "Kullanılan wordpress versiyonunun gizlenmesi",
+		"url": "/kullanilan-wordpress-versiyonunun-gizlenmesi/",
+		"date": "Sat, 24 Aug 2013 22:07:25 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"centos-6-zerine-phpmyadmin-kurulumu-ve-ayarlar":	{
+		"title": "Centos 6 Üzerine PhpMyAdmin Kurulumu",
+		"url": "/centos-6-zerine-phpmyadmin-kurulumu-ve-ayarlar/",
+		"date": "Wed, 21 Aug 2013 19:07:11 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"belirli-bir-ilem-tarafndan-cpu-ve-ram-deerlerinin-grlmesi":	{
+		"title": "CPU ve RAM Değerlerinin Görülmesi",
+		"url": "/belirli-bir-ilem-tarafndan-cpu-ve-ram-deerlerinin-grlmesi/",
+		"date": "Tue, 20 Aug 2013 14:23:13 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"acunn-sitesinden-video-indirin":	{
+		"title": "Acunn Sitesinden Nasıl Video İndirilir",
+		"url": "/acunn-sitesinden-video-indirin/",
+		"date": "Sat, 17 Aug 2013 23:19:49 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"galaxy-note-2-icin-s-health-uygulamasi":	{
+		"title": "Galaxy Note 2 için S-Health Uygulaması",
+		"url": "/galaxy-note-2-icin-s-health-uygulamasi/",
+		"date": "Fri, 16 Aug 2013 15:21:47 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"turkweb-tv-sitesinden-video-indirmek":	{
+		"title": "turkweb.tv Sitesinden video indirmek",
+		"url": "/turkweb-tv-sitesinden-video-indirmek/",
+		"date": "Fri, 16 Aug 2013 06:00:07 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"android-telefonlara-nano-editorun-kurulma-islemi":	{
+		"title": "Android sistemlerde nano editorü",
+		"url": "/android-telefonlara-nano-editorun-kurulma-islemi/",
+		"date": "Thu, 15 Aug 2013 20:45:50 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"netd-com-uzerinden-video-indirmekvideolu":	{
+		"title": "Netd.com Üzerinden Video İndirme",
+		"url": "/netd-com-uzerinden-video-indirmekvideolu/",
+		"date": "Thu, 15 Aug 2013 00:12:17 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"linuxunix-sistemlerde-tar-komutunun-kullanilmasi":	{
+		"title": "Linux/Unix Sistemlerde Tar komutunun kullanılması",
+		"url": "/linuxunix-sistemlerde-tar-komutunun-kullanilmasi/",
+		"date": "Wed, 14 Aug 2013 22:22:34 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"wordpress-pingback-aciginin-kapatilmasi":	{
+		"title": "Wordpress Pingback Açığının Kapatılması",
+		"url": "/wordpress-pingback-aciginin-kapatilmasi/",
+		"date": "Mon, 12 Aug 2013 15:36:30 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"wordpress-siteler-icin-girislerde-proxyleri-engellemek":	{
+		"title": "Wordpress Siteler için girişlerde proxyleri engellemek",
+		"url": "/wordpress-siteler-icin-girislerde-proxyleri-engellemek/",
+		"date": "Mon, 12 Aug 2013 14:58:40 +0300",
+		"categories": ["guvenlik"]
+	} ,
+
+	"linuxunix-ip-adresi-ve-varsayilan-ag-gecidi-atama-islemleri":	{
+		"title": "Linux/Unix IP Adresi ve Varsayılan ağ geçidi atama işlemleri",
+		"url": "/linuxunix-ip-adresi-ve-varsayilan-ag-gecidi-atama-islemleri/",
+		"date": "Mon, 12 Aug 2013 05:23:27 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"linuxunix-sistemlerde-hizmet-suresinin-kontrol-edilmesi":	{
+		"title": "Linux/UNIX Hizmet Süresinin Kontrol Edilmesi",
+		"url": "/linuxunix-sistemlerde-hizmet-suresinin-kontrol-edilmesi/",
+		"date": "Mon, 12 Aug 2013 02:07:53 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"linuxunix-sistemlerde-du-komutlarinin-kullanilmasi":	{
+		"title": "Linux Sistemlerde du Komutu",
+		"url": "/linuxunix-sistemlerde-du-komutlarinin-kullanilmasi/",
+		"date": "Sun, 11 Aug 2013 03:23:44 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"piratebrowser-ile-artik-sansure-dur-denilecek":	{
+		"title": "PirateBrowser ile Sansüre DUR",
+		"url": "/piratebrowser-ile-artik-sansure-dur-denilecek/",
+		"date": "Sun, 11 Aug 2013 00:45:38 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"netd-com-uzerindeki-dizifilmbelgeselleri-kolaylikla-indirin":	{
+		"title": "Netd.com Üzerinden Film,Dizi İndirme",
+		"url": "/netd-com-uzerindeki-dizifilmbelgeselleri-kolaylikla-indirin/",
+		"date": "Sat, 10 Aug 2013 20:09:50 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"en-iyi-3-ince-android-akilli-telefon":	{
+		"title": "En İyi İnce 3 Android Akıllı Telefon",
+		"url": "/en-iyi-3-ince-android-akilli-telefon/",
+		"date": "Sat, 10 Aug 2013 00:00:00 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"android-telefonlarda-gizliliginizi-koruyun-droidvpn":	{
+		"title": "DroidVPN ile Gizliliğinizi Koruyun",
+		"url": "/android-telefonlarda-gizliliginizi-koruyun-droidvpn/",
+		"date": "Wed, 31 Jul 2013 00:00:00 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"tib-yer-saglayicilarinin-bilgilerini-karistirdi":	{
+		"title": "TİB Yer Sağlayıcılarının Bilgilerini Karıştırdı",
+		"url": "/tib-yer-saglayicilarinin-bilgilerini-karistirdi/",
+		"date": "Tue, 30 Jul 2013 22:20:27 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"virtualminwebmin-whmcs-script-kurulumu":	{
+		"title": "Virtualmin/Webmin WHMCS Script Kurulumu",
+		"url": "/virtualminwebmin-whmcs-script-kurulumu/",
+		"date": "Tue, 30 Jul 2013 06:04:21 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"windows-server-2012-vpn-ayarlari":	{
+		"title": "Windows Server 2012 VPN Ayarları",
+		"url": "/windows-server-2012-vpn-ayarlari/",
+		"date": "Tue, 30 Jul 2013 05:07:49 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"windows-server-2012-remote-desktop-service":	{
+		"title": "Windows Server 2012 Remote Desktop Service",
+		"url": "/windows-server-2012-remote-desktop-service/",
+		"date": "Tue, 30 Jul 2013 04:54:09 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"windows-server-2012-dns-ayarlari":	{
+		"title": "Windows Server 2012 DNS Ayarları",
+		"url": "/windows-server-2012-dns-ayarlari/",
+		"date": "Tue, 30 Jul 2013 04:42:47 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"windows-server-2012-kurulumu-2":	{
+		"title": "Windows Server 2012 kurulumu",
+		"url": "/windows-server-2012-kurulumu-2/",
+		"date": "Tue, 30 Jul 2013 03:48:36 +0300",
+		"categories": ["windows"]
+	} ,
+
+	"virtualminwebmin-cgi-ayarlari-detayli":	{
+		"title": "Virtualmin/Webmin Cgi Ayarları Detaylı",
+		"url": "/virtualminwebmin-cgi-ayarlari-detayli/",
+		"date": "Tue, 30 Jul 2013 03:32:42 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"virtualminwebmin-multi-domain-ayarlamak":	{
+		"title": "Virtualmin/Webmin Multi Domain Ayarlamak",
+		"url": "/virtualminwebmin-multi-domain-ayarlamak/",
+		"date": "Mon, 29 Jul 2013 01:26:23 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"whois-servisine-ddosyuk-test-araci":	{
+		"title": "Whois Servisine DDos/Yük Test Aracı",
+		"url": "/whois-servisine-ddosyuk-test-araci/",
+		"date": "Mon, 29 Jul 2013 00:23:31 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"virtualminwebmin-account-planspaket-olusturma":	{
+		"title": "Virtualmin/Webmin Account Plans(Paket) Oluşturma",
+		"url": "/virtualminwebmin-account-planspaket-olusturma/",
+		"date": "Mon, 29 Jul 2013 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"ovh-yeni-kimsufi-modelleri-ile-surpriz-yapti":	{
+		"title": "OVH Yeni Kimsufi Modelleri İle Sürpriz Yaptı",
+		"url": "/ovh-yeni-kimsufi-modelleri-ile-surpriz-yapti/",
+		"date": "Mon, 29 Jul 2013 00:00:00 +0300",
+		"categories": ["genel"]
+	} ,
+
+	"centos-6-uzerine-rutorrent-kurulumu":	{
+		"title": "Centos 6 Üzerine Rutorrent Kurulumu",
+		"url": "/centos-6-uzerine-rutorrent-kurulumu/",
+		"date": "Mon, 29 Jul 2013 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"virtualminwebmin-root-server-dns-kayit-duzenlemek":	{
+		"title": "Virtualmin/Webmin Root Server DNS Kayıt düzenlemek",
+		"url": "/virtualminwebmin-root-server-dns-kayit-duzenlemek/",
+		"date": "Sun, 28 Jul 2013 00:00:00 +0300",
+		"categories": ["linux"]
+	} ,
+
+	"galaxy-mega-macerasi":	{
+		"title": "Galaxy Mega Macerası",
+		"url": "/galaxy-mega-macerasi/",
+		"date": "Sun, 28 Jul 2013 00:00:00 +0300",
+		"categories": ["genel"]
+	} 
+
+]

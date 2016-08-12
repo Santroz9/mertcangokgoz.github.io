@@ -1,6 +1,5 @@
 os: linux
 language: ruby
-cache: bundler
 install:
   - bundle install
 
