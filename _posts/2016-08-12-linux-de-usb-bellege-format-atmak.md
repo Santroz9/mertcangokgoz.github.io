@@ -3,7 +3,7 @@ layout: post
 title:  Linux'de USB Bellege Format Atma
 date: 2016-08-12
 type: post
-categories: Linux
+categories: linux
 description:  Bizim öyle bazı işletim sistemlerindeki gibi usb formatlamayı kolaylaştıran bir uygulamamız yok normalde mint işletim sisteminde usb formatlayıcı
 ---
 

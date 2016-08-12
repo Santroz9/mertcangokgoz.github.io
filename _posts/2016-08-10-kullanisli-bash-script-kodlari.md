@@ -3,7 +3,7 @@ layout: post
 title: Kullanışlı Bash Script Kodları
 date: 2016-08-10
 type: post
-categories: Linux
+categories: linux
 description: Kendi ihtiyaçlarım dan dolayı düzenlemiş olduğum bir kaç bash script kodunu sizlerle paylaşmak istiyorum. Bazı sorunlarınıza direk çözüm olabileceğini
 ---
 

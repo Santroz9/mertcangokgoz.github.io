@@ -3,8 +3,8 @@ layout: post
 title:  Debian Tabanlı Sistemler İçin Spotify Kurulum
 date: 2016-08-11
 type: post
-categories: Linux
-description:  Spotify'ın Linux üzerine özellikle debian tabanlı sistemlere oldukça kolay bir şekilde kurulabiliyor ancak bunu yapamayan yada üşenen 
+categories: linux
+description:  Spotify'ın Linux üzerine özellikle debian tabanlı sistemlere oldukça kolay bir şekilde kurulabiliyor ancak bunu yapamayan yada üşenen
 ---
 
 Spotify'ın Linux üzerine özellikle debian tabanlı sistemlere oldukça kolay bir şekilde kurulabiliyor ancak bunu yapamayan yada üşenen arkadaşlar için bende tatilde can sıkıntısı üzerine şöyle bir bash script hazırladım herşeyi kendi yapıyor.
