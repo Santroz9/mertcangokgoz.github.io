@@ -3,12 +3,11 @@ language: ruby
 install:
   - bundle install
 
-before_deploy:
+before_script:
   - sudo apt-get install ditaa
   - chmod +x build.sh
 
-deploy:
-  provider: script
+script:
   script: "./build.sh"
   skip_cleanup: true
 
