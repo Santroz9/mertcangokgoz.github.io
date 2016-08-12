@@ -1,0 +1,12 @@
+approve_by_comment: true
+approve_regex: '^(Approved|:\+1:)'
+reject_regex: '^No'
+reject_value: -1
+reset_on_push: false
+author_approval: ignored
+reviewers:
+  required: 1
+  members:
+  - MertcanGokgoz
+  name: pullapprove
+  required: 1

@@ -1,11 +1,18 @@
 os: linux
-sudo: false
 language: ruby
 cache: bundler
 install:
   - bundle install
-before_script: chmod +x build.sh
-script: "./build.sh"
+
+before_deploy:
+  - sudo apt-get install ditaa
+  - chmod +x build.sh
+
+deploy:
+  provider: script
+  script: "./build.sh"
+  skip_cleanup: true
+
 branches:
   only:
   - jekyll

@@ -9,11 +9,14 @@ fi
 # hatalari goster
 set -e
 
+if [ $TRAVIS_BRANCH == 'master' ] ; then
 # derle bro
 echo "+===================================+"
 echo "Site Olusturuluyor"
 echo "+===================================+"
+
 bundle exec jekyll build
+
 echo "+===================================+"
 echo "Statik Dosyalar Olusturuldu"
 echo "+===================================+"
@@ -22,7 +25,9 @@ echo "+===================================+"
 echo "+===================================+"
 echo "htmlbeautifier Calistiriliyor"
 echo "+===================================+"
+
 time find ./_site -name "*.html" -exec bundle exec htmlbeautifier {} \;
+
 echo "+===================================+"
 echo "htmlbeautifier Tamamlandi"
 echo "+===================================+"
@@ -40,6 +45,7 @@ cp -R _site/* ../mertcangokgoz.github.io.master
 echo "+===================================+"
 echo "Dizine Geciliyor"
 echo "+===================================+"
+
 cd ../mertcangokgoz.github.io.master
 touch .nojekyll
 
@@ -47,11 +53,15 @@ touch .nojekyll
 echo "+===================================+"
 echo "Gitignore Olusturuluyor"
 echo "+===================================+"
+
 cat >.gitignore <<EOF
 .ruby-version
 .bundle
+.sass-cache
+.jekyll-metadata
 Gemfile.lock
 EOF
+
 echo "+===================================+"
 echo "Gitignore Olusturuldu"
 echo "+===================================+"
@@ -60,7 +70,9 @@ echo "+===================================+"
 echo "+===================================+"
 echo "CNAME Olusturuluyor"
 echo "+===================================+"
+
 echo mertcangokgoz.com > CNAME
+
 echo "+===================================+"
 echo "CNAME Olusturuldu"
 echo "+===================================+"
@@ -72,6 +84,7 @@ sleep 2
 echo "+===================================+"
 echo "Githuba Gonderiliyor"
 echo "+===================================+"
+
 git config user.email "mertcan.gokgoz@gmail.com"
 git config user.name "MertcanGokgoz"
 git add -A .
@@ -79,6 +92,10 @@ git commit -a -m "Generated Jekyll site by Travis CI #$TRAVIS_BUILD_NUMBER"
 
 #guvenlik icin push ciktisi gosterilmeyecek
 git push --quiet origin master > /dev/null 2>&1
+
 echo "+===================================+"
 echo "Githuba Gonderildi"
 echo "+===================================+"
+else
+    echo "Olusturulamadı. Branch Master Degil"
+fi

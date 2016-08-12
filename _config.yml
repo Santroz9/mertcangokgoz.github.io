@@ -10,7 +10,9 @@ gems:
   - jekyll-paginate
   - jekyll-email-protect
   - jekyll-archives
+  - jekyll-mentions
   - htmlbeautifier
+  - jemoji
   - nokogiri
 
 #Archives Settings
@@ -21,12 +23,16 @@ jekyll-archives:
   permalinks:
     year: '/arsiv/:year/'
 
+#Mentions Settings
+jekyll-mentions:
+  base_url: https://twitter.com
+
 #Jekyll Gist
 gist:
   noscript: false
 
 #Main Settings
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, .travis.yml, .ruby-version, .bundle, build.sh, vendor]
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, .travis.yml, .pullapprove.yml, .ruby-version, .bundle, build.sh, vendor]
 timezone: Europe/Istanbul
 encoding: 'utf-8'
 

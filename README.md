@@ -203,3 +203,17 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - jekyll-feed artık kullanılmıyor.
 - Arşiv özelliği eklendi
 - Mail adresleri için encode özelliği getirildi
+
+## Güncelleme 12 Agustos 2016
+
+- Kategoriler için yeni otomatik listeleme yapısı getirildi
+- Pullapprove eklendi
+- Build için kullanılan bash script güncellendi
+- Eski yazılar için uyarı niteliğinde eklemeler yapıldı
+- Jekyll Versiyon bilgilendirme amacıyla eklemeler yapıldı
+- ditaa diagramları desteklenmeye başlandı
+- Git Hash ile versiyonlama desteği getirildi
+- SoundCloud desteği getirildi
+- Emoji desteği getirildi
+- Mentions desteği getirildi
+- Sıkıştırılma(html) desteği getirildi
