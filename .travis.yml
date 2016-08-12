@@ -7,9 +7,7 @@ before_script:
   - sudo apt-get install ditaa
   - chmod +x build.sh
 
-script:
-  script: "./build.sh"
-  skip_cleanup: true
+script: "./build.sh"
 
 branches:
   only:
