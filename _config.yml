@@ -32,7 +32,7 @@ gist:
   noscript: false
 
 #Main Settings
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, .travis.yml, .pullapprove.yml, .ruby-version, .bundle, build.sh, vendor]
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, .travis.yml, .pullapprove.yml, .ruby-version, .bundle, build.sh, vendor, Rakefile]
 timezone: Europe/Istanbul
 encoding: 'utf-8'
 
