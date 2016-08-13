@@ -204,7 +204,7 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Arşiv özelliği eklendi
 - Mail adresleri için encode özelliği getirildi
 
-## Güncelleme 12 Agustos 2016
+## Güncelleme 13 Agustos 2016
 
 - Kategoriler için yeni otomatik listeleme yapısı getirildi
 - Pullapprove eklendi
@@ -218,3 +218,10 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Mentions desteği getirildi
 - İçeriklerin sıkıştırılma desteği getirildi(css, js, html)
 - Build işlemi Rakefile ile yapılmaya başlandı
+- Jsfiddle için destek getirildi
+- Spotify için destek getirildi
+- Youtube için destek getirildi
+- HTML5 Video desteği getirildi
+- Vimeo için destek getirildi
+- Ufak bir kaç sorun giderildi
+- Gem dosyaları güncellendi
