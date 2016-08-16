@@ -225,3 +225,9 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Vimeo için destek getirildi
 - Ufak bir kaç sorun giderildi
 - Gem dosyaları güncellendi
+
+## Güncelleme 17 Agustos 2016
+
+- iletisim düzenlendi
+- Layoutlar düzenlendi
+- Resim kaldırıldı
