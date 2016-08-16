@@ -11,7 +11,12 @@ Soru, Görüşleriniz,
 
 ve diğer tüm konular için <br>
 
-Fingerprint [338A E198 F1E8 9FC8 FFCE  718B 6DAB 1791 64B9 9BA4](https://keybase.io/mertcangokgoz)<br>
+Fingerprint<br><br>
+
+<a href="https://keybase.io/mertcangokgoz">338A E198 F1E8 9FC8 FFCE 718B 6DAB 1791 64B9 9BA4</a>
+
+<br>
+
 </center>
 
 ```
