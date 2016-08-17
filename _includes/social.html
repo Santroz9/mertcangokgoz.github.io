@@ -36,6 +36,12 @@ Takip Edin:
   </a>
   {% endif %}
 
+  {% if site.data.theme.social.reddit %}
+  <a title="{{ site.data.theme.social.reddit }} on Reddit" href="https://www.reddit.com/user/{{site.data.theme.social.reddit }}" target="_blank">
+     <i class="fa fa-reddit-square"></i>
+  </a>
+  {% endif %}
+
   {% if site.data.theme.social.stackexchange %}
   <a title="{{ site.data.theme.name }} on Stack Exchange" href="https://stackexchange.com/users/{{site.data.theme.social.stackexchange }}" target="_blank">
     <i class="fa fa-stack-exchange"></i>

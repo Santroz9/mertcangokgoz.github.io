@@ -231,3 +231,8 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - iletisim düzenlendi
 - Layoutlar düzenlendi
 - Resim kaldırıldı
+- Gravatar desteği getirildi
+- Reddit eklendi
+- Alexa desteği kaldırıldı
+- CSS ve JS ler site dizinine indirildi
+- İstekleri azaltma yoluna gidildi

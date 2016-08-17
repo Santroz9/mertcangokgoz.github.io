@@ -9,7 +9,7 @@ module Jekyll
           categories.sort_by { |cat, posts| posts.size }
             .reverse()
             .each do |cat, posts|
-               s << "<a href=\"/category/#{cat}\">#{cat.capitalize}</a> &raquo; #{posts.size}<br>"
+               s << "<a href=\"/category/#{cat}\">#{cat.capitalize}</a> &raquo; #{posts.size} Yazı<br>"
             end
         end
       rescue => boom
