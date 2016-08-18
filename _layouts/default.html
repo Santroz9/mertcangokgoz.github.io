@@ -6,6 +6,11 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri</title>
+  <script>
+    var default_theme = "light";
+    var light_theme = "/assets/css/light.css";
+    var dark_theme = "/assets/css/dark.css";
+  </script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Jekyll">
   <link href="https://plus.google.com/103305118431759296457" rel="publisher" />
@@ -19,9 +24,12 @@
   <meta name="msvalidate.01" content="2183CAED5258723C183F825A20DF9C4A"/>
   <link rel="alternate" type="application/rss+xml" title="{{ site.data.theme.name }}" href="{{site.url}}/feed" />
   <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/all.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/nprogress.css"/>
   <link rel="stylesheet" type="text/css" media="print" href="/assets/css/print.css">
-  <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
-  <script type="text/javascript" src="/assets/js/jquery.min.js" async></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.history.js"></script>
+  <script type="text/javascript" src="/assets/js/ajax.js"></script>
   <link rel="manifest" href="/manifest.json">
   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
   <script>
@@ -46,16 +54,15 @@
     <div class="three columns sidebar">
       {% include sidebar.html %}
     </div>
-
     <div class="nine columns content">
-      {{ content }}
+        {{ content }}
 
       <div class="footer">
         {% include footer.html %}
       </div>
-      {% include seo.html %}
     </div>
   </div>
 {% include analytics.html %}
+<script type="text/javascript" src="/assets/js/nprogress.js"></script>
 </body>
 </html>

@@ -226,13 +226,18 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Ufak bir kaç sorun giderildi
 - Gem dosyaları güncellendi
 
-## Güncelleme 17 Agustos 2016
+## Güncelleme 18 Agustos 2016
 
 - iletisim düzenlendi
 - Layoutlar düzenlendi
 - Resim kaldırıldı
 - Gravatar desteği getirildi
 - Reddit eklendi
-- Alexa desteği kaldırıldı
-- CSS ve JS ler site dizinine indirildi
 - İstekleri azaltma yoluna gidildi
+- Dinamik Tema özelliği getirildi(Siyah ve Beyaz)
+- Jquery Hataları giderildi
+- Print için CSS düzenlendi
+- CSS ayarlamaları yapıldı
+- Ajax kullanımına geçildi
+- Nprogress kullanılmaya başlandı(Mediaum, Youtube kullanılan refresh barı)
+- Disqus için kullanılan script geliştirildi Ajax ile kullanılmaya başlandı

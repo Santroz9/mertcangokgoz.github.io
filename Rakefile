@@ -49,8 +49,8 @@ task :build do
 	system("bundle exec jekyll build")
   puts "## Building Finished"
   # Apply minification tasks
-  Rake::Task[:minify_css].execute
-  Rake::Task[:minify_js].execute
-  Rake::Task[:minify_html].execute
+  #Rake::Task[:minify_css].execute
+  #Rake::Task[:minify_js].execute
+  #Rake::Task[:minify_html].execute
   puts "## Minifying Finished"
 end

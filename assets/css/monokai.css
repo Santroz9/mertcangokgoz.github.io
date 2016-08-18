@@ -63,3 +63,5 @@
 .highlight .gu { color: #75715e !important}
 .highlight .gd { color: #f92672 !important}
 .highlight .gi { color: #a6e22e !important}
+
+code, pre {  font-family: Consolas, "Deja Vu Sans Mono", "Ubuntu Mono", Monaco, "Courier New"; }

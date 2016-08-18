@@ -1,5 +1,6 @@
 @media only print {
-  @page { size: A4; margin: 1.5cm !important; }
+
+  @page { size: auto;}
 
   body {
     width:100% !important;
@@ -63,7 +64,7 @@
   pre, blockquote, table { page-break-inside: avoid; }
 
   pre { padding-left: 0.8cm; color: #FE7FAC !important; white-space: pre-wrap; word-wrap: break-word; }
-  code { font: 12pt Courier, monospace; }
+  code { font: 12pt Courier, monospace; page-break-before: always;}
   blockquote { margin: 1.2em; padding: 1em;  font-size: 12pt; }
 
   ul, ol, dl { page-break-before:avoid }
@@ -71,9 +72,9 @@
   img { float: left; margin: 1em 1.5em 1.5em 0; max-width: 100% !important; }
   a img { border: none; }
 
-  #nav, #sidebar, #paylasim, #related, #disqus_thread, #up{ display: none; }
+  #nav, #sidebar, #paylasim, #related, #disqus_thread, #up, #style-changer{ display: none; }
 
-  .sidebar, .disclaimer, .meta, .seo, .pagination, .menuM, .noprint{ display: none; }
+  .sidebar, .disclaimer, .meta, .seo, .pagination, .menuM, .noprint, .ajaxloadcomment, .show-comments{ display: none; }
 
   hr { display: none; }
 

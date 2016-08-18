@@ -1,12 +1,18 @@
+<div class="ajaxloadcomment"><button class="show-comments">Yorumları yükle</button></div>
 <div itemprop="comment" id="disqus_thread"></div>
 <script defer>
-(function() {
-var d = document, s = d.createElement('script');
+$(document).ready(function() {
+    $('.show-comments').on('click', function(){
+          var disqus_shortname = 'mertcanofficial';
 
-s.src = '//mertcanofficial.disqus.com/embed.js';
-
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
+          $.ajax({
+                  type: "GET",
+                  url: "//" + disqus_shortname + ".disqus.com/embed.js",
+                  dataType: "script",
+                  cache: true
+          });
+          $(this).fadeOut();
+    });
+});
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>

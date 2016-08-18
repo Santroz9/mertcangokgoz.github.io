@@ -1,3 +1,5 @@
+@import url('/assets/css/monokai.css');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,17 +9,21 @@ html, body {
   height: 100%;
 }
 
+p{
+  color: #FFFFFF;
+}
+
 body {
   font-size: 18px;
-  background-color: white;
-  color: #222222;
+  background-color: #000000;
+  color: #FFFFFF;
   line-height: 24px;
   margin: 0;
-  border-top: 7px solid {{ site.data.theme.highlight_color }};
+  border-top: 7px solid #FFFFFF;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #181818;
+  color: #FFCC00;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
@@ -48,17 +54,17 @@ ul {
 }
 
 a {
-  color: {{ site.data.theme.highlight_color }};
+  color: #FFCC00;
   text-decoration: none;
 }
 
 a:hover {
-  color: {{ site.data.theme.highlight_color }};
+  color: #FFCC00;
   text-decoration: underline;
 }
 
 a:visited {
-  color: {{ site.data.theme.highlight_color }};
+  color: #FFCC00;
 }
 
 table {
@@ -75,12 +81,13 @@ th, td {
 }
 
 thead{
-  color: #039;
+  color: #FFCC00;
   font-weight: bold;
 }
 
-tbody tr:nth-child(odd){
-  background-color: #F9F9F9 !important;
+strong{
+  color: #FFCC00;
+  font-weight: bold;
 }
 
 img {
@@ -146,10 +153,16 @@ nav h1, nav h3 {
 #social {
   margin-bottom: 10px;
   font-size: 13px;
+  clear: both;
+}
+
+#style-changer{
+  text-align: center;
+  display: block;
 }
 
 #post pre {
-  border: 1px solid #000000;
+  border: 1px solid #FFFFFF;
   padding: 2px 4px;
   border-radius: 4px;
   margin-bottom: 15px !important;
@@ -161,9 +174,8 @@ nav h1, nav h3 {
 }
 
 #post code {
-  border: 1px solid #000000;
-  /*color: white;*/
-  /*background-color: #373d44;*/
+  border: 1px solid #FFFFFF;
+  color: white;
   font-size: 85%;
   padding: 2px 4px;
   border-radius: 4px;
@@ -200,10 +212,10 @@ nav h1, nav h3 {
 
 .content {
   font: 400 16px/22px "open sans", sans-serif;
-  border-left: 1px solid #DDD;
   padding-left: 40px;
   padding-top: 25px;
   min-height: 400px;
+  border-left: 1px solid #DDD;
 }
 
 .footer {
@@ -223,7 +235,7 @@ nav h1, nav h3 {
 }
 
 #home h3 {
-  color: {{ site.data.theme.highlight_color }};
+  color: #FFFFFF
 }
 
 #logo {
@@ -261,7 +273,7 @@ nav h1, nav h3 {
 
 #stalker a:hover {
   text-decoration: none;
-  color: {{ site.data.theme.highlight_color }};
+  color: #FFFFFF
 }
 
 #paylasim i {
@@ -283,7 +295,7 @@ i.fa-hn {
 }
 
 .home {
-  font-size: 24px;
+  /*font-size: 24px;*/
   float: right;
   margin-left: 15px;
   color: #AAA;
@@ -314,7 +326,7 @@ i.fa-hn {
 
 .share-button {
     margin: 0px;
-    color: rgba(43, 177, 243, 0.77);
+    color: #FFCC00;
     border-radius: 12px 0px 0px 0px;
     padding: 2px 5px 2px 5px;
 }
@@ -329,6 +341,13 @@ i.fa-hn {
 sup {
   vertical-align: super;
   font-size: smaller;
+}
+
+.seo{
+  border:1px solid #FFFFFF;
+  display: block;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 .ajaxloadcomment{
@@ -365,7 +384,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3498db;
+    background-color: #FFFFFF;
 }
 
 ul.topnav li {float: left;}
@@ -380,7 +399,7 @@ ul.topnav li a {
     font-size: 17px;
 }
 
-ul.topnav li a:hover {background-color: #3185C1;}
+ul.topnav li a:hover {background-color: #FFFFFF;}
 
 ul.topnav li.icon {display: none;}
 
@@ -425,7 +444,7 @@ ul.topnav li.icon {display: none;}
 }
 
 .dropbtn {
-    background-color: #3498db;
+    background-color: #FFFFFF;
     color: white;
     padding: 10px;
     font-size: 15px;
@@ -434,7 +453,7 @@ ul.topnav li.icon {display: none;}
 }
 
 .dropbtn:hover, .dropbtn:focus {
-    background-color: #3498db;
+    background-color: #FFFFFF;
 }
 
 .dropdown {

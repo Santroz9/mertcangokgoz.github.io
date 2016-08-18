@@ -6,6 +6,11 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>{{ page.title }} | Mertcan GÖKGÖZ</title>
+  <script>
+    var default_theme = "light";
+    var light_theme = "/assets/css/light.css";
+    var dark_theme = "/assets/css/dark.css";
+  </script>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Jekyll">
   <link href="https://plus.google.com/103305118431759296457" rel="publisher" />
@@ -18,39 +23,27 @@
   <meta name="msvalidate.01" content="2183CAED5258723C183F825A20DF9C4A"/>
   <link rel="alternate" type="application/rss+xml" title="{{ site.data.theme.name }}" href="{{site.url}}/feed" />
   <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/all.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/nprogress.css"/>
   <link rel="stylesheet" type="text/css" media="print" href="/assets/css/print.css">
-  <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
-  <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-      TeX: {
-      equationNumbers: {
-          autoNumber: "AMS"
-      }
-      },
-      tex2jax: {
-      inlineMath: [ ['$','$'], ],
-      displayMath: [ ['$$','$$'] ],
-      processEscapes: true,
-      }
-  });
-  </script>
-  <script>
-    $(window).scroll(function(){
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.history.js"></script>
+  <script type="text/javascript" src="/assets/js/ajax.js"></script>
+  <script type="text/javascript">
+   jQuery(window).scroll(function(){
         if ($(this).scrollTop() > 100)
             $("#up").fadeIn(500);
         else
             $("#up").fadeOut(500);
     });
 
-   $(document).ready(function(){
+   jQuery(document).ready(function(){
         $("#up").click(function(){
             $("html, body").animate({ scrollTop: "0" }, 500);
             return false;
         });
     });
   </script>
-  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" async>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
   <link rel="manifest" href="/manifest.json">
   <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
   <script>
@@ -69,19 +62,14 @@
 <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
-  <script type="text/javascript">
-    var postsHREF = [{% for post in site.posts %}"{{ post.url }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-    var postsTitle = [{% for post in site.posts %}"{{ post.title }}"{% unless forloop.last %},{% endunless %}{% endfor %}];
-  </script>
 </head>
 <body>
 <div class="container">
     <div class="three columns sidebar">
       {% include sidebar.html %}
     </div>
-
     <div class="nine columns content">
-      {{ content }}
+        {{ content }}
 
       <div class="footer">
         {% include footer.html %}
@@ -92,5 +80,6 @@
     <a href="javascript:"><i class="fa fa-arrow-up fa-2x"></i></a>
   </div>
 {% include analytics.html %}
+<script type="text/javascript" src="/assets/js/nprogress.js"></script>
 </body>
 </html>
