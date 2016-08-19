@@ -79,10 +79,6 @@ thead{
   font-weight: bold;
 }
 
-tbody tr:nth-child(odd){
-  background-color: #F9F9F9 !important;
-}
-
 img {
   display: block;
   margin-left: auto;
@@ -146,6 +142,11 @@ nav h1, nav h3 {
 #social {
   margin-bottom: 10px;
   font-size: 13px;
+}
+
+#style-changer{
+  text-align: center;
+  display: block;
 }
 
 #post pre {

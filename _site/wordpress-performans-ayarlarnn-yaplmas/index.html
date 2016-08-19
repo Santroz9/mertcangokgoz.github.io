@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html class="no-js" lang="tr-TR">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Wordpress Performans Ayarlamaları | Mertcan GÖKGÖZ</title>
+  <script>
+    var default_theme = "light";
+    var light_theme = "/assets/css/light.css";
+    var dark_theme = "/assets/css/dark.css";
+  </script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Jekyll">
+  <link href="https://plus.google.com/103305118431759296457" rel="publisher">
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<meta property="og:title" content="Wordpress Performans Ayarlamaları">
+<meta name="description" content="Merhaba arkadaşlar beklide wordpress in en önemli ve yapılması gereken işlemlerinden birisidir performans ayarları kullanıcıya hızlı bir şekilde">
+<meta property="og:description" content="Merhaba arkadaşlar beklide wordpress in en önemli ve yapılması gereken işlemlerinden birisidir performans ayarları kullanıcıya hızlı bir şekilde">
+<link rel="canonical" href="https://mertcangokgoz.com/wordpress-performans-ayarlarnn-yaplmas/">
+<meta property="og:url" content="https://mertcangokgoz.com/wordpress-performans-ayarlarnn-yaplmas/">
+<meta property="og:site_name" content="Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2013-08-26T16:36:49+03:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@mertcangokgoz">
+<meta name="twitter:creator" content="@http://twitter.com/mertcangokgoz">
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Wordpress Performans Ayarlamaları",
+    "datePublished": "2013-08-26T16:36:49+03:00",
+    "description": "Merhaba arkadaşlar beklide wordpress in en önemli ve yapılması gereken işlemlerinden birisidir performans ayarları kullanıcıya hızlı bir şekilde",
+    "url": "https://mertcangokgoz.com/wordpress-performans-ayarlarnn-yaplmas/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+  <meta name="author" content="Mertcan GÖKGÖZ">
+  <meta name="distribution" content="global">
+  <meta name="robots" content="follow, all">
+  <meta name="google-site-verification" content="72uYg4UxAer0YwWdtkU93OGqjNq7ZThpqe0M4KxyvIg">
+  <meta name="yandex-verification" content="410f2e33fe81ce80">
+  <meta name="msvalidate.01" content="2183CAED5258723C183F825A20DF9C4A">
+  <link rel="alternate" type="application/rss+xml" title="Mertcan GÖKGÖZ" href="https://mertcangokgoz.com/feed">
+  <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/nprogress.css">
+  <link rel="stylesheet" type="text/css" media="print" href="/assets/css/print.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script type="text/javascript" src="/assets/js/jquery.history.js"></script>
+  <script type="text/javascript" src="/assets/js/default.js"></script>
+  <script type="text/javascript" src="/assets/js/nprogress.js"></script>
+  <script type="text/javascript">
+   jQuery(window).scroll(function(){
+        if ($(this).scrollTop() > 100)
+            $("#up").fadeIn(500);
+        else
+            $("#up").fadeOut(500);
+    });
+
+   jQuery(document).ready(function(){
+        $("#up").click(function(){
+            $("html, body").animate({ scrollTop: "0" }, 500);
+            return false;
+        });
+    });
+  </script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <link rel="manifest" href="/manifest.json">
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async></script>
+  <script>
+    var OneSignal = OneSignal || [];
+    OneSignal.push(["init", {
+      appId: "0102cb4b-6b21-495b-87bc-0547252a8eb9",
+      autoRegister: true,
+      welcomeNotification: {
+            "title": "mertcangokgoz.com",
+            "message": "Abone Olduğunuz için Teşekkürler",
+      }
+    }]);
+  </script>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="shortcut icon" href="/favicon.png">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
+</head>
+<body>
+<div class="container">
+    <div class="three columns sidebar">
+      <nav class="nav">
+  <a href="/">
+    <img src="https://www.gravatar.com/avatar/8295f676e66c51a943b4cda3362b4503?s=200" id="gravatar" alt="Mertcan GÖKGÖZ">
+  </a>
+  <h3><a href="/">Mertcan GÖKGÖZ</a></h3>
+  <div id="bio">
+    <p>
+        Kategoriler:<br>
+
+        <a href="/category/linux">Linux</a> » 208 Yazı<br><a href="/category/programlama">Programlama</a> » 75 Yazı<br><a href="/category/genel">Genel</a> » 65 Yazı<br><a href="/category/guvenlik">Guvenlik</a> » 52 Yazı<br><a href="/category/windows">Windows</a> » 35 Yazı<br><a href="/category/analiz">Analiz</a> » 20 Yazı<br><a href="/category/nginx">Nginx</a> » 13 Yazı<br><a href="/category/egitimler">Egitimler</a> » 1 Yazı<br>
+        <br>
+        Arkadaşlar:<br>
+        <a href="https://oztaser.com/" target="_blank">Adil ÖZTAŞER</a><br>
+        <a href="https://www.ceyhanmolla.com/" target="_blank">Ceyhan MOLLA</a><br>
+        <a href="https://0x6.pw/" target="_blank">Enes ERGÜN</a><br>
+        <a href="http://furkankalkan.com/" target="_blank">Furkan KALKAN</a><br>
+        <a href="https://onur.im/" target="_blank">Onur ASLAN</a><br>
+        <a href="http://www.omeripek.com.tr" target="_blank">Ömer IPEK</a><br>
+        <a href="https://yapaygerizeka.github.io/" target="_blank">Yapay Geri Zekâ</a><br>
+    </p>
+  </div>
+  <div id="style-changer">
+  <a id="light" href="javascript:changeTheme('light');" style="display: inline-block;">
+    <img src="/assets/PH_Day_50x50.png">
+  </a>
+  <a id="dark" href="javascript:changeTheme('dark');" style="display: none;">
+    <img src="/assets/PH_Night_50x50.png">
+  </a>
+</div>
+
+  <div id="social">
+    Takip Edin:
+<div id="stalker">
+   
+
+   
+   <a title="MertcanGokgoz on Academia" href="https://baskent.academia.edu/MertcanGokgoz" target="_blank">
+     <i class="fa fa-book"></i>
+   </a>
+   
+
+  
+  <a title="MertcanGokgoz on Github" href="https://github.com/MertcanGokgoz" target="_blank">
+    <i class="fa fa-github-square"></i>
+  </a>
+  
+
+  
+  <a title="MertcanGokgoz on Gitlab" href="https://gitlab.com/u/MertcanGokgoz" target="_blank">
+    <i class="fa fa-gitlab"></i>
+  </a>
+  
+
+  
+
+  
+  <a title="mertcangokgoz on Hacker News" href="https://news.ycombinator.com/user?id=mertcangokgoz" target="_blank">
+     <i class="fa fa-hacker-news"></i>
+  </a>
+  
+
+  
+  <a title="mertcangokgoz on Reddit" href="https://www.reddit.com/user/mertcangokgoz" target="_blank">
+     <i class="fa fa-reddit-square"></i>
+  </a>
+  
+
+  
+
+  
+  <a title="Mertcan GÖKGÖZ on Stack Overflow" href="http://stackoverflow.com/users/4723344" target="_blank">
+    <i class="fa fa-stack-overflow"></i>
+  </a>
+  
+
+  
+  <a title="mertcangokgoz on Twitter" href="https://twitter.com/mertcangokgoz" target="_blank">
+    <i class="fa fa-twitter-square"></i>
+  </a>
+  
+
+  
+
+  
+
+  
+  <a title="Mertcan GÖKGÖZ on LinkedIn" href="https://www.linkedin.com/in/mertcangokgoz" target="_blank">
+    <i class="fa fa-linkedin-square"></i>
+  </a>
+  
+
+  
+  <a title="Mertcan GÖKGÖZ on Google Plus" href="https://plus.google.com/103305118431759296457" target="_blank">
+    <i class="fa fa-google-plus-square"></i>
+  </a>
+  
+
+  
+
+  
+  <a title="Mertcan GÖKGÖZ on Youtube" href="https://www.youtube.com/c/MertcanGokgoz" target="_blank">
+    <i class="fa fa-youtube"></i>
+  </a>
+  
+
+  
+  <a title="RSS feed" id="atom" href="/feed.xml">
+    <i class="fa fa-rss-square"></i>
+  </a>
+  
+</div>
+
+  </div>
+</nav>
+
+    </div>
+    <div class="nine columns content">
+        <div class="menuM">
+    <ul class="topnav">
+        <li><a class="active" href="https://mertcangokgoz.com/">Anasayfa</a></li>
+        <li><a href="https://mertcangokgoz.com/category/analiz/">Analiz</a></li>
+        <li><a href="https://mertcangokgoz.com/category/genel/">Genel</a></li>
+        <li><a href="https://mertcangokgoz.com/category/guvenlik/">Güvenlik</a></li>
+        <li><a href="https://mertcangokgoz.com/category/linux/">Linux</a></li>
+        <li><a href="https://mertcangokgoz.com/category/windows/">Windows</a></li>
+        <li><a href="https://mertcangokgoz.com/category/nginx/">Nginx</a></li>
+        <li><a href="https://mertcangokgoz.com/category/egitimler/">Egitimler</a></li>
+        <li><a href="https://mertcangokgoz.com/category/programlama/">Programlama</a></li>
+        <li class="icon">
+            <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </li>
+    </ul>
+</div>
+
+<script>
+    function myFunction() {
+        document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+    }
+</script>
+
+
+<p class="meta">
+  August 26, 2013 <br>
+  
+    
+      2 Dakika
+    
+  <a href="/">
+    <i class="home fa fa-home fa-2x"></i>
+  </a>
+  <a href="/search/">
+    <i class="home fa fa-search fa-2x"></i>
+  </a>
+  <a href="javascript:" onclick="window.print();return false;">
+    <i class="home fa fa-print fa-2x"></i>
+  </a>
+</p>
+
+<h1 class="title">Wordpress Performans Ayarlamaları</h1>
+
+<div id="post">
+  <p>Merhaba arkadaşlar beklide wordpress in en önemli ve yapılması gereken işlemlerinden birisidir performans ayarları kullanıcıya hızlı bir şekilde sitedeki içerikleri sunmak ve sunucuyu yormamak bilindiği üzere wordpress serverları bazı zamanlar kasmaktadır özellikle eklenen pluginler ve artan hitlerden dolayı bir süre sonra wordpress şişmektedir.bunu engellemek için bence 3 aylık yada aylık olmak üzere performans analizi yapmaktır.bu işlemi bazı web siteleri aracılığı analiz edebilir ve gereken ayarları yapabilirsiniz.</p>
+
+<ul>
+  <li>
+<a href="http://developers.google.com/speed/pagespeed/insights/">http://developers.google.com/speed/pagespeed/insights/</a> google site hız standartları</li>
+  <li>
+<a href="http://developer.yahoo.com/yslow/">http://developer.yahoo.com/yslow/</a> yahoo site hız standartları</li>
+  <li>
+<a href="http://www.webpagetest.org/">http://www.webpagetest.org/</a> Detaylı bir analiz verir sizlere benim favorilerim arasında yer alır.</li>
+  <li>
+<a href="http://loadimpact.com/">http://loadimpact.com/</a> anlık ziyaretçi testi</li>
+  <li>
+<a href="http://gtmetrix.com/">http://gtmetrix.com/</a> herkesçe bilinen ve popüler olan bir performans analiz sitesidir farovilerim arasında bu sitede yer almaktadır.</li>
+  <li>
+<a href="http://tools.pingdom.com/fpt/">http://tools.pingdom.com/fpt/</a> hız testi yapabileceğiniz web sitesidir.</li>
+</ul>
+
+<p>Bu sitelerden almış olduğunuz raporlar ile gereken performans ayarlarını daha iyi bir şekilde yapabilirsiniz.bunlar dışında önemli olan bazı etkenler bulunuyor bunların en önemlisi de</p>
+
+<h2 id="hosting">1.Hosting</h2>
+
+<p>Kullanacağınız firmanın geçmişinin araştırılması yaşanan kesintilerdeki tavırları ve destek taleplerine verdikleri önem dikkat edilmelidir.bunun dışında barındırma işlemi yaparken VPS/Dedicated alabilir kendi site güvenliğinizi sağlayabilir yapılandırmalarınızı ona göre düzenleyebilir ve en iyi performansı alabilirsiniz.</p>
+
+<h2 id="trafik">2.Trafik</h2>
+
+<p>Düşük ölçekli web siteleri ile yüksek ölçüde trafiğe sahip olan sitelerin performansları da o ölçüye göre değişecektir.anlık aktif bin kullanıcı ile anlık aktif 100 kullanıcının sunucu ve hatta yapacağı etkiler farklıdır.her site genel olarak kullanıcılarına performans açısından daha üstün bir hizmet vermek ister ancak çoğu sitede trafik yüzünden bu mümkün değildir</p>
+
+<h2 id="ama-ve-sitenin-tr">3.Amaç ve Sitenin türü</h2>
+
+<p>Aslında performans içerisine bunu da dahil edebiliriz belli bir amacı olan web siteleri ile amaç sahibi olmayan web sitelerini bir tutmak tabi ki olmaz hedefi olan siteler belirlenen keyword ve içeriklerde yüksek sıralara gelirken karışık şekilde hazırlanmış bir sitenin yüksek mertebelere gelmesi daha zor olacaktır.misal e-ticaret sitelerinde performans önemlidir yada bir medya sitesinden bahsedelim daha hızlı açılan sayfalar kullanıcılar için her zaman daha iyi olacaktır.</p>
+
+<p>Genel olarak internet ortamında yazılanlar her hangi bir web sitesi için yazılmış olmakla birlikte wordpress ile uyumsuz olabilir.sizler web siteleriniz de deneme yanılma yöntemleri yaparak performans açısından iyi sonuçlar alabilirsiniz unutmayınız ki internet ortamında kullanılan ayarlar ile sizin kendi belirleyeceğiniz ayarlar arasında dağlar kadar fark olacaktır.</p>
+
+<p>Sitenizin performansını en yüksek düzeylere çıkartmak için server bazında ayarlamalar da yapmanız gerekebilir MYSQL,CDN,APACHE,DNS ayarlamaları gibi pek çok yerde ince ayar yapmanız gerekebilir siteniz büyüdükçe ve geliştikçe kullanıcılara sunacağınız performans da doğru orantıda olması gerekmektedir.</p>
+
+<h3 id="ynlendirmeleri-en-aza-indirin">1-Yönlendirmeleri en aza indirin</h3>
+
+<p>Yerli yersiz sayfanızda yönlendirme yapmayın,kalıcı linklerde değişiklik yaptıysanız mutlaka bunu htaccess ile yönlendirin</p>
+
+<h3 id="hatalar-ve-dier-hatalar-ortadan-kaldrn">2-404 Hataları ve diğer hataları ortadan kaldırın</h3>
+
+<p>Sayfa bulunamadı gibi hataları ve sayfa açılışlarında oluşan diğer hataları ortadan kaldırmaya çalışın.mümkünse günlük yada haftalık sitenizde hataları vs kontrol edin</p>
+
+<h3 id="cookie-free-etkinletirmeyi-deneyin">3-cookie-free etkinleştirmeyi deneyin</h3>
+
+<p>Cookie web siteleri için iyidir resimler,videolar için gereksizdir ancak performansa etkisi azda olsa vardır.</p>
+
+<h3 id="siteniz-iin-bir-karakter-kmesi-belirleyin">4-Siteniz için bir karakter kümesi belirleyin</h3>
+
+<p>Bu işlemi yapmak sayfalarınızın düzgün görüntülendiğinden emin olmak için size yardımcı olur.böylelikle gereksiz karakter sorunları yaşamazsınız. karakter kümesi belirtmenin en kolay yolu <strong>htaccess</strong> yöntemidir.</p>
+
+<p>Bunlar dışında cache yöntemini kullanmanız sitenizin performansı açısından iyi olacaktır.cache işlemini ister eklentiler ile yapabilir istersenizde htaccess düzenlemesi ile yapabilirsiniz.wordpress <strong>cache</strong> ile <strong>browse cache</strong> farklıdır.</p>
+
+<p>Eklenti olarak <strong>W3 Total Cache</strong> öneririm kullanımı biraz zor olsa da en iyi etkiyi bu eklenti ile alırsınız. Siteleriniz de dosya sıkıştırmayı etkinleştirin düşük boyutlardaki dosyalar ile sayfalarınız ve resimleriniz her zaman daha hızlı açılacaktır.</p>
+
+</div>
+
+<div id="paylasim">
+<h3>Bu yazıyı paylaş:</h3>
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://mertcangokgoz.com/wordpress-performans-ayarlarnn-yaplmas/" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+    <i class="fa fa-facebook-square fa share-button"> Facebook</i>
+</a>
+<a href="https://twitter.com/intent/tweet?text=Wordpress%20Performans%20Ayarlamalar%C4%B1&amp;url=https://mertcangokgoz.com/wordpress-performans-ayarlarnn-yaplmas/&amp;via=mertcangokgoz&amp;related=mertcangokgoz" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+    <i class="fa fa-twitter-square fa share-button"> Twitter</i>
+</a>
+<a href="https://plus.google.com/share?url=https://mertcangokgoz.com/wordpress-performans-ayarlarnn-yaplmas/" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+    <i class="fa fa-google-plus-square fa share-button"> Google</i>
+</a>
+<a href="http://www.reddit.com/submit?url=https://mertcangokgoz.com/wordpress-performans-ayarlarnn-yaplmas/&amp;title=Wordpress%20Performans%20Ayarlamalar%C4%B1" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;">
+    <i class="fa fa-reddit-square fa share-button"> Reddit</i>
+</a>
+<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://mertcangokgoz.com/wordpress-performans-ayarlarnn-yaplmas/&amp;title=Wordpress%20Performans%20Ayarlamalar%C4%B1&amp;summary=&amp;source=webjeda" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+    <i class="fa fa-linkedin-square fa share-button"> Linkedin</i>
+</a>
+<a href="mailto:?subject=Wordpress%20Performans%20Ayarlamalar%C4%B1&amp;body=Check%20out%20this%20site%20https://mertcangokgoz.com/wordpress-performans-ayarlarnn-yaplmas/">
+    <i class="fa fa-envelope-square fa share-button"> Email</i>
+</a>
+</div>
+
+
+<div id="related">
+  <h3>Benzer Yazılar</h3>
+  <ul class="posts">
+    
+    <li>
+      <span>16/08/2016 »</span> <a href="/postgresql-komut-ve-kisayollari/">PostgreSQL Komut ve Kısayolları</a>
+    </li>
+    
+    <li>
+      <span>14/08/2016 »</span> <a href="/jekyll-ve-travis-ci-ile-statik-site-olusturma/">Jekyll ve Travis-Ci ile Statik Site Oluşturma</a>
+    </li>
+    
+    <li>
+      <span>13/08/2016 »</span> <a href="/islemci-ve-harddisk-sicakliginin-gozlemlenmesi/">İşlemci ve Hard Disk Sıcaklığının Gözlemlenmesi</a>
+    </li>
+    
+  </ul>
+</div>
+<div class="ajaxloadcomment"><button class="show-comments">Yorumları yükle</button></div>
+<div itemprop="comment" id="disqus_thread"></div>
+<script defer>
+$(document).ready(function() {
+    $('.show-comments').on('click', function(){
+          var disqus_shortname = 'mertcanofficial';
+
+          $.ajax({
+                  type: "GET",
+                  url: "//" + disqus_shortname + ".disqus.com/embed.js",
+                  dataType: "script",
+                  cache: true
+          });
+          $(this).fadeOut();
+    });
+});
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+</noscript>
+
+
+
+      <div class="footer">
+        <div class="disclaimer">
+  
+  <p>
+    Bu sitedeki gönderiler bana aittir ve iş verenime ait pozisyonlar,
+    stratejiler veya görüşler temsil edilmemektedir.<br>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Atıf-Paylaşım Lisansı</a> altındadır.<br>
+        <a href="/ders-notlari/">Ders Notları</a>
+        <span> | </span><a href="/gizlilik-politikasi/">Gizlilik Politikası</a>
+        <span> | </span><a href="/kullanim-kosullari/">Kullanım Koşulları</a>
+        <span> | </span><a href="/hakkimda/">Hakkımda</a>
+        <span> | </span><a href="/iletisim/">İletişim</a><br>
+        <b>BTC:</b> 36DFx4anTdsx3AnBiA1oqR3oHkMV3RJME1<br>
+        <a href="/hosted/">Hosted By </a> © Mertcan GÖKGÖZ, 2016 - Linux Hacısı
+  </p>
+  
+</div>
+
+      </div>
+    </div>
+  </div>
+  <div id="up">
+    <a href="javascript:"><i class="fa fa-arrow-up fa-2x"></i></a>
+  </div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-41967916-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+
+</body>
+</html>
