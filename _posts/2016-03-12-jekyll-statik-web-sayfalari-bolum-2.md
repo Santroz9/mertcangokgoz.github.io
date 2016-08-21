@@ -3,7 +3,7 @@ layout: post
 title: Jekyll ile Statik Web Sayfaları Bölüm 2
 date: 2016-03-12
 type: post
-categories: linux
+categories: jekyll
 description: Jekyll kabaca giriş yaptık genel olarak bir takım özelliklerini
 ---
 

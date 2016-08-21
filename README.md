@@ -241,3 +241,8 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Ajax kullanımına geçildi
 - Nprogress kullanılmaya başlandı(Mediaum, Youtube kullanılan refresh barı)
 - Disqus için kullanılan script geliştirildi Ajax ile kullanılmaya başlandı
+
+### Güncelleme 21 Agustos 2016
+
+- Javascript tarafında yapılan tüm değişiklikler geri çekilmiştir.
+- Daha temiz ve hızlı açılan sayfalar amaçlanmıştır.

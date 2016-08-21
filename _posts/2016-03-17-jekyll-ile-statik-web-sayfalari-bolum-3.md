@@ -3,7 +3,7 @@ layout: post
 title: Jekyll ile Statik Web Sayfaları Bölüm 3
 date: 2016-03-17
 type: post
-categories: linux
+categories: jekyll
 description: Yapmanız gerekenlerin başında kullanıcıların sitenizi daha
 ---
 

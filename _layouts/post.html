@@ -4,13 +4,7 @@ layout: defaultpost
 {% include mobile.html %}
 
 <p class="meta">
-  {{ page.date | date: "%B %d, %Y" }} <br>
-  {% assign words = content | number_of_words %}
-    {% if words < 360 %}
-      1 Dakika
-    {% else %}
-      {{ words | divided_by:180 }} Dakika
-    {% endif %}
+  {{ page.date | date: "%B %d, %Y" }}
   <a href="/">
     <i class="home fa fa-home fa-2x"></i>
   </a>
@@ -30,14 +24,4 @@ layout: defaultpost
 
 {% include share.html %}
 
-<div id="related">
-  <h3>Benzer Yazılar</h3>
-  <ul class="posts">
-    {% for post in site.related_posts limit:3 %}
-    <li>
-      <span>{{ post.date | date: "%d/%m/%Y" }} &raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
 {% include disqus.html %}

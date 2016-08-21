@@ -3,7 +3,7 @@ layout: post
 title: Jekyll ile Ajax Kullanımı
 date: 2016-08-21
 type: post
-categories: linux
+categories: jekyll
 description: Jekyll ile biraz daha fantastik şeyler yapabileceğimizi biliyorum sonuçta statik bir içerik ile uğraşıyoruz
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  Jekyll ve Travis-Ci ile Statik Site Oluşturma
 date: 2016-08-14
 type: post
-categories: linux
+categories: jekyll
 description:  Jekyll ile statik site oluştururken özellikle Github pages kullanırsanız sizin karşınıza bir takım sorunlar çıkacak bunlardan bir tanesi
 ---
 
@@ -183,7 +183,7 @@ before_script:
 - chmod +x build.sh
 ```
 
-Şimdi düzenlediğimiz ana scripti çalıştırmaya geldi sıra 
+Şimdi düzenlediğimiz ana scripti çalıştırmaya geldi sıra
 
 ```console
 script: "./build.sh"
@@ -199,7 +199,7 @@ rvm:
 - 2.3.1
 ```
 
-Ne olup bittiğini mail olarak göndermesi için 2 adet mail belirliyorum. Başarılı olduğunda mail atmayacak ancak başarısız olduğu her zaman her iki mail adresine de mail göndermiş olacak 
+Ne olup bittiğini mail olarak göndermesi için 2 adet mail belirliyorum. Başarılı olduğunda mail atmayacak ancak başarısız olduğu her zaman her iki mail adresine de mail göndermiş olacak
 
 ```
 notifications:
