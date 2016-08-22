@@ -22,9 +22,11 @@ temada kullanacağımız ve `_includes` içerisine eklemeniz gereken bir html sa
 </div>
 ```
 
+Daha sonra nereye ekleyecekseniz `{% include themec.html %}` olarak tanımlıyorsunuz dosya içeriğinizde otomatik olarak oraya ekleniyor.
+
 Ben değiştirme olayı olarak resim kullandım siz direk birşeyler yazabilirsiniz işte karanlık tema şudur aydınlık tema budur diye istediğinizi yapabilirsiniz hayal gücünüze bırakıyorum.
 
-Ana `_layout` sayfalarda aşağıdaki tanımlamaları yapmayı unutmayın tememızın defaultunu belirlememiz ve diğer css dosyalarını göstermemiz gerekiyor.
+Ana `_layout` sayfalarda aşağıdaki tanımlamaları yapmayı unutmayın temamızın defaultunu belirlememiz ve diğer css dosyalarını göstermemiz gerekiyor.
 
 ```javascript
 <script>
