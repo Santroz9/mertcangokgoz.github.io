@@ -22,7 +22,7 @@ temada kullanacağımız ve `_includes` içerisine eklemeniz gereken bir html sa
 </div>
 ```
 
-Daha sonra nereye ekleyecekseniz `{% include themec.html %}` olarak tanımlıyorsunuz dosya içeriğinizde otomatik olarak oraya ekleniyor.
+Daha sonra nereye ekleyecekseniz `include themec.html` olarak liquit tag şeklinde tanımlıyorsunuz dosya içeriğinizde otomatik olarak oraya ekleniyor.
 
 Ben değiştirme olayı olarak resim kullandım siz direk birşeyler yazabilirsiniz işte karanlık tema şudur aydınlık tema budur diye istediğinizi yapabilirsiniz hayal gücünüze bırakıyorum.
 
