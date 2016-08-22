@@ -10,6 +10,9 @@
   <meta name="generator" content="Jekyll">
   <link href="https://plus.google.com/103305118431759296457" rel="publisher" />
   {% seo title=false %}
+  {% if page.tag %}
+  <meta name="keywords" content="{{ page.tag }}">
+  {% endif %}
   <meta name="author" content="{{ site.data.theme.name }}" />
   <meta name="distribution" content="global"/>
   <meta name="robots" content="follow, all"/>
