@@ -10,8 +10,6 @@ gems:
   - jekyll-paginate
   - jekyll-email-protect
   - jekyll-archives
-  - jekyll-mentions
-  - jemoji
   - nokogiri
 
 #Archives Settings
@@ -21,11 +19,6 @@ jekyll-archives:
   layout: 'archive'
   permalinks:
     year: '/arsiv/:year/'
-
-#Mentions Settings
-jekyll-mentions:
-  base_url: https://twitter.com
-
 
 #Main Settings
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock, .travis.yml, .ruby-version, .bundle, build.sh, vendor, Rakefile]
