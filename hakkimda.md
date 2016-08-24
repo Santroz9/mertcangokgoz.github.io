@@ -6,5 +6,3 @@ description: Mertcan GÖKGÖZ Kimdir ?
 ---
 
 # Düzenleniyor.
-
-Merhaba 

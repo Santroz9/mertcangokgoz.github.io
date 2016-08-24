@@ -56,7 +56,6 @@ GEM
       nokogiri (>= 1.4)
     html_compressor (0.0.3)
       POpen4 (>= 0.1.4)
-    htmlbeautifier (1.1.1)
     i18n (0.7.0)
     jekyll (3.1.6)
       colorator (~> 0.1)
@@ -142,14 +141,11 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   html_compressor
-  htmlbeautifier
   jekyll
   jekyll-archives
   jekyll-email-protect
-  jekyll-mentions
   jekyll-paginate
   jekyll-seo-tag
-  jemoji
   nokogiri
   packr
   rake
