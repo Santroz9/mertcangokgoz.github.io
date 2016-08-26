@@ -3,10 +3,8 @@ layout: post
 title: Centos 6 Üzerine Rutorrent Kurulumu
 date: 2013-07-29
 type: post
-published: true
-status: publish
 categories: linux
-description: Herkesin merakla beklediği bir konu olan rutorrent ve seedbox kurulumunu sizlere burada kısaca açıklayacağım aslında gerçekten kurulumu çok
+description: Herkesin merakla beklediği bir konu olan rutorrent ve seedbox kurulumunu sizlere burada kısaca açıklayacağım aslında gerçekten kurulumu çok ama çok basit ve
 ---
 
 Herkesin merakla beklediği bir konu olan rutorrent ve seedbox kurulumunu sizlere burada kısaca açıklayacağım aslında gerçekten kurulumu çok ama çok basit ve bizimde ufak bir bash shell hazırlayarak tam otomatik bir kurulum scripti oluşturduk.önceden internette olan kurulum bilgileri eski yada gereksiz şeyler içeriyordu bunlarıda eledikten sonra ortaya böyle güzel bir şey ortaya çıktı bundan faydalanmak için tek yapmanız gereken aşşağıda yazdıklarımı yapmanız ve arkanıza yaslanıp otomatik kurulumun tadını çıkartmanız...
@@ -15,12 +13,16 @@ tarafıma gelen mail doğrultusunda dosyayı güncelleyip sorunsuz bir biçimde 
 
 centos 5.9 ve centos 6 üzerinde scriptimi tekrardan test ettim sorunsuz bir biçimde çalışıyor. Sorun yaşayanlar mail yada yorum kanallarını kullanarak yardım alabilirler...
 
-    wget https://mertcangokgoz.com/Downloads/setup.sh
-    chmod +x setup.sh
+```console
+wget https://mertcangokgoz.com/Downloads/setup.sh
+chmod +x setup.sh
+```
 
 Komutunu Girmek ve hemen ardından
 
-    sh setup
+```
+sh setup
+```
 
 Komutunu vererek scripti çalıştırıyoruz.Genel olarak ayarlaması çok kolay gelen kısımlardan kurmak istediğinizi seçiyorsunuz ve işlem başlıyor...
 
@@ -39,7 +41,7 @@ Komutunu vererek scripti çalıştırıyoruz.Genel olarak ayarlaması çok kolay
 
 Yukarıdaki örnekte görmüş olduğunuz gibi ben apache server üstüne kurdum siz istediğiniz web server üstüne kurabilirsiniz...
 
-# Scriptin Yapabildikleri
+## Scriptin Yapabildikleri
 
 - Centos 6 İşletim Sistemini güncelleme
 - rutorrente gerekli olan tüm eklentileri kurabilme
@@ -54,10 +56,14 @@ Seedbox kurmak istemezmisiniz işte bu script tam size göre hazırlanmıştır.
 
 Kurulumlar bittikten sonra Webmin paneline girmek için
 
-    http://www.siteadiniz.com:10000
+```console
+http://www.siteadiniz.com:10000
+```
 
 yada
 
-    http://ipadresiniz:10000
+```console
+http://ipadresiniz:10000
+```
 
 Domain veya ip ye göre ayarları kendisi otomatik yapmaktadır.

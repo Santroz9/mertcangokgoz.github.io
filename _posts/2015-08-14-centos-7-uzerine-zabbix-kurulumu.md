@@ -1,23 +1,21 @@
 ---
 layout: post
 title: Centos 7 Üzerine Zabbix Kurulumu
-date: 2015-08-14 14:36:15.000000000 +03:00
+date: 2015-08-14
 type: post
-published: true
-status: publish
 categories: linux
 description: Zabbix açık kaynak kodlu kurumsal düzeyde bir izleme uygulamasıdır aktif ve pasif bir şekilde izleme yapılabilmektedir.Zabbix ile sunucular,ağ cihazları
 ---
 
 **Zabbix** açık kaynak kodlu kurumsal düzeyde bir izleme uygulamasıdır aktif ve pasif bir şekilde izleme yapılabilmektedir. **Zabbix** ile sunucular,ağ cihazları, sanal sunucu gibi sistemleri izleyebilirsiniz. **Zabbix** çok büyük işlemler için ölçeklendirilebilmektedir. **BT** alt yapılarının ihtiyaçlarını karşılamakta üzerine yoktur.Tüm popüler işletim sistemleri ile çalışmaktadır.Otomatik cihaz denetimi ile kolay bir şekilde ekleme çıkartma yapabilirsiniz.Aynı zamanda sistemde bir sorun olduğu zaman yada sistemin durumunu size **Mail** ve **SMS** ilede ulaştırabilmektedir aynı zamanda web üzerindende ulaşabilirsiniz.
 
-# Gerekenler
+## Gerekenler
 
 **Zabbix** kurulumu için sistemde **LAMP** yada **LEMP** olması gerekmektedir.
 
 [Centos 7 Üzerine Nginx, MySQL, PHP (LEMP) Kurulumu](https://mertcangokgoz.com/centos-7-uzerine-nginx-mysql-php-lemp-kurulumu/)
 
-## Sunucu Taraflı Yapılandırma
+### Sunucu Taraflı Yapılandırma
 
 Ön tanımlı olarak yum ile kurayım gibi birşey yapamıyoruz bu yüzden **EPEL** kütüphanesini sisteme eklememiz gerekiyor.
 

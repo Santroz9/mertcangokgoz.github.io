@@ -9,7 +9,7 @@ description: Yapmanız gerekenlerin başında kullanıcıların sitenizi daha
 
 Yapmanız gerekenlerin başında kullanıcıların sitenizi daha efektif kullanabilmeleri ve daha iyi bir şekilde yazılarınıza ulaşabilmeyi sağlamalıyız bunuda genelde RSS veya Atom feed ile sağlarız.
 
-# 3. RSS Feed
+## 3. RSS Feed
 
 Normalde bizim bunu manuel bir şekilde oluşturmamız gerekiyor ancak Github pages de eklenti olarakda kullanabiliyoruz.Hal böyle olunca hiç feed.xml şemasına kasmaya gerek yok otomatik olarak kendisinin oluşturması yeter.Bunun için ise `_config.yml` dosyası içerisine aşağıdaki tanımlamayı yapıyoruz.
 
@@ -20,7 +20,7 @@ gems:
 
 bundan sonra her githuba push işleminden sonra eklenti aracılığı ile rss feed dosyanız otomatik olarak oluşturulacak.Sizede bu dosyayı istediğiniz şekilde kullanmak kalacak
 
-# 4.Sitemap
+## 4.Sitemap
 
 Sitemap RSS Feed den farkı sadece linkler ve tarihlerin olduğu bir şablondur aslında isteğe bağlı olarak deiştirilebilen manuel yapıdan ziyada buradada otomatik oluşturulan eklentiden faydalanacağız bunun için RSS Feed de yaptığımız gibi `_config.yml` dosyasına aşağıdaki gibi ekleme yapıyoruz.
 
@@ -31,7 +31,7 @@ gems:
 
 Her githuba push etme işleminizde otomatik olarak RSS Feed dosyasını oluşturduğu gibi otomatik olarak oluşturacak google,yandex,bing ve diğer arama motorlaruna sitemapınızı rahatlıkla gönderebileceksiniz.
 
-#5. SEO Ayarlamaları
+## 5. SEO Ayarlamaları
 
 Jekyll ile yapılan web sitelerinde genellikle SEO ayarlamaları yapmazlar yada her ne hikmetse yapamazlar veya onun gibi birşey ki SEO su kötü diyip Jekyll gibi bir uygulamaya çamur atarlar aslında olay oldukça basit ve birazda kafayı kullanmayı gerektirir.
 
@@ -108,7 +108,7 @@ Aşağıdaki kod parçacığınıda yukarıdaki eklediklerimizin sonuna head tag
 ```
 Title dışındaki tüm SEO ayarlamalarını ise eklentiye yaptırmış olduk bu yaptırdıklarımıza description dahil değil
 
-Eklentinin Bilgileri tam olarak işleyebilmesi için _config.yml dosyası içerisine aşağıdaki tanımlamaları kendinize göre düzenleyerek eklemeyi unutmayın.
+Eklentinin Bilgileri tam olarak işleyebilmesi için `_config.yml` dosyası içerisine aşağıdaki tanımlamaları kendinize göre düzenleyerek eklemeyi unutmayın.
 
 ```
 title:            Mertcan GÖKGÖZ - Programlama, Sunucu Yönetimi, Teknoloji ve İnternet
@@ -123,7 +123,7 @@ author:
   twitter:	      'http://twitter.com/0x2e88ce4'
 ```
 
-# 6.Benzer Yazılar
+## 6.Benzer Yazılar
 
 bu benzer yazılar işini javascript ile yapabileceğiniz gibi jekyll nin kodları ilede yapabilirsiniz.Ama benim size önerim javascript ile random olarak yapmanız sitenize gelen ziyaretçiyede bu yönde yardımcı olmanız belki oraya random olarak gelecek bir içerik işine yarayacaktır.Bilemeyiz
 
@@ -140,7 +140,7 @@ var postsTitle = [{% for post in site.posts %}"{{ post.title }}"{% unless forloo
 
 daha sonrasında ise post.html dosyanız içerisine tamamen javascript kodlarından oluşmuş olan ve random gösterim imkanı sağlayan işlemi gerçekleştiriyoruz.Tasarımı kendi temanıza göre siz ayarlayacaksınız.
 
-```
+```javascript
 <script type="text/javascript">
 
     var randomIndexUsed = [];

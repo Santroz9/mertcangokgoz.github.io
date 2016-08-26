@@ -7,7 +7,7 @@ categories: jekyll
 description: Bir Web sitesinin olmazsa olmazlarından biri olan bu kategorileri
 ---
 
-# 7. Kategorileme İşlemi
+## 7. Kategorileme İşlemi
 
 Bir Web sitesinin olmazsa olmazlarından biri olan bu kategorileri Jekyll ilede kolaylıkla yapabileceğiz. ilk olarak `_layout` dosyamıza `category.html` adında bir dosya oluşturuyoruz.
 
@@ -102,7 +102,7 @@ category: Analiz
 
 Bunlar dışında herhangi bir ekleme yada çıkartma işlemi yapmıyorsunuz daha sonrasında jekyll otomatik olarak oluşturacak zaten
 
-# 8. Push Notification Özelliği
+## 8. Push Notification Özelliği
 
 Bu özelliği opsiyon olarak düşünebilirsiniz kullanıcılarınıza abone olmalarını isteyebilir yeni yayınladığınız her yazıda kullanıcılara bilgi göndermek isteyebilirsiniz. Bunun için [Bu konuda yazanları yapmanız](https://mertcangokgoz.com/wordpress-icin-push-notification-ozelligi/ "") gerekiyor.Tek farkı ise eklentiyi kurmak yerine default şablon sayfasına şu satırları kendinize göre düzenleyip ekleme yapacaksınız.
 
@@ -124,7 +124,7 @@ Bu özelliği opsiyon olarak düşünebilirsiniz kullanıcılarınıza abone olm
 
 Sitenize gelen kullanıcılara bildirim konusunda daha sonra bir takım uyarı balonları çıkacaktır.
 
-# 9. Pagespeed İyileştirmesi
+## 9. Pagespeed İyileştirmesi
 
 kodlar döngülerden dolayı çok ilginç gözüktüğünü görüyorsunuzdur **jekyll** buna bir çözüm getirse aslında güzel olurdu fakar bu hali bence yeter hiç gerek yok fazlasına o yüzdende biz gerekeni yapalım ve `_layout` bölümünde bi `compress.html` oluşturalım bunun içerisine ise aşağıdaki kodu ekleyelim
 

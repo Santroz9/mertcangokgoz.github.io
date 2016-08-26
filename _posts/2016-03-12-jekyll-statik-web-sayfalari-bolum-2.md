@@ -31,7 +31,7 @@ Sitemde Güvenliği sağlamak ve bildirim özelliğini kullanabilmek için ise �
 
 Bende sizlere sırasıyla bu eklediklerimi github pages e göre nasıl yaptığımı açıklayacağım sırasıyla gideceğiz tahmini olarak 15 bölüm olacak daha az da olabilir ama fazlası olmayacak
 
-# 1.Sayfalama Yapısı
+## 1.Sayfalama Yapısı
 
 Şimdi sayfalama yapısı için yapmamız gereken bir kaç ufak ekleme var öncelikle `_layout` kısmında bulunan `page.html` isminde bir dosya oluşturup aşağıdaki kodları içerisine giriyorsunuz.
 
@@ -110,7 +110,7 @@ Ben 20 adet göstermek istediğim için 20 adet ile sınırladım siz isteğiniz
 
 `limit:20` olarak bahsettiğim yer sayfalama yapısında gösterilecek olan post sayısını ifade eder limitleme nedenim bazı sayfalarda 20 den fazla içerik getirmesi idi bende o kısmı limitleyerek sadece 20 tane gelmesini sağladım sayfalamada buna göre devam etti :)
 
-# 2.Google Search
+## 2.Google Search
 
 Googlenin siteler için oldukça güzel bir hizmeti var bu basit bir javascript kodu ile siteniz üzerinde arama yapılması imkanı tanıyor üstedik google servisini kullanıyorsunuz ve googleden trafik geliyor gibi gözüküyor.
 

@@ -70,7 +70,7 @@ Aşağıdaki komut ve(veya) komutlar ile **RHEL/Centos** sistemler için oldukç
 
 Kurulumlar tamamlandıktan sonra panele **HTTPS** olarak güvenli bir şekilde **8000** portundan ulaşabilirsiniz öntanımlı olarak gelen kullanıcı adı **root** şifre ise **admin** dir.
 
-# Centos Üzerindeki Hatalar ve Çözümleri
+**Centos Üzerindeki Hatalar ve Çözümleri**
 
 **1."Package does not match intended download?"** Hatası için yapılmanız gereken aşağıdaki komutu çalıştırmak ve kurulumu tekrar başlatmak
 
@@ -101,7 +101,7 @@ Aşağıdaki komut ve(veya) komutlar ile **FreeBSD&nbsp;** sistemler için olduk
 
 Kurulumlar tamamlandıktan sonra panele **HTTPS** olarak güvenli bir şekilde **8000** portundan ulaşabilirsiniz öntanımlı olarak gelen kullanıcı adı **root** şifre ise **admin** dir.
 
-## Ajenti'ye Ait bir kaç görsel
+### Ajenti'ye Ait bir kaç görsel
 
 ![ajentianagorsel1](/assets/ajentianagorsel1.png)
 

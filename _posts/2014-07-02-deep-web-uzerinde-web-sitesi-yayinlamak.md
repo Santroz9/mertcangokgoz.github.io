@@ -1,14 +1,13 @@
 ---
 layout: post
 title: Deep web üzerinde web sitesi yayınlamak
-date: 2014-07-02 23:45:14.000000000 +03:00
+date: 2014-07-02
 type: post
-published: true
-status: publish
 categories: guvenlik
 description: deep web az çok nedir biliyorsunuzdur ancak size bu ortamda bir web sitesi nasıl yayınlanır bunu anlatacağım ister evinizde ister işinizde
 ---
-[deep web az çok nedir biliyorsunuzdur](https://mertcangokgoz.com/deepwebdarknet-hakkinda-her-sey.html) ancak size bu ortamda bir web sitesi nasıl yayınlanır bunu anlatacağım ister evinizde ister işinizde kullandığınız bir bilgisayar ile çok rahatlıkla deep web de site açabilirsiniz.Hem masrafsız hemde kolaydır.Ne yapacağınıza bağlı olarak içeriğinizi&nbsp; düzenleyin.Yayınlamaya hazırsanız toru açın gerisini ona bırakın...
+
+[Deep web az çok nedir biliyorsunuzdur](https://mertcangokgoz.com/deepwebdarknet-hakkinda-her-sey.html) ancak size bu ortam da bir web sitesi nasıl yayınlanır bunu anlatacağım ister evinizde ister işinizde kullandığınız bir bilgisayar ile çok rahatlıkla deep web de site açabilirsiniz.Hem masrafsız hemde kolaydır.Ne yapacağınıza bağlı olarak içeriğinizi düzenleyin.Yayınlamaya hazırsanız toru açın gerisini ona bırakın...
 
 # Gerekenler
 
@@ -18,11 +17,13 @@ description: deep web az çok nedir biliyorsunuzdur ancak size bu ortamda bir we
 - iyi bir işlemci
 - [XAMP](https://www.apachefriends.org/tr/index.html)
 
-Şimdi herşey tamamda niye iyi bir işlemci istiyordun mübarek diyorsanız bu noktada .onion uzantısını istediğiniz şekilde almak için yani mertcanx7d3azumt.onion şeklinde yapmak istendiği taktirde baya bi uğraşmanız gerekecek işte bu noktada iyi bir işlemciye ihtiyacınız olacak ha ben açar rastgele gelen hostname yi kullanırım diyorsanız o ayrı içeriğinizi özenle seçin illegal birşey satacaksanız ona göre düzenleyin legal bir şekilde blog açacaksanız o şekilde devam edin bu arada türkiyeden hiç .onion site bulunmamakta idi taki benim sitemin bir yansısı olarak açtığım&nbsp;6hkpswsst2zf4yxw.onion olana kadar.web serveri olarakda XAMP ile bir gelen Apacheyi tercih ettim pek fazla bi teferruat gerektirmiyor direk olarak sitesinden indirip kuruluma geçin ve Apacheyi başlatın hepsi bu kadar.
+Şimdi herşey tamamda niye iyi bir işlemci istiyordun mübarek diyorsanız bu noktada .onion uzantısını istediğiniz şekilde almak için yani mertcanx7d3azumt.onion şeklinde yapmak istendiği taktirde baya bi uğraşmanız gerekecek işte bu noktada iyi bir işlemciye ihtiyacınız olacak ha ben açar rastgele gelen hostname yi kullanırım diyorsanız o ayrı içeriğinizi özenle seçin illegal birşey satacaksanız ona göre düzenleyin legal bir şekilde blog açacaksanız o şekilde devam edin bu arada türkiyeden hiç .onion site bulunmamakta idi taki benim sitemin bir yansısı olarak açtığım 6hkpswsst2zf4yxw.onion olana kadar.web serveri olarakda XAMP ile bir gelen Apacheyi tercih ettim pek fazla bi teferruat gerektirmiyor direk olarak sitesinden indirip kuruluma geçin ve Apacheyi başlatın hepsi bu kadar.
 
 Ulaşmak isterseniz
 
-> 6hkpswsst2zf4yxw.onion
+```
+6hkpswsst2zf4yxw.onion
+```
 
 Ben evimdeki bilgisayarıma XAMP + Wordpress kurarak bir yansı oluşturdum sunucu üzerinden bir yönlendirme yapmadım.Gelelim kuruluma bu güzel işlemi nasıl yapacağıksınız.Bahsettiğim gibi oldukça basit İndirmiş olduğunuz torun dosya yoluna ilerliyorsunuz.Masaüstündeki simgesine tıklayarak ulaşabilirsiniz.
 
@@ -34,9 +35,11 @@ yukarıda görmüş olduğunuz gibi bir sürü dosyamız var bizim ayarlamaları
 
 Burada satırın sonuna satırlarımızı ekledik ve kayıt edip çıktık dosya yolu olarak sitemizde yayınladığımız dosyaların yerini yazmamız gerekiyor ben xampp üzerine kurulu bir sistem oluşturdum dosya yoluda xampp nin default olarak gelen dosya yoludur.Eğer xampp kullanırsanız sizde ayarları yukarıdaki gibi yapabilirsiniz.
 
-    # Hidden Service
-    HiddenServiceDir C:\xampp\htdocs
-    HiddenServicePort 80 127.0.0.1:8080
+```
+# Hidden Service
+HiddenServiceDir C:\xampp\htdocs
+HiddenServicePort 80 127.0.0.1:8080
+```
 
 ![deepwebgorsel4](/assets/deepwebgorsel4.png)
 

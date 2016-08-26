@@ -13,14 +13,14 @@ Samsung **Galaxy** mega 6.3 devasa ekranı ile hoşuma gitmişti ilk başlarda n
 
 Düşürülmüş Özellikleri(note 2 ye göre karşılaştırdım)
 
-*   Ekranı HD AMOLED yerine SC-LCD ekran kullanılmış
-*   Yüksek ram yerine 1.5 GB ram kullanmayı tercih etmişler
-*   Chipset olarak ta nedense Qualcomm Snapdragon 400 kullanılmış
-*   İşlemci Cortex lere göre daha az performans sağlayan Krait kullanılmış
+* Ekranı HD AMOLED yerine SC-LCD ekran kullanılmış
+* Yüksek ram yerine 1.5 GB ram kullanmayı tercih etmişler
+* Chipset olarak ta nedense Qualcomm Snapdragon 400 kullanılmış
+* İşlemci Cortex lere göre daha az performans sağlayan Krait kullanılmış
 
 Yükseltilen Özellikleri(note 2 ye göre karşılaştırdım)
 
-*   Daha büyük Ekran
+* Daha büyük Ekran
 
 yükseltilenler yenilikler olarak fazla bişi yazmak isterdim lakin benim gözlemlediğim kadarıyla anca büyük bir ekran dan başka **samsung** bir şey sunmuyor . galaxy mega almak yerine şuan için hala note 2 alınabilir yada S4 alınmalı aynı fiyata daha iyi performans sağlayan bu iki telefon düşünülebilir.bu telefon ise annelerimizin kullandığı tepsiden farksız...
 
