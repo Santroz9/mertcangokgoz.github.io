@@ -6,6 +6,7 @@ lsi: false
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
   - jekyll-gist
   - jekyll-paginate
   - jekyll-email-protect

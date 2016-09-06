@@ -1,6 +1,7 @@
 ---
 layout: null
 ---
+
 {% assign first = true %}
 [
 {% for collection in site.collections %}
