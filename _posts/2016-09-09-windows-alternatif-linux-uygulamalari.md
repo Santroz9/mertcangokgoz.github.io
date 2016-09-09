@@ -17,7 +17,7 @@ Alternatifler listemiz ise şu şekilde
 |-----------------------|---------------------|
 | Microsoft Office      | Libre Office        |
 | Outlook Express       | Mozilla Thunderbird |
-| FlashGet              | Aria2               |
+| FlashGet              | Flashgot + Aria2    |
 | Winamp                | Clementine          |
 | Adobe Audition        | Audacity            |
 | Adobe Premiere        | Cinelerra           |
@@ -49,7 +49,7 @@ Alternatifler listemiz ise şu şekilde
 | Google Earth          | Earth 3D            |
 | Adobe Lightroom       | Darktable           |
 | MS SQL                | MySQL               |
-| .NET                  | PHP                 |
+| ASP                   | PHP                 |
 | Picasa                | Eye of GNOME        |
 
 Benim hatırladıklarım bu kadar bunun dışında unuttuklarım varsa lütfen yorumlara belirtirseniz sevinirim. Ayrıca Lol gibi oyunlar oynayanlar için `PlayOnLinux` uygulamasını öneririm bu sayede windows üzerinde olan bir takım oyunları oynayabilirler bunlar dışında `gnu/linux` ile uyumlu pek çok uygulamayı `Steam` da bulabilirsiniz.
