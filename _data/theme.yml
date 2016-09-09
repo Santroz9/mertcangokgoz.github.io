@@ -31,7 +31,7 @@ tagline: "Blog"
 google_analytics_key: UA-41967916-5
 
 # Yandex Metrica Key,leave blank to ignore
-#yandex_metrica_key: 34290225
+yandex_metrica_key: 39509920
 
 # Toggle "Postings are my own" disclaimer in footer
 show_disclaimer: true
