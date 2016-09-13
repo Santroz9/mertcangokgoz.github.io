@@ -13,31 +13,4 @@ Allow: /
 User-agent: Adsbot-Google
 Allow: /
 
-# Seo Tool
-User-agent: 008
-User-agent: duggmirror
-User-agent: metajobbot
-User-agent: Exabot
-User-agent: fyberspider
-User-agent: MojeekBot
-User-agent: rogerbot
-User-agent: DotBot
-User-agent: spbot
-User-agent: sistrix
-User-agent: proximic
-User-agent: Wget
-User-agent: Wget/1.5.3
-User-agent: Wget/1.6
-User-agent: WebZIP
-User-agent: libwww
-User-agent: Download Ninja
-User-agent: Baiduspider
-User-agent: EasouSpider
-User-agent: Ezooms
-User-agent: MJ12bot
-User-agent: SiteSucker
-User-agent: HTTrack
-User-agent: WebCopier
-Disallow: /
-
 Sitemap: https://mertcangokgoz.com/sitemap.xml
