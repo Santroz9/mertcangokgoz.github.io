@@ -19,7 +19,7 @@ layout: defaultcategory
   <p>{{ page.content }}</p>
 {% endunless %}
 <ul id="blog-posts" class="posts">
-{% for post in site.categories.[page.category] %}
+{% for post in site.categories[page.category] %}
   <li><span>{{ post.date | date: "%d/%m/%Y" }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>

@@ -242,7 +242,13 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Nprogress kullanılmaya başlandı(Mediaum, Youtube kullanılan refresh barı)
 - Disqus için kullanılan script geliştirildi Ajax ile kullanılmaya başlandı
 
-### Güncelleme 21 Agustos 2016
+## Güncelleme 21 Agustos 2016
 
 - Javascript tarafında yapılan tüm değişiklikler geri çekilmiştir.
 - Daha temiz ve hızlı açılan sayfalar amaçlanmıştır.
+
+## Güncelleme 18 Eylül 2016
+
+- Liquid de bulunan syntax problemi giderildi
+- UX da göze batan ufak tefek hatalar düzeltildi
+- Gem dosyaları güncellendi
