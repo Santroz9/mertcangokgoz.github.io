@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll HTML5 Video eklentisi
+title: Jekyll HTML5 Video Eklentisi
 date: 2016-09-17
 type: post
 categories: jekyll
