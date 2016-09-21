@@ -1,0 +1,443 @@
+<!doctype html>
+<html class="no-js" lang="tr-TR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Wordpress Güvenlik İpuçları | Mertcan GÖKGÖZ</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Jekyll">
+  <link href="https://plus.google.com/103305118431759296457" rel="publisher" />
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<meta property="og:title" content="Wordpress Güvenlik İpuçları" />
+<meta name="description" content="Popülerliği yüksek olan Wordpress bildiğimiz gibi pek çok saldırıyada mağruz kalıyor.Peki biz blog sahipleri bu saldırılardan mümkün olduğunca" />
+<meta property="og:description" content="Popülerliği yüksek olan Wordpress bildiğimiz gibi pek çok saldırıyada mağruz kalıyor.Peki biz blog sahipleri bu saldırılardan mümkün olduğunca" />
+<link rel="canonical" href="https://mertcangokgoz.com/wordpress-guvenlik-ipuclari/" />
+<meta property="og:url" content="https://mertcangokgoz.com/wordpress-guvenlik-ipuclari/" />
+<meta property="og:site_name" content="Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2014-10-13T13:50:03+03:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@mertcangokgoz" />
+<meta name="twitter:creator" content="@http://twitter.com/mertcangokgoz" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Wordpress Güvenlik İpuçları",
+    "datePublished": "2014-10-13T13:50:03+03:00",
+    "description": "Popülerliği yüksek olan Wordpress bildiğimiz gibi pek çok saldırıyada mağruz kalıyor.Peki biz blog sahipleri bu saldırılardan mümkün olduğunca",
+    "url": "https://mertcangokgoz.com/wordpress-guvenlik-ipuclari/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+  
+  <meta name="author" content="Mertcan GÖKGÖZ" />
+  <meta name="distribution" content="global"/>
+  <meta name="robots" content="follow, all"/>
+  <meta name="google-site-verification" content="72uYg4UxAer0YwWdtkU93OGqjNq7ZThpqe0M4KxyvIg"/>
+  <meta name='yandex-verification' content='410f2e33fe81ce80'/>
+  <meta name="msvalidate.01" content="2183CAED5258723C183F825A20DF9C4A"/>
+  <link rel="alternate" type="application/rss+xml" title="Mertcan GÖKGÖZ" href="https://mertcangokgoz.com/feed" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/all.css">
+  <link rel="stylesheet" type="text/css" media="print" href="/assets/css/print.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css">
+  <script type="text/javascript" src="/assets/js/jquery-1.12.4.min.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="shortcut icon" href="/favicon.png">
+  <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72x72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114x114-precomposed.png">
+</head>
+<body>
+<div class="container">
+    <div class="three columns sidebar">
+      <nav class="nav">
+  <a href="/">
+    <img src="/YeniResimBro.jpg" id="gravatar" alt="Mertcan GÖKGÖZ" width="200" height="200"/>
+  </a>
+  <h3><a href="/">Mertcan GÖKGÖZ</a></h3>
+  <div id="bio">
+    <p>
+        Kategoriler:<br>
+
+        <a href="/category/linux">Linux</a> &raquo; 216 Yazı<br><a href="/category/programlama">Programlama</a> &raquo; 76 Yazı<br><a href="/category/genel">Genel</a> &raquo; 67 Yazı<br><a href="/category/guvenlik">Guvenlik</a> &raquo; 52 Yazı<br><a href="/category/windows">Windows</a> &raquo; 35 Yazı<br><a href="/category/analiz">Analiz</a> &raquo; 21 Yazı<br><a href="/category/nginx">Nginx</a> &raquo; 13 Yazı<br><a href="/category/jekyll">Jekyll</a> &raquo; 11 Yazı<br><a href="/category/egitimler">Egitimler</a> &raquo; 3 Yazı<br>
+        <br>
+        Arkadaşlar:<br>
+        <a href="https://oztaser.com/" target="_blank">Adil ÖZTAŞER</a><br>
+        <a href="https://www.ceyhanmolla.com/" target="_blank">Ceyhan MOLLA</a><br>
+        <a href="https://0x6.pw/" target="_blank">Enes ERGÜN</a><br>
+        <a href="http://furkankalkan.com/" target="_blank">Furkan KALKAN</a><br>
+        <a href="https://onur.im/" target="_blank">Onur ASLAN</a><br>
+        <a href="http://www.omeripek.com.tr" target="_blank">Ömer IPEK</a><br>
+        <a href="https://yapaygerizeka.github.io/" target="_blank">Yapay Geri Zekâ</a><br>
+    </p>
+  </div>
+  <div id="social">
+    Takip Edin:
+<div id="stalker">
+   
+
+   
+   <a title="MertcanGokgoz on Academia" href="https://baskent.academia.edu/MertcanGokgoz" target="_blank">
+     <i class="fa fa-book"></i>
+   </a>
+   
+
+  
+  <a title="MertcanGokgoz on Github" href="https://github.com/MertcanGokgoz" target="_blank">
+    <i class="fa fa-github-square"></i>
+  </a>
+  
+
+  
+  <a title="MertcanGokgoz on Gitlab" href="https://gitlab.com/u/MertcanGokgoz" target="_blank">
+    <i class="fa fa-gitlab"></i>
+  </a>
+  
+
+  
+
+  
+  <a title="mertcangokgoz on Hacker News" href="https://news.ycombinator.com/user?id=mertcangokgoz" target="_blank">
+     <i class="fa fa-hacker-news"></i>
+  </a>
+  
+
+  
+  <a title="mertcangokgoz on Reddit" href="https://www.reddit.com/user/mertcangokgoz" target="_blank">
+     <i class="fa fa-reddit-square"></i>
+  </a>
+  
+
+  
+
+  
+  <a title="Mertcan GÖKGÖZ on Stack Overflow" href="http://stackoverflow.com/users/4723344" target="_blank">
+    <i class="fa fa-stack-overflow"></i>
+  </a>
+  
+
+  
+  <a title="mertcangokgoz on Twitter" href="https://twitter.com/mertcangokgoz" target="_blank">
+    <i class="fa fa-twitter-square"></i>
+  </a>
+  
+
+  
+
+  
+
+  
+  <a title="Mertcan GÖKGÖZ on LinkedIn" href="https://www.linkedin.com/in/mertcangokgoz" target="_blank">
+    <i class="fa fa-linkedin-square"></i>
+  </a>
+  
+
+  
+  <a title="Mertcan GÖKGÖZ on Google Plus" href="https://plus.google.com/103305118431759296457" target="_blank">
+    <i class="fa fa-google-plus-square"></i>
+  </a>
+  
+
+  
+
+  
+  <a title="Mertcan GÖKGÖZ on Youtube" href="https://www.youtube.com/c/MertcanGokgoz" target="_blank">
+    <i class="fa fa-youtube"></i>
+  </a>
+  
+
+  
+  <a title="RSS feed" id="atom" href="/feed/">
+    <i class="fa fa-rss-square"></i>
+  </a>
+  
+</div>
+
+  </div>
+</nav>
+
+    </div>
+    <div class="nine columns content">
+        <div class="menuM">
+    <ul class="topnav">
+        <li><a class="active" href="https://mertcangokgoz.com/">Anasayfa</a></li>
+        <li><a href="https://mertcangokgoz.com/category/analiz/">Analiz</a></li>
+        <li><a href="https://mertcangokgoz.com/category/genel/">Genel</a></li>
+        <li><a href="https://mertcangokgoz.com/category/guvenlik/">Güvenlik</a></li>
+        <li><a href="https://mertcangokgoz.com/category/linux/">Linux</a></li>
+        <li><a href="https://mertcangokgoz.com/category/windows/">Windows</a></li>
+        <li><a href="https://mertcangokgoz.com/category/nginx/">Nginx</a></li>
+        <li><a href="https://mertcangokgoz.com/category/egitimler/">Egitimler</a></li>
+        <li><a href="https://mertcangokgoz.com/category/programlama/">Programlama</a></li>
+        <li class="icon">
+            <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </li>
+    </ul>
+</div>
+
+<script>
+    function myFunction() {
+        document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+    }
+</script>
+
+
+<p class="meta">
+  October 13, 2014
+  <a href="/">
+    <i class="home fa fa-home fa-2x"></i>
+  </a>
+  <a href="/search/">
+    <i class="home fa fa-search fa-2x"></i>
+  </a>
+  <a href="javascript:" onclick="window.print();return false;">
+    <i class="home fa fa-print fa-2x"></i>
+  </a>
+</p>
+
+<h1 class="title">Wordpress Güvenlik İpuçları</h1>
+
+<div id="post">
+  <p>Popülerliği yüksek olan Wordpress bildiğimiz gibi pek çok saldırıyada mağruz kalıyor.Peki biz blog sahipleri bu saldırılardan mümkün olduğunca en az zarara uğrayarak nasıl paçayı sıyırabiliriz.İşte bugün sizlere bu konuda hakkınba bir kaç ufak bilgi biraz eklenti birazda tavsiye vereceğim aslında</p>
+
+<p>Öncelikle Wordpress de güvenlik açıklarının çoğu temalardan kaynaklanmakta yani public edilmiş herhangi bir ücretli tema yada ücretsiz olarak dağıtılmış ancak popüler olan bir tema aynı oranda saldırıya mağruz kalmaktadır çünkü açıkları kullanarak sisteme sızabilecek</p>
+
+<p>Cümlelerin farklı olduğunu bende fark ettim uzatmayalım.Liste Halinde açıklamaya çalışacağım</p>
+
+<p>1.Dizinlerinizi koruyun misal aşağıdaki görüntü pek hoş değil dizinleriniz arasında gezen saldırdan hangi eklenti kullandığınızı ne tip dosyalarınız olduğunu kolaylıkla görebilir ve geliştireceği saldırıları bunlara göre şekillendirebilir.Bu gibi durumlardan kurtulmak için bu tip alt dizin ve dosyalar içerisine index.php oluşturup atınız böylelikle girildiği zaman direk bu şekilde gözükemeyecek…</p>
+
+<p><img src="/assets/wordpressguvenlikipuclarigorsel1.jpg" alt="wordpressguvenlikipuclarigorsel1" /></p>
+
+<p>2.Public Edilmiş açıkları takip edin.Evet yanlış duymadınız exploit sitelerinde gezmenizi istiyorum.Güvenlik açıklarına göz atacaksınız ve sitenizde kullandığınız eklentilerin,temaların vb araçların açıkları varmı bir göz atacaksınız size hacker olun demiyorum sitenizdeki durumu en iyi şekilde idare edin diyorum.Bunun için ise bir kaç site mevcut güvenle kullanabilirsiniz.</p>
+
+<ul>
+  <li><a href="http://www.1337day.com/search">1337day Inj3ct0r</a></li>
+  <li><a href="http://www.exploit-db.com/">Exploit-DB</a></li>
+  <li><a href="http://www.rapid7.com/db/">Rapid7 Vulnerability</a></li>
+  <li><a href="http://cxsecurity.com/exploit/">CXSecurity</a></li>
+</ul>
+
+<p>3.Şifrelerinizi maximum uzunlukta ve karışık bir şekilde oluşturun yani şifreleriniz kolay tahmin edilebilir olmasın ve mümkünse özel karakterler içersin uzunluğu ise minimum 18 karakter olsun ki bruteforce saldırılarında sitenizi savunabilesiniz.</p>
+
+<p><img src="/assets/wordpressguvenlikipuclarigorsel2.jpg" alt="wordpressguvenlikipuclarigorsel2" /></p>
+
+<p>4.Çoğu site sahibinin atladığı belkide en önemli ayarlardan bir taneside wp-config.php içerisindeki salt kısmıdır.ne önemi var lan buranın diyenlerini elbet vardır bu şey cookielerin şifrelenmesinde rol oynar burayı boş bırakırsanız şifrelerinde cookielerinde çalınma riski artar kullanıcıların üye olduğu sisteminiz varsa ve aktif olarak kullanılıyorsa salt kısmını doldurmanızda fayda var doldururkende wordpressin <a href="https://api.wordpress.org/secret-key/1.1/salt/">Salt Generator</a> Uygulamasını kullanabilirsiniz.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>define('AUTH_KEY', 'put your unique phrase here');
+define('SECURE_AUTH_KEY', 'put your unique phrase here');
+define('LOGGED_IN_KEY', 'put your unique phrase here');
+define('NONCE_KEY', 'put your unique phrase here');
+define('AUTH_SALT', 'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT', 'put your unique phrase here');
+define('NONCE_SALT', 'put your unique phrase here');
+
+Doldurulmuş hali
+
+define('AUTH_KEY', '_%8-Il!U&amp;1C@s3tpDg=*bH,q4&lt;szsNcb0T`d@J/z!a$-,LeNt]:PJ9%$&amp;1;8Rw:H');
+define('SECURE_AUTH_KEY', '/1ES{FHH[&gt;^A*oN8VAe1ygf^W| NOkw(W%4AizO&amp;LcS&lt;T&lt;:Z{,rG$=]HX&lt;+7(W0-');
+define('LOGGED_IN_KEY', 'n;pDaOUn,.jbcVP.DK*9X(`()IRm5.f_;]t_J$J|`HGB=A5?-VFja7M2Xw+vZsM7');
+define('NONCE_KEY', 'w_OwXHSPen+~V.q|fb.^xYB2}W)&lt;qf1e`0t+2E}^; S4H+rx91+=~GqAsIP%~YUe');
+define('AUTH_SALT', 'z`]bH`HM-0A&amp;e$q/&gt;rM7`!.WqgM+|x8d/kW/Fp;K&amp;?gk;r}MU@xS*^&gt;d{bj-fw:|');
+define('SECURE_AUTH_SALT', '/8/CA+LJ-oZ=2pcDo{1&amp;+uv~$+07)ks*|o$}Tw?a*V(:3-{/|U;t/B!vz,wC_k4U');
+define('LOGGED_IN_SALT', 'Wima~x]dK$Q9b7WiV&gt;N#hgdRD- 6@{x2o*$`+kC=&gt;R`D0?YLZTK=nybtqS`3ybmZ');
+define('NONCE_SALT', 'r/{2F-7U~4*!L^s=M~ZGv*EX}/m;&gt;bb0,k_|oFpp?H3]xGM+;_8m_J^tSZJ}dft(');
+</code></pre>
+</div>
+
+<p>5.Database ön ekini değiştirin ve benzersiz yapın benzersiz mevzusu özgünlüktür aslında yani aynı ön eki başka bi yerde rastlamanız imkansız nasıl olacak diyorsanız otomatik olarak üreteceksiniz linux sistemlerde bunu otomatik olarak yapabilirsiniz.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>NEWPREFIX=$(echo $RANDOM)
+sed -i "s/'wp_';/'${NEWPREFIX}_';/g" wp-config.php
+</code></pre>
+</div>
+
+<p>Böylelikle benzersiz önekler üretebilir ve SQL injection saldırılarını en aza çekebilirsiniz.</p>
+
+<p>6.Wordpress Güncelleştirmelerini takip edin.Çünkü wordpress devamlı kendini geliştiren ve güvenliğini bir o kadar üst seviyelere çeken bir CMS hal böyle olunca Güncel olmayan bir sistem hem sizin hemde kullanıcılarınızın bilgilerini riske atıyor.Ya kim uğraşacak güncellemekden bıktım diyorsanızda wp-config.php içerisine aşağıdaki kodu eklerseniz otomatik olarak güncelleştirmeler yapılır.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>define( 'WP_AUTO_UPDATE_CORE', true );
+</code></pre>
+</div>
+
+<p>tabi bununla beraber eklentilerinizi ve temalarınızı güncelde tutmanız önemli bu konudada otomatik güncellemeyi açabilirsiniz.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>add_filter( 'auto_update_plugin', '__return_true' );
+add_filter( 'auto_update_theme', '__return_true' );
+</code></pre>
+</div>
+
+<p>7.Dosya izinlerinize çok dikkat edin sakın olaki dışarıdan dosya atılmasına izin veren bir permission ayarı olmasın 777 sakın olaki kullanmayın</p>
+
+<ul>
+  <li>Tüm dizinleri 755 ve(veya) 750 yapın</li>
+  <li>Tüm dosyaların izinlerini 644 ve(veya) 640 yapın</li>
+  <li>wp-config.php dosya izinlerini 600 yapın</li>
+</ul>
+
+<p>8.Hata gösterimini kapatın.Böylelikle hackerların hatalara göre izleyeceği yolları kapatmış olursunuz ve saldırgan kişinin biraz daha fazla uğraşmasını sağlarsınız.Aşağıdaki kodları wp-config.php ye ekleyiniz…</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>error_reporting(0);
+@ini_set(‘display_errors’, 0);
+</code></pre>
+</div>
+
+<ol>
+  <li>htacc kurallarıyla sisteminizi biraz daha koruyabilirsiniz.bunun için yapmanız gerekenler</li>
+</ol>
+
+<p>wp-config.php ulaşılamasın diyorsanız</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;files wp-config.php&gt;
+order allow,deny
+deny from all
+&lt;/files&gt;
+</code></pre>
+</div>
+
+<p>wp-logine girişleri yasaklayıp sadece kendi ipnize ayarlıyorsunuz böylelikle %10 luk bir güvenlik artışı sağlıyoruz.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;Files wp-login.php&gt;
+order deny,allow
+Deny from all
+# sisteme girecek ip adresi
+allow from 94.22.41.xxx
+&lt;/Files&gt;
+</code></pre>
+</div>
+
+<p>wp-includes klasörünüzü koruyun</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;IfModule mod_rewrite.c&gt;
+RewriteEngine On
+RewriteBase /
+RewriteRule ^wp-admin/includes/ - [F,L]
+RewriteRule !^wp-includes/ - [S=3]
+RewriteRule ^wp-includes/[^/]+.php$ - [F,L]
+RewriteRule ^wp-includes/js/tinymce/langs/.+.php - [F,L]
+RewriteRule ^wp-includes/theme-compat/ - [F,L]
+&lt;/IfModule&gt;
+</code></pre>
+</div>
+
+<p>htacc ile htacc yi koruyacağız delilik gibi gelecek ama evet yapacağız</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>&lt;Files .htaccess&gt;
+order allow,deny
+deny from all
+&lt;/Files&gt;
+</code></pre>
+</div>
+
+<p>10.Bruteforce saldırılarına karşı 2FA kullanabilirsiniz böylelikle cep telefonunuzdan üreteceğiniz kod ile sitenize girişleri zorlaştırabilirsiniz.brute-force saldırıları artık korkunuz olmayacak kullanabileceğiniz sistemler ise;</p>
+
+<ul>
+  <li><a href="http://wordpress.org/plugins/google-authenticator/" title="Google Authenticator">Google Authenticator</a></li>
+  <li><a href="https://getclef.com/" title="Clef">Clef</a></li>
+  <li><a href="http://wordpress.org/plugins/clockwork-two-factor-authentication/" title="Clockwork SMS">Clockwork SMS</a></li>
+  <li><a href="http://wordpress.org/plugins/duo-wordpress/" title="Duo Two-Factor Authentication">Duo Two-Factor Authentication</a></li>
+</ul>
+
+<p><img src="/assets/two-step-authorizationgorsel1.jpg" alt="two-step-authorizationgorsel1" /></p>
+
+<p>11.Güvenlik eklentisi ile web sitenizin gücüne güç katın firewall,2Fa,Virüs taraması vb özellikleri ile sisteminizi koruyabilirsiniz. <a href="https://wordpress.org/plugins/wordfence/">Ulaşmak için Tıklayın</a></p>
+
+<p><img src="/assets/wordfencegorsel1.jpg" alt="wordfencegorsel1" /></p>
+
+</div>
+
+<div id="paylasim">
+<h3>Bu yazıyı paylaş:</h3>
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://mertcangokgoz.com/wordpress-guvenlik-ipuclari/" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" >
+    <i class="fa fa-facebook-square fa share-button"> Facebook</i>
+</a>
+<a href="https://twitter.com/intent/tweet?text=Wordpress Güvenlik İpuçları&url=https://mertcangokgoz.com/wordpress-guvenlik-ipuclari/&via=mertcangokgoz&related=mertcangokgoz" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">
+    <i class="fa fa-twitter-square fa share-button"> Twitter</i>
+</a>
+<a href="https://plus.google.com/share?url=https://mertcangokgoz.com/wordpress-guvenlik-ipuclari/" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" >
+    <i class="fa fa-google-plus-square fa share-button"> Google</i>
+</a>
+<a href="http://www.reddit.com/submit?url=https://mertcangokgoz.com/wordpress-guvenlik-ipuclari/&title=Wordpress Güvenlik İpuçları" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;" >
+    <i class="fa fa-reddit-square fa share-button"> Reddit</i>
+</a>
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://mertcangokgoz.com/wordpress-guvenlik-ipuclari/&title=Wordpress Güvenlik İpuçları&summary=&source=webjeda" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" >
+    <i class="fa fa-linkedin-square fa share-button"> Linkedin</i>
+</a>
+<a href="mailto:?subject=Wordpress Güvenlik İpuçları&amp;body=Check out this site https://mertcangokgoz.com/wordpress-guvenlik-ipuclari/">
+    <i class="fa fa-envelope-square fa share-button"> Email</i>
+</a>
+</div>
+
+
+<div class="ajaxloadcomment"><button class="show-comments">Yorumları yükle</button></div>
+<div itemprop="comment" id="disqus_thread"></div>
+<script>
+$(document).ready(function() {
+    $('.show-comments').on('click', function(){
+          var disqus_shortname = 'mertcanofficial';
+
+          $.ajax({
+                  type: "GET",
+                  url: "//" + disqus_shortname + ".disqus.com/embed.js",
+                  dataType: "script",
+                  cache: true
+          });
+          $(this).fadeOut();
+    });
+});
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+      <div class="footer">
+        <div class="disclaimer">
+  
+  <p>
+    Bu sitedeki gönderiler bana aittir ve iş verenime ait pozisyonlar,
+    stratejiler veya görüşler temsil edilmemektedir.<br>
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Atıf-Paylaşım Lisansı</a> altındadır.<br>
+        <a href="/ders-notlari/">Ders Notları</a>
+        <span> | </span><a href="/gizlilik-politikasi/">Gizlilik Politikası</a>
+        <span> | </span><a href="/kullanim-kosullari/">Kullanım Koşulları</a>
+        <span> | </span><a href="/hakkimda/">Hakkımda</a>
+        <span> | </span><a href="/iletisim/">İletişim</a><br>
+        <b>BTC:</b> 36DFx4anTdsx3AnBiA1oqR3oHkMV3RJME1<br>
+        <a href="/hosted/">Hosted By </a> © Mertcan GÖKGÖZ, 2016 - Linux Hacısı
+  </p>
+  
+</div>
+
+      </div>
+    </div>
+  </div>
+  <div id="up">
+    <a href="javascript:"><i class="fa fa-arrow-up fa-2x"></i></a>
+  </div>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-41967916-5', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+
+
+
+
+
+
+</body>
+</html>

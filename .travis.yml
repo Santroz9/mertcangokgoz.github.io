@@ -10,7 +10,7 @@ branches:
   only:
   - jekyll
 rvm:
-- 3.2.1
+- 2.3.1
 notifications:
   email:
     recipients:
