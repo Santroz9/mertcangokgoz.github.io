@@ -12,3 +12,4 @@ gem 'haml'
 gem 'nokogiri'
 gem 'yui-compressor'
 gem 'html_compressor'
+gem 'jekyll-admin', group: :jekyll_plugins

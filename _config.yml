@@ -13,6 +13,9 @@ gems:
   - jekyll-archives
   - nokogiri
 
+#Ditaaa Settings
+ditaa_output_directory: /assets/ditaa
+
 #Archives Settings
 jekyll-archives:
   enabled:

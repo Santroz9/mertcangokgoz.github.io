@@ -252,3 +252,5 @@ Tema olarak [lagom](https://github.com/swanson/lagom/) kullanılmaktadır.Tüm y
 - Liquid de bulunan syntax problemi giderildi
 - UX da göze batan ufak tefek hatalar düzeltildi
 - Gem dosyaları güncellendi
+- Ditaa için düzenlemeler yapıldı şablon düzenlendi
+- Jekyll-Admin uygulaması sisteme dahil edildi
