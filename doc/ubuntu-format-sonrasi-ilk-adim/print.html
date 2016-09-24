@@ -1,0 +1,722 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Format Sonrası Kurulacaklar</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Ubuntu Format Sonrası kurulacaklar ve yapılandırmaları içerir">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <base href="">
+
+        <link rel="stylesheet" href="book.css">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <link rel="shortcut icon" href="favicon.png">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+
+        <!-- MathJax -->
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <!-- Fetch JQuery from CDN but have a local fallback -->
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script>
+            if (typeof jQuery == 'undefined') {
+                document.write(unescape("%3Cscript src='jquery.js'%3E%3C/script%3E"));
+            }
+        </script>
+    </head>
+    <body class="light">
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme = localStorage.getItem('theme');
+            if (theme == null) { theme = 'light'; }
+            $('body').removeClass().addClass(theme);
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var sidebar = localStorage.getItem('sidebar');
+            if (sidebar === "hidden") { $("html").addClass("sidebar-hidden") }
+            else if (sidebar === "visible") { $("html").addClass("sidebar-visible") }
+        </script>
+
+        <div id="sidebar" class="sidebar">
+            <ul class="chapter"><li><a href="giris/README.html"><strong>1.</strong> Giriş</a></li><li><a href="ilk-kurulum/README.html"><strong>2.</strong> İlk Kurulum</a></li><li><a href="duzenlemeler/README.html"><strong>3.</strong> Düzenlemeler</a></li><li><ul class="section"><li><a href="duzenlemeler/ssh-key-duzenlemesi.html"><strong>3.1.</strong> SSH Key Düzenlemesi</a></li><li><a href="duzenlemeler/gpg-key-duzenlemesi.html"><strong>3.2.</strong> GPG key Düzenlemesi</a></li><li><a href="duzenlemeler/dns-duzenleme.html"><strong>3.3.</strong> DNS Düzenleme</a></li><li><a href="duzenlemeler/devredisi-birakilacak-paketler.html"><strong>3.4.</strong> Devredışı Bırakılacak Paketler</a></li><li><a href="duzenlemeler/aria2-webui-servis-ekleme.html"><strong>3.5.</strong> Aria2 WebUI Servis Ekleme</a></li><li><a href="duzenlemeler/java-calistirmak.html"><strong>3.6.</strong> Java Çalıştırmak</a></li></ul></li><li><a href="uygulamalar/README.html"><strong>4.</strong> Uygulama Kurulumları</a></li><li><ul class="section"><li><a href="uygulamalar/extras-repo-kurulumu.html"><strong>4.1.</strong> Extras Repo Kurulumu</a></li><li><a href="uygulamalar/spotify-kurulumu.html"><strong>4.2.</strong> Spotify Kurulumu</a></li><li><a href="uygulamalar/numix-circle-tema-kurulum.html"><strong>4.3.</strong> Numix İkon ve GTK Teması</a></li><li><a href="uygulamalar/gelistirici-paketleri.html"><strong>4.4.</strong> Geliştirici Paketleri</a></li><li><a href="uygulamalar/hack-font-kurulumu.html"><strong>4.5.</strong> Font Kurulumu</a></li><li><a href="uygulamalar/atom-kurulumu.html"><strong>4.6.</strong> Atom Kurulumu</a></li><li><a href="uygulamalar/rust-kurulumu.html"><strong>4.7.</strong> Rust Kurulumu</a></li><li><a href="uygulamalar/git-kurulumu.html"><strong>4.8.</strong> Git Kurulumu</a></li><li><a href="uygulamalar/openvpn--kurulumu.html"><strong>4.9.</strong> OpenVPN Kurulumu</a></li><li><a href="uygulamalar/irc-client-kurulumu.html"><strong>4.10.</strong> IRC Client Kurulumu</a></li><li><a href="uygulamalar/geany-kurulumu.html"><strong>4.11.</strong> Geany Kurulumu</a></li><li><a href="uygulamalar/jetbrain-uygulamalarinin-kurulumu.html"><strong>4.12.</strong> Jetbrain Uygulamalarının Kurulumu</a></li><li><a href="uygulamalar/python-pip-kurulumu.html"><strong>4.13.</strong> Python Pip Kurulumu</a></li><li><a href="uygulamalar/screenfetch-kurulumu.html"><strong>4.14.</strong> Screenfetch Kurulumu</a></li><li><a href="uygulamalar/virtualbox-kurulumu.html"><strong>4.15.</strong> Virtualbox Kurulumu</a></li><li><a href="uygulamalar/vrms-kurulumu.html"><strong>4.16.</strong> Vrms Kurulumu</a></li><li><a href="uygulamalar/clamav-kurulumu.html"><strong>4.17.</strong> ClamAV Kurulumu</a></li><li><a href="uygulamalar/haveged-kurulumu.html"><strong>4.18.</strong> Haveged Kurulumu</a></li><li><a href="uygulamalar/speedcrunch-kurulumu.html"><strong>4.19.</strong> SpeedCrunch Kurulumu</a></li><li><a href="uygulamalar/zeal-kurulumu.html"><strong>4.20.</strong> Zeal Kurulumu</a></li></ul></li><li><a href="silinecekler/README.html"><strong>5.</strong> Silinecekler</a></li><li><ul class="section"><li><a href="silinecekler/torrent-uygulamasinin-kaldirilmasi.html"><strong>5.1.</strong> Torrent Uygulamasının Kaldırılması</a></li><li><a href="silinecekler/libreoffice-kaldirilmasi.html"><strong>5.2.</strong> Libreoffice Kaldırılması</a></li><li><a href="silinecekler/flash-playerin-kaldirilmasi.html"><strong>5.3.</strong> Flash Playerin Kaldırılması</a></li></ul></li><li><a href="tarayici/README.html"><strong>6.</strong> Tarayıcı Düzenlemeleri</a></li><li><ul class="section"><li><a href="tarayici/firefox-ayarlari.html"><strong>6.1.</strong> Firefox Ayarları</a></li><li><a href="tarayici/chromium-ayarlari.html"><strong>6.2.</strong> Chromium Ayarları</a></li></ul></li><li><a href="komutlar/README.html"><strong>7.</strong> Temel Linux Komutları</a></li><li><ul class="section"><li><a href="komutlar/sistem-komutlari.html"><strong>7.1.</strong> Sistem Komutları</a></li><li><a href="komutlar/donanim-komutlari.html"><strong>7.2.</strong> Donanım Komutları</a></li><li><a href="komutlar/kullanici-komutlari.html"><strong>7.3.</strong> Kullanıcı Komutları</a></li><li><a href="komutlar/dosya-komutlari.html"><strong>7.4.</strong> Dosya Komutları</a></li><li><a href="komutlar/surec-komutlari.html"><strong>7.5.</strong> Süreç Komutları</a></li><li><a href="komutlar/izinler.html"><strong>7.6.</strong> İzinler</a></li><li><a href="komutlar/ag-komutlari.html"><strong>7.7.</strong> Ağ Komutları</a></li><li><a href="komutlar/arsivleme.html"><strong>7.8.</strong> Arşivleme</a></li><li><a href="komutlar/kurulum-komutlari.html"><strong>7.9.</strong> Kurulum Komutları</a></li><li><a href="komutlar/derleme-komutlari.html"><strong>7.10.</strong> Derleme Komutları</a></li><li><a href="komutlar/arama-komutlari.html"><strong>7.11.</strong> Arama Komutları</a></li><li><a href="komutlar/ssh-komutlari.html"><strong>7.12.</strong> SSH Komutları</a></li><li><a href="komutlar/dosya-transfer-komutlari.html"><strong>7.13.</strong> Dosya Transfer Komutları</a></li><li><a href="komutlar/disk-komutlari.html"><strong>7.14.</strong> Disk Komutları</a></li><li><a href="komutlar/disin-islemleri.html"><strong>7.15.</strong> Dizin İşlemleri</a></li><li><a href="komutlar/bonus-komutlar.html"><strong>7.16.</strong> Bonus Komutlar</a></li></ul></li><li><a href="bash/README.html"><strong>8.</strong> Bash Script Kodları</a></li><li><ul class="section"><li><a href="bash/kullanisli-bash-kodlari.html"><strong>8.1.</strong> Kullanışlı Bash Script Kodları</a></li></ul></li><li><a href="kapanis/README.html"><strong>9.</strong> Kapanış</a></li></ul>
+        </div>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar" class="menu-bar">
+                    <div class="left-buttons">
+                        <i id="sidebar-toggle" class="fa fa-bars"></i>
+                        <i id="theme-toggle" class="fa fa-paint-brush"></i>
+                    </div>
+
+                    <h1 class="menu-title">Format Sonrası Kurulacaklar</h1>
+
+                    <div class="right-buttons">
+                        <i id="print-button" class="fa fa-print" title="Print this book"></i>
+                    </div>
+                </div>
+
+                <div id="content" class="content">
+                    <h1>Ubuntu Format Sonrası Kurduklarım</h1>
+<p>Xubuntu serisinde kullandığım ve format sonrası düzenlenmesi,kurulması ve yapılması gerekenlerdir.</p>
+<h1>Sistemin İlk Kurulumu</h1>
+<p>USB ye yazdırma</p>
+<p>İlerlemeyi göstermek için pv kuralım</p>
+<pre><code>
+sudo apt install pv
+
+</code></pre>
+<p>yazdırma işlemine başlayalım.</p>
+<pre><code>
+sudo dd if=xubuntu-16.04.1-desktop-amd64.iso | pv | sudo dd of=/dev/sdb
+
+</code></pre>
+<p><strong>NOT:</strong> iso kalıbının sürümleri değişkenlik gösterebilir.</p>
+<p>USB ye yazdırma işlemi tamamlandıktan hemen sonra sistem yeniden başlatılır ve Kurulum aşamasına geçilir.</p>
+<p><code>Language: English Keyboard: Turkish Timezone: Istanbul</code> olarak yarlanır.</p>
+<p>Disk yapılandırması kişiye özel bırakılmıştır. Şifreleme seçeneği seçilecekse işlemcinin biraz daha iyi olması gerekiyor.</p>
+<hr />
+<p>Kurulumlar tamamlandıktan sonra hızlı bir şekilde <code>touchpad</code> kapatılması gerekiyor. Synaptic driver üzerinde olan bir sıkıntıdan dolayı mouse eventleri sapıtıyor.</p>
+<p>XFCE wisker menü &gt; Settings &gt; Mouse and Touchpad</p>
+<p>Girilir burada hem mouse hemde touchpad gözükür. Hızlıca touchpad kısmına geçip</p>
+<p><code>Enable This device</code> seçeneğindeki tik kaldırılır.</p>
+<p>Bundan sonra touchpad çalışmayacak ancak mouse sapıtmayacaktır.</p>
+<h1>Kurulumlar</h1>
+<p>Format işlemi bitirildikten sonra yapılacak olan uygulama kurulumlarını içerir. Gerekli olan tüm herşeyi kuracak şekilde düzenlenmiştir.</p>
+<h1>SSH Key Düzenlemesi</h1>
+<p>Yedeklenen key harici disk üzerinden sisteme aktarılır.</p>
+<pre><code>sudo mv id_rsa id_rsa.pub ~/.ssh
+</code></pre>
+<p>Ardından sisteme keyi tanıtmak amacıyla <code>ssh-add</code> komutu verilir. Aşağıdaki hatayı verdiği gözlemlenir.</p>
+<pre><code>@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@         WARNING: UNPROTECTED PRIVATE KEY FILE!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Permissions 0744 for '/home/mertcan/.ssh/id_rsa' are too open.
+It is recommended that your private key files are NOT accessible by others.
+This private key will be ignored.
+bad permissions: ignore key: /home/mertcan/.ssh/id_rsa
+</code></pre>
+<p>gerekli olan izinlerin düzenlenmesi gerekmektedir bunun için</p>
+<pre><code>sudo chmod 600 ~/.ssh/id_rsa
+sudo chmod 600 ~/.ssh/id_rsa.pub
+</code></pre>
+<p>tekrar <code>ssh-add</code> komutu verilir. Gelen uyarıya <code>Evet</code> cevabı verilir.</p>
+<pre><code>Are you sure you want to continue connecting (yes/no)? yes
+</code></pre>
+<p>Komut satırı bir alt satıra geçti ise işleminiz başarılı bir şekilde tamamlanmış demektir.</p>
+<h1>GPG Key Düzenlemesi</h1>
+<p>Yedeklenen keyin bulunduğu dizine gidilir.</p>
+<pre><code>cp *.gpg ~/.gnupg/
+</code></pre>
+<p>Tüm herşey taşındıktan sonra gerekli olan owner düzenlemesi yapılır.</p>
+<pre><code>gpg --import-ownertrust mertcangokgoz-ownertrust-gpg.txt
+</code></pre>
+<p>GPG key başarılı bir şekilde sisteme dahil edildi</p>
+<h1>DNS Düzenleme</h1>
+<p>Türkiye'de kullanılan internetdeki bir takım web sitelerine ulaşmak için öntanımlı olan dnslerin değiştirilmesi gerekmektedir.</p>
+<pre><code>sudo nano /etc/resolv.conf
+</code></pre>
+<p>İçerisinde hali hazırda olan değer değiştirilir ve eklemeler yapılır.</p>
+<pre><code>nameserver 77.88.8.88
+nameserver 77.88.8.2
+</code></pre>
+<p>kayıt edilip çıkılır. Sistem yeniden başlatıldığında değişikliğin sıfırlanmaması için aşağıdaki işlemler yapılır.</p>
+<pre><code>chattr +a /etc/resolv.conf
+</code></pre>
+<p>Bundan sonra <code>resolv.conf</code> dosyasının değiştirilmesine imkan yoktur. Ancak VPN kullanılacak ise bu komutun girilmemesi gerekmektedir.</p>
+<pre><code>chattr -a /etc/resolv.conf
+</code></pre>
+<h1>Güncellenmesi Devredışı Bırakılacak Paketler</h1>
+<p>Sistemde güncellenmemesini istemediğimiz paketlere aşağıdaki işlemleri yaparak güncellenmemesini sağlayabiliriz.</p>
+<pre><code>echo &quot;tzdata hold&quot; | sudo dpkg --set-selections
+echo &quot;nginx hold&quot; | sudo dpkg --set-selections
+echo &quot;php-5 hold&quot; | sudo dpkg --set-selections
+</code></pre>
+<h1>Aria2 WebUI Servis Ekleme</h1>
+<p>Konsoldan çalıştırmak istenmiyor ise WebUI kullanılabilir.</p>
+<pre><code>sudo apt install Nginx
+</code></pre>
+<p>WebUI indirilmesi ve dizine taşınması işlemi</p>
+<pre><code>git clone git@github.com:ziahamza/webui-aria2.git
+cd webui-aria2
+sudo mv * /var/www/html
+</code></pre>
+<p>RPC sürecinin el ile başlatılması</p>
+<pre><code>aria2c --enable-rpc --rpc-listen-all
+</code></pre>
+<p>Sürecin otomatik başlatılması için gereken <code>service</code> dosyası oluşturulur.</p>
+<pre><code>sudo nano /etc/systemd/system/aria2d.service
+</code></pre>
+<p>Dosyanın içerisine aşağıdakiler eklenir ve kayıt edilir.</p>
+<pre><code>[Unit]
+Description=Aria2 WebUI RPC Service
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/bin/aria2c --enable-rpc --rpc-listen-all
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
+</code></pre>
+<p>Ayrıca aşağıdaki servisinde başlatılması gerekmektedir.</p>
+<pre><code>systemctl enable systemd-networkd-wait-online
+</code></pre>
+<h1>Java Çalıştırmak</h1>
+<p>Çift tıklama aracılığı ile java uygulamalarını çalıştırmak isteniyor ise</p>
+<pre><code>cd /usr/share/applications/
+sudo nano java.desktop
+</code></pre>
+<p>dosya içerisine</p>
+<pre><code>[Desktop Entry]
+Name=Double Click Java Application
+Comment=Double Click Java Application
+GenericName=Double Click Java Application
+Keywords=java
+Exec=java -jar %f
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+MimeType=application/x-java-archive
+StartupNotify=true
+</code></pre>
+<p>Kayıt edip çıkıyorsunuz. Ardından jar uzantılı herhangi bir uygulamayı tek sefer olacak şekilde sağ tıklayıp. <code>Open with other application</code> diyerek <code>Double Click Java Application</code> seçeneğini seçiyorsunuz. Bundan sonraki tüm işlemlerinizde çift tıklayarak uygulamayı açabileceksiniz.</p>
+<h1>Uygulamalar</h1>
+<p>Ubuntu'da kullanıcının kullanacağı uygulamaların kurulum komutlarını içerir.</p>
+<h1>Extras Repo Kurulumu</h1>
+<p>Sistem içerisinde bir takım eklerin kurulması için gereken paketleri içeren repodur. MP3 codekleri, flash ve bir takım ekleri içerir.</p>
+<pre><code>sudo apt-get install ubuntu-restricted-extras
+</code></pre>
+<h1>Spotify Kurulumu</h1>
+<p>Müzik dinlemek için kullanılacak olan Spotify'ın kurulumu şu şekildedir.</p>
+<pre><code>sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys BBEBDCB318AD50EC6865090613B00F1FD2C19886
+echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update
+sudo apt-get install spotify-client
+</code></pre>
+<p>Kurulum tamamlandıktan sonra kullanıcı adınızı ve şifrenizi uygulamaya girerek müzik dinlemeye başlayabilirsiniz.</p>
+<h1>Numix Circle Tema Kurulumu</h1>
+<p>Görüntüyü düzenlemek ve güzelleştirmek için <code>Numix Circle</code> İkon ve <code>Numic GTK</code> tema paketi kullanılmaktadır.</p>
+<pre><code>sudo add-apt-repository ppa:numix/ppa
+sudo apt-get update
+sudo apt-get install numix-icon-theme-circle
+sudo apt-get install numix-gtk-theme
+</code></pre>
+<p>Gerekli olan kurulumlar yapıldıktan sonra Sistem ayarlarından gürekli değişikliklerin yapılması gerekmektedir.</p>
+<p>İkonlar için</p>
+<p><code>Appearance &gt; Icons &gt; Numix Circle</code></p>
+<p>GTK Tema için</p>
+<p><code>Appearance &gt; Style &gt; Numix</code> ve <code>Windows Manager &gt; Style &gt; Numix</code></p>
+<p>Yapılan tüm bu seçeneklerin ardından Tamamıyla Numix Teması ve İkon Paketine geçiş yapılır.</p>
+<h1>Geliştirici Paketleri</h1>
+<p>Sistemde uygulama geliştirilecek ise aşağıdaki bağımlılıkların kurulması gerekmektedir. Pek çok sorun ve hatayı ortadan kaldırmaktadır.</p>
+<p>Ruby Paketleri için</p>
+<pre><code>sudo apt-get install build-essential patch
+sudo apt-get install ruby ruby-dev zlib1g-dev liblzma-dev ruby-bundler
+</code></pre>
+<p>Genel Paketler</p>
+<pre><code>sudo apt-get install -y libreadline-dev libcapstone3 libcapstone-dev libssl-dev zlib1g-dev libxml2-dev libxslt1-dev libyaml-dev libffi-dev libssh-dev libpq-dev libsqlite3-dev libpcap-dev libgmp3-dev libpcap-dev  libpcre3-dev libidn11-dev libcurl4-openssl-dev
+</code></pre>
+<p>Python Paketleri için</p>
+<pre><code>sudo apt-get install -y python-yara python-distorm3 python-magic python-pyinotify python-configobj python-msgpack python-requests python-pefile python-ipy python-openssl python-pypcap python-dns python-dnspython python-crypto python-cryptography python-dev python-twisted python-nfqueue python-scapy python-capstone python-setuptools python-urllib3 python-pip python3-pip
+</code></pre>
+<p>SSL ve Sistem için</p>
+<pre><code>apt-get install -y libpq5 libreadline5 libappindicator1 libindicator7 libnss3-1d libxss1 libssl1.0.0 cmake nmap libpcap0.8-dev libimage-exiftool-perl openjdk-8-jre openvpn libwebkitgtk-1.0-0 libssl-dev libjpeg-dev libnetfilter-queue-dev p7zip-full tcpreplay tcpick gufw vncviewer secure-delete hping3
+</code></pre>
+<p>İşlemler bittiğinde kırıntıları temizlemek için</p>
+<pre><code>apt-get autoremove -y
+aptitude autoclean -y
+apt-get -y install -f
+</code></pre>
+<h1>Hack Font Kurulumu</h1>
+<p>Sistemde oldukça güzel gözüken Hack adlı fontun kurulumu için aşağıdaki işlemin yapılması gerekmektedir.</p>
+<pre><code>sudo apt install fonts-hack-ttf
+
+</code></pre>
+<p>Kurulum tamamlandıktan sonra sistemde uygulamak için</p>
+<p><code>Windows Manager &gt; Stlye &gt; Title Font</code> == Hack 10</p>
+<p><code>Appearance &gt; Fonts &gt; Default Font</code> == Hack 10</p>
+<p>Terminalde yapılacak olan değişiklik için</p>
+<p><code>CTRL + ALT + T &gt; Edit &gt; Preferences &gt; Font</code> == Hack 10</p>
+<p>Tüm işlemler yapıkdıktan sonra sistemde tamamen Hack fontu kullanılmış olur</p>
+<h1>Atom Kurulumu</h1>
+<p>Atom adlı metin editörünü kurmak için aşağıdaki işlemler yapılır.</p>
+<pre><code>wget https://github.com/atom/atom/releases/download/v1.10.0/atom-amd64.deb
+sudo dpkg -i *.deb
+</code></pre>
+<h1>Rust Kurulumu</h1>
+<p>Kullanışlı ve stabil uygulamaların kurulumu ve çalıştırılması için gerekli olan uygulama dil ve araçlarını kurmamız gerekiyor bunun için</p>
+<pre><code>sudo apt-get install curl
+curl -sSf https://static.rust-lang.org/rustup.sh | sh
+</code></pre>
+<p>Kurulum tamamlandıktan sonra home dizini altında bulunan kullanıcının <code>.bashrc</code> doyasına aşağıdaki eklenir.</p>
+<pre><code>export PATH=&quot;$HOME/.cargo/bin:$PATH&quot;
+</code></pre>
+<p>Ardından değişikliğin geçerli olması için oturumdan çıkış yapılır ve tekrar girilir.</p>
+<h1>Git Kurulumu</h1>
+<p>Versiyon kontrol için gerekli olan uygulamadır. Pek çok uygulamanın kurulmasında güncellenmesinde görev almaktadır.</p>
+<pre><code>sudo apt-get install git
+</code></pre>
+<h1>OpenVPN Kurulumu</h1>
+<p>VPN bağlantısı kurmak için kullanılan en yaygın uygulamalardan bir tanesidir. Güvenli bağlantı kurup işlemlerinizi halledebilmenize imkan sağlar.</p>
+<p>Açık anahtarı sisteme dahil edelim.</p>
+<pre><code>wget -O - https://swupdate.openvpn.net/repos/repo-public.gpg|apt-key add -
+</code></pre>
+<p>gerekli olan depoyu sisteme ekleyelim</p>
+<pre><code>echo 'deb http://swupdate.openvpn.net/apt '$(lsb_release -cs)' main' &gt; /etc/apt/sources.list.d/swupdate.openvpn.net.list
+</code></pre>
+<p>Paket önbelleğini güncelleyelim ve yükleyelim.</p>
+<pre><code>apt-get update &amp;&amp; apt-get install openvpn
+</code></pre>
+<p>dipnot: sistemin kendi depolarında bulunan openvpn sürümü eski olduğundan dolayı güncel sürümü yüklemek amacıyla bu işlem yapılmaktardır.</p>
+<h1>IRC Client Kurulumu</h1>
+<p>IRC üzerinden insanlar ile sohbet etme ihtiyacını gidermek için aşağıdaki uygulamalar kullanılabilir.</p>
+<pre><code>sudo apt install hexchat irssi
+</code></pre>
+<p>Ön tanımlı olarak SASL auth kolaylığından dolayı Hexchat tercih edilecektir.</p>
+<h1>Geany Kurulumu</h1>
+<p>Hafif ve hızlı geliştirme ortamı sağlayan geany uygulamasını kurmamız gerekiyor yüksek boyutlu dosyaları açarken hiçbir şekilde sıkıntı yaratmaması en sevilen yanı</p>
+<pre><code>sudo apt install geany
+</code></pre>
+<h1>Jetbrain Uygulamalarının Kurulumu</h1>
+<p>Genelde geliştirme ortamı ve kod tamamlamasını sevdiğim için Jetbrain ürünlerini kullanıyoruz.</p>
+<p>Kullandıklarımız</p>
+<ul>
+<li>IntelliJ IDEA - https://www.jetbrains.com/idea/download</li>
+<li>PhpStorm - https://www.jetbrains.com/phpstorm/download</li>
+<li>PyCharm - https://www.jetbrains.com/pycharm/download</li>
+<li>WebStorm - https://www.jetbrains.com/webstorm/download</li>
+</ul>
+<p>Gerekli olan tüm bu uygulamalar indirildikten hemen sonra <code>/opt</code> içerisine taşıma işlemi yapılır.</p>
+<p>Ardından Masaüstüne <code>Launcher</code> eklemesi yapılır ve kullanılır.</p>
+<h1>Python Pip Kurulumu</h1>
+<p>Gerekli olan modüllerin kurulumu için gereklidir.</p>
+<pre><code>sudo apt install python-pip python3-pip
+</code></pre>
+<p>Bu işlemden sonra pip güncellenmesi gerekmektedir.</p>
+<pre><code>pip install --upgrade pip
+</code></pre>
+<h1>Screenfetch Kurulumu</h1>
+<p>Sistem özelliklerini derli toplu bir şekilde terminal üzerinden kolaylıkla görebilmek için gereklidir.</p>
+<pre><code>sudo apt install screenfetch
+</code></pre>
+<p>Örnek bir çıktı</p>
+<pre><code>mertcan@0x2e88ce4:~$ screenfetch
+                          ./+o+-       mertcan@0x2e88ce4
+                  yyyyy- -yyyyyy+      OS: Ubuntu 16.04 xenial
+               ://+//////-yyyyyyo      Kernel: x86_64 Linux 4.4.0-36-generic
+           .++ .:/++++++/-.+sss/`      Uptime: 15m
+         .:++o:  /++++++++/:--:/-      Packages: 1754
+        o:+o+:++.`..```.-/oo+++++/     Shell: bash 4.3.46
+       .:+o:+o/.          `+sssoo+/    Resolution: 1920x1080
+  .++/+:+oo+o:`             /sssooo.   DE: XFCE
+ /+++//+:`oo+o               /::--:.   WM: Xfwm4
+ \+/+o+++`o++o               ++////.   WM Theme: Numix
+  .++.o+++oo+:`             /dddhhh.   GTK Theme: Numix [GTK2]
+       .+.o+oo:.          `oddhhhh+    Icon Theme: Numix-Circle
+        \+.++o+o``-````.:ohdhhhhh+     Font: Hack 10
+         `:o+++ `ohhhhhhhhyo++os:      CPU: Intel Core i7-4720HQ CPU @ 3.6GHz
+           .o:`.syhhhhhhh/.oo++o`      GPU: Mesa DRI Intel(R) Haswell Mobile
+               /osyyyyyyo++ooo+++/     RAM: 1400MiB / 15958MiB
+                   ````` +oo+++o\:    
+                          `oo++.      
+</code></pre>
+<h1>Virtualbox Kurulumu</h1>
+<p>Gerekli olan sanallaştırma ortamını sağlamak amacıyla kullanılan bir uygulamadır aşağıdaki gibi kurulması gerekmektedir.</p>
+<pre><code>sudo apt install virtualbox
+</code></pre>
+<h1>Vrms Kurulumu</h1>
+<p>Stallman gibi işlem görmektedir ücreli olan paketleri vs belirlemek için kullanılabilir.</p>
+<pre><code>sudo apt install vrms
+</code></pre>
+<h1>ClamAV Kurulumu</h1>
+<p>Sistemde virüs ve kötücülleri taramak için clamav uygulamasından faydalanabilirsiniz.</p>
+<pre><code>sudo apt-get install clamav clamav-daemon clamtk
+</code></pre>
+<p>Daha sonra antivirüs veritabanını güncelliyoruz</p>
+<pre><code>sudo freshclam
+</code></pre>
+<p>Bu sırada aşağıdaki gibi bir hata verirse</p>
+<pre><code>mertcan@0x2e88ce4:~$ cat /var/log/clamav/freshclam.log
+Fri Sep  9 07:35:14 2016 -&gt; --------------------------------------
+Fri Sep  9 07:35:14 2016 -&gt; freshclam daemon 0.99 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Fri Sep  9 07:35:14 2016 -&gt; ClamAV update process started at Fri Sep  9 07:35:14 2016
+Fri Sep  9 07:35:14 2016 -&gt; WARNING: Your ClamAV installation is OUTDATED!
+Fri Sep  9 07:35:14 2016 -&gt; WARNING: Local version: 0.99 Recommended version: 0.99.2
+Fri Sep  9 07:35:14 2016 -&gt; DON'T PANIC! Read http://www.clamav.net/support/faq
+Fri Sep  9 07:36:07 2016 -&gt; Downloading main.cvd [100%]
+Fri Sep  9 07:36:13 2016 -&gt; main.cvd updated (version: 57, sigs: 4218790, f-level: 60, builder: amishhammer)
+Fri Sep  9 07:36:24 2016 -&gt; Downloading daily.cvd [100%]
+Fri Sep  9 07:36:25 2016 -&gt; daily.cvd updated (version: 22199, sigs: 596178, f-level: 63, builder: neo)
+Fri Sep  9 07:36:26 2016 -&gt; Downloading bytecode.cvd [100%]
+Fri Sep  9 07:36:26 2016 -&gt; bytecode.cvd updated (version: 283, sigs: 53, f-level: 63, builder: neo)
+Fri Sep  9 07:36:29 2016 -&gt; Database updated (4815021 signatures) from db.local.clamav.net (IP: 130.59.10.36)
+Fri Sep  9 07:36:29 2016 -&gt; ERROR: NotifyClamd: Can't find or parse configuration file /etc/clamav/clamd.conf
+Fri Sep  9 07:36:29 2016 -&gt; --------------------------------------
+</code></pre>
+<p>Eski süreç durdurulur.</p>
+<pre><code>systemctl stop clamav-freshclam
+</code></pre>
+<p>ardıntan tekrark konfigüre edilir</p>
+<pre><code>dpkg-reconfigure clamav-base
+</code></pre>
+<p>Virüs Taraması işlemleri</p>
+<h3>Home dizinini tarama işlemi</h3>
+<pre><code>clamscan -r /home
+</code></pre>
+<h3>Tüm dizinleri tarama işlemi(sadece virüsleri çıktı verir)</h3>
+<pre><code>sudo clamscan -ir --bell --exclude-dir=^/sys --exclude-dir=^/dev --exclude-dir=^/proc
+</code></pre>
+<h3>USB Bellek tarama ve silme</h3>
+<pre><code>clamscan -r -z --remove --verbose /media/mertcan
+</code></pre>
+<h1>Haveged Kurulumu</h1>
+<p>Sistemde kriptografik işlemleri hızlandırmak için kullanılacak olan uygulamadır.</p>
+<pre><code>sudo apt install havaged
+</code></pre>
+<p>Kontrol için aşağıdaki kullanılabilir değer 1000 den yüksek çıkması gerekmektedir.</p>
+<pre><code>cat /proc/sys/kernel/random/entropy_avail
+</code></pre>
+<h1>SpeedCrunch Kurulumu</h1>
+<p>Multi-platform olarak belkide en iyi hesap makinesi uygulamalarından bir tanesidir. Pek çok hesaplamanızı bu uygulama aracılığı ile yapabilirsiniz.</p>
+<pre><code>sudo apt install speedcrunch
+</code></pre>
+<h1>Zeal Kurulumu</h1>
+<p>Yazılım dillerinin ve uygulamaların dokümanlarına kolaylıkla ulaşma imkanı tanıyan bir uygulamadır her sistemde olmazsa olmazlarımız arasındadır.</p>
+<pre><code>sudo apt install Zeal
+</code></pre>
+<p><code>File &gt; Options &gt; Docsets</code> yoluna gidilir biraz bekledikten sonra uygun olan doküman setleri karşınıza çıkacaktır. İhtiyacınız olan dokümanları seçerek <code>Download</code> diyorsunuz ve sisteminize indiriliyor. Bundan sonra kolaylıkla dokümanlar arasında gezebilirsiniz.</p>
+<h1>Silinecekler</h1>
+<p>Kullanılmayan ve gereksiz sistemde bulunan uygulamaların kaldırılması işlemleri</p>
+<h1>Torrent Uygulamasının Kaldırılması</h1>
+<p>Kullanılmayan Transmission'un tüm paketleri kaldırılır.</p>
+<pre><code>sudo apt-get autoremove transmission*
+</code></pre>
+<h1>Libreoffice Kaldırılması</h1>
+<p>Kullanılmayan Libreoffice uygulamasının kalıcı bir şekilde sistemden kaldırılması işlimi</p>
+<pre><code>sudo apt-get autoremove libreoffice*
+</code></pre>
+<h1>Flash Playerin Kaldırılması</h1>
+<p>Büyük bir tehdit olarak sisteme extras paketi içinde kurulan flash playerin kalıcı olarak sistemden kaldırılması gerekmektedir.</p>
+<pre><code>sudo apt-get purge flashplugin-installer
+</code></pre>
+<h1>Tarayıcı Düzenlemeleri</h1>
+<p>Sistemde kullanılacak olan tarayıcı ve(veya) tarayıcıların üzerinde yapılacak olan değişiklikleri içerir.</p>
+<h1>Firefox Ayarları</h1>
+<p>Tarayıcı ilk kurulduğunda aşağıdakilerin yapılması gerekmektedir.</p>
+<ul>
+<li>General &gt; Home Page &gt; https://google.com.tr</li>
+<li>Search &gt; Default Search Engine &gt; Google</li>
+<li>Advanced &gt; Data Choices &gt; Enable Firefox Health Report ve Enable Crash Reporter Kapatılacak</li>
+</ul>
+<p>Kurulacak eklentiler</p>
+<ul>
+<li>Flashblock</li>
+<li>Flashgot</li>
+<li>Google search link Fix</li>
+<li>No youtube comments</li>
+<li>Privacy Settings</li>
+<li>uBlock Origin</li>
+<li>Wappalyzer</li>
+</ul>
+<h1>Chromium Ayarları</h1>
+<p>Chromium Tarayıcıda kurulumdan sonra yapılacak ayarlar şu şekildedir.</p>
+<ul>
+<li>Settings &gt; Languages and input Settings &gt; Add &gt; Turkish</li>
+<li>Settings &gt; Privacy &gt; Send a &quot;Do Not Track&quot; request with your browsing traffic etkinleştir.</li>
+</ul>
+<p>Kurulacak eklentiler</p>
+<ul>
+<li>WebRTC Leak Prevent</li>
+<li>uBlock Origin</li>
+<li>Wappalyzer</li>
+<li>Flashcontrol</li>
+</ul>
+<h1>Temel Linux Komutları</h1>
+<p>Linux kullanacak her bireyin bilmesi gereken temel komutları içeren bölümdür.</p>
+<h1>Sistem Komutları</h1>
+<p>Sistemin genelini oluşturan bir takım bileşenlerde işlem yapmak için gereken komutlar şu şekildedir</p>
+<table><thead><tr><td> Komut          </td><td> Açıklama                                                    </td></tr></thead>
+<tr><td> <code>uname -a</code>       </td><td> Sistem bilgisi(çekirdek sürümü, tarihi ve mimarisi)         </td></tr>
+<tr><td> <code>uname -r</code>       </td><td> Çekirdek sürümü                                             </td></tr>
+<tr><td> <code>uptime</code>         </td><td> Sistemin ne kadar zamandır açık olduğunu ve yükü gösterir   </td></tr>
+<tr><td> <code>hostname</code>       </td><td> sistemin adı                                                </td></tr>
+<tr><td> <code>last reboot</code>    </td><td> Son kapanma listesi çalışma düzey değişikliği dahil         </td></tr>
+<tr><td> <code>date</code>           </td><td> tarih hakkında bilgi verir                                  </td></tr>
+<tr><td> <code>cal</code>            </td><td> takvim                                                      </td></tr>
+<tr><td> <code>w</code>              </td><td> hangi kullanıcı o anda hangi komutu çalıştırdığını görürüz. </td></tr>
+<tr><td> <code>whoami</code>         </td><td> o anki kullanılan kullanıcı adını verir                     </td></tr>
+<tr><td> <code>finger mertcan</code> </td><td> kullanıcı hakkında bilgi verir                              </td></tr>
+</table>
+<h1>Donanım Komutları</h1>
+<p>Sistemde donanımsal hataları yakalamak ve çözüme kavuşturmak için kullanılan bir takım komutları içerir. Ayrıca sistem hakkında genel bir bilgi verir</p>
+<table><thead><tr><td> Komut                 </td><td> Açıklama                                 </td></tr></thead>
+<tr><td> <code>dmesg</code>                 </td><td> Kernel mesajlarını verir                 </td></tr>
+<tr><td> <code>cat /proc/cpuinfo</code>     </td><td> İşlemci hakkında bilgi verir             </td></tr>
+<tr><td> <code>cat /proc/meminfo</code>     </td><td> Bellek(RAM) hakkında bilgi verir         </td></tr>
+<tr><td> <code>cat /proc/interrupts</code>  </td><td> CPU Çekirdek sistem kesme listesi        </td></tr>
+<tr><td> <code>lshw</code>                  </td><td> Sistemin donanım konfigurasyon bilgileri </td></tr>
+<tr><td> <code>lsblk</code>                 </td><td> Disk Bölümleme tablosu                   </td></tr>
+<tr><td> <code>free -m</code>               </td><td> Sistemde kullanılan ram bilgisi          </td></tr>
+<tr><td> <code>lspci -tv</code>             </td><td> PCI cihazlarını listeler                 </td></tr>
+<tr><td> <code>lsusb -tv</code>             </td><td> USB cihazlarını listeler                 </td></tr>
+<tr><td> <code>dmidecode</code>             </td><td> BIOS donanım bilgisi                     </td></tr>
+<tr><td> <code>hdparm -i /dev/sda</code>    </td><td> disk hakkında bilgi verir                </td></tr>
+<tr><td> <code>hdparm -tT /dev/sda</code>   </td><td> kullanılan disk için okuma hız testi     </td></tr>
+<tr><td> <code>badblocks -s /dev/sda</code> </td><td> Ulaşılamayan block tespiti               </td></tr>
+</table>
+<h1>Kullanıcı Komutları</h1>
+<p>Kullanıcıları yönetmedeki gerekli olan komutları içerir.</p>
+<table><thead><tr><td> Komut           </td><td> Açıklama                                                                 </td></tr></thead>
+<tr><td> <code>id</code>              </td><td> kullanıcı id bilgisi                                                     </td></tr>
+<tr><td> <code>last</code>            </td><td> sisteme en son giriş yapmış kullanıcıların bugünden geriye doğru listesi </td></tr>
+<tr><td> <code>who</code>             </td><td> sisteme kayıtlı kullanıcılar                                             </td></tr>
+<tr><td> <code>groupadd</code>        </td><td> sisteme yeni bir grup oluşturur                                          </td></tr>
+<tr><td> <code>useradd mertcan</code> </td><td> sisteme bir kullanıcı ekler                                              </td></tr>
+<tr><td> <code>userdel mertcan</code> </td><td> sistemden bir kullanıcı siler                                            </td></tr>
+<tr><td> <code>usermod</code>         </td><td> kullanıcı izinlerini değiştirme                                          </td></tr>
+</table>
+<h1>Dosya Komutları</h1>
+<p>Dosyalar ve klasörler üzerinde bir takım işlemler yapabilmenize imkan tanıyan komutlardır.</p>
+<table><thead><tr><td> Komut             </td><td> Açıklama                                         </td></tr></thead>
+<tr><td> <code>ls -la</code>            </td><td> dosyaları listeler (a gizli olanlar, l detaylı)  </td></tr>
+<tr><td> <code>pwd</code>               </td><td> mevcut dizin                                     </td></tr>
+<tr><td> <code>mkdir</code>             </td><td> dizin oluşturma                                  </td></tr>
+<tr><td> <code>rm</code>                </td><td> Dosya sil                                        </td></tr>
+<tr><td> <code>rm -r</code>             </td><td> Dizin sil                                        </td></tr>
+<tr><td> <code>rm -f</code>             </td><td> zorlayarak sil                                   </td></tr>
+<tr><td> <code>rm -rf</code>            </td><td> dizini silmeye zorla                             </td></tr>
+<tr><td> <code>cp</code>                </td><td> dosyayı kopyala                                  </td></tr>
+<tr><td> <code>cp -r home1 home2</code> </td><td> home1 isimli dizini home2 ye taşı yoksa oluştur  </td></tr>
+<tr><td> <code>mv</code>                </td><td> dosyaları taşıma                                 </td></tr>
+<tr><td> <code>ln -s</code>            </td><td> kısayol oluştur                                  </td></tr>
+<tr><td> <code>touch</code>             </td><td> dosya oluştur                                    </td></tr>
+<tr><td> <code>cat</code>               </td><td> dosya içeriğinin tümünü oku                      </td></tr>
+<tr><td> <code>more</code>              </td><td> dosyanın içeriğini sayfalayarak göster           </td></tr>
+<tr><td> <code>head</code>              </td><td> dosya içeriğinin ilk 10 satırını göster          </td></tr>
+<tr><td> <code>tail</code>             </td><td> dosya içeriğinin son 10 satırını göster          </td></tr>
+<tr><td> <code>tail -f</code>          </td><td> dosyanın içeriğinin son 10 satırını anlık göster </td></tr>
+</table>
+<h1>Süreç(process) Komutları</h1>
+<p>Süreçleri yönetebilmenize imkan sağlayan komutlardır.</p>
+<table><thead><tr><td> Komut             </td><td> Açıklama                                                                            </td></tr></thead>
+<tr><td> <code>ps</code>                </td><td> Çalışan süreçler                                                                    </td></tr>
+<tr><td> <code>pmap -x PID</code>       </td><td> İşlemin bellek haritası                                                             </td></tr>
+<tr><td> <code>top</code>               </td><td> Temel sistem durumu, çalışmakta olan süreçler ne kadar bellek/işlemci kullandıkları </td></tr>
+<tr><td> <code>kill</code>              </td><td> işlemi bitir                                                                        </td></tr>
+<tr><td> <code>killall</code>           </td><td> bütün işlemleri bitir                                                               </td></tr>
+<tr><td> <code>pkill -f telnet</code>   </td><td> işlemi bitir                                                                        </td></tr>
+<tr><td> <code>bg</code>                </td><td> durdurulmuş işleme arkaplanda devam et                                              </td></tr>
+<tr><td> <code>fg</code>                </td><td> arkaplanda yapılan işlemi ön plana getir                                            </td></tr>
+</table>
+<p>Bazı komutlar markdown motoru nedeniyle gözükmeyebilir.</p>
+<h1>İzinler</h1>
+<p>dosya ve klasörler üzerinde uygulanacak izinleri belirten komutlardır.</p>
+<table><thead><tr><td> Komut                                          </td><td> Açıklama                                                      </td></tr></thead>
+<tr><td> <code>chattr +i dosyaadı</code>                             </td><td> dosyalar silinemez dokunulmaz olur                            </td></tr>
+<tr><td> <code>chattr -i dosyaadı</code>                             </td><td> dokunulmazlığını kaldırma                                     </td></tr>
+<tr><td> <code>chattr +a dosyaadı</code>                            </td><td> Varolan satırları korur, altına satır eklenmesine izin verir. </td></tr>
+<tr><td> <code>lsattr dosyaadı</code>                                </td><td> chattr komutu geçerli olmuşmu diye kontrol edilir             </td></tr>
+<tr><td> <code>chmod 777</code>                                     </td><td> her şey okunabilir, yazılabilir ve çalıştırılabilir.          </td></tr>
+<tr><td> <code>chmod 644</code>                                      </td><td> sadece okunabilir                                             </td></tr>
+<tr><td> <code>chmod 755</code>                                      </td><td> sadece sahibi okur, yazar ve çalıştırılabilir.                </td></tr>
+<tr><td> <code>chown owner-user</code>                               </td><td> dosyanın sahibini değiştirir                                  </td></tr>
+<tr><td> <code>chown owner-user:owner-group</code>                   </td><td> dosyanın sahibini ve grubunu değiştirir                       </td></tr>
+<tr><td> <code>chown -R kullanıcıadı:kullanıcıadı dizin/dosya</code> </td><td> kullanıcıya dizinleriyle birlikte erişim izni verir           </td></tr>
+</table>
+<h1>Ağ Komutları</h1>
+<p>Ağ bağlantısı üzerinde işlem yapmanıza imkan sağlayan komutlardır.</p>
+<table><thead><tr><td> Komut                                   </td><td> Açıklama                                                         </td></tr></thead>
+<tr><td> <code>ip addr show</code>                            </td><td> tüm network interfaceslerini listeler ve ip adreslerini gösterir </td></tr>
+<tr><td> <code>ip address add 192.168.0.12 dev enp4s0</code>  </td><td> belirtilen interfaces ip adresi ekler                            </td></tr>
+<tr><td> <code>ethtool enp4s0</code>                          </td><td> ethernetin durumu hakkında bilgi verir                           </td></tr>
+<tr><td> <code>ping 192.168.0.12</code>                       </td><td> ip adresine echo isteği atar                                     </td></tr>
+<tr><td> <code>dig mertcangokgoz.com</code>                   </td><td> Alan adı hakkında DNS bilgilerini verir                          </td></tr>
+<tr><td> <code>dig -x</code>                                  </td><td> geriye doğru arama işlemi                                        </td></tr>
+<tr><td> <code>host mertcangokgoz.com</code>                  </td><td> host adını alıp makine adına bakar                               </td></tr>
+<tr><td> <code>hostname -i</code>                             </td><td> yerel ip adresini gösterir                                       </td></tr>
+<tr><td> <code>wget https://mertcangokgoz.com/test.bin</code> </td><td> dosya indirir                                                    </td></tr>
+<tr><td> <code>netstat -tupl</code>                           </td><td> aktif dinlenilen portları listeler                               </td></tr>
+<tr><td> <code>ifconfig -a</code>                             </td><td> Bilgisayardaki bulunan interfaces elemanlarını listeler          </td></tr>
+</table>
+<h1>Arşivleme</h1>
+<p>Sıkıştırılmış dosyalar üzerinde çalışmanıza imkan sağlayan komutlardır.</p>
+<table><thead><tr><td> Komut                           </td><td> Açıklama                                        </td></tr></thead>
+<tr><td> <code>tar -cf homebackup.tar home</code>     </td><td> homebackup.tar adlı bir arşiv dosyası oluşturur </td></tr>
+<tr><td> <code>tar -xf homebackup.tar</code>          </td><td> homebackup.tar adlı arşivi ayrıştırır           </td></tr>
+<tr><td> <code>tar -czf homebackup.tar.gz home</code> </td><td> gzip sıkıştırması kullanılarak arşiv oluşturur  </td></tr>
+<tr><td> <code>gzip home</code>                       </td><td> home.gz olarak arşiv dosyası oluşturur          </td></tr>
+</table>
+<h1>Kurulum Komutları</h1>
+<p>Paketlerin kurulumu için gereken komutları içerir.</p>
+<table><thead><tr><td> Komut                     </td><td> Açıklama   </td></tr></thead>
+<tr><td> <code>yum install paket adı</code>     </td><td> paketi kur </td></tr>
+<tr><td> <code>yum remove paket adı</code>      </td><td> paketi sil </td></tr>
+<tr><td> <code>apt-get install paket adı</code> </td><td> paketi kur </td></tr>
+<tr><td> <code>apt-get purge paket adı</code>   </td><td> paketi sil </td></tr>
+</table>
+<h1>Derleme Komutları</h1>
+<p>Tüm derleme işlemleri temelde aşağıdaki komutlar aracılığı ile yapılmaktadır.</p>
+<table><thead><tr><td> Komut        </td><td> Açıklama </td></tr></thead>
+<tr><td> <code>./configure</code>  </td><td>          </td></tr>
+<tr><td> <code>make</code>         </td><td>          </td></tr>
+<tr><td> <code>make install</code> </td><td>          </td></tr>
+</table>
+<h1>Arama Komutları</h1>
+<p>Sistemde dosya, klasör aramak için kullanılan komutlardır.</p>
+<table><thead><tr><td> Komut                              </td><td> Açıklama                                       </td></tr></thead>
+<tr><td> <code>grep ifade dosya</code>                   </td><td> dosya içerisinde geçen ifadeyi aratır          </td></tr>
+<tr><td> <code>grep -r ifade dosya</code>                </td><td> özyineli bir şekilde belirtilen ifadeyi aratır </td></tr>
+<tr><td> <code>locate dosya</code>                       </td><td> belirtilen dosyayı aratır                      </td></tr>
+<tr><td> <code>find /home/mertcan -name &quot;mertcan&quot;</code> </td><td> adında mertcan geçen dosyaları aratır          </td></tr>
+<tr><td> <code>find /home/mertcan -size 100k</code>      </td><td> 100k dan büyük olan dosyaları aratır           </td></tr>
+<tr><td> <code>sed</code>                                </td><td> akış editörü ve text manipülasyonu             </td></tr>
+</table>
+<h1>SSH Komutları</h1>
+<p>SSH ile yapılabilecek temel komutları içerir</p>
+<table><thead><tr><td> Komut                      </td><td> Açıklama                                         </td></tr></thead>
+<tr><td> <code>ssh kullanıcı@host</code>         </td><td> belirtilen makineye bağlanır                     </td></tr>
+<tr><td> <code>ssh kullanıcı@host -p port</code> </td><td> belirtilen makineye belirtilen port ile bağlanır </td></tr>
+<tr><td> <code>telnet host</code>                </td><td> telnet portu ile makineye bağlanır               </td></tr>
+</table>
+<h1>Dosya Transfer Komutları</h1>
+<p>Sistemler arası temel dosya transfer komutları</p>
+<table><thead><tr><td> Komut                                                 </td><td> Açıklama                                       </td></tr></thead>
+<tr><td> <code>scp kullanıcı@host:aktarılacakdosya.txt /home/mertcan</code> </td><td> belirtilen makineye dosya transferi yapar      </td></tr>
+<tr><td> <code>rsync -a /home/mertcan /yedekler</code>                      </td><td> kaynak ve hedef arasında senkronizasyon sağlar </td></tr>
+</table>
+<h1>Disk Komutları</h1>
+<p>Diskler üzerinde çalışmanıza imkan sağlayan komutlardır.</p>
+<table><thead><tr><td> Komut                                        </td><td> Açıklama                                                            </td></tr></thead>
+<tr><td> <code>df -h</code>                                        </td><td> diskler hakkındaki son durum görülür                                </td></tr>
+<tr><td> <code>df -i</code>                                        </td><td> boş inode durumu görüntülenir                                       </td></tr>
+<tr><td> <code>fdisk -l</code>                                     </td><td> disk tipleri ve boyutlarını görüntüler                              </td></tr>
+<tr><td> <code>du -ah</code>                                       </td><td> dizinlerin kullandıkları alanı okunaklı olarak gösterir             </td></tr>
+<tr><td> <code>du -sh</code>                                       </td><td> dizinin kullandığı toplan alanı gösterir                            </td></tr>
+<tr><td> <code>findmnt</code>                                      </td><td> dosya sistemindeki bağlı tüm dizinleri detaylı bir şekilde gösterir </td></tr>
+<tr><td> <code>mount /dev/sda /mnt</code>                          </td><td> diski /mnt ye bağlar                                                </td></tr>
+</table>
+<h1>Dizin İşlemleri</h1>
+<p>Temel dizin işlemleri için kullanılan komutlardır.</p>
+<table><thead><tr><td> Komut    </td><td> Açıklama                    </td></tr></thead>
+<tr><td> <code>cd</code>       </td><td> birinci seviye dizine gider </td></tr>
+<tr><td> <code>cd ..</code>    </td><td> bir üst dizine gider        </td></tr>
+<tr><td> <code>cd dizin</code> </td><td> belirtilen dizine gider     </td></tr>
+</table>
+<h1>Bonus komutlar</h1>
+<p>Sisteminizde daha verimli çalışmak için kullanabileceğiniz bir takım düzenlenmiş komutları içermektedir.</p>
+<table><thead><tr><td> Komut                                                             </td><td> Açıklama                                         </td></tr></thead>
+<tr><td> <code>history -c</code>                                                        </td><td> Komut satır geçmişini temizler                   </td></tr>
+<tr><td> <code>clamscan -r -z --remove --verbose /home</code>                           </td><td> Virüs tarama ve silme işlemi                     </td></tr>
+<tr><td> `du -h --max-depth=1 </td><td> sort -hr`                                    </td><td> Dizinlerin toplam boyutlarını gösterir           </td></tr>
+<tr><td> <code>find /home/mertcan/ -type f -exec grep -H 'yazı' {} \;</code>            </td><td> Dizin içerisinde yaziyı aratır                   </td></tr>
+<tr><td> <code>dd if=debian.iso of=/dev/sdb</code>                                      </td><td> Iso kalıbını USB veya DVD ye yazdırma            </td></tr>
+<tr><td> <code>shred —verbose —random-source=/dev/zero —iterations=5 /dev/sda</code>    </td><td> Ultra güvenli disk silme                         </td></tr>
+<tr><td> <code>find -type f -exec chmod 644 {} \;</code>                                </td><td> Tüm dosya izinlerini 644 yapar                   </td></tr>
+<tr><td> <code>openvpn --config client.ovpn</code>                                      </td><td> VPN sunucusuna bağlantı sağlar                   </td></tr>
+<tr><td> <code>sensors</code>                                                           </td><td> Donanım parçalarının ısılarını verir             </td></tr>
+<tr><td> <code>rm -rf /</code>                                                          </td><td> Ecelinize susadıysanız kullanabilirsiniz         </td></tr>
+<tr><td> `dpkg -l </td><td> awk '/^rc/ {print $2}' </td><td> sudo xargs dpkg --purge`        </td><td> Geride kalan ayar dosyalarını temizleme işlemi   </td></tr>
+<tr><td> `ps axo %mem,comm,pid,euser </td><td> sort -nr </td><td> head -n 10`                      </td><td> En fazla ram kullanan hesabı tespit etmek            </td></tr>
+<tr><td> `ps axo pcpu,comm,pid,euser </td><td> sort -nr </td><td> head -n 10`                      </td><td> En fazla CPU kullanan hesabı tespit etmek            </td></tr>
+<tr><td> <code>sudo apt-get purge</code>dpkg --get-selections </td><td> grep i386 </td><td> awk '{print $1}'`` </td><td> 32 Bit tüm paketleri yok etme            </td></tr>
+</table>
+<p>Bazı komutlar markdown motoru nedeniyle düzgün gözükmemektedir.</p>
+<h1>Bash Script Kodları</h1>
+<p>İşe yarar bash script komutlarını ve nasıl kullanılabileceğini belirtir.</p>
+<h1>Kullanışlı Bash Script Kodları</h1>
+<p>İşlerinizi kolaylaştırmak için kullanabileceğiniz bir takım kodları içerir.</p>
+<h3>History Tarih Bilgisi Ekleme</h3>
+<pre><code class="language-console">export HISTTIMEFORMAT=&quot;%d/%m/%y %T &quot;
+</code></pre>
+<h3>En çok kullanılan komutları kullanım sayısına göre sıralamak</h3>
+<pre><code class="language-console">history | awk '{a[$2]++}END{for(i in a){print a[i]&quot; &quot;i}}' | sort -rn | head
+</code></pre>
+<h3>Uptime oranını öğrenme saniye cinsinden</h3>
+<pre><code class="language-console">cat /proc/uptime | awk '{print $1}'
+</code></pre>
+<h3>Bilgisayarın kaç çekirdek olduğunu öğrenme</h3>
+<pre><code class="language-console">cat /proc/cpuinfo | grep processor | wc -l
+</code></pre>
+<h3>Gelen Trafiğin toplam boyutu</h3>
+<pre><code class="language-console">ifconfig eth0 | awk '/RX bytes/ {print $3, $4}'
+</code></pre>
+<h3>Giden Trafiğin toplam boyutu</h3>
+<pre><code class="language-console">ifconfig eth0 | awk '/RX bytes/ {print $7, $8}'
+</code></pre>
+<h3>Aliaslar</h3>
+<pre><code class="language-console">alias install='sudo apt-get install'
+alias remove='sudo apt-get remove'
+alias purge='sudo apt-get remove --purge'
+alias update='sudo apt-get update'
+alias clean='sudo apt-get autoclean &amp;&amp; sudo apt-get autoremove'
+alias sources='(gksudo geany /etc/apt/sources.list &amp;)'
+</code></pre>
+<h3>Tüm dosya adlarını küçültme</h3>
+<pre><code class="language-console">for i in *.mp4; do mv &quot;$i&quot; &quot;`echo $i| tr [A-Z] [a-z]`&quot;; done
+</code></pre>
+<h1>Kapanış</h1>
+<p>Bu referans kitabında yazılanlar Ubuntu 16.04 işletim sistmei için kullanılmıştır. Ubuntu kullanmayı bıraktığımdan dolayı tüm ziyaretçilere açılmıştır.</p>
+<pre><code>mertcan@0x2e88ce4:~/Desktop$ screenfetch
+         _,met$$$$$gg.           mertcan@0x2e88ce4
+      ,g$$$$$$$$$$$$$$$P.        OS: Debian testing stretch
+    ,g$$P&quot;&quot;       &quot;&quot;&quot;Y$$.&quot;.      Kernel: x86_64 Linux 4.6.0-1-amd64
+   ,$$P'              `$$$.      Uptime: 10h 32m
+  ',$$P       ,ggs.     `$$b:    Packages: 1516
+  `d$$'     ,$P&quot;'   .    $$$     Shell: bash 4.4.0
+   $$P      d$'     ,    $$P     Resolution: 1920x1080
+   $$:      $$.   -    ,d$$'     WM: Xfwm4
+   $$\;      Y$b._   _,d$P'      WM Theme: Numix
+   Y$$.    `.`&quot;Y$$$$P&quot;'          CPU: Intel Core i7-4720HQ CPU @ 3.6GHz
+   `$$b      &quot;-.__               GPU: Mesa DRI Intel(R) Haswell Mobile 
+    `Y$$                         RAM: 2164MiB / 15962MiB
+     `Y$$.                      
+       `$$b.                    
+         `Y$$b.                 
+            `&quot;Y$b._             
+                `&quot;&quot;&quot;&quot;           
+                                
+mertcan@0x2e88ce4:~/Desktop$ 
+</code></pre>
+
+                </div>
+
+                <!-- Mobile navigation buttons -->
+                
+
+                
+
+            </div>
+
+            
+
+            
+
+        </div>
+
+
+        <!-- Local fallback for Font Awesome -->
+        <script>
+            if ($(".fa").css("font-family") !== "FontAwesome") {
+                $('<link rel="stylesheet" type="text/css" href="_FontAwesome/css/font-awesome.css">').prependTo('head');
+            }
+        </script>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        
+
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+    </body>
+</html>
