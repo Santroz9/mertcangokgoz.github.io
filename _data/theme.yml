@@ -28,7 +28,7 @@ name: Mertcan GÖKGÖZ
 tagline: "Blog"
 
 # Google Analytics key, leave blank to ignore
-google_analytics_key: UA-41967916-5
+#google_analytics_key: UA-41967916-5
 
 # Yandex Metrica Key,leave blank to ignore
 #yandex_metrica_key: 39509920
