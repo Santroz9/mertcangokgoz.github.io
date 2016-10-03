@@ -25,7 +25,7 @@ Rust dili compiler oldukça güzel bir şekilde dizayn edilmiştir ki siz derlem
 
 ![trait error](/assets/mismatched-trait-error.png)
 
-Şimdiden belirtmekte fayda var Rust bildiğiniz tüm dillerin dışında bir yapıya sahiptir. Şaşırabilir hatta program yazamayabilirsiniz korkmayın alışma ile alakalı bir durum dokümanlarına göz attıysanız Syntax'ın çok farklı olduğunu görebilirsiniz klavyede kullanmadığınız belki yerini bile bilmediğiniz bir takım karakterleri bile kullanacağınızdan emin olabilirsiniz.
+Şimdiden belirtmekte fayda var Rust bildiğiniz tüm dillerin dışında bir yapıya sahiptir. Şaşırabilir hatta program yazamayabilirsiniz korkmayın alışma ile alakalı bir durum dokümanlarına göz attıysanız bununda üstesinden gelebilirsiniz. C ve C++ ile uğraşamadıysanız syntax size biraz farklı gelebilir.
 
 Ben linux dağıtımı kullandığım için kurulumu kendimce(tabi onurunda yardımları oldu bazı aşamalarda) anlatacağım özellikle geliştiriciler için yayınlanan gecelik sürümü kullanacağız bunun en büyük artılarından bir tanesi elimizde her daim güncel bir dilin derleyicisi olacak ayrıca rust da yazılan pek çok uygulama gecelik derlemeyi yani geliştirici sürümünü kullanmaktadır.
 
