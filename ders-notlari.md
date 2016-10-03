@@ -9,7 +9,7 @@ description: Bu ders notları Başkent Üniversitesi Ticari bilimler fakültesi 
 
 ## Başkent Üniversitesi - Ders Notları
 
-Bu ders notları Başkent Üniversitesi Ticari bilimler fakültesinde ve Hukuk Fakültesinde okutulmakta olan tüm dokümanları içermektedir. Bu siteden indirilen tüm ders notları özgürce herkes tarafından kullanılabilir, dağıtılabilir ve değiştirilebilir.
+Bu ders notları Başkent Üniversitesi Ticari bilimler fakültesinde ve Hukuk Fakültesinde okutulmakta olan tüm ders notlarına ait dokümanları içermektedir. Bu siteden indirilen tüm ders notları özgürce herkes tarafından kullanılabilir, dağıtılabilir ve değiştirilebilir.
 
 Arşivde bulunan İçerikler;
 
@@ -19,4 +19,4 @@ Arşivde bulunan İçerikler;
 *   Bitirilmiş proje örnekleri
 *   Tamamlanmış tüm ödevler ve çalışmalar
 
-# [Tüm Ders Notları İçin Tıklayın](https://github.com/MertcanGokgoz/DersNotlari)
+# [Tüm Ders Notları İçin Tıklayın](https://drive.google.com/drive/folders/0B7ExQgcdBN8pYUdWaDZEcGxLSUE?usp=sharing)
