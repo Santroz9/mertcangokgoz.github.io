@@ -7,7 +7,7 @@ description: Mertcan GÖKGÖZ Kimdir ?
 
 Merhaba
 
-1993 yının haziran ayında Ankara'da dünyaya geldim. Sakin bir çocukluk geçirdikten sonra bilgisayar oyunlarında buldum, uzun süre bu şekilde vakit öldürdükten sonra 2010 Mayıs ayında bir algoritma kitabı alarak sektöre giriş yaptım. 2 yıl kadar windows sistemler üzerine çalışmalar yaptıktan sonra **GNU/Linux** alanına geçiş yaptım. 4 yılı aşkın bir süredir bu alanda kendimi geliştirmekteyim.
+2 yıl kadar windows sistemler üzerine çalışmalar yaptıktan sonra **GNU/Linux** alanına geçiş yaptım. 4 yılı aşkın bir süredir bu alanda kendimi geliştirmekteyim.
 
 ### Neler biliyorum
 
