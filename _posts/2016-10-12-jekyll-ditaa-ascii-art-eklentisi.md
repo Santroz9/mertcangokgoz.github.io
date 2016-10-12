@@ -3,7 +3,7 @@ layout: post
 title: Jekyll Ditaa ASCII Art Eklentisi
 date: 2016-10-12
 type: post
-categories: linux
+categories: jekyll
 description: Bu eklentiyi oldukça seviyorum ascii art şeklinde çizdiğiniz her türlü içeriği otomatik olarak resme dönüştürüp sayfanızda
 ---
 
