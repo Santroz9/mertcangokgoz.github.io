@@ -11,7 +11,7 @@ Merhaba
 
 ### Neler biliyorum
 
-GNU/Linux (RHEL, CentOS, Debian, Ubuntu…), Windows(XP/2003/2008/7/8/8.1/10/Server 2012), MsSQL Server (2012/2014) HTML5, CSS, Javascript, PHP, Python, .NET, Shell Scripting(Bash, Sh vs), MySQL, MongoDB, Couchbase, Redis, HAproxy, Keepalived, Apache, Nginx, Wordpress, OpenVPN, Tomcat, PostgreSQL, Alfresco, Graylog, Zabbix, TCP/IP, SSL/TLS, DHCP, Bind, PowerDNS, MS DNS, PfSense, Iptables, Mod_Security, Nessus, OpenVAS, DNS, SSH, FTP, Microsoft Office
+GNU/Linux (RHEL, CentOS, Debian, Ubuntu…), Windows(XP/2003/2008/7/8/8.1/10/Server 2012), MsSQL Server (2012/2014) HTML5, PHP, Python, .NET, Shell Scripting(Bash, Sh vs), MySQL,  Couchbase, Redis, HAproxy, Keepalived, Apache, Nginx, Wordpress, OpenVPN, Alfresco, Zabbix, TCP/IP, SSL/TLS, MS DNS, PfSense, Iptables, Mod_Security, OpenVAS, FTP, Microsoft Office
 
 
 ## Kurslar
@@ -54,3 +54,5 @@ GNU/Linux (RHEL, CentOS, Debian, Ubuntu…), Windows(XP/2003/2008/7/8/8.1/10/Ser
 Bu blogda yer alan tüm dokümanlar anlatıldığı gibi pratikte çalıştığını gözlemlediklerimi oluşturmaktadır. Sitede bulnan tüm içerik online doküman olması amacıyla daha sonradan kullanılması için yazılmakta ve her daim güncel tutulmaktadır. Dokümanlar ile yapılan herhangi bir şeyde sorun yaşarsanız hiçbir şekilde sorumluluk kabul etmiyorum. **Başarınızda başarısızlığınızda tamamen size aittir.**
 
 Bu blogda yazılan tüm yazılar başka platformlarda kaynak gösterilerek istenildiği gibi paylaşılabilir, kullanılabilir, dağıtılabilir ve değiştirilebilir.
+
+[Mertcan GÖKGÖZ Özgeçmiş](https://mertcangokgoz.com/MertcanGokgozOzGecmis.pdf/)
