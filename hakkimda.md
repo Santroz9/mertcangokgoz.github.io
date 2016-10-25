@@ -55,6 +55,4 @@ Bu blogda yer alan tüm dokümanlar anlatıldığı gibi pratikte çalıştığ�
 
 Bu blogda yazılan tüm yazılar başka platformlarda kaynak gösterilerek istenildiği gibi paylaşılabilir, kullanılabilir, dağıtılabilir ve değiştirilebilir.
 
-[Mertcan GÖKGÖZ CV English](https://mertcangokgoz.com/MertcanGokgozOzGecmis.pdf/)
-
-[Mertcan GÖKGÖZ CV Türkçe](https://mertcangokgoz.com/MertcanGokgozOzGecmisTur.pdf/)
+[Mertcan GÖKGÖZ CV English](https://mertcangokgoz.com/MertcanGokgozOzGecmis.pdf) | [Mertcan GÖKGÖZ CV Türkçe](https://mertcangokgoz.com/MertcanGokgozOzGecmisTur.pdf)
