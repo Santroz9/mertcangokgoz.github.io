@@ -35,7 +35,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="quiet"
 şeklinde olan satıra şunu eklemiştik
 
 ```
-ipv6.disable=1 
+ipv6.disable=1
 ```
 
 ve son hali şu şekildeydi
@@ -77,5 +77,7 @@ systemctl stop NetworkManager-wait-online.service
 Bu sorun aslında şundan kaynaklanıyordu yukarda bahsi geçen `NetworkManager-wait-online.service` devamlı süreçlerin online olmasını bekliyor ve buna göre davranıyor elimizdede IPv6 olmadığı için saçma salak bir şekilde `IPv6: ADDRCONF(NETDEV_UP): wlp3s0: link is not ready` uyarısını çıktı olarak veriyor ve hazır değil diyordu
 
 Network manager de bunu fırsat bilip restart atıyor ve belki gelir umudu ile bir takım davranışlar sergiliyordu.
+
+dipnot: bağlantı kalitenizi olumsuz yönde etkileyebilir. Sonra bana sövmeyin deneme yanılma ile kontrol etmenizi öneririm.
 
 öptüm bye <3
