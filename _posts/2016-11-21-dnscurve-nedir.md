@@ -9,7 +9,7 @@ description: DNSCurve, Daniel J. Bernstein tarafından tasarlanan ve Etki Alanı
 
 **DNSCurve**, Daniel J. Bernstein tarafından tasarlanan ve Etki Alanı Adı Sistemi (DNS) için önerilen yeni ve güvenli bir protokoldür.
 
-**DNSCurve**, tarafından kullanılan `Curve25519` , `Salsa20` ve `Poly1305` MAC işleviyle eşleşen anahtarları, çözümleyiciler ve yetkili sunucular arasındaki **DNS** paketlerini şifrelemek, doğrulamak ve bağlantı kurmak için eliptik eğri şifrelemesi kullanılır. Uzak yetkili sunucular için ortak anahtarlar NS kayıtlarına yerleştirilir, bu nedenle recursive çözümleyiciler sunucunun DNSCurve'u destekleyip desteklemediğini bilir. Olay `uz5` ile başlar ve sunucunun 255 bitlik genel anahtarının 51 baytlık bir `Base32` kodlamasını izler. 
+**DNSCurve**, tarafından kullanılan `Curve25519` , `Salsa20` ve `Poly1305` MAC işleviyle eşleşen anahtarları, çözümleyiciler ve yetkili sunucular arasındaki **DNS** paketlerini şifrelemek, doğrulamak ve bağlantı kurmak için eliptik eğri şifrelemesi kullanılır. Uzak yetkili sunucular için ortak anahtarlar NS kayıtlarına yerleştirilir, bu nedenle recursive çözümleyiciler sunucunun DNSCurve'u destekleyip desteklemediğini bilir. Olay `uz5` ile başlar ve sunucunun 255 bitlik genel anahtarının 51 baytlık bir `Base32` kodlamasını izler.
 
 Örneğin, **BIND** biçiminde;
 
@@ -17,7 +17,7 @@ description: DNSCurve, Daniel J. Bernstein tarafından tasarlanan ve Etki Alanı
 mertcangokgoz.com. IN NS uz5xo1ymn4mw5oodb4mxixn3e2ntnqzjnndxl3ejdjbxl.mertcangokgoz.com.
 ```
 
-Çözümleyici daha sonra sunucuya **DNSCurve** genel anahtarını, 96 bit **nonce**(Kriptografi'de bir nonce, yalnızca bir kez kullanılabilen keyfi rastgele bir sayıdır.) ve sorguyu cryptographic box içeren bir paket halinde gönderir. Cryptographic box, çözümleyici özel anahtarı, sunucunun genel anahtarı ve **nonce** kullanılarak oluşturulur. 
+Çözümleyici daha sonra sunucuya **DNSCurve** genel anahtarını, 96 bit **nonce**(Kriptografi'de bir nonce, yalnızca bir kez kullanılabilen keyfi rastgele bir sayıdır.) ve sorguyu cryptographic box içeren bir paket halinde gönderir. Cryptographic box, çözümleyici özel anahtarı, sunucunun genel anahtarı ve **nonce** kullanılarak oluşturulur.
 
 Sunucudan gelen yanıt, farklı bir 96-bit **nonce** ve sorunun cevabını içeren kendi Kriptografik bilgiyi içerir.
 
@@ -30,9 +30,9 @@ DNSCurve'de kullanılan şifreleme araçları, TCP'ye benzer, ancak verileri şi
 * **Kullanılabilirlik** - normal DNS, saniyede birkaç sahte paket gönderen sniffing saldırganlarından ve hizmet reddine (DoS) lara karşı koruma sağlamaz. **DNSCurve** ise sahte DNS paketlerini tanır ve atar; SMTP, HTTP, HTTPS gibi bazı protokoller DoS'a karşı savunmasızdırlar.
 
 
-# Güvenlik
+### Güvenlik
 
-DNSCurve, **NIST**(Ulusal Standartlar ve Teknoloji Enstitüsü)'nin kabaca 3072-bit RSA'ya eşdeğer olduğunu tahmin ettiği 256-bit eliptik eğri şifrelemeyi kullanır. `ECRYPT` benzer bir eşdeğerliği bildirir. Sorgu başına sorguya açık anahtarlı şifreleme (SSH ve SSL gibi) ve tekrar çalma saldırılarına karşı koruma sağlamak için 96 bitlik şifreler kullanır. 
+DNSCurve, **NIST**(Ulusal Standartlar ve Teknoloji Enstitüsü)'nin kabaca 3072-bit RSA'ya eşdeğer olduğunu tahmin ettiği 256-bit eliptik eğri şifrelemeyi kullanır. `ECRYPT` benzer bir eşdeğerliği bildirir. Sorgu başına sorguya açık anahtarlı şifreleme (SSH ve SSL gibi) ve tekrar çalma saldırılarına karşı koruma sağlamak için 96 bitlik şifreler kullanır.
 
 Google güvenlik sorumlusu Adam Langley;
 
@@ -40,7 +40,7 @@ Google güvenlik sorumlusu Adam Langley;
 
 diyor.
 
-# Hız
+### Hız
 
 Adam Langley kişisel web sitesinde, test edilen eliptik eğriler arasında en hızlı olması için DNSCurve tarafından kullanılan **curve25519**'u gösteren hız testleri yayınladı. <sup>[1](https://www.imperialviolet.org/2010/12/21/eccspeed.html)<sup>
 
