@@ -55,4 +55,4 @@ Bu blogda yer alan tüm dokümanlar anlatıldığı gibi pratikte çalıştığ�
 
 Bu blogda yazılan tüm yazılar başka platformlarda kaynak gösterilerek istenildiği gibi paylaşılabilir, kullanılabilir, dağıtılabilir ve değiştirilebilir.
 
-[CV_Mertcan_GÖKGÖZ](https://mertcangokgoz.com/CV_Mertcan_GÖKGÖZ.pdf)
+[CV_Mertcan_GÖKGÖZ](https://mertcangokgoz.com/CV_Mertcan_GOKGOZ.pdf)
