@@ -5,10 +5,114 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Mon, 28 Nov 2016 15:55:08 +0200</lastBuildDate>
-        <pubDate>Mon, 28 Nov 2016 15:55:08 +0200</pubDate>
+        <lastBuildDate>Mon, 28 Nov 2016 18:00:55 +0200</lastBuildDate>
+        <pubDate>Mon, 28 Nov 2016 18:00:55 +0200</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Hybrid fibre-coaxial Nedir ?</title>
+                <description>&lt;p&gt;Hybrid fiber-koaksiyel (HFC), optik fiber ve koaksiyel kabloyu birleştiren bir geniş bant ağı için bir telekomünikasyon endüstrisi terimidir. 1990’lı yılların başından beri yaygın olarak kablo televizyon operatörleri tarafından küresel olarak kullanılmaktadır.&lt;/p&gt;
+
+&lt;p&gt;Hybrid bir fiber koaksiyal kablo sisteminde televizyon kanalları, kablo sisteminin dağıtım merkezinden, headend, fiber optik hatları vasıtasıyla yerel topluluklara gönderilir. Yerel toplulukta optik bir düğüm olarak adlandırılan bir kutu, sinyali bir ışık ışınından elektrik sinyaline çevirir ve onu abone konutlarına dağıtmak için koaksiyel kablo hatlarını kullanır. Fiber optik iç hatları, gelecekte genişleme ve yeni bant genişliği yoğun hizmetler sağlamak için yeterli bant genişliği sağlar.&lt;/p&gt;
+
+&lt;p&gt;Fiber optik ağı, kablo operatörlerinin ana istasyonundan bazen bölgesel ön uçlara ve dışarıda bir mahalle hub’ına ve nihayet 25 ila 2000 ev arasında herhangi bir yere hizmet veren bir koaksiyel kablo düğümüne kadar uzanmaktadır. Bir ana istasyonda genellikle uzaktaki video sinyallerinin yanı sıra IP toplama yönlendiricileri için uydu antenleri bulunur. Bazı ustalar, topluluğa telekomünikasyon hizmetleri sağlamak için telefon ekipmanı da barındırıyorlar.&lt;/p&gt;
+
+&lt;p&gt;Bir bölgesel veya alan headend/hub, ana başlıktan gelen video sinyalini alacak ve yerel franchising yetkililerinin gerektirdiği şekilde kamu, eğitim ve devlet erişimi (PEG) kablo TV kanallarını ekleyecek veya yerel bir bölgeye hitap edecek hedefli reklamcılık alanı ekleyecektir. Çeşitli hizmetler kodlanmış, modüle edilmiş ve tek bir elektrik sinyali üzerine birleştirilen ve geniş bantlı bir optik vericiye yerleştirilen radyo frekansı (RF) taşıyıcılarına dönüştürülmüştür.&lt;/p&gt;
+
+&lt;p&gt;Bu optik verici, elektrik sinyalini düğümlere gönderilen Downstream olarak modüle edilmiş bir sinyale dönüştürür. Fiber optik kablolar, uçtan uca veya hub noktadan noktaya veya star topolojisin de veya bazı durumlarda korumalı bir ring topolojisin de optik düğümlere bağlar.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/HFC-network-diagram.jpg&quot; alt=&quot;hfc-network-diagramı&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;fiber-optik-dmler&quot;&gt;Fiber optik düğümler&lt;/h3&gt;
+
+&lt;p&gt;Fiber optik bir düğümün, geniş bantlı bir optik alıcısı vardır; bu alıcı, headend veya hub’tan gelen Downstream optik olarak modüle edilmiş sinyali evlere giden bir elektrik sinyaline çevirir. 2015 yılından itibaren, Downstream sinyali, tipik olarak 50 MHz’de başlayan ve üst ucunda 550-1000 MHz aralığında değişen RF modüle edilmiş bir sinyaldir. Fiber optik düğüm ayrıca, evden başlığa geri iletişimi gönderen bir ters veya dönüş yolu vericisi içerir.&lt;/p&gt;
+
+&lt;p&gt;Kuzey Amerika’da bu ters sinyal, 5-42 MHz arasında değişen, dünyanın diğer yerlerinde 5-65 MHz aralığında değişen bir RF modülasyonudur. Optik alıcı ile birleştirilen optik birleştirici bir düğüm oluşturur&lt;/p&gt;
+
+&lt;p&gt;Ağın optik kısmı büyük miktarda esneklik sağlar. Düğüm için çok sayıda fiber optik kablo yoksa, dalga boyu bölmeli çoğullama, birden fazla optik sinyali aynı fiber üzerine birleştirmek için kullanılabilir. Optik filtreler, optik dalga boylarını tekli fiber üzerine birleştirmek ve bölmek için kullanılır.&lt;/p&gt;
+
+&lt;p&gt;Örneğin, Downstream 1490 nm’de bir dalga boyunda olabilir ve dönüş sinyali 1310 nm’de bir dalga boyunda olabilir.&lt;/p&gt;
+
+&lt;h3 id=&quot;mterilere-nihai-balant&quot;&gt;Müşterilere nihai bağlantı&lt;/h3&gt;
+
+&lt;p&gt;Ağın koaksiyel kısmı, düğümün ağaç ve dal konfigürasyonunda 25-2000 ev (500 tipik) bağlar. RF amplifikatörleri, koaksiyel kabloyu bölme veya “tıkama” nedeniyle elektrik sinyallerinin pasif kayıplarını ve kablo zayıflamasını yenmek için aralıklarla kullanılır.&lt;/p&gt;
+
+&lt;p&gt;Gövde koaksiyel kabloları optik düğüme bağlanır ve küçük dağıtım kablolarının bağlandığı bir koaksiyel omurga oluşturur. Gövde kabloları, genellikle bir güç kaynağı (bir kurşun asit yedek pil içeride bulunur) ve bir güç yerleştirici tarafından, genellikle 60 veya 90 V’de kablo hattına eklenen AC gücünü taşır. Güç, kablo hattına eklenerek optik düğümler, gövde ve dağıtım amplifikatörlerinin bireysel, harici bir güç kaynağına ihtiyacı yok.&lt;/p&gt;
+
+&lt;p&gt;Güç kaynağının yerel güç şirketi yönetmeliklerine bağlı olarak yanında bir güç ölçeri olabilir.&lt;/p&gt;
+
+&lt;p&gt;Gövde kablolarından daha küçük dağıtım kabloları, RF sinyalini ve AC gücü bireysel caddelerde taşımak için gövde amplifikatörünün bir portuna bağlanır. Gerekirse, daha küçük dağıtım yükselticiler olan çizgi genişleticiler, televizyon sinyalinin gücünü TV’nin kabul edebileceği bir seviyede tutmak için sinyalleri artırır. Dağıtım hattı daha sonra “damlatılarak” yerleştirilir ve bireysel damlaları müşteri evlerine bağlar.&lt;/p&gt;
+
+&lt;p&gt;Bu bağlantı, RF sinyalini iletir ve koaksiyel güç sistemi tarafından sağlanan yedek güç güvenilirliğine ihtiyaç duyan telefon cihazları yoksa AC gücünü bloke eder. bağlantı bir F konnektörü olarak bilinen standart bir vida tipi konnektör kullanarak küçük bir koaksiyel damla içine sona erer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/hfc-gorsel2.jpg&quot; alt=&quot;hfc-gorsel2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Damla daha sonra, toprak bloğunun sistemi gerilimden koruyan eve bağlanır. Şebeke tasarımına bağlı olarak, sinyal bir splitter üzerinden birden fazla TV’ye aktarılabilir. Birden çok TV’ye bağlanmak için çok sayıda bölücü kullanılıyorsa, sinyal seviyeleri düşecek ve bu bölücüleri aşan TV’lerin analog kanallarındaki görüntü kalitesi, “damla” veya “ev” amplifikatörünün kullanılmasını gerektiriyor veya daha da kabaca, çoklu Aynı binaya düşer.&lt;/p&gt;
+
+&lt;h3 id=&quot;hfc-ebekesi-zerinden-tama&quot;&gt;HFC şebekesi üzerinden taşıma&lt;/h3&gt;
+
+&lt;p&gt;Frekans bölmeli çoğullamayı kullanarak, bir HFC şebekesi, analog TV, dijital TV (SDTV veya HDTV), isteğe bağlı video, telefon ve yüksek hızlı veriler de dahil olmak üzere çeşitli servisleri taşıyabilir. Bu sistemlerdeki servisler 5 MHz ila 1000 MHz frekans bandında radyo frekansı (RF) sinyalleriyle taşınır.&lt;/p&gt;
+
+&lt;p&gt;HFC şebekesi tipik olarak iki yönlü olarak çalıştırılır, yani sinyallerin aynı ağdaki iki yöne, ana istasyondan merkeze, eve ve evden headend / hub’a taşınması anlamına gelir. İleriye doğru yol veya Downstream sinyaller, video içeriği, ses ve İnternet verileri gibi headend / merkez ofisinden eve bilgi taşıyor. İlk HFC şebekeleri ve çok eski yeniden kurulmamış HFC şebekeleri yalnızca tek yönlü sistemlerdir. Tek yönlü sistemler için ekipman, kulaklık ile iletişim kurmak için POTS veya radyo ağlarını kullanabilir.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/hfc-gorsel3.jpg&quot; alt=&quot;hfc-gorsel3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Geri dönüş yolu veya Upstream sinyalleri, bir film veya İnternet verisinin bir e-posta göndermek üzere sipariş vermek için kontrol sinyallerinin olduğu gibi evden headend / hub’a bilgi taşır. İleri yol ve dönüş yolu aslında optik düğüm ve ev arasında her iki yönde aynı koaksiyel kablo üzerinden taşınır.&lt;/p&gt;
+
+&lt;p&gt;Sinyallerin karışmasını önlemek için, frekans bandı iki bölüme ayrılmıştır. Geleneksel olarak NTSC Sistem M kullanan ülkelerde, bölümler ileri yol sinyalleri için 52-1000 MHz ve dönüş yolu sinyalleri için 5-42 MHz’dir. Diğer ülkeler farklı bant boyutlarını kullanıyor ancak upstream iletişim yerine downstream iletişim için daha fazla bant genişliği olması açısından benzerdir.&lt;/p&gt;
+
+&lt;p&gt;Geleneksel olarak, video içeriği yalnızca eve gönderildiğinden, HFC ağı asimetrik olarak yapılandırılmıştır: bir yönde, diğer yöne göre çok daha fazla veri taşıma kapasitesi vardır. Geri dönüş yolu başlangıçta sadece çok düşük bant genişliği gerektiren film, vb sipariş etmek için bazı kontrol sinyallerinde kullanılıyordu. Internet erişimi ve telefon gibi ek hizmetler HFC şebekesine eklenince, dönüş yolu daha çok kullanılıyor.&lt;/p&gt;
+
+&lt;h3 id=&quot;oklu-sistem-operatrleri&quot;&gt;Çoklu sistem operatörleri&lt;/h3&gt;
+
+&lt;p&gt;Çoklu sistem operatörleri (MSO’lar) çeşitli hizmetleri fiber optik ve koaksiyal bakır kablolar üzerinde RF sinyalleri üzerinden gönderme yöntemleri geliştirdi. HFC şebekesi üzerinden video aktarmak için asıl yöntem ve halen en yaygın kullanılan yöntem, havadaki yayın iletimi için kullanılan metoda benzer şekilde standart analog TV kanallarının modülasyonudur.&lt;/p&gt;
+
+&lt;p&gt;Bir analog TV kanalı, NTSC tabanlı sistemlerde 6 MHz genişliğinde bir frekans bandı veya PAL veya SECAM tabanlı sistemlerde 8 MHz genişliğinde bir frekans bandı barındırır. Her kanal, bitişik veya harmonik kanallar ile herhangi bir etkileşim olmaması için belirli bir frekans taşıyıcıya ortalanır. Dijital olarak modüle edilmiş bir kanal, ev veya müşteri-tesis ekipmanları (CPE), örneğin; Dijital televizyonlar, bilgisayarlar veya set üstü kutular, RF sinyallerini analog televizyonlar veya bilgisayar monitörleri gibi görüntüleme aygıtlarıyla uyumlu sinyallere dönüştürmek için gereklidir.&lt;/p&gt;
+
+&lt;p&gt;ABD Federal Haberleşme Komisyonu (FCC), tüketicilerin dijital kanalları izlemek için yetkilendirmek için yerel MSO’dan bir kablo kartı alabileceğine karar verdi.&lt;/p&gt;
+
+&lt;p&gt;Dijital sıkıştırma tekniklerini kullanarak birden fazla standart ve yüksek tanımlı TV kanalı bir 6 veya 8 MHz frekans taşıyıcı üzerinde taşınabilir, böylece HFC ağının kanal taşıma kapasitesini tüm analog ağa oranla 10 kat veya daha fazla arttırır.&lt;/p&gt;
+
+&lt;h3 id=&quot;rekabeti-a-teknolojileri&quot;&gt;Rekabetçi ağ teknolojileri&lt;/h3&gt;
+
+&lt;p&gt;Dijital abone hattı (DSL), geleneksel telefon şirketleri tarafından bükümlü çift bakır telefon kablolarında gelişmiş hizmetler (yüksek hızlı veri ve bazen video) sunmak için kullanılan bir teknolojidir. Genellikle HFC şebekelerinden daha düşük veri taşıma kapasitesine sahiptir ve veri hızları, hat uzunlukları ve kalitesi ile aralıklarla sınırlandırılabilir.&lt;/p&gt;
+
+&lt;p&gt;Uydu televizyonu, yayın video servislerinin sunumunda HFC şebekeleri ile çok iyi rekabet eder. Etkileşimli uydu sistemleri, büyük gidiş-dönüş gecikmelerinden ötürü kentsel çevrelerde daha az rekabetçi olmakla birlikte, kırsal alanlarda ve dağınık karasal altyapı yetersiz ya da hiç olmayan diğer ortamlarda caziptir.&lt;/p&gt;
+
+&lt;p&gt;HFC’ye benzer şekilde, fiber in loop (FITL) teknolojisi telefonla yerel değişim taşıyıcıları tarafından, düz eski telefon servisi (POTS) yerel döngü üzerinden telefon müşterilerine gelişmiş hizmetler sağlamak için kullanılır.&lt;/p&gt;
+
+&lt;p&gt;2000’li yıllarda, telekom şirketleri kablolu operatörler ile rekabet etmek için video, veri ve ses sunmak için pasif optik ağ çözümleri gibi x’e (FTTX) önemli bir fiber dağıtımı yapmaya başladı. Bunlar dağıtmak pahalı olabilir, ancak özellikle veri hizmetleri için geniş bant genişliği kapasitesi sağlayabilirler.&lt;/p&gt;
+
+&lt;h3 id=&quot;avantajlar&quot;&gt;Avantajları&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Maliyet - Gerekli daha az amplifikatör sayesinde daha az bakım maliyeti. Aynı zamanda koaksiyalden daha az elektriğe, daha düşük maliyet anlamına gelir.&lt;/li&gt;
+  &lt;li&gt;Güvenilirlik - Güvenilir, gürültüye ve neredeyse varolmayan zayıflamaya (bozulma) karşı korunmuştur.&lt;/li&gt;
+  &lt;li&gt;Bant genişliği - Geleneksel CaTV ağından (330MHz veya 450MHz’e kadar), HFC ile 750MHz’e kadar artan yüksek bant genişliği özellikleri.&lt;/li&gt;
+  &lt;li&gt;Esneklik - Var olan operasyonel parametreleri değiştirmeden ses, veri veya video gibi yeni hizmetlere uyum yeteneğine sahiptir (TE Consulting)&lt;/li&gt;
+  &lt;li&gt;Boyut - Aynı bant genişliğine sahip bakır kablolardan daha hafif ve daha incedir: Yeraltı kablolama kanallarında çok daha az alan gereklidir ve montaj mühendisleri tarafından işlenmesi daha kolaydır.&lt;/li&gt;
+  &lt;li&gt;Güvenlik - Bilinmeyen bilgilerin girilmesi çok daha zor; Bankalar ve güvenlik tesisatları için büyük bir avantaj. Radyo sinyallerinden, otomobil ateşleme sistemlerinden, şimşek vb. Elektromanyetik parazitlerden etkilenmez. Patlayıcı veya yanıcı atmosferlerde güvenle yönlendirilebilir.&lt;/li&gt;
+  &lt;li&gt;Teknoloji Desteği - Kablolu telefonları, artan sayıda CaTV kanalını (200’den fazla), ağların HFC omurgalarını ve ATM hizmetlerini kullanacağını varsayan yeni Dijital TV standartlarını doğrudan destekler.&lt;/li&gt;
+  &lt;li&gt;Kullanılabilirlik - Ayrı bir bağlantı kullandığı için telefon hattını çevirmeli bağlamaya gerek yok, Kablo İnternet’in sürekli bağlantısı var.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dezavantajlar&quot;&gt;Dezavantajları&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Maliyet - Koaksiyel Kablo’dan daha pahalı, özellikle uzun kablolar nedeniyle kırsal abonelere pahalı.&lt;/li&gt;
+  &lt;li&gt;Güvenilirlik - Bir fiberin destekleyeceği çok sayıda kullanıcı nedeniyle, bir trenin raydan çıkması, deprem ya da diğer travmatik felaket boyutlarına bile sahip olabilir.&lt;/li&gt;
+  &lt;li&gt;Gerekli Beceri - Optik fiberler, bakır kablo kadar kolay birleştirilebilir (birbirine yapıştırılamaz) ve ek personel eğitimi ve pahalı hassas ekleme ve ölçüm ekipmanları gerektirir.&lt;/li&gt;
+  &lt;li&gt;Simetri - Asimetrik, yeni interaktif multimedya temelli değil.&lt;/li&gt;
+  &lt;li&gt;Sinyal Kalitesi - Daha fazla abone ağı kullandıkça azaltılır. İletimlerin hızı da düşer.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Kaynak: https://en.wikipedia.org/wiki/Hybrid_fibre-coaxial ve http://services.eng.uts.edu.au/~kumbes/ra/Access-Networks/hfc/cnethfc.htm&lt;/p&gt;
+</description>
+                <link>https://mertcangokgoz.com/hybrid-fibre-coaxial-nedir/</link>
+                <guid>https://mertcangokgoz.com/hybrid-fibre-coaxial-nedir</guid>
+                <pubDate>Mon, 28 Nov 2016 00:00:00 +0200</pubDate>
+        </item>
 
         <item>
                 <title>Javascript ile Beni Unutma Yapalım</title>
@@ -3169,101 +3273,6 @@ mertcan@0x2e88ce4:~$
                 <link>https://mertcangokgoz.com/babaya-kullanilabilir-entropi-lazim/</link>
                 <guid>https://mertcangokgoz.com/babaya-kullanilabilir-entropi-lazim</guid>
                 <pubDate>Wed, 21 Sep 2016 00:00:00 +0300</pubDate>
-        </item>
-
-        <item>
-                <title>Linux'de Batarya Performansını Arttırma</title>
-                <description>&lt;p&gt;Linuxde batarya performansının biraz kötü olduğunu düşünebilirsiniz özellikle uzun süre windows kullandıktan sonra linuxe geçtiğinizde batarya süresinin olduğundan az gittiğini fark etmişsinizdir. Aslında bu durum bir hatadan çok kullanıcıya elindeki sistemin tüm imkanlarını kullanabilmesi için verilmiş olan bir özelliktir.&lt;/p&gt;
-
-&lt;p&gt;Windows sizi kısıtlarken linux tarafında sisteminizin tüm kaynaklarını kullanırsınız bu yüzdende windowsa oranla batarya performansı düşüktür. Ancak windowsda 6 saat gidipte linux de 2 saat gitme gibi bir durum söz konusu değildir sadece 1 saatlik bir fark bulunmaktadır. Yani 4 saat giden bir batarya ömrü 3 saate düşebilir. Bunun bir garantisi tabi ki windowsta olmadığı gibi linux sistemlerdede yoktur. Lafı uzatmadan hemen işlemlerimize geçelim…&lt;/p&gt;
-
-&lt;p&gt;Laptobumuzda bir takım değişiklikler yapacağız bu yaptığımız değişiklikler güç yönetimini sistemin daha iyi kullanmasını sağlayacak.&lt;/p&gt;
-
-&lt;p&gt;İlk olarak BIOS arkadaşımıza sistemin ne olduğunu belirtmemiz gerekiyor. Bu hem bir takım değişikliklerin geçerli olmasını sağlayacak hemde güç yönetimini iyileştirecek.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo nano /etc/default/grub
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;grub ayarlarımıza giriş yapıyoruz. Direk olarak şu satırı gözümüz ile arıyoruz. &lt;code class=&quot;highlighter-rouge&quot;&gt;GRUB_CMDLINE_LINUX=&lt;/code&gt; bu satırı bulduktan sonra karşısına daha önceden bir şey eklemediyseniz aşağıdaki satırı ekliyoruz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;acpi_osi=Linux acpi=force acpi_enforce_resources=lax
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;ayarları kayıt ediyoruz ve aşağıdaki komutu vererek grubu güncelliyoruz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo update-grub
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Bu işlemi yaptık sisteme söyledik biz linux kullanıyoz sen istesende istemesende buna alış dedik bu kardeşte alıştı zorlarkende &lt;code class=&quot;highlighter-rouge&quot;&gt;lax&lt;/code&gt; kullan dedik ki standartlarda sıkıntı çıkmasın&lt;/p&gt;
-
-&lt;p&gt;Bazı laptoplarda yapılan bu işlemler klavye arka plan ışığını falan geri getiriyor. getirmez ise şunu kullanabilirsiniz ceplik bilgi olarak burada dursun &lt;code class=&quot;highlighter-rouge&quot;&gt;acpi_backlight=vendor&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Şimdi herşey yerinde bu hali ile sistemi yeniden başlatıyorsunuz ve &lt;code class=&quot;highlighter-rouge&quot;&gt;dmesg&lt;/code&gt; komutunu verip çıktılara bakıyorsunuz güç yönetimini engelleyen ve sistemde desteklenmiyor diye bas bas bağıran şunun gibi bir çıktı göreceğinize eminim&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;r8169 0000:03:00.0: can't disable ASPM; OS doesn't have ASPM control
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Şimdi bu r8169 yani wifi den olabileceği gibi aynı zamanda başka donanımlardanda olabilir merak etmeyin bu bir sorun değil sadece bir uyarı sistem size güç yönetimi konusunda sisteminizin ASPM(Active State Power Management) desteklemediğinden bahsediyor.&lt;/p&gt;
-
-&lt;p&gt;şu şekilde kontrol edebiliriz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;dmesg | grep ASPM
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;çıktısında yukarıdaki gibi hatalar ile karşılaşıyormusunuz örneğin;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[    0.000000] PCIe ASPM is disabled
-[    0.131506] ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
-[    0.194817] acpi PNP0A08:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Sistemin desteklemediğinden tekrar ve tekrar bahsettiğini göreceğiz. Bunu çözmek için ise şu şekilde bir yol izleyebiliriz ya olduğu gibi pcıe üzerinde kapatırız yada TLP kurup yolumuza devam ederiz. İlk olarak biz bi TLP yi kuralım&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install tlp
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ubuntu 16.04 üzerinde direk ppa sisteme ekli olduğu için herhangi ek bir işleme gerek duyulmuyor direk olarak yükleyip kullanabiliyorsunuz. Sisteme uygulamayı ilk dahil ettiğinizde batarya modunda kulaklığınızdan cızırtı gelecektir telaşlanmayın yada &lt;code class=&quot;highlighter-rouge&quot;&gt;tlp&lt;/code&gt; yi hemen kaldırmayın çözümü oldukça basit&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo nano /etc/default/tlp
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;dosyaya giriyoruz pek çok ayar karşımıza çıkıyor kulaklıkta sıkıntı yaratan satırı buluyoruz&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;﻿SOUND_POWER_SAVE_ON_BAT=1
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;ve aşağıdaki gibi değiştiriyoruz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;SOUND_POWER_SAVE_ON_BAT=0
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;bu sayede bataryada kulaklıtan gelen tısırtı ve cızırtı kesilmiş olacak.&lt;/p&gt;
-
-&lt;p&gt;İkinci bir yöntem olarak ise aspm yi kontrol etmek ve bunu direk olarak grub yardımıyla kapatmak bu sayede sistem bu aşamada zorlamayacak ve kapatıp geçecek tüm donanımlar performanslı bir şekilde çalışmaya devam edecek ve bir yandanda TLP nin kurallarını uygulayacak ne güzel değil mi&lt;/p&gt;
-
-&lt;p&gt;şimdi bunu yapmak için yukarıdaki grub ayarlarına geliyorsunuz ve eklediklerinizin son satırına şunu ekleyip aynı işlemleri tekrarlıyorsunuz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pcie_aspm=off
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Kalıcı bir şekilde bu özellikten kurtulduğumuza görede işlem tamamlanmış oluyor artık bataryanın %10 daha fazla gittiğini göreceksiniz yani buna zaman olarak bakarsak 20 dk daha fazla demek olsada bu durum bataryanızın kalitesine görede değişecek bataryanızın ölü olmadığından emin olun yoksa &lt;code class=&quot;highlighter-rouge&quot;&gt;linux size harikalar yaratmaz&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;öptüm bye &amp;lt;3&lt;/p&gt;
-</description>
-                <link>https://mertcangokgoz.com/linuxde-batarya-performansini-arttirmak/</link>
-                <guid>https://mertcangokgoz.com/linuxde-batarya-performansini-arttirmak</guid>
-                <pubDate>Tue, 20 Sep 2016 00:00:00 +0300</pubDate>
         </item>
 
 
