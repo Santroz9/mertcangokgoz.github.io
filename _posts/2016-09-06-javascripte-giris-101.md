@@ -11,4 +11,4 @@ description: 2 Yıl kadar önce hazırlamış olduğum Javascript dokümanı ö�
 
 Daha az uygulamaya bağımlı bir şekilde online kitabı oluşturdum. Uygulama geliştirildikçe pdf ve çoklu dil özelliğide gelecek tüm dokümanları bu yönte güncellemeyi unutmayacağım.
 
-Gerekli olan dokümana ulaşmak için [tıklayın](https://mertcangokgoz.com/doc/javascripte-giris-101/)
+Gerekli olan dokümana ulaşmak için [tıklayın](https://www.gitbook.com/book/mertcangokgoz/javascripttutorial/details)
