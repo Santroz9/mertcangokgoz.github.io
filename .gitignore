@@ -1,0 +1,5 @@
+.ruby-version
+.bundle
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
