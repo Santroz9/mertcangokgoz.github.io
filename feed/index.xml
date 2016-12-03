@@ -5,8 +5,8 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Wed, 30 Nov 2016 15:21:43 +0200</lastBuildDate>
-        <pubDate>Wed, 30 Nov 2016 15:21:43 +0200</pubDate>
+        <lastBuildDate>Sun, 04 Dec 2016 01:31:22 +0300</lastBuildDate>
+        <pubDate>Sun, 04 Dec 2016 01:31:22 +0300</pubDate>
         <ttl>1800</ttl>
 
 
@@ -28,7 +28,7 @@ log4j.appender.loggerId.layout.ConversionPattern=%d [%t] %-5p (%F:%L) - %m%n
 </description>
                 <link>https://mertcangokgoz.com/log4j-log-rotate-sorunu-ve-cozumu/</link>
                 <guid>https://mertcangokgoz.com/log4j-log-rotate-sorunu-ve-cozumu</guid>
-                <pubDate>Wed, 30 Nov 2016 00:00:00 +0200</pubDate>
+                <pubDate>Wed, 30 Nov 2016 00:00:00 +0300</pubDate>
         </item>
 
         <item>
@@ -132,7 +132,7 @@ log4j.appender.loggerId.layout.ConversionPattern=%d [%t] %-5p (%F:%L) - %m%n
 </description>
                 <link>https://mertcangokgoz.com/hybrid-fibre-coaxial-nedir/</link>
                 <guid>https://mertcangokgoz.com/hybrid-fibre-coaxial-nedir</guid>
-                <pubDate>Mon, 28 Nov 2016 00:00:00 +0200</pubDate>
+                <pubDate>Mon, 28 Nov 2016 00:00:00 +0300</pubDate>
         </item>
 
         <item>
@@ -169,7 +169,7 @@ $(function() {
 </description>
                 <link>https://mertcangokgoz.com/javascript-ile-beni-unutma-yapalim/</link>
                 <guid>https://mertcangokgoz.com/javascript-ile-beni-unutma-yapalim</guid>
-                <pubDate>Sun, 27 Nov 2016 00:00:00 +0200</pubDate>
+                <pubDate>Sun, 27 Nov 2016 00:00:00 +0300</pubDate>
         </item>
 
         <item>
@@ -241,7 +241,7 @@ sudo apt-get install php5.6-xml
 </description>
                 <link>https://mertcangokgoz.com/ubuntu-vm-uzerine-laravel-framework-kurulumu/</link>
                 <guid>https://mertcangokgoz.com/ubuntu-vm-uzerine-laravel-framework-kurulumu</guid>
-                <pubDate>Sat, 26 Nov 2016 00:00:00 +0200</pubDate>
+                <pubDate>Sat, 26 Nov 2016 00:00:00 +0300</pubDate>
         </item>
 
         <item>
@@ -299,7 +299,7 @@ sudo apt-get install php5.6-xml
 </description>
                 <link>https://mertcangokgoz.com/carrier-grade-nat-nedir/</link>
                 <guid>https://mertcangokgoz.com/carrier-grade-nat-nedir</guid>
-                <pubDate>Thu, 24 Nov 2016 00:00:00 +0200</pubDate>
+                <pubDate>Thu, 24 Nov 2016 00:00:00 +0300</pubDate>
         </item>
 
         <item>
@@ -400,7 +400,7 @@ forward-zone:
 </description>
                 <link>https://mertcangokgoz.com/dnscrypt-ve-unbound-kullanarak-dns-trafigini-sifreleme/</link>
                 <guid>https://mertcangokgoz.com/dnscrypt-ve-unbound-kullanarak-dns-trafigini-sifreleme</guid>
-                <pubDate>Tue, 22 Nov 2016 00:00:00 +0200</pubDate>
+                <pubDate>Tue, 22 Nov 2016 00:00:00 +0300</pubDate>
         </item>
 
         <item>
@@ -451,7 +451,7 @@ forward-zone:
 </description>
                 <link>https://mertcangokgoz.com/dnscurve-nedir/</link>
                 <guid>https://mertcangokgoz.com/dnscurve-nedir</guid>
-                <pubDate>Mon, 21 Nov 2016 00:00:00 +0200</pubDate>
+                <pubDate>Mon, 21 Nov 2016 00:00:00 +0300</pubDate>
         </item>
 
         <item>
@@ -609,7 +609,7 @@ network={
 </description>
                 <link>https://mertcangokgoz.com/network-manager-bir-kanser-hucresi/</link>
                 <guid>https://mertcangokgoz.com/network-manager-bir-kanser-hucresi</guid>
-                <pubDate>Sun, 20 Nov 2016 00:00:00 +0200</pubDate>
+                <pubDate>Sun, 20 Nov 2016 00:00:00 +0300</pubDate>
         </item>
 
         <item>
@@ -697,7 +697,7 @@ Liquid::Template.register_tag(&amp;#39;soundcloud_sound&amp;#39;, Jekyll::SoundC
 </description>
                 <link>https://mertcangokgoz.com/jekyll-soundcloud-eklentisi/</link>
                 <guid>https://mertcangokgoz.com/jekyll-soundcloud-eklentisi</guid>
-                <pubDate>Sat, 05 Nov 2016 00:00:00 +0200</pubDate>
+                <pubDate>Sat, 05 Nov 2016 00:00:00 +0300</pubDate>
         </item>
 
         <item>
@@ -710,7 +710,7 @@ Liquid::Template.register_tag(&amp;#39;soundcloud_sound&amp;#39;, Jekyll::SoundC
 </description>
                 <link>https://mertcangokgoz.com/ruby-egitim-seti/</link>
                 <guid>https://mertcangokgoz.com/ruby-egitim-seti</guid>
-                <pubDate>Fri, 04 Nov 2016 00:00:00 +0200</pubDate>
+                <pubDate>Fri, 04 Nov 2016 00:00:00 +0300</pubDate>
         </item>
 
         <item>
@@ -724,7 +724,7 @@ Liquid::Template.register_tag(&amp;#39;soundcloud_sound&amp;#39;, Jekyll::SoundC
 </description>
                 <link>https://mertcangokgoz.com/cisco-ccna-network-egitim-seti/</link>
                 <guid>https://mertcangokgoz.com/cisco-ccna-network-egitim-seti</guid>
-                <pubDate>Wed, 02 Nov 2016 00:00:00 +0200</pubDate>
+                <pubDate>Wed, 02 Nov 2016 00:00:00 +0300</pubDate>
         </item>
 
         <item>
@@ -774,7 +774,7 @@ Liquid::Template.register_tag(&amp;#39;jsfiddle&amp;#39;, Jekyll::JsFiddle)
 </description>
                 <link>https://mertcangokgoz.com/jekyll-jsfiddle-eklentisi/</link>
                 <guid>https://mertcangokgoz.com/jekyll-jsfiddle-eklentisi</guid>
-                <pubDate>Tue, 01 Nov 2016 00:00:00 +0200</pubDate>
+                <pubDate>Tue, 01 Nov 2016 00:00:00 +0300</pubDate>
         </item>
 
         <item>
@@ -801,7 +801,7 @@ Liquid::Template.register_tag(&amp;#39;jsfiddle&amp;#39;, Jekyll::JsFiddle)
 </description>
                 <link>https://mertcangokgoz.com/ipv6-egitim-seti/</link>
                 <guid>https://mertcangokgoz.com/ipv6-egitim-seti</guid>
-                <pubDate>Mon, 31 Oct 2016 00:00:00 +0200</pubDate>
+                <pubDate>Mon, 31 Oct 2016 00:00:00 +0300</pubDate>
         </item>
 
         <item>
