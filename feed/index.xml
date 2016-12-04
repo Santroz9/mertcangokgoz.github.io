@@ -5,10 +5,55 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Sun, 04 Dec 2016 01:31:22 +0300</lastBuildDate>
-        <pubDate>Sun, 04 Dec 2016 01:31:22 +0300</pubDate>
+        <lastBuildDate>Sun, 04 Dec 2016 15:39:34 +0300</lastBuildDate>
+        <pubDate>Sun, 04 Dec 2016 15:39:34 +0300</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Greedy Yaklaşımı Aktivite Seçim Problemi</title>
+                <description>&lt;p&gt;Aktivite seçimi problemi, her biri bir başlangıç zamanı (s) ve bitiş zamanı (f) ile işaretlenmiş bir dizi faaliyet göz önüne alındığında, belirli bir zaman çerçevesi içinde çelişmeyen faaliyetlerin seçimiyle ilgili bir kombinatoryal optimizasyon problemidir. Sorun, bir kişinin bir seferde tek bir etkinlikte çalışabileceğini varsayarak, tek bir kişi veya makine tarafından gerçekleştirilebilecek maksimum etkinlik sayısını seçmektir.&lt;/p&gt;
+
+&lt;p&gt;Optimizasyon problemlerinin önüne geçmek için sıkça kullanılan algoritmalardır. Her zaman en bariz ve anında fayda sağlayan bir sonraki parçayı seçer.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;malloc.h&amp;gt;
+
+
+void ActivitySelection(int *s, int *f, int n, int *sol)
+{
+	sol[0] = 0;
+
+	int i, c = 0;
+	for(i = 1; i &amp;lt; n; i++)
+		if(f[sol[c]] &amp;lt;= s[i])
+			sol[++c] = i;
+
+	sol[++c] = -1;
+}
+
+
+void main()
+{
+	int s[] =  {1, 3, 0, 5, 8, 5};
+    int f[] =  {2, 4, 6, 7, 9, 9};
+    int n = sizeof(s)/sizeof(s[0]);
+
+    int *sol = malloc(sizeof(int)*n);
+    ActivitySelection(s, f, n, sol);
+
+    int i;
+    for(i = 0; sol[i] != -1; i++)
+    	printf(&amp;quot;%d\t%d\t%d\n&amp;quot;, sol[i], s[sol[i]], f[sol[i]]);
+}&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/MertcanGokgoz/6620972535cb7e4c65d701c25329d36c.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;Her biri bir başlangıç zamanı s ve bitiş zamanı f ile temsil edilen n aktivite bulunduğunu varsayalım. &lt;code class=&quot;highlighter-rouge&quot;&gt;S ≥ f&lt;/code&gt; veya &lt;code class=&quot;highlighter-rouge&quot;&gt;s ≥ f&lt;/code&gt; ise iki etkinlik i ve j’nin çelişkili olmadığı söylenir. Aktivite seçim problemi, çelişkili olmayan faaliyetlerin maksimum çözüm setini (S) bulmaktan ibarettir veya daha kesin bir ifadeyle, &lt;code class=&quot;highlighter-rouge&quot;&gt;|S'| &amp;gt; |S|&lt;/code&gt; Birden fazla maksimal çözümün eşit ebatlara sahip olması durumundadır..&lt;/p&gt;
+</description>
+                <link>https://mertcangokgoz.com/greedy-yaklasimi-aktivite-secim-problemi/</link>
+                <guid>https://mertcangokgoz.com/greedy-yaklasimi-aktivite-secim-problemi</guid>
+                <pubDate>Sun, 04 Dec 2016 00:00:00 +0300</pubDate>
+        </item>
 
         <item>
                 <title>Log4j Rotate Sorununu Çözme</title>
@@ -3106,58 +3151,6 @@ sudo pipelight-plugin --update
                 <link>https://mertcangokgoz.com/windows-10-surum-1607-ses-sorunu/</link>
                 <guid>https://mertcangokgoz.com/windows-10-surum-1607-ses-sorunu</guid>
                 <pubDate>Thu, 22 Sep 2016 17:20:51 +0300</pubDate>
-        </item>
-
-        <item>
-                <title>Virtualbox Kernel Driver Sorunu</title>
-                <description>&lt;p&gt;Genelde EFI olarak BIOS kullanan kişilerin sistemlerinde gözükebilen kimi zamanda hatalı kurulumdan dolayı &lt;code class=&quot;highlighter-rouge&quot;&gt;virtualbox&lt;/code&gt; uygulamasını başlatırken hatalar ile karşılaşabilirsiniz genellikle en çok olan hata aşağıdaki gibidir.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Kernel driver not installed (rc=-1908)  The VirtualBox Linux kernel driver (vboxdrv) is either not loaded or there is a permission problem with /dev/vboxdrv. Please reinstall the kernel module by executing
-
-'/etc/init.d/vboxdrv setup'  
-
-as root. If it is available in your distribution, you should install the DKMS package first. This package keeps track of Linux kernel changes and recompiles the vboxdrv kernel module if necessary.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Tabi bahsedilen bu çözümü yapsanızda çözülmeyecek çünkü &lt;code class=&quot;highlighter-rouge&quot;&gt;init.d&lt;/code&gt; içerisinde &lt;code class=&quot;highlighter-rouge&quot;&gt;vboxdrv&lt;/code&gt; diye bir şey bulunmuyor.&lt;/p&gt;
-
-&lt;p&gt;Çünkü yeni sürüm virtualbox da şu şekilde bir hata mesajı döndürecek&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;The VirtualBox Linux kernel driver (vboxdrv) is either not loaded or
-there is a permission problem with /dev/vboxdrv. Please install
-virtualbox-dkms package and load the kernel module by executing
-
-'modprobe vboxdrv'
-
-as root. If it is available in your distribution, you should install
-the DKMS package first. This package keeps track of Linux kernel
-changes and recompiles the vboxdrv kernel module if necessary.
-
-where: suplibOsInit what: 3 VERR_VM_DRIVER_NOT_INSTALLED (-1908) - The
-support driver is not installed. On linux, open returned ENOENT.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;haliylede otomatik olarak bu işlemi yerine getirebileceksiniz çünkü bu sefer uygulama çalışacak ancak biz genede işlemlerimizi garantiye almak için şu şekilde bir yol izleyeceğiz&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo dpkg-reconfigure virtualbox-dkms
-sudo dpkg-reconfigure virtualbox
-sudo modprobe vboxdrv
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Bunları yaptıktan sonra &lt;code class=&quot;highlighter-rouge&quot;&gt;modprobe vboxdrv&lt;/code&gt; aşamasını hata vermeden geçerseniz işleminiz tamam demektir. BIOS olarak EFI kullanılıyorsa tekrardan sıkıntı çıkacak bunuda çözmek için BIOS ayarlarınıza geliyorsunuz ve ` Secure Boot` seçeneğini kapatıyorsunuz.&lt;/p&gt;
-
-&lt;p&gt;Tekrardan &lt;code class=&quot;highlighter-rouge&quot;&gt;modprobe vboxdrv&lt;/code&gt; komutu veriyoruz ve sorunsuz bir şekilde tamamlanıyor. Bu aşamadan sonra doyasıya sanal makine açabilirsiniz.&lt;/p&gt;
-
-&lt;p&gt;Her şeyin başı bu EFI BIOS olduğu için her zaman dediğim gibi kullanmanızı önermiyorum.&lt;/p&gt;
-
-&lt;p&gt;öptüm bye &amp;lt;3&lt;/p&gt;
-</description>
-                <link>https://mertcangokgoz.com/virtualbox-kernel-driver-sorunu/</link>
-                <guid>https://mertcangokgoz.com/virtualbox-kernel-driver-sorunu</guid>
-                <pubDate>Thu, 22 Sep 2016 00:00:00 +0300</pubDate>
         </item>
 
 

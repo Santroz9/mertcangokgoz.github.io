@@ -22,6 +22,18 @@
 
     
     {
+        "title": "Greedy Yaklaşımı Aktivite Seçim Problemi",
+        "content": "Aktivite seçimi problemi, her biri bir başlangıç zamanı (s) ve bitiş zamanı (f) ile işaretlenmiş bir dizi faaliyet göz önüne alındığında, belirli bir zaman çerçevesi içinde çelişmeyen faaliyetlerin seçimiyle ilgili bir kombinatoryal optimizasyon problemidir. Sorun, bir kişinin bir seferde tek bir etkinlikte çalışabileceğini varsayarak, tek bir kişi veya makine tarafından gerçekleştirilebilecek maksimum etkinlik sayısını seçmektir.\n\nOptimizasyon problemlerinin önüne geçmek için sıkça kullanılan algoritmalardır. Her zaman en bariz ve anında fayda sağlayan bir sonraki parçayı seçer.\n\n#include &lt;stdio.h&gt;\n#include &lt;malloc.h&gt;\n\n\nvoid ActivitySelection(int *s, int *f, int n, int *sol)\n{\n\tsol[0] = 0;\n\n\tint i, c = 0;\n\tfor(i = 1; i &lt; n; i++)\n\t\tif(f[sol[c]] &lt;= s[i])\n\t\t\tsol[++c] = i;\n\n\tsol[++c] = -1;\n}\n\n\nvoid main()\n{\n\tint s[] =  {1, 3, 0, 5, 8, 5};\n    int f[] =  {2, 4, 6, 7, 9, 9};\n    int n = sizeof(s)/sizeof(s[0]);\n\n    int *sol = malloc(sizeof(int)*n);\n    ActivitySelection(s, f, n, sol);\n\n    int i;\n    for(i = 0; sol[i] != -1; i++)\n    \tprintf(&quot;%d\\t%d\\t%d\\n&quot;, sol[i], s[sol[i]], f[sol[i]]);\n}\n\n\nHer biri bir başlangıç zamanı s ve bitiş zamanı f ile temsil edilen n aktivite bulunduğunu varsayalım. S ≥ f veya s ≥ f ise iki etkinlik i ve j’nin çelişkili olmadığı söylenir. Aktivite seçim problemi, çelişkili olmayan faaliyetlerin maksimum çözüm setini (S) bulmaktan ibarettir veya daha kesin bir ifadeyle, |S'| &gt; |S| Birden fazla maksimal çözümün eşit ebatlara sahip olması durumundadır..\n",
+        "link": "/greedy-yaklasimi-aktivite-secim-problemi/",
+        "date": "2016-12-04 00:00:00 +0300",
+        "excerpt": "",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
         "title": "Log4j Rotate Sorununu Çözme",
         "content": "Yazın Staj yaparken iş kayıtlarıma log4j de bir sorun olduğu ve uygulama loglarının rotate olmayıp sistemi şişirdiğini ve sorunlara neden olduğu yazıyordu. Kolay bir şekilde çözebileceğimizi düşündüm ancak işin içinde java olduğu için xml vs uğraşmak zorunda kaldım biraz yeni gördüğüm bir uygulama olduğu içinde her ne kadar zorlansamda aşağıdaki şekilde sorunu çözmeyi başardım.\n\nlog4j.rootLogger=INFO, loggerId\nlog4j.appender.loggerId=org.apache.log4j.rolling.RollingFileAppender\nlog4j.appender.loggerId.rollingPolicy=org.apache.log4j.rolling.TimeBasedRollingPolicy\nlog4j.appender.loggerId.rollingPolicy.ActiveFileName=worker.log\nlog4j.appender.loggerId.rollingPolicy.FileNamePattern=worker-.%d{yyyyMMdd}.log.gz\nlog4j.appender.loggerId.layout=org.apache.log4j.PatternLayout\nlog4j.appender.loggerId.layout.ConversionPattern=%d [%t] %-5p (%F:%L) - %m%n\n\n\n\nLog kurallarına yukarıda ki satırları ekliyorsunuz servisleri yeniden başlattığınızda ise sorun çözülmüş oluyor tabi günlük rolling yapılacağı için olup olmadığını anlama konusunda beklemeniz gerekiyor.\n",
         "link": "/log4j-log-rotate-sorunu-ve-cozumu/",
