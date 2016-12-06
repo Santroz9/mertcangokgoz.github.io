@@ -5,10 +5,56 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Sun, 04 Dec 2016 15:39:34 +0300</lastBuildDate>
-        <pubDate>Sun, 04 Dec 2016 15:39:34 +0300</pubDate>
+        <lastBuildDate>Tue, 06 Dec 2016 16:07:59 +0300</lastBuildDate>
+        <pubDate>Tue, 06 Dec 2016 16:07:59 +0300</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Birden Çok Veritabanı Sunucusunu Yönetme ve Denetleme</title>
+                <description>&lt;p&gt;HexorBase, merkezi bir konumdan aynı anda birden çok veritabanı sunucusunu yönetmek ve denetlemek için tasarlanmış bir veritabanı uygulamasıdır; ortak veritabanı sunucularına (MySQL, SQLite, Microsoft SQL Server, Oracle, PostgreSQL) karşı SQL sorguları ve kaba kuvvet saldırıları yapabilir.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/haxorbase.png&quot; alt=&quot;haxor gorsel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Paket yönlendirmeyi, yerel alt ağlar içerisinde gizlenen uzaktan erişilemeyen sunucularla iletişim kurmak için proxy vekilleri için veya Metasploit için izin verir.&lt;/p&gt;
+
+&lt;h2 id=&quot;gerekenler&quot;&gt;Gerekenler&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;python&lt;/li&gt;
+  &lt;li&gt;python-qt4&lt;/li&gt;
+  &lt;li&gt;cx_Oracle&lt;/li&gt;
+  &lt;li&gt;python-mysqldb&lt;/li&gt;
+  &lt;li&gt;python-psycopg2&lt;/li&gt;
+  &lt;li&gt;python-pymssql&lt;/li&gt;
+  &lt;li&gt;python-qscintilla2&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bağımlılıkların kurulması&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install python-qt4 python-mysqldb python-psycopg2 python-pymssql python-qscintilla2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;cx_Oracle Kurulumu&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip install cx_Oracle
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Uygulama Kurulum&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget https://github.com/savio-code/downloads/raw/master/hexorbase_1.0_all.deb
+sudo dpkg -i hexorbase_1.0_all.deb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Uygulama her ne kadar eski olsa da oldukça işe yarıyor. Özellikle uzaktan yönetmek için hepsinin birleştirilmiş olması benim hoşuma gitti kaba kuvvet saldırıları gibi işler için kullanmanızı önermem ancak yönetim ve denetleme işleri için güzel&lt;/p&gt;
+</description>
+                <link>https://mertcangokgoz.com/birden-cok-veritabani-sunucusunu-yonetme-ve-denetleme/</link>
+                <guid>https://mertcangokgoz.com/birden-cok-veritabani-sunucusunu-yonetme-ve-denetleme</guid>
+                <pubDate>Tue, 06 Dec 2016 00:00:00 +0300</pubDate>
+        </item>
 
         <item>
                 <title>Greedy Yaklaşımı Aktivite Seçim Problemi</title>
@@ -3130,27 +3176,6 @@ sudo pipelight-plugin --update
                 <link>https://mertcangokgoz.com/linuxde-netflix-kullanimi/</link>
                 <guid>https://mertcangokgoz.com/linuxde-netflix-kullanimi</guid>
                 <pubDate>Fri, 23 Sep 2016 00:00:00 +0300</pubDate>
-        </item>
-
-        <item>
-                <title>Windows 10 Sürüm 1607 Ses Sorunu</title>
-                <description>&lt;p&gt;Microsoft geçen gün oldukça büyük bir güncelleme yayınladı bu güncellemeyi yapmak benim 5 dakikamı alsa da bir takım sorunlar çıkarttı bunlardan birinci ve belkide en önemlisi sistemde ortaya çıkan ses sorunu özellikle müzik dinlerken oluşan cızırtılar, ses patlamaları ve hışırtılar&lt;/p&gt;
-
-&lt;p&gt;Ses sürücüsü kurulu olan sistemlerde daha çok gözükeceğini düşünüyorum çünkü windows 10 bu yaptığı güncelleme ile içerisinde getirdiği sürücüyü değiştirmiş.&lt;/p&gt;
-
-&lt;p&gt;Realtek HD ses kartlarında özellikle başınızı ağrıtacak support bu konuda çalışmalarını başlattığını söyledi yeni bir güncelleme ile bu sorunu çözeceklerini beklememiz gerektiğini söylediler&lt;/p&gt;
-
-&lt;p&gt;Beklerken bu sorunu çözmem gerekiyor kimse ses sorunu olan bir bilgisayarda işlem yapmak istemez&lt;/p&gt;
-
-&lt;p&gt;Bilgisayarınızda bulunan sürücüyü kaldırmak için &lt;code class=&quot;highlighter-rouge&quot;&gt;Program ekle kaldır&lt;/code&gt; gibi yada ismi buna çok yakın olan bi yer var buraya girip sistemde kurmuş olduğunuz Ses sürücüsünün uygulamasını buluyorsunuz bu genelde bi 200MB üstü bir boyutta oluyor. &lt;code class=&quot;highlighter-rouge&quot;&gt;Realtek HD Audio Driver&lt;/code&gt; yazan ve uyumsuzluk çıkartan sürücüyü siliyorsunuz.&lt;/p&gt;
-
-&lt;p&gt;Sistemi yeniden başlattığınızda sorunun çözülmüş olduğunu görebilirsiniz. Eğer son model kartınız varsa ve içinde son model ses yongası ile geliyor ise &lt;code class=&quot;highlighter-rouge&quot;&gt;nahimic 2&lt;/code&gt; adlı uygulamada sisteminizde kurulu demektir geçici olarak bunu da kaldırmanız gerekmektedir.&lt;/p&gt;
-
-&lt;p&gt;dipnot: Bahsi geçen sistem benim oyun oynadığım ailemin de ofis işlerini yaptığı bilgisayardır.&lt;/p&gt;
-</description>
-                <link>https://mertcangokgoz.com/windows-10-surum-1607-ses-sorunu/</link>
-                <guid>https://mertcangokgoz.com/windows-10-surum-1607-ses-sorunu</guid>
-                <pubDate>Thu, 22 Sep 2016 17:20:51 +0300</pubDate>
         </item>
 
 
