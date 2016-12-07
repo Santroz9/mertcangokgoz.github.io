@@ -5,10 +5,86 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Tue, 06 Dec 2016 16:07:59 +0300</lastBuildDate>
-        <pubDate>Tue, 06 Dec 2016 16:07:59 +0300</pubDate>
+        <lastBuildDate>Wed, 07 Dec 2016 18:56:03 +0300</lastBuildDate>
+        <pubDate>Wed, 07 Dec 2016 18:56:03 +0300</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Hortumu Kendilerine Bağladılar(mkfifo, mknod)</title>
+                <description>&lt;p&gt;Dikkat her ne kadar &lt;strong&gt;pipe&lt;/strong&gt; olarak bilinsede makalenin gidişatını etkilediği için türkçe bir şekilde boru, borular ve borulama olarak göreceksiniz korkmayın…&lt;/p&gt;
+
+&lt;p&gt;Borular, işlemler arası iletişim için sıklıkla kullanılır. Ancak boruların en büyük dezavantajı, yalnızca bir süreç (aynı süreç içinde okuyucular ve yazarlar var) veya aynı dosya tanımlayıcı tablosunu paylaşan süreçlerdir (normalde işlemler, alt süreçler ve(veya) bunlar tarafından oluşturulan işlemler) kullanılabilir olmasıdır ). Böylece borular büyük bir kısıtlamaya sahit olurlar ilgisiz süreçler arasında bilgi aktaramazlar. Bunun nedeni, aynı dosya tanımlayıcı tablosunu paylaşmamalarıdır.&lt;/p&gt;
+
+&lt;p&gt;Ancak borulara isimler verilirse, normal bir dosya gibi onlarda veri okuyabilir veya yazabilirler. Süreçler, birbirleriyle hiçbir şeyi paylaşmaya bile gerek duymazlar. &lt;strong&gt;FIFO (First In First Out)&lt;/strong&gt; olarak adlandırılmış borular olarak da bilinirler.&lt;/p&gt;
+
+&lt;p&gt;Peki kardeş iyi hoş anlatıyonda FIFO’nun özellikleri neler ne yapabiliyorlar;&lt;/p&gt;
+
+&lt;p&gt;Araştırmalarıma göre aşağıdaki 3 şekilde davranış sergiliyor.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Boruların FIFO özelliğini uygular&lt;/li&gt;
+  &lt;li&gt;Adlarını kullanarak normal dosyalar gibi açılabilirler&lt;/li&gt;
+  &lt;li&gt;Veri, fifo’dan okunabilir veya fifo’ya yazılabilir&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Peki bunu nasıl yapabiliriz, Enes kardeşim bundan yaklaşık bi 2 hafta önce ya şunu anlayamadım gençler bu ne diyerek gelmişti ufak bi man pages ufak bi profesör gıdıklaması ile ne olduğunu çözdük tabi oldukça mantıklı ve hoş bir durumdu&lt;/p&gt;
+
+&lt;p&gt;Şimdi &lt;code class=&quot;highlighter-rouge&quot;&gt;man mkfifo&lt;/code&gt; diyerek neyin ne olduğuna bakabilirsiniz oldukça basittir. Dosya oluşturmak ve bunun üzerinde çalışma yapabilmek için bir kaç adıma ihtiyaç duyarsınız&lt;/p&gt;
+
+&lt;p&gt;Dosya oluşturma işlemi&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkfifo stream
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;bu aşamada Mknod’u kullanarak FIFO’yu kullanmanın bir başka yolu daha var tabi. Mknod, blok veya karakter özel dosyaları oluşturmak için kullanılır.&lt;/p&gt;
+
+&lt;p&gt;Tabi onda dosya oluşturmak için şu şekilde bir yol izlemeniz gerekir.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mknod stream p
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Burada p, dosya türüne karşılık gelir ve bunu korur. Şimdi gelelim bu dosyalar üzerinde okuma ve yazma işlemi yapmaya genelde bu &lt;code class=&quot;highlighter-rouge&quot;&gt;mknod&lt;/code&gt; ve &lt;code class=&quot;highlighter-rouge&quot;&gt;mkfifo&lt;/code&gt; kafalarını pentest aşamasında kullanıyorlar &lt;code class=&quot;highlighter-rouge&quot;&gt;/tmp/&lt;/code&gt; dizini altına bununla bir dosya oluşturup uzaktan istedikleri kodu çalıştırabiliyorlar &lt;code class=&quot;highlighter-rouge&quot;&gt;cat&lt;/code&gt; ile ekrana basmak falan yetiyor. İlginç ama güzel düşünülmüş bir hareket&lt;/p&gt;
+
+&lt;p&gt;Şimdi bunu denemek için en basitinden 2 adet terminal açmanızı öneriyorum ilkine aşağıdaki komutu verin ve atın bir köşeye cat in açık olduğu satır bildiğiniz gibi deneyimizi yapacağımız ve okuma işlemini gerçekleştireceğimiz terminal&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cat &amp;gt; stream
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;şimdi yapacağımız oldukça değişik olacak niye derseniz bu dosyalar yanlış bilmiyorsam stream dosyaları oluyor. yani bir akış işlemi gerçekleştiriyor. Normalde siz bir dosyaya &lt;code class=&quot;highlighter-rouge&quot;&gt;cat test.txt&lt;/code&gt; gibi bir komut verdiğiniz de &lt;code class=&quot;highlighter-rouge&quot;&gt;test.txt&lt;/code&gt; içeriğini ekrana yazdırıp süreci bitiriyor ancak fifo ile oluşturulmuş dosyalarda bu işlem bu şekilde yürümüyor. Siz ne kadar kayıt veya komut gönderirseniz oda o şekilde davranıyor ve işlemi sonlandırmıyor.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cat stream
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;komutunu gönderdiğinizde sürecin sonlanmadığını anlayacaksınız ve &lt;code class=&quot;highlighter-rouge&quot;&gt;cat &amp;gt; stream&lt;/code&gt; komutunu verdiğiniz terminal içeriğine ne girerseniz diğer terminalde de aynı kayıtların geçtiğini göreceksiniz&lt;/p&gt;
+
+&lt;p&gt;İlk terminalde CTRL + D tuşlarına basmak, fifo’ya yazmayı sonlandıracaktır. Bu aynı zamanda ikinci işlemi de sonlandırır, çünkü fifo’dan okumak artık “BROKEN PIPE” sinyali ile mümkün değildir. Bunun varsayılan eylemi işlemi sonlandırmaktır.&lt;/p&gt;
+
+&lt;p&gt;Peki bu dosyalar herhangi bir dosyadan farklı mı ?&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  File: 'stream'
+  Size: 0         	Blocks: 0          IO Block: 4096   stream
+Device: 808h/2056d	Inode: 5376186     Links: 1
+Access: (0644/prw-r--r--)  Uid: ( 1000/ mertcan)   Gid: ( 1000/ mertcan)
+Access: 2016-12-05 20:18:36.755379117 +0300
+Modify: 2016-12-05 20:18:36.755379117 +0300
+Change: 2016-12-05 20:18:36.755379117 +0300
+ Birth: -
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Dikkat ederseniz, FIFO’lar normal bir dosya gibi, inode numarası, bağlantı sayısı, erişim, değiştirme süreleri, boyut ve erişim izinleri gibi tüm ayrıntılara sahiptir yani evet diğer dosyalar ile tamamen aynıdır.&lt;/p&gt;
+
+&lt;p&gt;Bir boru birden çok okuyucu ve yazan kişi olabilir. Bir boruyu okumak ve yazmak için birden fazla terminal açmayı deneyebilirsiniz. Hatta bunu bir takım uygulamalar ile uzaktan yapabilme imkanınız da bulunmaktadır.&lt;/p&gt;
+</description>
+                <link>https://mertcangokgoz.com/hortumu-kendilerine-bagladilar-mkfifo-mknod/</link>
+                <guid>https://mertcangokgoz.com/hortumu-kendilerine-bagladilar-mkfifo-mknod</guid>
+                <pubDate>Wed, 07 Dec 2016 00:00:00 +0300</pubDate>
+        </item>
 
         <item>
                 <title>Birden Çok Veritabanı Sunucusunu Yönetme ve Denetleme</title>
@@ -3123,59 +3199,6 @@ Liquid::Template.register_tag(&amp;#39;spotify&amp;#39;, Jekyll::Spotify)&lt;/pr
                 <link>https://mertcangokgoz.com/jekyll-spotify-eklentisi/</link>
                 <guid>https://mertcangokgoz.com/jekyll-spotify-eklentisi</guid>
                 <pubDate>Mon, 26 Sep 2016 00:00:00 +0300</pubDate>
-        </item>
-
-        <item>
-                <title>Linux'de Netflix Kullanımı</title>
-                <description>&lt;p&gt;Geldiğine öncelikle sevindik çünkü türkiye piyasasında Web TV adı altında pek çok kan emici vardı ödediğin ücret ile doğru düzgün hizmet alamıyordun ve bunu gören Netflix Türkiye piyasasına açılma kararı aldı ayrıca torrentden indirip izlemek ile vakit kaybetmek ben dahil artık pek çok kişi istemiyordur diye düşünüyorum. Her ne kadar ilk başta karşı çıksamda&lt;/p&gt;
-
-&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;tr&quot;&gt;&lt;p lang=&quot;tr&quot; dir=&quot;ltr&quot;&gt;Geldik, geldik, merak etmeyin. &lt;a href=&quot;https://twitter.com/netflix&quot;&gt;@netflix&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/NetflixT%C3%BCrkiyede?src=hash&quot;&gt;#NetflixTürkiyede&lt;/a&gt;&lt;/p&gt;&amp;mdash; Netflix Türkiye (@netflixturkiye) &lt;a href=&quot;https://twitter.com/netflixturkiye/status/778700644249014272&quot;&gt;21 Eylül 2016&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;Bizde kollarımızı sıvadık ve 1 aylık ücretsiz dedikleri hesabımızı açtık ancak dikkatinizi çekerim hesap ücretsiz ancak bazı kartlardan para çekebiliyor. Örneğin Virtual card kullanıyorsanız ama merak etmeyin hesaba para geri geliyor sanırım sahte birşeyler olmasın diye kontrol aşaması var yada farklı bir prosedür işletiyorlar bilmiyorum.&lt;/p&gt;
-
-&lt;p&gt;Lafı uzatmadan amacımıza geçelim. Normal şartlar altında netflix &lt;strong&gt;silverlight&lt;/strong&gt; denen uygulama ile çalışıyor. Bilindiği üzere bu uygulama sadece mac ve windows sistemler üzerinde bulunuyor. Kurulması gerekiyor. Linux tarafında Chrome tarayıcı kullananlar için bir sorun bulunmuyor &lt;strong&gt;silverlight&lt;/strong&gt; kurmadan da izleyebilirler.&lt;/p&gt;
-
-&lt;p&gt;Ancak Chrome kullanmak istemeyip &lt;strong&gt;Firefox&lt;/strong&gt; tarayıcıda dizilerini izlemek isteyenler ne yazık ki başarılı olamayacaklar. Bunu başarılı bir şekilde yapabilmek için sisteminize linux için forklanmış silverlight çalıştırmaya izin veren bir eklenti olan &lt;strong&gt;pipelight&lt;/strong&gt; ile yapacağız. Ancak baştan söyleyeyim &lt;a href=&quot;http://pipelight.net/cms/&quot;&gt;pipelight&lt;/a&gt; sisteminize oldukça fazla paket indirip kuracak&lt;/p&gt;
-
-&lt;p&gt;Bunlar 32 bit paketler ve sistemimize bu şekilde paketler kurmak istemeyiz zaten eklentide wine ile çalışıyor diyebiliriz. Sistem için bu hiç hoş olmaz&lt;/p&gt;
-
-&lt;p&gt;Pipelight kurulumu şu şekilde yapacağız yaklaşık &lt;strong&gt;605 MB&lt;/strong&gt; gibi bir yer kaplayacak.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo add-apt-repository ppa:pipelight/stable
-sudo apt-get update
-sudo apt-get install --install-recommends pipelight-multi
-sudo pipelight-plugin --update
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ardından uygulamadan bize gerekli olanı etkinleştirmek kalıyor.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo pipelight-plugin --enable silverlight
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Daha sonra Firefox eğer çalışıyor ise yeniden başlatın ve tarayıcıda izleyebilir hale getirebileceksiniz. Ancak bu yöntem benim &lt;strong&gt;kesinlikle önermediğim&lt;/strong&gt; bir yöntemdir. Çünkü sisteminize oldukça fazla 32bit paket kuracak daha sonradan sisteminizden bunları kaldırırken sıkıntı çekebilirsiniz. Ama onun içinde size bir ipucu vereyim&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get purge `dpkg --get-selections | grep i386 | awk '{print $1}'`
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Böylelikle sistemdeki tüm 32 bit paketlerden kurtulmuş olursunuz. Unutmadan bu işlemi eğer &lt;strong&gt;Skype&lt;/strong&gt; kullanıyorsanız yapmayın. &lt;strong&gt;Skypenin&lt;/strong&gt; kullandığı paketlerin %80 lik bir bölümü 32 bit mimaride&lt;/p&gt;
-
-&lt;p&gt;En iyisi siz Google Chrome indirip kurun ve &lt;strong&gt;netflix&lt;/strong&gt; izleyeceğiniz zaman bu tarayıcı ile dizinizi, filminizi yada belgeselinizi izleyin.&lt;/p&gt;
-
-&lt;p&gt;Sıralı Tam Liste&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/netflixorigin.png&quot; alt=&quot;netflixorigins&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/netflixother.png&quot; alt=&quot;netflixother&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;öptüm bye &amp;lt;3&lt;/p&gt;
-</description>
-                <link>https://mertcangokgoz.com/linuxde-netflix-kullanimi/</link>
-                <guid>https://mertcangokgoz.com/linuxde-netflix-kullanimi</guid>
-                <pubDate>Fri, 23 Sep 2016 00:00:00 +0300</pubDate>
         </item>
 
 
