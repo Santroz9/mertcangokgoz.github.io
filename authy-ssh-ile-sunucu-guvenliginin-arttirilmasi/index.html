@@ -203,11 +203,13 @@ sudo bash authy-ssh install /usr/local/bin
 </code></pre>
 </div>
 
-<p>Ardından, kullanıcı için iki faktörlü kimlik doğrulamayı etkinleştirin:
-<code class="highlighter-rouge">
-sudo /usr/local/bin/authy-ssh enable `whoami` &lt;your-email&gt; &lt;your-country-code&gt; &lt;your-cellphone&gt;
-</code>
-Test yapıyoruz ve her şeyin çalıştığından emin oluyoruz.</p>
+<p>Ardından, kullanıcı için iki faktörlü kimlik doğrulamayı etkinleştirin:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>sudo /usr/local/bin/authy-ssh enable `whoami` &lt;your-email&gt; &lt;your-country-code&gt; &lt;your-cellphone&gt;
+</code></pre>
+</div>
+
+<p>Test yapıyoruz ve her şeyin çalıştığından emin oluyoruz.</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>authy-ssh test
 </code></pre>
@@ -326,15 +328,7 @@ Starting sshd:                                             [  OK  ]
 
 <h2 id="scp-sftp-mosh-ve-git-push-iki-aamal-kimlik-dorulama-kullanm"><code class="highlighter-rouge">Scp</code>,<code class="highlighter-rouge"> sftp</code>, <code class="highlighter-rouge">mosh</code> ve <code class="highlighter-rouge">git push</code> iki aşamalı kimlik doğrulama kullanımı.</h2>
 
-<table>
-  <tbody>
-    <tr>
-      <td><code class="highlighter-rouge">Scp</code>,<code class="highlighter-rouge"> sftp</code>, <code class="highlighter-rouge">mosh</code> ve ` git clone</td>
-      <td>fetch</td>
-      <td>push<code class="highlighter-rouge"> gibi etkileşimli olmayan komutları etkinleştirmek için ortam değişkenini </code>AUTHY_TOKEN<code class="highlighter-rouge"> istemciden geçirmemize izin vermelisiniz. Bunu yapmak için </code>sshd_config<code class="highlighter-rouge"> düzenleyin (normalde</code> /etc<code class="highlighter-rouge"> veya </code>/etc/ssh/<code class="highlighter-rouge"> da bulunur) ve </code>AUTHY_TOKEN` i AcceptEnv yönergesine ekleyin:</td>
-    </tr>
-  </tbody>
-</table>
+<p><code class="highlighter-rouge">Scp</code>,<code class="highlighter-rouge"> sftp</code>, <code class="highlighter-rouge">mosh</code> ve <code class="highlighter-rouge">git clone | fetch | push</code> gibi etkileşimli olmayan komutları etkinleştirmek için ortam değişkenini <code class="highlighter-rouge">AUTHY_TOKEN</code> istemciden geçirmemize izin vermelisiniz. Bunu yapmak için <code class="highlighter-rouge">sshd_config</code> düzenleyin (normalde<code class="highlighter-rouge"> /etc</code> veya <code class="highlighter-rouge">/etc/ssh/</code> da bulunur) ve <code class="highlighter-rouge">AUTHY_TOKEN</code> i AcceptEnv yönergesine ekleyin:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>AcceptEnv AUTHY_TOKEN
 </code></pre>
@@ -392,7 +386,6 @@ command="/usr/local/bin/authy-ssh login 20" ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEA
 sudo service ssh restart
 </code></pre>
 </div>
-
 
 </div>
 

@@ -5,8 +5,8 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Thu, 08 Dec 2016 14:41:56 +0300</lastBuildDate>
-        <pubDate>Thu, 08 Dec 2016 14:41:56 +0300</pubDate>
+        <lastBuildDate>Thu, 08 Dec 2016 14:52:37 +0300</lastBuildDate>
+        <pubDate>Thu, 08 Dec 2016 14:52:37 +0300</pubDate>
         <ttl>1800</ttl>
 
 
@@ -25,11 +25,13 @@ sudo bash authy-ssh install /usr/local/bin
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Ardından, kullanıcı için iki faktörlü kimlik doğrulamayı etkinleştirin:
-&lt;code class=&quot;highlighter-rouge&quot;&gt;
-sudo /usr/local/bin/authy-ssh enable `whoami` &amp;lt;your-email&amp;gt; &amp;lt;your-country-code&amp;gt; &amp;lt;your-cellphone&amp;gt;
-&lt;/code&gt;
-Test yapıyoruz ve her şeyin çalıştığından emin oluyoruz.&lt;/p&gt;
+&lt;p&gt;Ardından, kullanıcı için iki faktörlü kimlik doğrulamayı etkinleştirin:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo /usr/local/bin/authy-ssh enable `whoami` &amp;lt;your-email&amp;gt; &amp;lt;your-country-code&amp;gt; &amp;lt;your-cellphone&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Test yapıyoruz ve her şeyin çalıştığından emin oluyoruz.&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;authy-ssh test
 &lt;/code&gt;&lt;/pre&gt;
@@ -148,15 +150,7 @@ Starting sshd:                                             [  OK  ]
 
 &lt;h2 id=&quot;scp-sftp-mosh-ve-git-push-iki-aamal-kimlik-dorulama-kullanm&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Scp&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt; sftp&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;mosh&lt;/code&gt; ve &lt;code class=&quot;highlighter-rouge&quot;&gt;git push&lt;/code&gt; iki aşamalı kimlik doğrulama kullanımı.&lt;/h2&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Scp&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt; sftp&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;mosh&lt;/code&gt; ve ` git clone&lt;/td&gt;
-      &lt;td&gt;fetch&lt;/td&gt;
-      &lt;td&gt;push&lt;code class=&quot;highlighter-rouge&quot;&gt; gibi etkileşimli olmayan komutları etkinleştirmek için ortam değişkenini &lt;/code&gt;AUTHY_TOKEN&lt;code class=&quot;highlighter-rouge&quot;&gt; istemciden geçirmemize izin vermelisiniz. Bunu yapmak için &lt;/code&gt;sshd_config&lt;code class=&quot;highlighter-rouge&quot;&gt; düzenleyin (normalde&lt;/code&gt; /etc&lt;code class=&quot;highlighter-rouge&quot;&gt; veya &lt;/code&gt;/etc/ssh/&lt;code class=&quot;highlighter-rouge&quot;&gt; da bulunur) ve &lt;/code&gt;AUTHY_TOKEN` i AcceptEnv yönergesine ekleyin:&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Scp&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt; sftp&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;mosh&lt;/code&gt; ve &lt;code class=&quot;highlighter-rouge&quot;&gt;git clone | fetch | push&lt;/code&gt; gibi etkileşimli olmayan komutları etkinleştirmek için ortam değişkenini &lt;code class=&quot;highlighter-rouge&quot;&gt;AUTHY_TOKEN&lt;/code&gt; istemciden geçirmemize izin vermelisiniz. Bunu yapmak için &lt;code class=&quot;highlighter-rouge&quot;&gt;sshd_config&lt;/code&gt; düzenleyin (normalde&lt;code class=&quot;highlighter-rouge&quot;&gt; /etc&lt;/code&gt; veya &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/ssh/&lt;/code&gt; da bulunur) ve &lt;code class=&quot;highlighter-rouge&quot;&gt;AUTHY_TOKEN&lt;/code&gt; i AcceptEnv yönergesine ekleyin:&lt;/p&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;AcceptEnv AUTHY_TOKEN
 &lt;/code&gt;&lt;/pre&gt;
@@ -214,7 +208,6 @@ command=&quot;/usr/local/bin/authy-ssh login 20&quot; ssh-rsa AAAAB3NzaC1yc2EAAA
 sudo service ssh restart
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-
 </description>
                 <link>https://mertcangokgoz.com/authy-ssh-ile-sunucu-guvenliginin-arttirilmasi/</link>
                 <guid>https://mertcangokgoz.com/authy-ssh-ile-sunucu-guvenliginin-arttirilmasi</guid>
