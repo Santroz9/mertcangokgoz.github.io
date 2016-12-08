@@ -21,9 +21,11 @@ sudo bash authy-ssh install /usr/local/bin
 ```
 
 Ardından, kullanıcı için iki faktörlü kimlik doğrulamayı etkinleştirin:
+
 ```
 sudo /usr/local/bin/authy-ssh enable `whoami` <your-email> <your-country-code> <your-cellphone>
 ```
+
 Test yapıyoruz ve her şeyin çalıştığından emin oluyoruz.
 
 ```
@@ -144,7 +146,7 @@ Starting sshd:                                             [  OK  ]
 
 ## `Scp`,` sftp`, `mosh` ve `git push` iki aşamalı kimlik doğrulama kullanımı.
 
-`Scp`,` sftp`, `mosh` ve ` git clone | fetch | push` gibi etkileşimli olmayan komutları etkinleştirmek için ortam değişkenini `AUTHY_TOKEN` istemciden geçirmemize izin vermelisiniz. Bunu yapmak için `sshd_config` düzenleyin (normalde` /etc` veya `/etc/ssh/` da bulunur) ve `AUTHY_TOKEN` i AcceptEnv yönergesine ekleyin:
+`Scp`,` sftp`, `mosh` ve `git clone | fetch | push` gibi etkileşimli olmayan komutları etkinleştirmek için ortam değişkenini `AUTHY_TOKEN` istemciden geçirmemize izin vermelisiniz. Bunu yapmak için `sshd_config` düzenleyin (normalde` /etc` veya `/etc/ssh/` da bulunur) ve `AUTHY_TOKEN` i AcceptEnv yönergesine ekleyin:
 
 ```
 AcceptEnv AUTHY_TOKEN
@@ -202,4 +204,3 @@ Aşağıdaki komutların girilmesi halinde sistemden Authy SSH uygulaması tamam
 sudo authy-ssh uninstall
 sudo service ssh restart
 ```
-
