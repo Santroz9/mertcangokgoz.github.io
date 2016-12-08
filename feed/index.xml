@@ -5,10 +5,221 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Wed, 07 Dec 2016 18:56:03 +0300</lastBuildDate>
-        <pubDate>Wed, 07 Dec 2016 18:56:03 +0300</pubDate>
+        <lastBuildDate>Thu, 08 Dec 2016 14:41:56 +0300</lastBuildDate>
+        <pubDate>Thu, 08 Dec 2016 14:41:56 +0300</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Authy SSH İle Sunucu Güvenliğinin Arttırılması</title>
+                <description>&lt;p&gt;Sistemlerinizde güvenliği biraz daha arttırmak için Authy web sitesinin bizlere sunmuş olduğu uygulamayı kullanacağız ve sistemlerimizde 2FA doğrulamayı aktif etmiş olacağız böylelikle sistemlerinize girişte Cep telefon numaranıza gelen veyahut da uygulama ile oluşturulmuş şifreyi girmeniz gerekecektir. Aksi durumda sistemlere giriş yapabilme gibi bir imkanınız bulunmamaktadır.&lt;/p&gt;
+
+&lt;p&gt;Önceliklik olarak bu kuruluma başlamadan önce &lt;a href=&quot;https://www.authy.com/signup&quot;&gt;https://www.authy.com/signup&lt;/a&gt; adresinden üye olmanız ve size verilen &lt;strong&gt;token&lt;/strong&gt; bilgilerini kayıt etmeniz gerekmektedir. Kurulumu başarılı bir şekilde tamamladığınızda sistemlerinize girmek için 2FA doğrulaması yapmanız gerekmektedir.&lt;/p&gt;
+
+&lt;h2 id=&quot;kurulum-lemi&quot;&gt;Kurulum İşlemi&lt;/h2&gt;
+
+&lt;p&gt;Terminalde aşağıdaki komutları yazın:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl -O 'https://raw.githubusercontent.com/authy/authy-ssh/master/authy-ssh'
+sudo bash authy-ssh install /usr/local/bin
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ardından, kullanıcı için iki faktörlü kimlik doğrulamayı etkinleştirin:
+&lt;code class=&quot;highlighter-rouge&quot;&gt;
+sudo /usr/local/bin/authy-ssh enable `whoami` &amp;lt;your-email&amp;gt; &amp;lt;your-country-code&amp;gt; &amp;lt;your-cellphone&amp;gt;
+&lt;/code&gt;
+Test yapıyoruz ve her şeyin çalıştığından emin oluyoruz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;authy-ssh test
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;SSH sunucunuzu yeniden başlatın&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo service ssh restart
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&quot;ssh-sunucunuzu-yeniden-balatma&quot;&gt;Ssh sunucunuzu yeniden başlatma&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Ubuntu&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo service ssh restart
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Debian&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo service sshd restart
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;RedHat and Fedora Core Linux&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo /sbin/service sshd restart
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Suse linux&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo /etc/rc.d/sshd restart
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;root-ayrcalklar-olmadan-kurulum-ilemi&quot;&gt;Root ayrıcalıkları olmadan kurulum işlemi&lt;/h3&gt;
+
+&lt;p&gt;Terminalde aşağıdaki komutları yazın:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl 'https://raw.githubusercontent.com/authy/authy-ssh/master/authy-ssh' -o authy-ssh
+bash authy-ssh install ~/.authy-ssh/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Şimdi kullanıcıyı korumak için gerekli komutu girin:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bash ~/.authy-ssh/authy-ssh protect
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;bir-kullanc-da-iki-faktrl-kimlik-dorulamay-etkinletirmek&quot;&gt;Bir kullanıcı da iki faktörlü kimlik doğrulamayı etkinleştirmek&lt;/h2&gt;
+
+&lt;p&gt;Kurulum bittikten sonra, korumak istediğiniz kullanıcılar için iki faktörlü kimlik doğrulamayı proaktif olarak etkinleştirmeniz gerekir.&lt;/p&gt;
+
+&lt;p&gt;Kullanıcıları etkinleştirmek için aşağıdaki komutu yazın ve karşınıza çıkacak olan formu doldurun:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo authy-ssh enable
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Tek satırda yapmak isterseniz aşağıdaki komutu vermeniz gerekmektedir:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo authy-ssh enable &amp;lt;local-username&amp;gt; &amp;lt;user-email&amp;gt; &amp;lt;user-cellphone-country-code&amp;gt; &amp;lt;user-cellphone&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;nasl-alr&quot;&gt;Nasıl çalışır&lt;/h2&gt;
+
+&lt;p&gt;Authy-ssh, her girişten önce kendini çalıştırmak için &lt;code class=&quot;highlighter-rouge&quot;&gt;sshd_config&lt;/code&gt; yönergesine ` ForceCommand` kullanmaktadır. Yüklemeyi tamamladıktan sonra sshd_config dosyanızın görünümünü aşağıda görebilirsiniz:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[root@ip-10-2-113-233 ~]# cat  /etc/ssh/sshd_config | grep ForceCommand
+ForceCommand /usr/local/bin/authy-ssh login
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Authy-ssh her çalıştırıldığında, &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/local/bin/authy-ssh.conf&lt;/code&gt; dosyasından yapılandırmaları okuyacaktır.&lt;/p&gt;
+
+&lt;p&gt;Örnek:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[root@ip-10-2-113-233 ~]# cat /usr/local/bin/authy-ssh.conf
+banner=Good job! You've securely logged in with Authy.
+api_key=05c783f2db87b73b198f11fe45dd8bfb
+user=root:1
+user=daniel:1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Bu durumda kullanıcı rootu ve daniel’in iki faktörlü olduğu ve 1’in  &lt;code class=&quot;highlighter-rouge&quot;&gt;authy_id&lt;/code&gt; olduğu anlamına gelir. Bir kullanıcı bu listede yoksa, &lt;code class=&quot;highlighter-rouge&quot;&gt;authy-ssh&lt;/code&gt; otomatik olarak içeri girmesine izin verir.&lt;/p&gt;
+
+&lt;h2 id=&quot;ki-aamal-kimlik-dorulamasn-otomatik-datm-aralar-ile-kullanma&quot;&gt;İki aşamalı kimlik doğrulamasını otomatik dağıtım araçları ile kullanma.&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;capybara&lt;/strong&gt;, &lt;strong&gt;chef&lt;/strong&gt;, &lt;strong&gt;puppet&lt;/strong&gt;, &lt;strong&gt;cfengine&lt;/strong&gt;, &lt;strong&gt;git&lt;/strong&gt; kullanırsanız, bu araçlarla ilgili yeni kullanıcılar oluşturabilirsiniz; böylece, ikş aşamalı kimlik doğrulamayı kullanabilirsiniz.
+Alternatif olarak, &lt;code class=&quot;highlighter-rouge&quot;&gt;ForceCommand&lt;/code&gt; yönergesini kullanarak kullanıcıları eşleştirebilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;Buna iyi bir örnek iki faktörlü bir kullanıcı grubu oluşturmaktır.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;groupadd two-factor
+usermod  -a -G two-factor root
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Şimdi benim root kullanıcım iki faktörlü gruba girdiğinde, &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/ssh/sshd_config&lt;/code&gt; dosyamı düzenliyorum&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[root@ip-10-2-113-233 ~]# cat /etc/ssh/sshd_config | grep ForceCommand -A 1 -B 1
+match Group two-factor
+ForceCommand /usr/local/bin/authy-ssh login
+
+service sshd restart
+Stopping sshd:                                             [  OK  ]
+Starting sshd:                                             [  OK  ]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Şimdi &lt;code class=&quot;highlighter-rouge&quot;&gt;force&lt;/code&gt; komutu yalnızca iki faktörlü gruba ait kullanıcılar üzerinde çalışacaktır.&lt;/p&gt;
+
+&lt;h2 id=&quot;scp-sftp-mosh-ve-git-push-iki-aamal-kimlik-dorulama-kullanm&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Scp&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt; sftp&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;mosh&lt;/code&gt; ve &lt;code class=&quot;highlighter-rouge&quot;&gt;git push&lt;/code&gt; iki aşamalı kimlik doğrulama kullanımı.&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Scp&lt;/code&gt;,&lt;code class=&quot;highlighter-rouge&quot;&gt; sftp&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;mosh&lt;/code&gt; ve ` git clone&lt;/td&gt;
+      &lt;td&gt;fetch&lt;/td&gt;
+      &lt;td&gt;push&lt;code class=&quot;highlighter-rouge&quot;&gt; gibi etkileşimli olmayan komutları etkinleştirmek için ortam değişkenini &lt;/code&gt;AUTHY_TOKEN&lt;code class=&quot;highlighter-rouge&quot;&gt; istemciden geçirmemize izin vermelisiniz. Bunu yapmak için &lt;/code&gt;sshd_config&lt;code class=&quot;highlighter-rouge&quot;&gt; düzenleyin (normalde&lt;/code&gt; /etc&lt;code class=&quot;highlighter-rouge&quot;&gt; veya &lt;/code&gt;/etc/ssh/&lt;code class=&quot;highlighter-rouge&quot;&gt; da bulunur) ve &lt;/code&gt;AUTHY_TOKEN` i AcceptEnv yönergesine ekleyin:&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;AcceptEnv AUTHY_TOKEN
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ardından, istemciyi bu değişkeni sunucuya gönderecek şekilde yapılandırabilirsiniz, ilk önce &lt;code class=&quot;highlighter-rouge&quot;&gt;~ /.ssh/config&lt;/code&gt; açıp bunu yapabilir ve aşağıdakileri ekleyebilirsiniz:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Host *
+	SendEnv AUTHY_TOKEN
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;And finally pass the token before the command:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;    AUTHY_TOKEN=&quot;valid-token&quot; git push origin master
+    AUTHY_TOKEN=&quot;valid-token&quot; scp server:path/to/file local-file
+    AUTHY_TOKEN=&quot;valid-token&quot; mosh server
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;not&quot;&gt;NOT&lt;/h3&gt;
+
+&lt;p&gt;Geçersiz bir belirteç girerseniz &lt;code class=&quot;highlighter-rouge&quot;&gt;sftp&lt;/code&gt; gibi durumlarda, &lt;em&gt;“Received message too long 458961713”&lt;/em&gt; gibi bir yanıt alabilirsiniz. Bunun nedeni, etkileşimli komutun, program tarafından döndürülen uygun çıktı, metin mesajını oluşturamamasıdır.&lt;/p&gt;
+
+&lt;h2 id=&quot;ayn-unix-hesab-paylaan-birden-ok-kullanc&quot;&gt;Aynı unix hesabı paylaşan birden çok kullanıcı.&lt;/h2&gt;
+
+&lt;p&gt;Tek bir giriş bilgilerini paylaşmanız gereken birçok kullanıcınız varsa, aynı tokeni paylaşmadan güçlü iki faktörlü kimlik doğrulamasını kullanabilirsiniz. Bu, her kullanıcının kendi reddine izin vermeyecek şekilde kendi Authy Token’ine sahip olabileceği anlamına gelir.&lt;/p&gt;
+
+&lt;p&gt;Bunu başarmak için &lt;code class=&quot;highlighter-rouge&quot;&gt;ForceCommand&lt;/code&gt; yönergesini &lt;code class=&quot;highlighter-rouge&quot;&gt;sshd_config&lt;/code&gt; den silin veya yorumlayın:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo sed -ie 's/^\(ForceCommand.*authy-ssh.*\)/#\1/g' /etc/ssh/sshd_config
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ve sonra her kişi için aşağıdaki komutu kullanarak ssh anahtarını ekleyin:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo authy-ssh protect
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Bitmiş gibi gözüken bir &lt;code class=&quot;highlighter-rouge&quot;&gt;authorized_keys&lt;/code&gt; dosyası örneğin:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;command=&quot;/usr/local/bin/authy-ssh login 13386&quot; ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGRJbWu+WLVXYVADY3iQPE1kA7CIOSqHmskPM8qIAzKzq+1eRdmPwDZNmAvIQnN/0N7317Rt1bmTRLBwhl6vfSgL6677vUwsevPo27tIxdja67ELTh55xVLcJ3O8x2qkZsySgkLP/n+w3MUwLe1ht31AZOAsV7J7imhWipDijiysNgvHyeSWsHqExaL1blPOYJVHcqPbKY4SxFRq/MWeyPf/Sm24MFSKEaY6u0kNx8MLJ1X9X/YxmY9rdvzsZdQ7Z/PYhYt2Ja/0mzfYx2leeP2JQBsVfZZzAoFEPpw6mSP9kJREGe2tXvS9cRenhz/+V0+mvSJKG0f0Zzh428pTzN
+command=&quot;/usr/local/bin/authy-ssh login 20&quot; ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAyvj2d0rSDukDT04mK7njUxtXffUrOnDCm2Bqub0zN7LQS733nBHp89aMuBI5ENjw1SQ2qXhLxvK1Xhr0pQr+dOWNn3emQjQuiA+YL39yp2RLLpflerJ3KAVY09CHYLFxdKj/DJgXsH+LMAPe2uVmWCP2xAV5ZcLnz3CdS2SX/EVlbNrftesZx9uAbmwKPLY1pmW7q/75AhJRow8VTP7zM/VS7jEHkj03g51BZGB8tMI3G8RDVEDtu2jVwZiq+8BaNCyjYVlsLfu6uGhnXeeUS3swu/atlt+pxy+QTf/HGvrJR58tER+foqheWtV3LqXN4oLckzqTVkDDmnNJlmrpYQ==
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Önceki komut ssh genel anahtarı, cep telefonu ve e-postayı kullanıcıdan isteyecektir.&lt;/p&gt;
+
+&lt;h2 id=&quot;kaldrma&quot;&gt;Kaldırma&lt;/h2&gt;
+
+&lt;p&gt;Aşağıdaki komutların girilmesi halinde sistemden Authy SSH uygulaması tamamen kaldırılacaktır.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo authy-ssh uninstall
+sudo service ssh restart
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+</description>
+                <link>https://mertcangokgoz.com/authy-ssh-ile-sunucu-guvenliginin-arttirilmasi/</link>
+                <guid>https://mertcangokgoz.com/authy-ssh-ile-sunucu-guvenliginin-arttirilmasi</guid>
+                <pubDate>Thu, 08 Dec 2016 00:00:00 +0300</pubDate>
+        </item>
 
         <item>
                 <title>Hortumu Kendilerine Bağladılar(mkfifo, mknod)</title>
@@ -3124,81 +3335,6 @@ ii  firmware-iwlwifi                      20160824-1                           a
                 <link>https://mertcangokgoz.com/wifisi-calismayan-laptobu-adam-etmek/</link>
                 <guid>https://mertcangokgoz.com/wifisi-calismayan-laptobu-adam-etmek</guid>
                 <pubDate>Sat, 01 Oct 2016 00:00:00 +0300</pubDate>
-        </item>
-
-        <item>
-                <title>Jekyll Spotify Eklentisi</title>
-                <description>&lt;p&gt;Jekyll için bir süredir kafamda bir eklenti vardı spotify için hiç kimse birşeyler yapmamıştı gördüklerim de çok teferruatlı olduğu için en basit şekilde nasıl yaparıza kafa yordum ve aşağıdaki gibi bir eklenti ortaya çıkıverdi kullanımı oldukça basit olan bu eklenti ile istediğiniz gibi spotify linklerinizi dinlenebilir bir hale sokabilirsiniz sırf bunu yaparak bile blog açabilirsiniz mesela&lt;/p&gt;
-
-&lt;p&gt;Herneyse direk olarak aşağıdaki dosyayı &lt;code class=&quot;highlighter-rouge&quot;&gt;_plugins&lt;/code&gt; klasörüne atım içerisindeki kullanım talimatlarına göre kullanabilirsiniz.&lt;/p&gt;
-
-&lt;noscript&gt;&lt;pre&gt;# Title: Simple Spotify tag for Jekyll
-# Author: Mertcan GOKGOZ https://mertcangokgoz.com
-# Description: Easily output Spotify Embed Player.
-#
-# Syntax: {% spotify [spotify-uri] [width height] %}
-#
-# Example: {% spotify spotify:track:3fuNydG9kg2Y09i8Foqq0p  %}
-# Example2: {% spotify spotify:track:3fuNydG9kg2Y09i8Foqq0p 200 300 %}
-#
-#
-# Output: &amp;lt;iframe src=&amp;quot;https://embed.spotify.com/?uri=spotify%3Atrack%3A3fuNydG9kg2Y09i8Foqq0p&amp;quot;
-#           width=&amp;quot;100%&amp;quot; height=&amp;quot;300&amp;quot; frameborder=&amp;quot;0&amp;quot; allowtransparency=&amp;quot;true&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;
-#
-
-module Jekyll
-  class Spotify &amp;lt; Liquid::Tag
-
-    def initialize(tag_name, id, tokens)
-        super
-        @id       = id
-    end
-
-    def render(context)
-      @id, @width, @height = @id.split(&amp;#39; &amp;#39;).map(&amp;amp;:strip)
-
-      if @width.nil? &amp;amp;&amp;amp; @height.nil?
-        @width = &amp;#39;100%&amp;#39;
-        @height = &amp;#39;300&amp;#39;
-      end
-
-      if @id
-        %(&amp;lt;iframe src=\&amp;quot;https://embed.spotify.com/?uri=#{@id}\&amp;quot; width=\&amp;quot;#{@width}\&amp;quot; height=\&amp;quot;#{@height}\&amp;quot; frameborder=\&amp;quot;0\&amp;quot; allowtransparency=\&amp;quot;true\&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;)
-      else
-        %(Error input, expected syntax: {% spotify id [width] [height] %})
-      end
-    end
-  end
-end
-
-Liquid::Template.register_tag(&amp;#39;spotify&amp;#39;, Jekyll::Spotify)&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/MertcanGokgoz/16dfcee705979f0bb91c5f0df0eb8ccf.js&quot;&gt; &lt;/script&gt;
-
-&lt;p&gt;Aynı zamanda direk rubygem den sisteme dahil ederekte kullanma imkanınız bulunuyor.&lt;/p&gt;
-
-&lt;p&gt;Gemfile içerisine aşağıdaki satırı ekliyorsunuz&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'jekyll-spotify'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;ardından &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle&lt;/code&gt; yada &lt;code class=&quot;highlighter-rouge&quot;&gt;bundle install&lt;/code&gt; komutu aracılığı ile sisteme dahil ediyorsunuz. En olmadı aşağıdaki kodu çalıştırarakta bu işlemi yapabilirsiniz.&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;gem&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;spotify&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; dosyasına ise aşağıdaki satırı eklemeyi unutmuyorsunuz.&lt;/p&gt;
-
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;ss&quot;&gt;gems: &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;spotify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;öptüm bye &amp;lt;3&lt;/p&gt;
-</description>
-                <link>https://mertcangokgoz.com/jekyll-spotify-eklentisi/</link>
-                <guid>https://mertcangokgoz.com/jekyll-spotify-eklentisi</guid>
-                <pubDate>Mon, 26 Sep 2016 00:00:00 +0300</pubDate>
         </item>
 
 
