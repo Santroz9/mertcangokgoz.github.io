@@ -5,10 +5,186 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Thu, 08 Dec 2016 14:52:37 +0300</lastBuildDate>
-        <pubDate>Thu, 08 Dec 2016 14:52:37 +0300</pubDate>
+        <lastBuildDate>Sat, 10 Dec 2016 14:38:20 +0300</lastBuildDate>
+        <pubDate>Sat, 10 Dec 2016 14:38:20 +0300</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Centos 7 Üzerine PostgreSQL ile Ruby on Rails Kurulumu</title>
+                <description>&lt;p&gt;Ruby on Rails (RoR) veya kısa adıyla “rails”, ruby’de MVC (Model-View-Controller) kavramını takip eden bir sunucu tarafı web uygulaması çerçevesidir. RoR açık kaynak kodlu MIT Lisansı altında yayınlandı. Rails, veritabanları, web hizmetleri ve web sayfaları için varsayılan yapılar sağlar. Rails yaygın olarak kullanılmaktadır ve bugüne kadar 3000’den fazla kişi Rails projesine kod eklemiştir Github, Airbnb, Soundcloud gibi Rails’e dayanan birçok web uygulaması bulunmaktadır.&lt;/p&gt;
+
+&lt;p&gt;Kurulum aşaması&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;yum install curl
+curl -sSL https://rvm.io/mpapis.asc | gpg --import -
+curl -sSL https://get.rvm.io | bash -s stable --ruby
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Komutlar, önce gerekli paketleri (paket bağımlılıkları) yükleyecek ve en son kararlı RVM sürümünü indirip kuracaktır.&lt;/p&gt;
+
+&lt;p&gt;Şimdi, aşağıdaki komutu çalıştırarak RVM’yi kullanmaya başlayabiliriz&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source /usr/local/rvm/scripts/rvm
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ruby Kurulumuna başlayalım&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rvm get stable --autolibs=enable
+rvm install ruby-2.3.1
+rvm --default use ruby-2.3.1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Başarılı bir şekilde kuruldu ise aşağıdaki komut ile sürüm bilgisine bakabilirsiniz&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;ruby -v
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Rails, assetleri derlemek için bir JavaScript’e ihtiyaç duyar. Bunun için NodeJS kurulumunu yapıyoruz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl -sL https://rpm.nodesource.com/setup_6.x | sudo -E bash -
+yum -y install nodejs
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Gem’i güncelleştirip yapılandırmasını yapalım sonuçta bir sunucu ve geliştirme ortamı kuruyoruz. Gereksizlerin kurulması işimize yaramaz sistem gemlerini güncellememiz yeterli&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem update --system
+gem -v
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;.gemrc&lt;/strong&gt; dosyasına aşağıdaki satırı ekleyerek her gem kurulum belgelerini yüklemeyi devre dışı bırakabilirsiniz. Sabit disk alanı kazandıracağından burada internet üzerinden belgeleri okumayı tercih edeceğiz. Ve unutulmamalıdır ki bu işlem isteğe bağlı bir işlemdir.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;echo &quot;gem: --no-document&quot; &amp;gt;&amp;gt; ~/.gemrc
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Tüm bu işlemleri başarılı bir şekilde geçtiğimize göre &lt;strong&gt;Ruby On Rails 5&lt;/strong&gt; kurulumuna geçebiliriz&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gem install rails -v 5.0.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Kurulum başarıyla tamamlandığında rails sürümünü kontrol etmeyi unutmuyoruz&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rails -v
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;rails-gelitirmek-iin-postgresql-veritaban-ayarlamalarnn-yaplmas&quot;&gt;Rails Geliştirmek için PostgreSQL Veritabanı Ayarlamalarının yapılması&lt;/h3&gt;
+
+&lt;p&gt;Bu adımda PostgreSQL’i rails’in geliştirilmesi için hazırlayacağız. Ruby on Rails, MySQL, SQLite (Varsayılan) ve PostgreSQL gibi birçok veritabanını desteklemektedir. Veritabanı olarak PostgreSQL’i kullanacağız.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;yum -y install postgresql-server postgresql-devel postgresql-contrib
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Şimdi veritabanı sunucusunu initdb komutu ile başlatmalıyız.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;postgresql-setup initdb
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Varsayılan olarak, &lt;strong&gt;CentOS&lt;/strong&gt; sunucusunda &lt;strong&gt;PostgreSQL&lt;/strong&gt; şifre tabanlı kimlik doğrulamasına kesinlikle izin vermez. RoR kurulumu için &lt;strong&gt;PostgreSQL&lt;/strong&gt; yapılandırmasını bir şifre ile girişlere izin verecek şekilde düzenlememiz gerekiyor.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;yum install nano
+nano /var/lib/pgsql/data/pg_hba.conf
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Kimlik doğrulama yöntemini &lt;code class=&quot;highlighter-rouge&quot;&gt;md5&lt;/code&gt; olarak değiştiriyoruz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# IPv4 local connections:
+host    all             all             127.0.0.1/32            md5
+# IPv6 local connections:
+host    all             all             ::1/128                 md5
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;ve servisi yeniden başlatıyoruz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;systemctl start postgresql
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Yükleme tamamlandığında, su ile kabuk üzerinde &lt;code class=&quot;highlighter-rouge&quot;&gt;postgres&lt;/code&gt; kullanıcısı olarak girin ve postgresql kabuğuna (psql) erişin.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;su - postgres
+psql
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Aslında bu işlem tüm sistemler için aynı şifre tanımlaması yapmaktan başka bir işe yaramıyor.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\password postgres
+Enter new password:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Sonra, bu komutla rails geliştirilmesi için &lt;code class=&quot;highlighter-rouge&quot;&gt;rails-dev&lt;/code&gt; adlı yeni bir rol oluşturun:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;create role rails_dev with createdb login password 'admin123';
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Benim şüphelerim var bana kuralları göster dostum diyorsan&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;\du
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Şimdi bir uygulama oluşturalım bakalım RoR çalışıyormu&lt;/p&gt;
+
+&lt;p&gt;rails komutu ile ilk uygulamamızı kolayca oluşturabiliriz. PostgreSQL’i varsayılan veritabanı olarak kullanarak yeni bir uygulama oluşturun.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rails new testcanisi -d postgresql
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Bu komut, yeni bir dizin ‘testcanisi’ oluşturacak ve PostgreSQL veritabanına bağlanmak için rails tarafından gerekli olan “pg” gemini de içeren yeni bir gem yükleyecektir.&lt;/p&gt;
+
+&lt;p&gt;‘testcanisi’ dizinine gidin ve config dizininde &lt;code class=&quot;highlighter-rouge&quot;&gt;database.yml&lt;/code&gt; dosyasını düzenleyin.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd testcanisi/
+nano config/database.yml
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;dosya içerisinde 32.satıra denk gelen kısımları yukarıda ayarladığımız şekilde değiştiriyoruz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;username: rails_dev
+password: admin123
+host: localhost
+port: 5432
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;dosyayı kayıt edip editörden başarılı bir şekilde çıkış yapıyorsunuz. Ardından, veritabanını rails komutu ile oluşturun aynısı django tarafındada var bilenler bilirler&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rails db:setup
+rails db:migrate
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Sonra rails sunucusunu aşağıdaki komutu kullanarak çalıştırın:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rails s -b &amp;gt;sunucu-ip&amp;gt; -p 8080
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;İp adresine baktığınızda karşınızda RoR’un kullandığı ön tanımlı sayfayı göreceksiniz ve onu gördüğünüzde kurulumu başarılı bir şekilde yaptığınızı anlayabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;Artık RoR uygulamaları geliştirebilir veya geliştirilmiş herhangi bir uygulamayı canlıya alabilirsiniz.&lt;/p&gt;
+</description>
+                <link>https://mertcangokgoz.com/centos-7-uzerine-postgresql-ile-ruby-on-rails-kurulumu/</link>
+                <guid>https://mertcangokgoz.com/centos-7-uzerine-postgresql-ile-ruby-on-rails-kurulumu</guid>
+                <pubDate>Sat, 10 Dec 2016 00:00:00 +0300</pubDate>
+        </item>
 
         <item>
                 <title>Authy SSH İle Sunucu Güvenliğinin Arttırılması</title>
@@ -3259,75 +3435,6 @@ See 'cargo help &amp;lt;command&amp;gt;' for more information on a specific comm
                 <link>https://mertcangokgoz.com/rust-yeni-bir-programlama-dilinin-dogusu/</link>
                 <guid>https://mertcangokgoz.com/rust-yeni-bir-programlama-dilinin-dogusu</guid>
                 <pubDate>Mon, 03 Oct 2016 00:00:00 +0300</pubDate>
-        </item>
-
-        <item>
-                <title>Wifisi Çalışmayan Laptobu Adam Etmek</title>
-                <description>&lt;p&gt;Her zaman ki gibi uyandım direk bilgisayarımın başına geçtim sistemi çalıştırdım ve başladım beklemeye ben normalde ethernet üzerinden internete bağlanırım. Kablosuz interneti çok nadir kullanırım anca dışarda yada kabloyu başka bir iş için kullanacaksam falan onun dışında kullanmam ama bugün nedense wifi ye bir bakasım geldi&lt;/p&gt;
-
-&lt;p&gt;Baktığımda wifinin çalışır olduğunu ama kablosuz ağ bulmadığını fark ettim. Bunun 2 nedeni olabilirdi&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ya kablosuzun driver yoktu&lt;/li&gt;
-  &lt;li&gt;yada crda tarafında regdomain kaydı yoktu&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;her ikiside önemli olduğu için hemen aşağıdaki kodu çalıştırdım.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;lspci -nnk | grep -iA2 net
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Aşağıdaki gibi bir çıktı aldım bu benim kartım kykda da sorun çıkartmıştı, ancak bu sefer hiç kablosuz ağ bulamadığı için o yöntemi yediremezdim&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;03:00.0 Network controller [0280]: Intel Corporation Wireless 3160 [8086:08b3] (rev cb)
-	Subsystem: Intel Corporation Dual Band Wireless AC 3160 [8086:8170]
-	Kernel driver in use: iwlwifi
---
-04:00.0 Ethernet controller [0200]: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [10ec:8168] (rev 0c)
-	Subsystem: Toshiba America Info Systems RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [1179:f940]
-	Kernel driver in use: r8169
-	Kernel modules: r8169
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Debian üzerinde sürücüleri kurulu bir şekilde böyle bir sorun çıkartıyorsa ki sürücülerü kurulu;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;root@0x2e88ce4:~# dpkg -l | grep iwlwifi
-ii  firmware-iwlwifi                      20160824-1                           all          Binary firmware for Intel Wireless cards
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;yukarıda da bahsettiğim 1 tek sorundan kaynaklanıyor demektir, onunda çözümü oldukça basit. Bende hemen crda yı düzenlemeye geçtim&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sed -i &quot;s/REGDOMAIN=/REGDOMAIN=TR/&quot; /etc/default/crda
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ardından bir güzel aşağıdaki komutu verip tanımlamasını yapmak gerekiyordu&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;iw reg set TR
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Bu sayede türkiye konumunda olduğumuzu wifi kartına söyledim. Kartda anlayış gösterdi tabi ve kontrol amacıyla şu kodu girdim tekrar &lt;code class=&quot;highlighter-rouge&quot;&gt;iw reg get&lt;/code&gt; baktığımda TR de olduğumuz anlaşılıyordu aşağıdaki gibi bir çıktı verdi bana&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;country TR: DFS-ETSI
-	(2402 - 2482 @ 40), (N/A, 20), (N/A)
-	(5170 - 5250 @ 80), (N/A, 20), (N/A)
-	(5250 - 5330 @ 80), (N/A, 20), (0 ms), DFS
-	(5490 - 5710 @ 160), (N/A, 27), (0 ms), DFS
-	(57000 - 66000 @ 2160), (N/A, 40), (N/A)
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ancak hala kablosuz ağları göremiyordum çünkü bunların geçerli olması için sistemin &lt;strong&gt;yeniden başlatılması&lt;/strong&gt; gerekiyordu. Yeniden başlatma işlemini tamamlayınca artık sorunsuz bir şekilde kablosuz ağları bulduğunu gördüm.&lt;/p&gt;
-
-&lt;p&gt;öptüm bye &amp;lt;3&lt;/p&gt;
-</description>
-                <link>https://mertcangokgoz.com/wifisi-calismayan-laptobu-adam-etmek/</link>
-                <guid>https://mertcangokgoz.com/wifisi-calismayan-laptobu-adam-etmek</guid>
-                <pubDate>Sat, 01 Oct 2016 00:00:00 +0300</pubDate>
         </item>
 
 
