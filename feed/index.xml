@@ -5,24 +5,14 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Sun, 11 Dec 2016 13:04:22 +0300</lastBuildDate>
-        <pubDate>Sun, 11 Dec 2016 13:04:22 +0300</pubDate>
+        <lastBuildDate>Sun, 11 Dec 2016 13:09:28 +0300</lastBuildDate>
+        <pubDate>Sun, 11 Dec 2016 13:09:28 +0300</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
-                <title>Linux Uzerinde Chk Dosyalarinin Kurtarilmasi</title>
-                <description>
-&lt;hr /&gt;
-&lt;p&gt;layout: post
-title: Linux Üzerinde CHK Dosyalarının Kurtarılması
-date: 2016-12-11
-type: post
-categories: linux
-description: USB belleğin yan basması sonucunda içerisindeki veriler bir şekilde bozulmuş bir USB belleği Windows bir sisteme taktığımızda ki sanırım bu
-—&lt;/p&gt;
-
-&lt;p&gt;USB belleğin yan basması sonucunda içerisindeki veriler bir şekilde bozulmuş bir USB belleği Windows bir sisteme taktığımızda ki sanırım bu otomatik oluyor &lt;code class=&quot;highlighter-rouge&quot;&gt;.CHK&lt;/code&gt; uzantılı bir hal almış. Kayıp dosya parçacıklarını dönüştürmüş ve kurtarma işlemi için hazır yapmış Windowsda bunları tool ile çıkartıyorlar tabi linuxde mimetype bakarak dosya uzantısını değiştirmek yetiyor. Belki Windows üzerindede aynı işlemi yapsak düzelecek ancak bu konuda bir bilgim yok&lt;/p&gt;
+                <title>Linux Üzerinde CHK Dosyalarının Kurtarılması</title>
+                <description>&lt;p&gt;USB belleğin yan basması sonucunda içerisindeki veriler bir şekilde bozulmuş bir USB belleği Windows bir sisteme taktığımızda ki sanırım bu otomatik oluyor &lt;code class=&quot;highlighter-rouge&quot;&gt;.CHK&lt;/code&gt; uzantılı bir hal almış. Kayıp dosya parçacıklarını dönüştürmüş ve kurtarma işlemi için hazır yapmış Windowsda bunları tool ile çıkartıyorlar tabi linuxde mimetype bakarak dosya uzantısını değiştirmek yetiyor. Belki Windows üzerindede aynı işlemi yapsak düzelecek ancak bu konuda bir bilgim yok&lt;/p&gt;
 
 &lt;p&gt;Tabi bu kodu kullanmadan önce klasör içerisinde ne tür dosyaların olduğuna şu şekilde bakabilirsiniz.&lt;/p&gt;
 
