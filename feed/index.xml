@@ -5,10 +5,43 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Sat, 10 Dec 2016 14:38:20 +0300</lastBuildDate>
-        <pubDate>Sat, 10 Dec 2016 14:38:20 +0300</pubDate>
+        <lastBuildDate>Sun, 11 Dec 2016 13:04:22 +0300</lastBuildDate>
+        <pubDate>Sun, 11 Dec 2016 13:04:22 +0300</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Linux Uzerinde Chk Dosyalarinin Kurtarilmasi</title>
+                <description>
+&lt;hr /&gt;
+&lt;p&gt;layout: post
+title: Linux Üzerinde CHK Dosyalarının Kurtarılması
+date: 2016-12-11
+type: post
+categories: linux
+description: USB belleğin yan basması sonucunda içerisindeki veriler bir şekilde bozulmuş bir USB belleği Windows bir sisteme taktığımızda ki sanırım bu
+—&lt;/p&gt;
+
+&lt;p&gt;USB belleğin yan basması sonucunda içerisindeki veriler bir şekilde bozulmuş bir USB belleği Windows bir sisteme taktığımızda ki sanırım bu otomatik oluyor &lt;code class=&quot;highlighter-rouge&quot;&gt;.CHK&lt;/code&gt; uzantılı bir hal almış. Kayıp dosya parçacıklarını dönüştürmüş ve kurtarma işlemi için hazır yapmış Windowsda bunları tool ile çıkartıyorlar tabi linuxde mimetype bakarak dosya uzantısını değiştirmek yetiyor. Belki Windows üzerindede aynı işlemi yapsak düzelecek ancak bu konuda bir bilgim yok&lt;/p&gt;
+
+&lt;p&gt;Tabi bu kodu kullanmadan önce klasör içerisinde ne tür dosyaların olduğuna şu şekilde bakabilirsiniz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;file --mime-type -b *.CHK | sort | uniq
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Düzenlenen kodumuz ise şu şekilde kod için &lt;strong&gt;Onur Aslan&lt;/strong&gt; Teşekkür ederim. İçinden çıkamadığım sorunu kendisi güzel bir şekilde çözdü :)&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;for file in $(find -iname '*.chk'); do C_EXT=$(file --mime-type $file | cut -d' ' -f2 | xargs -I{} grep {} /etc/mime.types | awk '{ print $2; }'); if [ -n &quot;$C_EXT&quot; ]; then rename -v &quot;s/.chk$/.$C_EXT/i&quot; $file; fi; done
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Kodda bulunan ufak bir bug var bazı mimelerin birden fazla uzantısı olabiliyor. Örneğin; &lt;strong&gt;ppt&lt;/strong&gt; bu gibi dosyalarda grep hepsini aldığı için birden fazla uzantısı varmış gibi gözükebilir. Çok nadir olsa bile böyle bir sorun olduğunu bilmenizde fayda var…&lt;/p&gt;
+</description>
+                <link>https://mertcangokgoz.com/linux-uzerinde-chk-dosyalarinin-kurtarilmasi/</link>
+                <guid>https://mertcangokgoz.com/linux-uzerinde-chk-dosyalarinin-kurtarilmasi</guid>
+                <pubDate>Sun, 11 Dec 2016 00:00:00 +0300</pubDate>
+        </item>
 
         <item>
                 <title>Centos 7 Üzerine PostgreSQL ile Ruby on Rails Kurulumu</title>
@@ -3234,207 +3267,6 @@ Liquid::Template.register_filter(Jekyll::RenderDeprecate)
                 <link>https://mertcangokgoz.com/jekyll-makale-guncellik-takip-eklentisi/</link>
                 <guid>https://mertcangokgoz.com/jekyll-makale-guncellik-takip-eklentisi</guid>
                 <pubDate>Fri, 07 Oct 2016 00:00:00 +0300</pubDate>
-        </item>
-
-        <item>
-                <title>Rust Yeni Bir Programlama Dilinin Doğuşu</title>
-                <description>&lt;p&gt;Öncelikle geleceğin yazılım diline hoşgeldiniz rust programlama dili geliştirileli yaklaşık 6 yıl kadar oluyor. Karşımıza ilk olarak 2010 yılında Mozilla tarafından duyurulması ile birlikte çıktı. İnanmayabilirsiniz ama uygulama 2011 yılında kendi kendini compile ederek self hosted bir şekilde piyasaya sürüldü&lt;/p&gt;
-
-&lt;p&gt;Çok değil sadece 1 yıl kadar önce ise kararlı sürümünün yayınlanması ile hayatımıza tam anlamıyla giriş yaptı yaklaşık 5 yıl kadar bir süre geliştirilmeye devam etti ve pek çok dilin artı yanlarını alan bir dil oldu bahsedeceklerim sizi biraz şaşırtabilir ancak rust tam olarak orjinal bir dil değil bunun en büyük özelliği yukarıda bahsetmiş olduğum dillerin güzel özelliklerini içinde barındırıyor olmasıdır.&lt;/p&gt;
-
-&lt;p&gt;Peki &lt;strong&gt;Rust&lt;/strong&gt; hangi dillerden özellik alarak ortaya çıktı bildiklerimi yazmakla başlayayım C#, C++, Python, Ruby, Go Gibi bu dillerden tam olarak hangi özellikleri aldı işin doğrusu tam olarak bilmiyorum çünkü gerekli olmadığını düşünüyorum kısa bir şekilde bilsek bize yeter. Uzatmadan rust hakkında bir kaç güzel özelliktende bahsedelim;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Rust&lt;/strong&gt; bellek güvenliğinide beraberinde getiren bir dildir. Ram de her hangi bir taşmaya sebebiyet vermemektedir. Bunun en büyük artısı oluşturulan uygulamalar çok fazla işlem yapsa dahi sistem belleğini sömürmemesidir.&lt;/p&gt;
-
-&lt;p&gt;Buna en iyi örnek &lt;strong&gt;Rust&lt;/strong&gt; dili ile geliştirilen ve gelecek yıllarda yerini alacak olan &lt;a href=&quot;https://mertcangokgoz.com/gelecegin-tarayici-motoru-servo/&quot;&gt;Servo Tarayıcısı&lt;/a&gt; çok güzel gösterilebilir. Bu blog yazısından yaklaşık 8 ay önce yayınlanan servo sürümü ile 8 ay sonra ki yayınlanan sürümde oldukça farklılıklar bulunmakta sorunsuz bir şekilde çalışmakta ve siz internet’te gezerken bu kararsız haliyle bile sadece 20 MB ram tüketmektedir. CPU ise sadece 0,1 kullanır.&lt;/p&gt;
-
-&lt;p&gt;Hal böyle olunca dili geliştiren arkadaşlar buna &lt;a href=&quot;https://doc.rust-lang.org/book/references-and-borrowing.html&quot;&gt;Borrowing&lt;/a&gt; demişler ve çok cici bir şekilde dokümantasyona eklemişler. Bu özellik sayesinde ramde tutulan pointerlar yeri geldiğinde boşaltılabilmekte böylelikle ram kullanımında ciddi anlamda düşüşler görünecektir.&lt;/p&gt;
-
-&lt;p&gt;Şimdi dokümantasyonu okuyan arkadaşlar olacaktır ve diyeceklerdir ya bu dil nesne yönelimli bir dil değil bize sıkıntı çıkartmasın geride kalmadı mı bunlar ya… Evet kalmadı çünkü rust bunu göz önüne alıp dili ona göre geliştirmiş ve size bir sıkıntı çıkartmayacak şekilde dizayn edilmiş.&lt;/p&gt;
-
-&lt;p&gt;Rust dili compiler oldukça güzel bir şekilde dizayn edilmiştir ki siz derleme komutunu verdiğiniz andan itibaren kodu denetler her dilde olduğu gibi ilginç derleme hataları almazsınız oldukça açıklayıcı ve neyin nerede yanlış gittiğini açıklayan hata kodları döndürür size. Örnek olarak aşağıdaki hata formatı gösterilebilir. 1.12 Sürümü ile birlikte dahada güçlendirilmiştir.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/mismatched-trait-error.png&quot; alt=&quot;trait error&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Şimdiden belirtmekte fayda var Rust bildiğiniz tüm dillerin dışında bir yapıya sahiptir. Şaşırabilir hatta program yazamayabilirsiniz korkmayın alışma ile alakalı bir durum dokümanlarına göz attıysanız bununda üstesinden gelebilirsiniz. C ve C++ ile uğraşamadıysanız syntax size biraz farklı gelebilir.&lt;/p&gt;
-
-&lt;p&gt;Ben linux dağıtımı kullandığım için kurulumu kendimce(tabi onurunda yardımları oldu bazı aşamalarda) anlatacağım özellikle geliştiriciler için yayınlanan gecelik sürümü kullanacağız bunun en büyük artılarından bir tanesi elimizde her daim güncel bir dilin derleyicisi olacak ayrıca rust da yazılan pek çok uygulama gecelik derlemeyi yani geliştirici sürümünü kullanmaktadır.&lt;/p&gt;
-
-&lt;p&gt;Linux için kurulum aracımıza geçiyoruz.(Bu işlemi &lt;strong&gt;root&lt;/strong&gt; kullanıcısı ile yapmayınız &lt;strong&gt;normal kullanıcı&lt;/strong&gt; ile kurulumu yapmanız gerekmektedir.)&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl https://sh.rustup.rs -sSf | sh
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Bu uygulama &lt;strong&gt;beta&lt;/strong&gt; olmasına rağmen bize oldukça tatlı özellikler sunacak sürüm seçebilmekte bunlardan bir tanesi&lt;/p&gt;
-
-&lt;p&gt;Gelen ekranda siz direk olarak 2 seçeneğini seçiyorsunuz ilk gelen host triple seçeneğini boş bırakıyorsunuz ardından gelen sürüm bilgisinde ister stable kurabiliriz istersek de &lt;strong&gt;nightly&lt;/strong&gt; sürüm kurabilirsiniz. Korkmayın gecelik sürüm bile stable kalitesindedir.&lt;/p&gt;
-
-&lt;p&gt;Seçiminizi tamamladığınızda PATH ayarlamanız için bir soru soracak &lt;strong&gt;y&lt;/strong&gt; deyip devam ediyorsunuz. Biraz beklediğinizde rust sisteminize kurulmuş olacak&lt;/p&gt;
-
-&lt;p&gt;Bu kurulum aracının güzelliği her gün yayınlanan yeni sürümleri sisteminize kurma imkanı sağlamasıdır.&lt;/p&gt;
-
-&lt;p&gt;Kurulum aracının özellikleri bunlarla sınırlı değildir. &lt;code class=&quot;highlighter-rouge&quot;&gt;rustup -h&lt;/code&gt; komutu ile çok rahat bir şekilde özelliklerine bakabilirsiniz. Aşağıdaki gibi bir çıktı verecektir size&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rustup 0.6.3 (a0e2132 2016-08-28)
-The Rust toolchain installer
-
-USAGE:
-    rustup [FLAGS] [SUBCOMMAND]
-
-FLAGS:
-    -v, --verbose    Enable verbose output
-    -h, --help       Prints help information
-    -V, --version    Prints version information
-
-SUBCOMMANDS:
-    show         Show the active and installed toolchains
-    update       Update Rust toolchains
-    default      Set the default toolchain
-    toolchain    Modify or query the installed toolchains
-    target       Modify a toolchain's supported targets
-    component    Modify a toolchain's installed components
-    override     Modify directory toolchain overrides
-    run          Run a command with an environment configured for a given toolchain
-    which        Display which binary will be run for a given command
-    doc          Open the documentation for the current toolchain
-    man          View the man page for a given command
-    self         Modify the rustup installation
-    set          Alter rustup settings
-    help         Prints this message or the help of the given subcommand(s)
-
-
-rustup installs The Rust Programming Language from the official
-release channels, enabling
-you to easily switch between stable, beta,
-and nightly compilers and keep them updated.
-It makes cross-compiling
-simpler with binary builds of the standard library for common
-platforms.
-
-If you are new to Rust consider running `rustup doc --book`
-to learn Rust.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Burada kullandığınız mevcut sürümü görebilir ve kurulumları güncelleyebilir yada kurulumu tekrar düzenleyebilirsiniz. Rust’ın resmi sitesinde bu kurulum şuan bulunmadığını fark ettim oradan kurarsanız da telaşlanmayın silip tekrar yükleyebilirsiniz veya tekrar aynı komut ile yeni sürümü kurabilirsiniz&lt;/p&gt;
-
-&lt;p&gt;Rustup ile sürüm güncellemek&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rustup update
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Sürüm bilgisine ulaşmak&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rustup show
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Kullanılan sürümleri değiştirmek&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rustup toolchain
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Kurulum aracının dışında sistemde bulunan paketlerden kurabilirsiniz özellikle debian kullanan arkadaşlar için güzel olacaktır.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt-get install rustc cargo
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Yukarıda kurulumda gördüğünüz &lt;strong&gt;cargo&lt;/strong&gt; nedir diyecekseniz demeyin bu rust için geliştirilmiş bir paket yöneticisidir. Aynı zamanda proje oluşturup üzerinde çalışmanızada izin verir. Ayrıca binary olarakta uygulamaları kurabileceğiniz bir ortamdır.&lt;/p&gt;
-
-&lt;p&gt;cargoda ne yapabileceğinize kısaca bir göz atalım&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Rust's package manager
-
-Usage:
-    cargo &amp;lt;command&amp;gt; [&amp;lt;args&amp;gt;...]
-    cargo [options]
-
-Options:
-    -h, --help          Display this message
-    -V, --version       Print version info and exit
-    --list              List installed commands
-    --explain CODE      Run `rustc --explain CODE`
-    -v, --verbose ...   Use verbose output
-    -q, --quiet         No output printed to stdout
-    --color WHEN        Coloring: auto, always, never
-    --frozen            Require Cargo.lock and cache are up to date
-    --locked            Require Cargo.lock is up to date
-
-Some common cargo commands are (see all commands with --list):
-    build       Compile the current project
-    clean       Remove the target directory
-    doc         Build this project's and its dependencies' documentation
-    new         Create a new cargo project
-    init        Create a new cargo project in an existing directory
-    run         Build and execute src/main.rs
-    test        Run the tests
-    bench       Run the benchmarks
-    update      Update dependencies listed in Cargo.lock
-    search      Search registry for crates
-    publish     Package and upload this project to the registry
-    install     Install a Rust binary
-
-See 'cargo help &amp;lt;command&amp;gt;' for more information on a specific command.
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;bunların bazılarını açıklamak gerekirse&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cargo install mdbook
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Bu komut ile hem uygulamanın çalışması için gerekli olan tüm bağımlılıklar indirilecek hemde bu indirilenler derlenip size bir binary hazırlanacak ve sisteminizde bunu kolaylıkla kullanabileceksiniz&lt;/p&gt;
-
-&lt;p&gt;Bu kurulan uygulamalar kullanıcı adınızın altında bulunan &lt;code class=&quot;highlighter-rouge&quot;&gt;.cargo&lt;/code&gt; klasörü içerisinde olacak silmek istersenizde bu klasörü kaldırarak uygulamayı temizleyebilirsiniz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cargo new test_uygulama --bin
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Yeni bir proje oluştururken bu komutu ullanıyoruz. &lt;code class=&quot;highlighter-rouge&quot;&gt;--bin&lt;/code&gt; binary olduğunu ifade etmektedir. Binary çalıştırılabilir dir dosya olduğunu ifade edip uygulamayı ona göre oluşturmayı sağlar eğer kütüphane için bir proje oluşturacaksanız o zaman &lt;code class=&quot;highlighter-rouge&quot;&gt;--bin&lt;/code&gt; kullanmamanız gerekiyor böylelikle &lt;code class=&quot;highlighter-rouge&quot;&gt;src&lt;/code&gt; dizini içerisinde sadece &lt;code class=&quot;highlighter-rouge&quot;&gt;lib.rs&lt;/code&gt; olacak&lt;/p&gt;
-
-&lt;p&gt;İçerisinde &lt;code class=&quot;highlighter-rouge&quot;&gt;src&lt;/code&gt; dizini haricinde &lt;code class=&quot;highlighter-rouge&quot;&gt;Cargo.toml&lt;/code&gt; adlı bir dosya bulunmaktadır. Bu dosya sizin projeyi derleyebilmeniz için gerekli olan meta dataları tutacak olan bir dosyadır. Yazdığınız uygulamayı ise&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cargo build
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Komutu aracılığı ile kolaylıkla derleyebilirsiniz. Derleyip daha sonra çalıştırmak zorunuza gidiyor ise bunun için direk olarak&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cargo run
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Komutunu kullanmanız işinizi görecektir. Derlendikten sonra otomatik olarak uygulama çalıştırılacaktır.&lt;/p&gt;
-
-&lt;p&gt;Burada dikkat etmeniz gereken bir şey bulunuyor derleme işleminden sonra aynı proje dosyası içerisinde &lt;code class=&quot;highlighter-rouge&quot;&gt;Cargo.lock&lt;/code&gt; adında bir dosya oluşturuğunu göreceksiniz bu dosya bağımlılıklar hakkında tam kaydı tutmaktadır. El ile kesinlikle düzenlemeyin, bu iş için &lt;code class=&quot;highlighter-rouge&quot;&gt;Cargo.toml&lt;/code&gt; kullanılacaktır uygulamanızı geliştirirken lütfen hataya düşmeyin&lt;/p&gt;
-
-&lt;p&gt;Bağımlılıkları güncellemek&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cargo update
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;var olan bir uygulamayı test etmek istiyorsanız aşağıdaki komutu kullanabilirsiniz daha detaylı kullanım örnekleri için &lt;a href=&quot;https://doc.rust-lang.org/book/testing.html&quot;&gt;Testing&lt;/a&gt; dokümantasyonuna göz atmayı unutmayın.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cargo test
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Rust dili ile uygulama yazarken lütfen kodunuzun içerisine yorumlar eklemeyi ve neyin ne işe yaradığını yazmayı unutmayın. Bu rust için oldukça önemlidir işte bu yüzden de açık kaynak kodlu dokümantasyon işlemi için Onur Aslan tarafından geliştirilmiş &lt;a href=&quot;https://docs.rs/&quot;&gt;Docs.rs&lt;/a&gt; işinizi fazlasıyla görecektir.&lt;/p&gt;
-
-&lt;p&gt;Geleceğin yazılım diline hoşgeldiniz&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;dipnot:&lt;/strong&gt; Bu makele rust dilini kısa bir şekilde tanıtmak için yazılmıştır. Hatalar olabileceği gibi eksikliklerinde olması doğaldır.&lt;/p&gt;
-</description>
-                <link>https://mertcangokgoz.com/rust-yeni-bir-programlama-dilinin-dogusu/</link>
-                <guid>https://mertcangokgoz.com/rust-yeni-bir-programlama-dilinin-dogusu</guid>
-                <pubDate>Mon, 03 Oct 2016 00:00:00 +0300</pubDate>
         </item>
 
 

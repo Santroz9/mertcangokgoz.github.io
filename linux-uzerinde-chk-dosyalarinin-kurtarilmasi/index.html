@@ -1,0 +1,25 @@
+
+<hr />
+<p>layout: post
+title: Linux Üzerinde CHK Dosyalarının Kurtarılması
+date: 2016-12-11
+type: post
+categories: linux
+description: USB belleğin yan basması sonucunda içerisindeki veriler bir şekilde bozulmuş bir USB belleği Windows bir sisteme taktığımızda ki sanırım bu
+—</p>
+
+<p>USB belleğin yan basması sonucunda içerisindeki veriler bir şekilde bozulmuş bir USB belleği Windows bir sisteme taktığımızda ki sanırım bu otomatik oluyor <code class="highlighter-rouge">.CHK</code> uzantılı bir hal almış. Kayıp dosya parçacıklarını dönüştürmüş ve kurtarma işlemi için hazır yapmış Windowsda bunları tool ile çıkartıyorlar tabi linuxde mimetype bakarak dosya uzantısını değiştirmek yetiyor. Belki Windows üzerindede aynı işlemi yapsak düzelecek ancak bu konuda bir bilgim yok</p>
+
+<p>Tabi bu kodu kullanmadan önce klasör içerisinde ne tür dosyaların olduğuna şu şekilde bakabilirsiniz.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>file --mime-type -b *.CHK | sort | uniq
+</code></pre>
+</div>
+
+<p>Düzenlenen kodumuz ise şu şekilde kod için <strong>Onur Aslan</strong> Teşekkür ederim. İçinden çıkamadığım sorunu kendisi güzel bir şekilde çözdü :)</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>for file in $(find -iname '*.chk'); do C_EXT=$(file --mime-type $file | cut -d' ' -f2 | xargs -I{} grep {} /etc/mime.types | awk '{ print $2; }'); if [ -n "$C_EXT" ]; then rename -v "s/.chk$/.$C_EXT/i" $file; fi; done
+</code></pre>
+</div>
+
+<p>Kodda bulunan ufak bir bug var bazı mimelerin birden fazla uzantısı olabiliyor. Örneğin; <strong>ppt</strong> bu gibi dosyalarda grep hepsini aldığı için birden fazla uzantısı varmış gibi gözükebilir. Çok nadir olsa bile böyle bir sorun olduğunu bilmenizde fayda var…</p>
