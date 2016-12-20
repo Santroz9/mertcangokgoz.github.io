@@ -11,4 +11,6 @@ Para vermemek isteyişimden dolayı tüm bu içerik [Github Pages](https://pages
 
 Kullanıcı davranışlarını ve istatistiklerini izleyebilmek için [Google Analytcis](https://analytics.google.com/analytics/web/) kullanılmaktadır. Yayınlanan tüm içerik [Creative Commons Atıf-Paylaşım Lisansı](https://creativecommons.org/licenses/by-sa/3.0/) altında bulunmaktadır. Bu bağlamda yazılar kaynak verilerek kopyalanabilir, değiştirilebilir ve geliştirilebilir.
 
+**Reklam Yok, Satış Ortaklığı Yok, Siteler Arası İstek Yok**
+
 ![Github Images](/assets/jekyll-opt.jpg)
