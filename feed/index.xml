@@ -5,10 +5,68 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Sun, 11 Dec 2016 13:09:28 +0300</lastBuildDate>
-        <pubDate>Sun, 11 Dec 2016 13:09:28 +0300</pubDate>
+        <lastBuildDate>Tue, 20 Dec 2016 17:36:06 +0300</lastBuildDate>
+        <pubDate>Tue, 20 Dec 2016 17:36:06 +0300</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>PostgreSQL Veritabanını Yedekten Geri Yükleme</title>
+                <description>&lt;p&gt;Bir veritabanını geri yüklemeden önce, o veritabanına olan tüm bağlantıları sonlandırmanız ve yedekleme dosyasını hazırlamanız gerekir. PostgreSQL’te bir veritabanını iki şekilde geri yükleyebilirsiniz:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Psql kullanarak, &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_dump&lt;/code&gt; ve &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_dumpall&lt;/code&gt; araçları tarafından üretilen düz SQL komut dosyasını geri yüklemek&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Pg_dump&lt;/code&gt; aracıyla oluşturulan tar dosyası ve dizin biçimini geri yüklemek için &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_restore&lt;/code&gt; kullanmak&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;psql-kullanarak-veritabanlarn-geri-ykleme&quot;&gt;Psql kullanarak veritabanlarını geri yükleme&lt;/h3&gt;
+
+&lt;p&gt;Psql yardımcı programı, &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_dump&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_dumpall&lt;/code&gt; veya uyumlu yedek dosyalar üreten diğer araçlar tarafından oluşturulan SQL komut dosyasını geri yüklemenizi sağlar. Psql aracını kullanarak tüm komut dosyasını yürütmeniz gerekir.&lt;/p&gt;
+
+&lt;p&gt;Tam olan bir yedeklemeyi geri yüklemek ve geri yükleme işlemi sırasında oluşan herhangi bir hatayı göz ardı etmek için aşağıdaki komutu kullanabilirsiniz&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;psql -U kullanici-adi -f yedek.sql
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Bir hata oluşması durumunda veritabanını geri yüklemeyi durdurmak isterseniz aşağıdaki komutu kullanmanız gerekiyor benimde en çok kullandığım yöntem budur&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;psql -U kullanici-adi --set ON_ERROR_STOP=on -f yedek
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Gördüğünüz gibi sadece ek bir seçenek ekledik. &lt;code class=&quot;highlighter-rouge&quot;&gt;--set ON_ERROR_STOP = on&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Belli bir veritabanın da ki belirli veritabanı nesnelerini yedeklerseniz, bunları aşağıdaki komutu kullanarak geri yükleyebilirsiniz&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;psql -U kullanici-adi -d veritabani -f yedekbro.sql
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;pgrestore-kullanarak-veritabanlar-nasl-restore-edilir&quot;&gt;Pg_restore kullanarak veritabanları nasıl restore edilir&lt;/h3&gt;
+
+&lt;p&gt;Psqltool’un yanında, &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_dump&lt;/code&gt; veya &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_dumpalltools&lt;/code&gt; tarafından yedeklenen veritabanlarını geri yüklemek için &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_restore&lt;/code&gt; programını kullanabilirsiniz. &lt;code class=&quot;highlighter-rouge&quot;&gt;Pg_restore&lt;/code&gt; programı ile, restorasyon edilecek veritabanları için çeşitli seçenekler bulunuyor bunları şu şekilde sıralayabiliriz.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Pg_restore, restorasyon için iş parçacığı sayısını belirtmek için &lt;code class=&quot;highlighter-rouge&quot;&gt;-j&lt;/code&gt; seçeneğini kullanarak paralel geri yükleme yapmanıza izin verir. Her bir thread aynı anda ayrı bir tabloyu geri yükler ve böylece işlem oldukça hızlanır. Şu anda, &lt;code class=&quot;highlighter-rouge&quot;&gt;pg_restore&lt;/code&gt; yalnızca özel dosya biçimi için bu seçeneği desteklemektedir.&lt;/li&gt;
+  &lt;li&gt;Pg_restore, belirli veritabanı nesnelerini tam veritabanını içeren bir yedeği geri yüklemenizi sağlar.&lt;/li&gt;
+  &lt;li&gt;Pg_restore, eski sürümde yedeklenen bir veritabanını alabilir ve yeni sürüme geri yükleyebilir.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pg_restore --dbname=cemil --verbose /home/mertcan/yedek.tar
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;İkincisi, aşağıdaki komutu kullanarak tablo yapısını yalnızca yedek.tar yedek dosyasından geri yükleyebiliriz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pg_restore --dbname=cemil --section=pre-data  /home/mertcan/yedek.tar
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+                <link>https://mertcangokgoz.com/postgresql-veritabanini-yedekten-geri-yukleme/</link>
+                <guid>https://mertcangokgoz.com/postgresql-veritabanini-yedekten-geri-yukleme</guid>
+                <pubDate>Tue, 20 Dec 2016 00:00:00 +0300</pubDate>
+        </item>
 
         <item>
                 <title>Linux Üzerinde CHK Dosyalarının Kurtarılması</title>
@@ -3208,55 +3266,6 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
                 <link>https://mertcangokgoz.com/debian-uzerine-go-kurulumu-ve-path-ayarlama/</link>
                 <guid>https://mertcangokgoz.com/debian-uzerine-go-kurulumu-ve-path-ayarlama</guid>
                 <pubDate>Sat, 08 Oct 2016 00:00:00 +0300</pubDate>
-        </item>
-
-        <item>
-                <title>Jekyll Makale Güncellik Takip Eklentisi</title>
-                <description>&lt;p&gt;Jekyll için oldukça güzel bir başka eklenti ile daha karşınızdayım yazdığınız yazıların güncelliği için oldukça faydalı olabilecek bir eklenti genellikle 6 aylık periyotlar dahilinde yazdığınız yazıları güncellemeniz önemli&lt;/p&gt;
-
-&lt;p&gt;Dosya içerisinde gösterilen şekilde kullanabilirsiniz. &lt;code class=&quot;highlighter-rouge&quot;&gt;_plugins&lt;/code&gt; klasörü içerisine atmayı unutmayın&lt;/p&gt;
-
-&lt;noscript&gt;&lt;pre&gt;# An example Jekyll generator. Utilizes the new plugin system.
-#
-# 1. Make a _plugins directory in your jekyll site, and put this class in a file there.
-# #  the deprecate of Jekyll that generated it
-# exp: {{ page.date | render_deprecate: 6 }}
-
-module Jekyll
-  module RenderDeprecate
-
-    def render_deprecate(pageTime, numOfMonth)
-
-      if pageTime == nil
-        return
-      end
-
-      currentMonths = (Time.now.year*12) + (Time.now.mon)
-      articleMonths = (pageTime.year*12) + (pageTime.mon)
-      diffMonth     = currentMonths - articleMonths
-
-      if diffMonth &amp;gt;= numOfMonth
-        &amp;quot;&amp;lt;span class=\&amp;quot;deprecate\&amp;quot;&amp;gt; DIKKAT!!! Bu makale çok eski olabilir.&amp;lt;/span&amp;gt;&amp;quot;
-      else
-        &amp;quot;&amp;quot;
-      end
-
-    end
-
-  end
-end
-
-Liquid::Template.register_filter(Jekyll::RenderDeprecate)
-&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/MertcanGokgoz/e6f0233f1aa13b3191dc8f3f81e37a9d.js&quot;&gt; &lt;/script&gt;
-
-&lt;p&gt;Makelelerinizi güncelleyemiyorsanız bile bu eklenti ile ziyaretçilerinize makale hakkında son durumu belirtebilirsiniz. Özellikle çalışmasından şüphe duyduğunuz yada güncelliğinden emin olamadıklarınız için önerilir. 3, 6, 9 aylık olarak ayarlayabilirsiniz.&lt;/p&gt;
-
-&lt;p&gt;öptüm by &amp;lt;3&lt;/p&gt;
-</description>
-                <link>https://mertcangokgoz.com/jekyll-makale-guncellik-takip-eklentisi/</link>
-                <guid>https://mertcangokgoz.com/jekyll-makale-guncellik-takip-eklentisi</guid>
-                <pubDate>Fri, 07 Oct 2016 00:00:00 +0300</pubDate>
         </item>
 
 
