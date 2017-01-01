@@ -22,6 +22,18 @@
 
     
     {
+        "title": "Diskin SSD veya HDD olup olmadığını nasıl buluruz",
+        "content": "Disk IO belirli programlar için darboğaz yaratabiliyor. Bu tür programlarla uzaktaki sunucularda çalıştığımda, genelde böyle bir sıkıntı karşıma çıkmasın diye HDD yerine SSD’leri daha çok tercih ediyorum.  Ben df komutunu kullanarak mevcut bölümleri ve dosya sistemlerini görebiliyorum bunda bir sorun yok ama hangi diskin HDD hangisinin SSD olduğunu göremiyorum.\n\nPeki buz bunu nasıl anlayacağız ?\n\nMuhtemelen /dev/sda3 olarak listelenen bir bölüm diskin /dev/sda olduğunu biliyorsunuzdur. Yani, sayısal ekin bölümden kaldırılmasıyla diski elde edersiniz.\n\nŞimdi bunun sonucunda aşağıdaki komutu verelim\n\ncat /sys/block/sda/queue/rotational\n\n\n\nBu komutun çıktısı eğer aşağıdaki gibi olur ise;\n\n\n  HDD ise yani dönen bir disk kullanıyorsanız haliyle rotational 1 olacaktır.\n  SSD ise diskin içerisinde dönen herhangi bir şey olmadığı için rotational 0 olacaktır.\n\n",
+        "link": "/diskin-ssd-veya-hdd-olup-olmadigini-nasil-buluruz/",
+        "date": "2017-01-01 00:00:00 +0300",
+        "excerpt": "",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
         "title": "PostgreSQL Veritabanını Yedekten Geri Yükleme",
         "content": "Bir veritabanını geri yüklemeden önce, o veritabanına olan tüm bağlantıları sonlandırmanız ve yedekleme dosyasını hazırlamanız gerekir. PostgreSQL’te bir veritabanını iki şekilde geri yükleyebilirsiniz:\n\n\n  Psql kullanarak, pg_dump ve pg_dumpall araçları tarafından üretilen düz SQL komut dosyasını geri yüklemek\n  Pg_dump aracıyla oluşturulan tar dosyası ve dizin biçimini geri yüklemek için pg_restore kullanmak\n\n\nPsql kullanarak veritabanlarını geri yükleme\n\nPsql yardımcı programı, pg_dump, pg_dumpall veya uyumlu yedek dosyalar üreten diğer araçlar tarafından oluşturulan SQL komut dosyasını geri yüklemenizi sağlar. Psql aracını kullanarak tüm komut dosyasını yürütmeniz gerekir.\n\nTam olan bir yedeklemeyi geri yüklemek ve geri yükleme işlemi sırasında oluşan herhangi bir hatayı göz ardı etmek için aşağıdaki komutu kullanabilirsiniz\n\npsql -U kullanici-adi -f yedek.sql\n\n\n\nBir hata oluşması durumunda veritabanını geri yüklemeyi durdurmak isterseniz aşağıdaki komutu kullanmanız gerekiyor benimde en çok kullandığım yöntem budur\n\npsql -U kullanici-adi --set ON_ERROR_STOP=on -f yedek\n\n\n\nGördüğünüz gibi sadece ek bir seçenek ekledik. --set ON_ERROR_STOP = on\n\nBelli bir veritabanın da ki belirli veritabanı nesnelerini yedeklerseniz, bunları aşağıdaki komutu kullanarak geri yükleyebilirsiniz\n\npsql -U kullanici-adi -d veritabani -f yedekbro.sql\n\n\n\nPg_restore kullanarak veritabanları nasıl restore edilir\n\nPsqltool’un yanında, pg_dump veya pg_dumpalltools tarafından yedeklenen veritabanlarını geri yüklemek için pg_restore programını kullanabilirsiniz. Pg_restore programı ile, restorasyon edilecek veritabanları için çeşitli seçenekler bulunuyor bunları şu şekilde sıralayabiliriz.\n\n\n  Pg_restore, restorasyon için iş parçacığı sayısını belirtmek için -j seçeneğini kullanarak paralel geri yükleme yapmanıza izin verir. Her bir thread aynı anda ayrı bir tabloyu geri yükler ve böylece işlem oldukça hızlanır. Şu anda, pg_restore yalnızca özel dosya biçimi için bu seçeneği desteklemektedir.\n  Pg_restore, belirli veritabanı nesnelerini tam veritabanını içeren bir yedeği geri yüklemenizi sağlar.\n  Pg_restore, eski sürümde yedeklenen bir veritabanını alabilir ve yeni sürüme geri yükleyebilir.\n\n\npg_restore --dbname=cemil --verbose /home/mertcan/yedek.tar\n\n\n\nİkincisi, aşağıdaki komutu kullanarak tablo yapısını yalnızca yedek.tar yedek dosyasından geri yükleyebiliriz.\n\npg_restore --dbname=cemil --section=pre-data  /home/mertcan/yedek.tar\n\n\n",
         "link": "/postgresql-veritabanini-yedekten-geri-yukleme/",
@@ -6614,6 +6626,8 @@
         "search_omit": ""
     }
     
+    
+
     
 
     

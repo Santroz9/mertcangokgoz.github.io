@@ -5,10 +5,36 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Sat, 31 Dec 2016 14:00:17 +0300</lastBuildDate>
-        <pubDate>Sat, 31 Dec 2016 14:00:17 +0300</pubDate>
+        <lastBuildDate>Sun, 01 Jan 2017 14:25:41 +0300</lastBuildDate>
+        <pubDate>Sun, 01 Jan 2017 14:25:41 +0300</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Diskin SSD veya HDD olup olmadığını nasıl buluruz</title>
+                <description>&lt;p&gt;Disk IO belirli programlar için darboğaz yaratabiliyor. Bu tür programlarla uzaktaki sunucularda çalıştığımda, genelde böyle bir sıkıntı karşıma çıkmasın diye HDD yerine SSD’leri daha çok tercih ediyorum.  Ben df komutunu kullanarak mevcut bölümleri ve dosya sistemlerini görebiliyorum bunda bir sorun yok ama hangi diskin HDD hangisinin SSD olduğunu göremiyorum.&lt;/p&gt;
+
+&lt;p&gt;Peki buz bunu nasıl anlayacağız ?&lt;/p&gt;
+
+&lt;p&gt;Muhtemelen &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/sda3&lt;/code&gt; olarak listelenen bir bölüm diskin &lt;code class=&quot;highlighter-rouge&quot;&gt;/dev/sda&lt;/code&gt; olduğunu biliyorsunuzdur. Yani, sayısal ekin bölümden kaldırılmasıyla diski elde edersiniz.&lt;/p&gt;
+
+&lt;p&gt;Şimdi bunun sonucunda aşağıdaki komutu verelim&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cat /sys/block/sda/queue/rotational
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Bu komutun çıktısı eğer aşağıdaki gibi olur ise;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;HDD ise yani dönen bir disk kullanıyorsanız haliyle &lt;code class=&quot;highlighter-rouge&quot;&gt;rotational&lt;/code&gt; 1 olacaktır.&lt;/li&gt;
+  &lt;li&gt;SSD ise diskin içerisinde dönen herhangi bir şey olmadığı için &lt;code class=&quot;highlighter-rouge&quot;&gt;rotational&lt;/code&gt; 0 olacaktır.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+                <link>https://mertcangokgoz.com/diskin-ssd-veya-hdd-olup-olmadigini-nasil-buluruz/</link>
+                <guid>https://mertcangokgoz.com/diskin-ssd-veya-hdd-olup-olmadigini-nasil-buluruz</guid>
+                <pubDate>Sun, 01 Jan 2017 00:00:00 +0300</pubDate>
+        </item>
 
         <item>
                 <title>PostgreSQL Veritabanını Yedekten Geri Yükleme</title>
@@ -3223,49 +3249,6 @@ Liquid::Template.register_tag(&amp;#39;ditaa&amp;#39;, Jekyll::DitaaBlock)
                 <link>https://mertcangokgoz.com/nodejs-paketlerini-rootsuz-kurabilme-yetisi/</link>
                 <guid>https://mertcangokgoz.com/nodejs-paketlerini-rootsuz-kurabilme-yetisi</guid>
                 <pubDate>Tue, 11 Oct 2016 00:00:00 +0300</pubDate>
-        </item>
-
-        <item>
-                <title>Debian Üzerine Go Kurulumu ve PATH Ayarlama</title>
-                <description>&lt;p&gt;Google tarafından geliştirilmiş açık kaynak kodlu bir programlama dili olan go ile yazılmış &lt;strong&gt;github&lt;/strong&gt; üzerinde bir sürü güzel proje bulmak ve bunları kurup kullanabilmek mümkün. Bu uygulamalar genellikle kolay, basit, güvenilir ve verimli oluyorlar ayrıca hızları da oldukça güzel&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Go&lt;/strong&gt; dili ile yazılmış pek çok web projesi olduğu gibi &lt;strong&gt;linux&lt;/strong&gt; için arka plana yazılmış uygulamalarda mevcut bunlar ile bir takım bilgi alma işlemleri yapabilir. Çıktıları düzenleyebilir ve sorgulama işlemleri yapabilirsiniz.&lt;/p&gt;
-
-&lt;p&gt;Ama herşeyden önce bu dili sistemimiz için kurmamız gerekiyor. Bu kurulum oldukça kolay ancak kurulumdan sonra insanlar genelde go paketlerini ya kuramıyorlar yada kurduktan sonra çalıştıramıyorlar&lt;/p&gt;
-
-&lt;p&gt;Aslında kurulmazsa zaten çalışmıyor. Çünkü Go kardeşin &lt;strong&gt;PATH&lt;/strong&gt; ayarlamasının yapılması gerekiyor. Ön tanımlı olarak bu ayarlamayı kendisi yapmıyor &lt;strong&gt;Go&lt;/strong&gt; için bu oldukça büyük bir dezavantaj&lt;/p&gt;
-
-&lt;p&gt;Debian için ise kurulum oldukça basit ilk olarak paketleri sisteme dahil etmemiz gerekiyor. Debian paketlerini sorguladığımız web adresini ziyaret ediyoruz.&lt;/p&gt;
-
-&lt;p&gt;Arama çubuğuna &lt;code class=&quot;highlighter-rouge&quot;&gt;golang&lt;/code&gt; yazıyoruz ve aratıyoruz. Karşımıza 1 adet paket çıkacak bunun üzerine tıklıyoruz. Görebildiğimiz gibi tüm debian dağıtımları için paketler mevcut bir yanlışlık da yok o zaman geçiyoruz kurmaya&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt-get install golang
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Bu kurulum komutunu çalıştırdığımızda bağımlılıklarından olan 7 yada 4 adet paket kurması gerekiyor. &lt;strong&gt;Stretch&lt;/strong&gt; sürümü hariç diğer sürümlerde 3 yada 4 tane ek paket kuracağını unutmayın.&lt;/p&gt;
-
-&lt;p&gt;Şimdi kurulum tamamlandıktan sonra &lt;strong&gt;PATH&lt;/strong&gt; ayarlamamız gerekiyor yoksa hiçbir işlem yapamayız. Devamlı bitmek tükenmeyen hatalar alırız ki bu hiç hoş bir durum değil&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd
-nano .bashrc
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Dosyanın en altına gidiyoruz ve aşağıdaki satırları ekliyoruz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export GOPATH=$HOME/go
-export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Kayıt edip çıkış yaptıktan sonra aktif olabilmesi için terminali kapatıp açmanız gerekiyor. Bunu yaptıktan hemen sonra ise &lt;strong&gt;Go&lt;/strong&gt; normal bir şekilde çalışmaya başlayacak ve uygulamalarınızı çalıştırmaya başlayabileceksiniz.&lt;/p&gt;
-
-&lt;p&gt;öptüm bye &amp;lt;3&lt;/p&gt;
-</description>
-                <link>https://mertcangokgoz.com/debian-uzerine-go-kurulumu-ve-path-ayarlama/</link>
-                <guid>https://mertcangokgoz.com/debian-uzerine-go-kurulumu-ve-path-ayarlama</guid>
-                <pubDate>Sat, 08 Oct 2016 00:00:00 +0300</pubDate>
         </item>
 
 
