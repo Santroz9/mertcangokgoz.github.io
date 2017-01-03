@@ -22,6 +22,18 @@
 
     
     {
+        "title": "Hosts dosyasını kullanarak alan adlarını engelleme",
+        "content": "Tarayıcılarda reklamları veya alan adlarını engellemek için kullanılan popüler bir yöntem reklam engelleme eklentileridir bunlar dışında bazı donanımsal çözümlerde bulunur. Ancak alternatif bir yöntem olarak, işletim sisteminizin hosts dosyasını kullanabilirsiniz. Bu dosya, host adlarının IP adreslerine eşleştirilmesine yarar.\n\nAlan adlarını 0.0.0.0 IP adresine yönlendirirsek ip adresleri çözümlenemeyeceği için bağlantı sağlanamaz. Bu sayede engelleme işlemi yapabiliriz.\n\nBu iş için internette benim en çok denk geldiğim Steven Black kardeşimizin hosts reposunu kullanabiliriz. Bunun için\n\ngit clone https://github.com/StevenBlack/hosts.git\ncd hosts\n\n\n\nYerel hosts dosyanızda herhangi bir girdiniz varsa bunları bu depodaki hosts dosyasına ekleyin.\n\nAdblocking alan adı dosyalarını en yeni sürümüne güncellemek ve myhosts girdilerini son bir hosts dosyası oluşturmak için şu komutu kullanabilirsiniz\n\n./makeHosts\n\n\n\nGüncelleme işlemi bittikten hemen sonra eski hosts dosyasını yenisi ile değiştirmeniz yeterli. Ancak ne olur ne olmaz diye eski hosts dosyasını yedeklemeyi unutmayın\n\nsudo cp /etc/hosts /etc/hosts.bak\nsudo cp hosts /etc/hosts\n\n\n\nHemen ardından network servisini yeniden başlatmanız yeterli\n\nsystemctl restart network.service\n\n\n\nİşlemimiz başarılı bir şekilde tamamlandı bundan sonra engellenen sitelere bir şekilde denk gelirseniz yönlendirmeden dolayı siteye erişim sağlayamayacaksınız.\n\nPeki neden 127.0.0.1 yerine 0.0.0.0 adresine yönlendirdik\n\nGeleneksel olarak çoğu ana bilgisayar dosyası, yerel makineye IP bağlantısı kurmak için geri döngü adresi olan 127.0.0.1’i kullanır.\n\nGeçersiz, bilinmeyen veya geçerli olmayan bir hedef belirlemek için kullanılan yönlendirilemez bir meta-adresi olarak tanımlanan 0.0.0.0‘ı kullanmayı tercih ediyoruz.\n\n0.0.0.0’ı kullanmak, genel olarak daha hızlıdır, muhtemelen zaman aşımı çözümlemesi için beklemez. Aynı zamanda, yerel bilgisayarda çalışıyor olabilecek bir web sunucusuna da müdahale etmemiş olur.\n",
+        "link": "/hosts-dosyasini-kullanarak-alan-adlarini-engelleme/",
+        "date": "2017-01-03 00:00:00 +0300",
+        "excerpt": "",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
         "title": "Diskin SSD veya HDD olup olmadığını nasıl buluruz",
         "content": "Disk IO belirli programlar için darboğaz yaratabiliyor. Bu tür programlarla uzaktaki sunucularda çalıştığımda, genelde böyle bir sıkıntı karşıma çıkmasın diye HDD yerine SSD’leri daha çok tercih ediyorum.  Ben df komutunu kullanarak mevcut bölümleri ve dosya sistemlerini görebiliyorum bunda bir sorun yok ama hangi diskin HDD hangisinin SSD olduğunu göremiyorum.\n\nPeki buz bunu nasıl anlayacağız ?\n\nMuhtemelen /dev/sda3 olarak listelenen bir bölüm diskin /dev/sda olduğunu biliyorsunuzdur. Yani, sayısal ekin bölümden kaldırılmasıyla diski elde edersiniz.\n\nŞimdi bunun sonucunda aşağıdaki komutu verelim\n\ncat /sys/block/sda/queue/rotational\n\n\n\nBu komutun çıktısı eğer aşağıdaki gibi olur ise;\n\n\n  HDD ise yani dönen bir disk kullanıyorsanız haliyle rotational 1 olacaktır.\n  SSD ise diskin içerisinde dönen herhangi bir şey olmadığı için rotational 0 olacaktır.\n\n",
         "link": "/diskin-ssd-veya-hdd-olup-olmadigini-nasil-buluruz/",

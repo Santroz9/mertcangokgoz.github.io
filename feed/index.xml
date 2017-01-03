@@ -5,10 +5,59 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Sun, 01 Jan 2017 14:25:41 +0300</lastBuildDate>
-        <pubDate>Sun, 01 Jan 2017 14:25:41 +0300</pubDate>
+        <lastBuildDate>Tue, 03 Jan 2017 22:08:45 +0300</lastBuildDate>
+        <pubDate>Tue, 03 Jan 2017 22:08:45 +0300</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Hosts dosyasını kullanarak alan adlarını engelleme</title>
+                <description>&lt;p&gt;Tarayıcılarda reklamları veya alan adlarını engellemek için kullanılan popüler bir yöntem reklam engelleme eklentileridir bunlar dışında bazı donanımsal çözümlerde bulunur. Ancak alternatif bir yöntem olarak, işletim sisteminizin hosts dosyasını kullanabilirsiniz. Bu dosya, host adlarının IP adreslerine eşleştirilmesine yarar.&lt;/p&gt;
+
+&lt;p&gt;Alan adlarını &lt;code class=&quot;highlighter-rouge&quot;&gt;0.0.0.0&lt;/code&gt; IP adresine yönlendirirsek ip adresleri çözümlenemeyeceği için bağlantı sağlanamaz. Bu sayede engelleme işlemi yapabiliriz.&lt;/p&gt;
+
+&lt;p&gt;Bu iş için internette benim en çok denk geldiğim Steven Black kardeşimizin &lt;code class=&quot;highlighter-rouge&quot;&gt;hosts&lt;/code&gt; reposunu kullanabiliriz. Bunun için&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/StevenBlack/hosts.git
+cd hosts
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Yerel hosts dosyanızda herhangi bir girdiniz varsa bunları bu depodaki hosts dosyasına ekleyin.&lt;/p&gt;
+
+&lt;p&gt;Adblocking alan adı dosyalarını en yeni sürümüne güncellemek ve myhosts girdilerini son bir &lt;code class=&quot;highlighter-rouge&quot;&gt;hosts&lt;/code&gt; dosyası oluşturmak için şu komutu kullanabilirsiniz&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;./makeHosts
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Güncelleme işlemi bittikten hemen sonra eski &lt;code class=&quot;highlighter-rouge&quot;&gt;hosts&lt;/code&gt; dosyasını yenisi ile değiştirmeniz yeterli. Ancak ne olur ne olmaz diye eski &lt;code class=&quot;highlighter-rouge&quot;&gt;hosts&lt;/code&gt; dosyasını yedeklemeyi unutmayın&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo cp /etc/hosts /etc/hosts.bak
+sudo cp hosts /etc/hosts
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Hemen ardından network servisini yeniden başlatmanız yeterli&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;systemctl restart network.service
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;İşlemimiz başarılı bir şekilde tamamlandı bundan sonra engellenen sitelere bir şekilde denk gelirseniz yönlendirmeden dolayı siteye erişim sağlayamayacaksınız.&lt;/p&gt;
+
+&lt;h3 id=&quot;peki-neden-127001-yerine-0000-adresine-ynlendirdik&quot;&gt;Peki neden &lt;code class=&quot;highlighter-rouge&quot;&gt;127.0.0.1&lt;/code&gt; yerine &lt;code class=&quot;highlighter-rouge&quot;&gt;0.0.0.0&lt;/code&gt; adresine yönlendirdik&lt;/h3&gt;
+
+&lt;p&gt;Geleneksel olarak çoğu ana bilgisayar dosyası, yerel makineye IP bağlantısı kurmak için geri döngü adresi olan 127.0.0.1’i kullanır.&lt;/p&gt;
+
+&lt;p&gt;Geçersiz, bilinmeyen veya geçerli olmayan bir hedef belirlemek için kullanılan yönlendirilemez bir meta-adresi olarak tanımlanan &lt;code class=&quot;highlighter-rouge&quot;&gt;0.0.0.0&lt;/code&gt;‘ı kullanmayı tercih ediyoruz.&lt;/p&gt;
+
+&lt;p&gt;0.0.0.0’ı kullanmak, genel olarak daha hızlıdır, muhtemelen zaman aşımı çözümlemesi için beklemez. Aynı zamanda, yerel bilgisayarda çalışıyor olabilecek bir web sunucusuna da müdahale etmemiş olur.&lt;/p&gt;
+</description>
+                <link>https://mertcangokgoz.com/hosts-dosyasini-kullanarak-alan-adlarini-engelleme/</link>
+                <guid>https://mertcangokgoz.com/hosts-dosyasini-kullanarak-alan-adlarini-engelleme</guid>
+                <pubDate>Tue, 03 Jan 2017 00:00:00 +0300</pubDate>
+        </item>
 
         <item>
                 <title>Diskin SSD veya HDD olup olmadığını nasıl buluruz</title>
@@ -3218,37 +3267,6 @@ Liquid::Template.register_tag(&amp;#39;ditaa&amp;#39;, Jekyll::DitaaBlock)
                 <link>https://mertcangokgoz.com/jekyll-ditaa-ascii-art-eklentisi/</link>
                 <guid>https://mertcangokgoz.com/jekyll-ditaa-ascii-art-eklentisi</guid>
                 <pubDate>Wed, 12 Oct 2016 00:00:00 +0300</pubDate>
-        </item>
-
-        <item>
-                <title>Nodejs Paketlerini Rootsuz Kurabilme Yetisi</title>
-                <description>&lt;p&gt;Githubun kapatılması ve sonrasında tekrardan gelmesi ile birlikte yazılarımıza devam ediyoruz. Bildiğiniz gibi nodejs javascriptin sunucu tarafında takılan sürümü v8 javascript motoru üzerinde çalışıyor google amca arkasında bununda. Bu arkadaş ile oldukça güzel uygulama yazanlar var kafalar pırıl pırıl ve ciddi anlamda işe yarar uygulamalar doğuyor gönül isterdi ki bizde yazabilelim ama &lt;code class=&quot;highlighter-rouge&quot;&gt;java to javascript is car to carpet&lt;/code&gt; olduğundan dolayı işimiz yaş.&lt;/p&gt;
-
-&lt;p&gt;Ben sisteme paket yükleme dışında genel anlamda yapılan dış kaynaklardan alınan dosyaların root izni ile kurulmasına karşı bir insanım gerek güvenlik gerekse kolaylık açısından home dizini altındaki kullanıcıya tanımlamak gerektiğini düşünüyorum.&lt;/p&gt;
-
-&lt;p&gt;Hem yedekleme de hemde kullanıcıların dosyaları yönetmesinde kolaylık olacak her işlemde ikide bir root olup yok şunu kur şunu ayarla kafasına girmeyeceğiz. Eskiden olsa belki yapardık ancak şimdilerde pek hoş olmaz&lt;/p&gt;
-
-&lt;p&gt;Sisteminizde nodejs ve npm paket yöneticisi yüklüdür diye düşünüyorum ve normal kullanıcı ile nasıl işlem yapılır bunu göstermek istiyorum.&lt;/p&gt;
-
-&lt;p&gt;İlk önce node’nin paket yöneticisine yani &lt;strong&gt;npm&lt;/strong&gt; ye diyoruz ki işte bizim yeni yolumuz şu ama bunu derken root olmayın normal kullanıcı ile bu işlemlerin yapılması gerekiyor.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm config set prefix=$HOME/node
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;daha sonra &lt;code class=&quot;highlighter-rouge&quot;&gt;bashrc&lt;/code&gt; düzenlemesi yapıyoruz ki bu alana kurulan uygulamaları terminalde çalıştırabilelim.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;export PATH=$HOME/node/bin:$PATH
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Şimdi bu ayarlamaları yapınız terminali açıp kapattınız &lt;code class=&quot;highlighter-rouge&quot;&gt;npm&lt;/code&gt; artık hazır normal kullanıcı ile istediğinizi kurdurabilirsiniz. Path ayarlaması yapıldı gerekli olan düzenlemelerde yapıldı şimdi size kalan uygulamalarınızı kurmak&lt;/p&gt;
-
-&lt;p&gt;öptüm bye &amp;lt;3&lt;/p&gt;
-</description>
-                <link>https://mertcangokgoz.com/nodejs-paketlerini-rootsuz-kurabilme-yetisi/</link>
-                <guid>https://mertcangokgoz.com/nodejs-paketlerini-rootsuz-kurabilme-yetisi</guid>
-                <pubDate>Tue, 11 Oct 2016 00:00:00 +0300</pubDate>
         </item>
 
 
