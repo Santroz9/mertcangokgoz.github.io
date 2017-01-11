@@ -22,6 +22,18 @@
 
     
     {
+        "title": "Komut Satırı Aracılığı İle Speedtest İşlemi",
+        "content": "SpeedTest web sitesi geçtiğimiz aylarda yasaklanan flash programları ile hız testi yapmanıza imkan sağlıyor. Hal böyle olunca da çalıştıramıyoruz. Türkiye şartlarında da sağlam bu hizmeti veren bir yer olmadığı için bende dedim bunun komut satırı versiyonunu niye kullanmayayım bunun için aşağıdaki şu yolu izledim ve ben bu makaleyi yayınlayana kadarda hız testi yapmıyordum sırf sitede flash istiyor diye\n\nŞimdi uygulamayı sisteme dahil ediyoruz.\n\npip install speedtest-cli\n\n\n\nKurulum tamamlandıktan sonra şu şekilde çalıştırabilirsiniz.\n\nspeedtest-cli\n\n\n\nŞu şekilde bir çıktımız oluyor.\n\nmertcan@0x2e88ce4:~/Desktop$ speedtest-cli\nRetrieving speedtest.net configuration...\nTesting from Turksat Kablo (46.197.xxx.xxx)...\nRetrieving speedtest.net server list...\nSelecting best server based on ping...\nHosted by Turksat Uydu Haberlesme Kablo TV ve Isletme A.S. (Ankara) [03.41 km]: 19.765 ms\nTesting download speed................................................................................\nDownload: 23.84 Mbit/s\nTesting upload speed....................................................................................................\nUpload: 2.12 Mbit/s\n\n\n",
+        "link": "/komut-satiri-araciligi-ile-speedtest-islemi/",
+        "date": "2017-01-11 00:00:00 +0300",
+        "excerpt": "",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
         "title": "Windows'da MBR nasıl düzeltilir",
         "content": "Windows 10’u başarıyla kurmuştum linux kurarken bölümlendirme aşamasında bir bölümü yanlışlıkla sildim ve açılışta bir GRUB kurtarma ekranına düştüm. yapmaya çalıştığım şey ise Windows 10 önyükleme yapmak için Ana Önyükleme Kaydını sorunsuz bir şekilde oluşturmaktı ve bunu sorunlu bir şekilde yapmış oldum…\n\nBu sorunu çözmem lazımdı haliyle, tabi sistem benim değil arkadaşımındı ve ben hata yaparak bölümün tekini silmiş ve sistemin içine etmiştim. Ama sorun değildi çözümü ufak bir araştırma ile buldum.\n\n\n  İlk önce Windows 10 için gereken bir kurtarma USB’si oluşturdum bunu yaparken unetbooting kullandım ISO kalıbını bu siteden indirdim MS in resmi sayfasıdır kendileri\n  Bu USB ile önyükleme işlemini başarılı bir şekilde yaptıktan sonra, Sorun Giderme -&gt; Gelişmiş Seçenekler -&gt; Komut istemini seçtim(Troubleshoot -&gt; Advanced Options -&gt; Command Prompt)\n\n\nArdından hiç bir şey olmamış gibi siyah ekranı önüme koydu bende ufak bi araştırma yapmıştım aşağıdaki komutlara ulaştım ve sırasıyla girdim\n\nbootrec /rebuildbcd\nbootrec /fixmbr\nbootrec /fixboot\n\n\n\nBu komutlar sayesinde mbr yi düzeltip boot kayıtlarını tekrar yapılandırmasını sağladım. Bir kaç dakika sonra işlem tamamlandı exit diyerek çıkışımı yaptım ve sistemi yeniden başlattım\n\nArdından hiç birşey olmamış gibi Windows 10 karşımıza geldi\n",
         "link": "/windowsda-mbr-nasil-duzeltilir/",

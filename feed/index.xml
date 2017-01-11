@@ -5,10 +5,46 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Mon, 09 Jan 2017 21:34:13 +0300</lastBuildDate>
-        <pubDate>Mon, 09 Jan 2017 21:34:13 +0300</pubDate>
+        <lastBuildDate>Wed, 11 Jan 2017 12:35:20 +0300</lastBuildDate>
+        <pubDate>Wed, 11 Jan 2017 12:35:20 +0300</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Komut Satırı Aracılığı İle Speedtest İşlemi</title>
+                <description>&lt;p&gt;SpeedTest web sitesi geçtiğimiz aylarda yasaklanan flash programları ile hız testi yapmanıza imkan sağlıyor. Hal böyle olunca da çalıştıramıyoruz. Türkiye şartlarında da sağlam bu hizmeti veren bir yer olmadığı için bende dedim bunun komut satırı versiyonunu niye kullanmayayım bunun için aşağıdaki şu yolu izledim ve ben bu makaleyi yayınlayana kadarda hız testi yapmıyordum sırf sitede flash istiyor diye&lt;/p&gt;
+
+&lt;p&gt;Şimdi uygulamayı sisteme dahil ediyoruz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pip install speedtest-cli
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Kurulum tamamlandıktan sonra şu şekilde çalıştırabilirsiniz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;speedtest-cli
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Şu şekilde bir çıktımız oluyor.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mertcan@0x2e88ce4:~/Desktop$ speedtest-cli
+Retrieving speedtest.net configuration...
+Testing from Turksat Kablo (46.197.xxx.xxx)...
+Retrieving speedtest.net server list...
+Selecting best server based on ping...
+Hosted by Turksat Uydu Haberlesme Kablo TV ve Isletme A.S. (Ankara) [03.41 km]: 19.765 ms
+Testing download speed................................................................................
+Download: 23.84 Mbit/s
+Testing upload speed....................................................................................................
+Upload: 2.12 Mbit/s
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+                <link>https://mertcangokgoz.com/komut-satiri-araciligi-ile-speedtest-islemi/</link>
+                <guid>https://mertcangokgoz.com/komut-satiri-araciligi-ile-speedtest-islemi</guid>
+                <pubDate>Wed, 11 Jan 2017 00:00:00 +0300</pubDate>
+        </item>
 
         <item>
                 <title>Windows'da MBR nasıl düzeltilir</title>
@@ -2176,52 +2212,6 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
                 <link>https://mertcangokgoz.com/nginx-icin-self-signed-ssl-sertifikasi-olusturma/</link>
                 <guid>https://mertcangokgoz.com/nginx-icin-self-signed-ssl-sertifikasi-olusturma</guid>
                 <pubDate>Tue, 18 Oct 2016 00:00:00 +0300</pubDate>
-        </item>
-
-        <item>
-                <title>Nginx İçin Basit Kimlik Doğrulama Modülü</title>
-                <description>&lt;p&gt;Web sitenizde gelen ziyaretçilerin bazı alanlara ulaşmasını istemiyorsanız. Basit ama etkili olan bu yöntemi kullanabilirsiniz. Bize gerekli olan apache için kullanılan &lt;code class=&quot;highlighter-rouge&quot;&gt;htpasswd&lt;/code&gt; yi nginx içinde kullanmak&lt;/p&gt;
-
-&lt;p&gt;İlk önce apache2 de kullanılan &lt;code class=&quot;highlighter-rouge&quot;&gt;utils&lt;/code&gt; paketini sisteme dahil edelim&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;apt-get install apache2-utils
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;kurulumu yaptıktan sonra kullanıcı oluşturmamız gerekiyor bunu isterseniz web sitelerini kullanarak isterseniz de aşağıdaki komut ile oluşturabilirsiniz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;htpasswd -c /etc/nginx/.htpasswd Mertcan
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Kullanıcı için parola tanımladık ve aşağıdaki gibi işlemi tamamladık&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;New password:
-Re-type new password:
-Adding password for user Mertcan
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Kullanıcımızı ve bu kullanıcıya ait gerekli parolayı oluşturma işlemimizi tamamladık. Şimdi nginx konfigürasyon dosyamızı kurcalamaya geldi sıra kullanıcılara kısıtlayacağımız yerin &lt;code class=&quot;highlighter-rouge&quot;&gt;location&lt;/code&gt; bloğu içerisine aşağıdaki satırları ekliyoruz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;auth_basic &quot;Yetkili Kullanici Girisi&quot;;
-auth_basic_user_file /etc/nginx/.htpasswd;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;bu işlemin hemen ardından tanımladığınız kullanıcı adı ve parola ile sisteme giriş yapabilmenin aktif olabilmesi için nginxi yeniden başlatıyoruz veya &lt;code class=&quot;highlighter-rouge&quot;&gt;reload&lt;/code&gt; yapıyoruz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nginx -s reload
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Bu işlemden sonra kısıtladığınız alana tnaımladığınız kullanıcı adı ve parola ile sadece siz ve belirlediğiniz kişiler girebilir bir duruma getirdik.&lt;/p&gt;
-
-&lt;p&gt;öptüm bye &amp;lt;3&lt;/p&gt;
-</description>
-                <link>https://mertcangokgoz.com/nginx-icin-basit-kimlik-dogrulama-modulu/</link>
-                <guid>https://mertcangokgoz.com/nginx-icin-basit-kimlik-dogrulama-modulu</guid>
-                <pubDate>Sun, 16 Oct 2016 00:00:00 +0300</pubDate>
         </item>
 
 
