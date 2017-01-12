@@ -5,10 +5,34 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Wed, 11 Jan 2017 12:35:20 +0300</lastBuildDate>
-        <pubDate>Wed, 11 Jan 2017 12:35:20 +0300</pubDate>
+        <lastBuildDate>Thu, 12 Jan 2017 23:40:28 +0300</lastBuildDate>
+        <pubDate>Thu, 12 Jan 2017 23:40:28 +0300</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Telegram İçin Tema Nasıl Hazırlanır</title>
+                <description>&lt;p&gt;Herkes Telegram Masaüstü için bir tema hazırlayabilir. Aşağıdaki adımları takip ederek, tabi ki her şey çok basit bir tema oluşturmak için iki dosyayı birlikte bir .zip dosyasına koymanız gerekecek haliyle&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;İhtiyacınız olan ilk dosya renk şemasıdır, &lt;a href=&quot;https://github.com/telegramdesktop/tdesktop/blob/dev/Telegram/Resources/default.tdesktop-theme&quot;&gt;buna benzer&lt;/a&gt;. Bu dosyanın &lt;code class=&quot;highlighter-rouge&quot;&gt;colors.tdesktop-theme&lt;/code&gt; olması ve temanızın ana ayarlarını ve yapılandırmasını içermesi gerekir.&lt;/li&gt;
+  &lt;li&gt;İkinci dosya arka plan resmi olacak, bu isimlerden birini kullanmanız gerekiyor: &lt;code class=&quot;highlighter-rouge&quot;&gt;background.jpg&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;background.png&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;tiled.jpg&lt;/code&gt; veya &lt;code class=&quot;highlighter-rouge&quot;&gt;tiled.png&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;böyle desenlerin tekrar edilmesini vs isterseniz ve böyle bir arka plan olsun derseniz, ad olarak ‘tiled’ kullanmalısınız, tek bir resim için ise &lt;code class=&quot;highlighter-rouge&quot;&gt;background&lt;/code&gt; kullanmalısınız.&lt;/p&gt;
+
+&lt;p&gt;Renk ayarlamaları için hex color düzenlemeniz gerekiyor bir kaç ayardan sonra güzel bir tema yapabileceğinizi düşünüyorum.&lt;/p&gt;
+
+&lt;p&gt;Her iki dosyayı &lt;code class=&quot;highlighter-rouge&quot;&gt;.zip&lt;/code&gt; arşivine ekledikten sonra, dosya uzantısını &lt;code class=&quot;highlighter-rouge&quot;&gt;.zip&lt;/code&gt; dosyasından .&lt;code class=&quot;highlighter-rouge&quot;&gt;tdesktop-theme&lt;/code&gt; değiştirmeniz gerekiyor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/ornektelegramtemasema.png&quot; alt=&quot;temaornekgorsel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Şimdi, &lt;code class=&quot;highlighter-rouge&quot;&gt;mytheme.tdesktop-theme&lt;/code&gt; dosyasını Telegram’da paylaşın ve uygulamak için Telegram Masaüstünden açın dosyayı açın&lt;/p&gt;
+</description>
+                <link>https://mertcangokgoz.com/telegram-icin-tema-nasil-hazirlanir/</link>
+                <guid>https://mertcangokgoz.com/telegram-icin-tema-nasil-hazirlanir</guid>
+                <pubDate>Thu, 12 Jan 2017 00:00:00 +0300</pubDate>
+        </item>
 
         <item>
                 <title>Komut Satırı Aracılığı İle Speedtest İşlemi</title>
@@ -2104,114 +2128,6 @@ gpg --import-ownertrust mertcangokgoz-ownertrust-gpg.txt
                 <link>https://mertcangokgoz.com/gpg-yedekleme-ve-yedekten-geri-yukleme-islemi/</link>
                 <guid>https://mertcangokgoz.com/gpg-yedekleme-ve-yedekten-geri-yukleme-islemi</guid>
                 <pubDate>Thu, 20 Oct 2016 00:00:00 +0300</pubDate>
-        </item>
-
-        <item>
-                <title>Nginx İçin Self-Signed SSL Sertifikası Oluşturma</title>
-                <description>&lt;p&gt;Nginx için &lt;strong&gt;SSL&lt;/strong&gt; sertifikasını ayarlamak oldukça basittir hele ki bu işlem self-signed ise ve özellikle &lt;strong&gt;cloudflare&lt;/strong&gt; gibi bir aracı kullanılacak ise daha iyi olacaktır. Direk olarak cloudflare Mitm olayından etkilenmemiş olursunuz ama gene etkilenirsiniz.&lt;/p&gt;
-
-&lt;p&gt;Ben bahsettiğim gibi Cloudflare’yi araya alacaksam böyle bir yöntemi kullanıyorum. Diğer türlü araya &lt;strong&gt;Cloudflare&lt;/strong&gt; girmeyecek ise o zaman yapacaklarımız tabi ki farklı olacak&lt;/p&gt;
-
-&lt;p&gt;Nginx klasörü içerisine &lt;code class=&quot;highlighter-rouge&quot;&gt;ssl&lt;/code&gt; adında bir klasör oluşturuyoruz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mkdir /etc/nginx/ssl
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;daha sonra veriyoruz sihirli komutu&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/nginx/ssl/mertcangokgoz.com.key -out /etc/nginx/ssl/mertcangokgoz.com.crt
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;RSA da kullandığımız bit uzunluğumuz çok olduğu için sisteminize göre baya sürebilir. Çok sürmesini istemiyorsanız &lt;a href=&quot;https://mertcangokgoz.com/babaya-kullanilabilir-entropi-lazim/&quot;&gt;Baba’ya Kullanılabilir Entropi Lazım&lt;/a&gt; makalemizdeki adımları uygulayarak işlemleri hızlandırabilirsiniz.&lt;/p&gt;
-
-&lt;p&gt;Bizden istediklerini güzelce dolduruyoruz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Country Name (2 letter code) [AU]:TR
-State or Province Name (full name) [Some-State]:Ankara
-Locality Name (eg, city) []:Ankara
-Organization Name (eg, company) [Internet Widgits Pty Ltd]:Mertcan, Inc.
-Organizational Unit Name (eg, section) []:
-Common Name (e.g. server FQDN or YOUR name) []:mertcangokgoz.com
-Email Address []:admin@mertcangokgoz.com
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ardından SSL oluşturulma işlemine başlanılacak zaten yerini ayarladığımız içinde &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/nginx/ssl&lt;/code&gt; içerisine &lt;code class=&quot;highlighter-rouge&quot;&gt;.key&lt;/code&gt; ve &lt;code class=&quot;highlighter-rouge&quot;&gt;.crt&lt;/code&gt; çıkacak&lt;/p&gt;
-
-&lt;p&gt;Forward Secrecy olayını gerçekleştirmek için &lt;code class=&quot;highlighter-rouge&quot;&gt;dhparam.pem&lt;/code&gt; ihtiyacımızı karşılamalıyız.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;İletme gizliliği&lt;/strong&gt;(Forward Secrecy) kavramı basittir: Sunucudan &lt;strong&gt;RSA&lt;/strong&gt; özel istemci ve sunucu arasında bir &lt;strong&gt;Diffie-Hellman&lt;/strong&gt; anahtar değişimini imzalamak için kullanılır. El sıkışma ile elde edilen pre-master anahtar, şifreleme için kullanılır. Ana anahtar bir istemci ve sunucu arasında geçen bir bağlantıya özgüdür ve yalnızca sınırlı bir süre için kullanılır, ömrü kısadır daha sonrasında kullanılmaz.&lt;/p&gt;
-
-&lt;p&gt;İletme Gizliliği ile, bir saldırgan sunucunun özel anahtarını eline geçirirse, geçmiş iletişim şifresini çözmek saldırgan için mümkün olmayacaktır. Özel anahtar sadece pre-master anahtarı ortaya koymuyor, ki &lt;strong&gt;DH&lt;/strong&gt; yi, imzalamak için kullanıyor. Pre-master anahtarlar hiçbir zaman istemci ve sunucu arasında bir saldırgan tarafından yapılan ve tespit edilemeyen &lt;strong&gt;MITM’leri&lt;/strong&gt; engeller.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd /etc/nginx/ssl/
-openssl dhparam -out dhparam.pem 4096
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Daha sonrasında gerekli olan düzenlemeleri şu şekilde yapıyoruz ve konfigürasyon dosyamız hazır olmuş oluyor.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;server {
-    listen 80 default_server;
-    listen [::]:80 default_server;
-    server_name git.mertcangokgoz.com;
-    return 301 https://$host$request_uri;
-}
-
-server {
-    listen 443 ssl;
-    listen [::]:443 ssl;
-    server_name git.mertcangokgoz.com;
-    # certs sent to the client in SERVER HELLO are concatenated in ssl_certificate
-    ssl_certificate /etc/nginx/ssl/mertcangokgoz.com.crt;
-    ssl_certificate_key /etc/nginx/ssl/mertcangokgoz.com.key;
-    ssl_session_timeout 1d;
-    ssl_session_cache shared:SSL:50m;
-    ssl_session_tickets off;
-
-    # Diffie-Hellman parameter for DHE ciphersuites, recommended 4096 bits
-    ssl_dhparam /etc/nginx/ssl/dhparam.pem;
-
-    # modern configuration. tweak to your needs.
-    ssl_protocols TLSv1.2;
-    ssl_ciphers 'ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:ECDHE-ECDSA-CHACHA20-POLY1305:ECDHE-RSA-CHACHA20-POLY1305:ECDHE-ECDSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-ECDSA-AES256-SHA384:ECDHE-RSA-AES256-SHA384:ECDHE-ECDSA-AES128-SHA256:ECDHE-RSA-AES128-SHA256';
-    ssl_prefer_server_ciphers on;
-
-    # HSTS (ngx_http_headers_module is required) (15768000 seconds = 6 months)
-    add_header Strict-Transport-Security max-age=15768000;
-
-    location / {
-	    try_files $uri $uri/ =404;
-    }
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Bu işlemlerden sonra &lt;code class=&quot;highlighter-rouge&quot;&gt;nginx -t&lt;/code&gt; çalıştırıyoruz. Test sonucumuz aşağıdaki gibi olursa&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nginx: the configuration file /etc/nginx/nginx.conf syntax is ok
-nginx: configuration file /etc/nginx/nginx.conf test is successful
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Tekrardan &lt;code class=&quot;highlighter-rouge&quot;&gt;reload&lt;/code&gt; yapıyoruz yada yeniden başlatıyoruz. ve ayarların geçerliliğini sağlıyoruz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nginx -s reload
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;veya&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;systemctl restart nginx
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;öptüm bye &amp;lt;3&lt;/p&gt;
-</description>
-                <link>https://mertcangokgoz.com/nginx-icin-self-signed-ssl-sertifikasi-olusturma/</link>
-                <guid>https://mertcangokgoz.com/nginx-icin-self-signed-ssl-sertifikasi-olusturma</guid>
-                <pubDate>Tue, 18 Oct 2016 00:00:00 +0300</pubDate>
         </item>
 
 

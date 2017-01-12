@@ -22,6 +22,18 @@
 
     
     {
+        "title": "Telegram İçin Tema Nasıl Hazırlanır",
+        "content": "Herkes Telegram Masaüstü için bir tema hazırlayabilir. Aşağıdaki adımları takip ederek, tabi ki her şey çok basit bir tema oluşturmak için iki dosyayı birlikte bir .zip dosyasına koymanız gerekecek haliyle\n\n\n  İhtiyacınız olan ilk dosya renk şemasıdır, buna benzer. Bu dosyanın colors.tdesktop-theme olması ve temanızın ana ayarlarını ve yapılandırmasını içermesi gerekir.\n  İkinci dosya arka plan resmi olacak, bu isimlerden birini kullanmanız gerekiyor: background.jpg, background.png, tiled.jpg veya tiled.png\n\n\nböyle desenlerin tekrar edilmesini vs isterseniz ve böyle bir arka plan olsun derseniz, ad olarak ‘tiled’ kullanmalısınız, tek bir resim için ise background kullanmalısınız.\n\nRenk ayarlamaları için hex color düzenlemeniz gerekiyor bir kaç ayardan sonra güzel bir tema yapabileceğinizi düşünüyorum.\n\nHer iki dosyayı .zip arşivine ekledikten sonra, dosya uzantısını .zip dosyasından .tdesktop-theme değiştirmeniz gerekiyor.\n\n\n\nŞimdi, mytheme.tdesktop-theme dosyasını Telegram’da paylaşın ve uygulamak için Telegram Masaüstünden açın dosyayı açın\n",
+        "link": "/telegram-icin-tema-nasil-hazirlanir/",
+        "date": "2017-01-12 00:00:00 +0300",
+        "excerpt": "",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
         "title": "Komut Satırı Aracılığı İle Speedtest İşlemi",
         "content": "SpeedTest web sitesi geçtiğimiz aylarda yasaklanan flash programları ile hız testi yapmanıza imkan sağlıyor. Hal böyle olunca da çalıştıramıyoruz. Türkiye şartlarında da sağlam bu hizmeti veren bir yer olmadığı için bende dedim bunun komut satırı versiyonunu niye kullanmayayım bunun için aşağıdaki şu yolu izledim ve ben bu makaleyi yayınlayana kadarda hız testi yapmıyordum sırf sitede flash istiyor diye\n\nŞimdi uygulamayı sisteme dahil ediyoruz.\n\npip install speedtest-cli\n\n\n\nKurulum tamamlandıktan sonra şu şekilde çalıştırabilirsiniz.\n\nspeedtest-cli\n\n\n\nŞu şekilde bir çıktımız oluyor.\n\nmertcan@0x2e88ce4:~/Desktop$ speedtest-cli\nRetrieving speedtest.net configuration...\nTesting from Turksat Kablo (46.197.xxx.xxx)...\nRetrieving speedtest.net server list...\nSelecting best server based on ping...\nHosted by Turksat Uydu Haberlesme Kablo TV ve Isletme A.S. (Ankara) [03.41 km]: 19.765 ms\nTesting download speed................................................................................\nDownload: 23.84 Mbit/s\nTesting upload speed....................................................................................................\nUpload: 2.12 Mbit/s\n\n\n",
         "link": "/komut-satiri-araciligi-ile-speedtest-islemi/",
