@@ -60,7 +60,7 @@
     <p>
         Kategoriler:<br>
 
-        <a href="/category/linux">Linux</a> &raquo; 239 Yazı<br><a href="/category/programlama">Programlama</a> &raquo; 79 Yazı<br><a href="/category/genel">Genel</a> &raquo; 70 Yazı<br><a href="/category/guvenlik">Guvenlik</a> &raquo; 54 Yazı<br><a href="/category/windows">Windows</a> &raquo; 37 Yazı<br><a href="/category/analiz">Analiz</a> &raquo; 21 Yazı<br><a href="/category/jekyll">Jekyll</a> &raquo; 16 Yazı<br><a href="/category/nginx">Nginx</a> &raquo; 15 Yazı<br><a href="/category/egitimler">Egitimler</a> &raquo; 6 Yazı<br>
+        <a href="/category/linux">Linux</a> &raquo; 239 Yazı<br><a href="/category/programlama">Programlama</a> &raquo; 79 Yazı<br><a href="/category/genel">Genel</a> &raquo; 70 Yazı<br><a href="/category/guvenlik">Guvenlik</a> &raquo; 54 Yazı<br><a href="/category/windows">Windows</a> &raquo; 38 Yazı<br><a href="/category/analiz">Analiz</a> &raquo; 21 Yazı<br><a href="/category/jekyll">Jekyll</a> &raquo; 16 Yazı<br><a href="/category/nginx">Nginx</a> &raquo; 15 Yazı<br><a href="/category/egitimler">Egitimler</a> &raquo; 6 Yazı<br>
         <br>
         Arkadaşlar:<br>
         <a href="https://oztaser.com/" target="_blank" rel="nofollow">Adil ÖZTAŞER</a><br>
@@ -223,7 +223,7 @@
 
 <p>uygulama kurulumlarımız artık tamam sıra geldi konfigürasyonları tamamlamaya ilk olarak <code class="highlighter-rouge">dnscrypt-proxy</code> uygulamasını kurcalıyoruz.</p>
 
-<div class="highlighter-rouge"><pre class="highlight"><code>mertcan@0x2e88ce4:~/Desktop$ cat /etc/default/dnscrypt-proxy 
+<div class="highlighter-rouge"><pre class="highlight"><code>mertcan@0x2e88ce4:~/Desktop$ cat /etc/default/dnscrypt-proxy
 # What local IP the daemon will listen to, with an optional port.
 # The default port is 53. If using systemd, this is not used and must be
 # specified in dnscrypt-proxy.socket.
@@ -300,6 +300,44 @@ forward-zone:
 <p>Kullanacak olduğum ip adresi <code class="highlighter-rouge">127.0.0.69</code> olduğu için <code class="highlighter-rouge">interface: 127.0.0.69</code> olarak düzenlemeyi yaptım ve <code class="highlighter-rouge">access-control</code> ile <code class="highlighter-rouge">private-address</code> için aynı şekilde düzenledim. Forward kısmında ise Dnscrypt için ayarladığımız ip adresini ekledim ki oraya yönlendirsin.</p>
 
 <p>Hemen ardından kayıt edip çıktım ve kendi DNS çözücü mü DNSCrypt ile ayarlamış oldum. Bu sayede DNS engellemelerinin önüne geçtim ve Cache yapısı sayesinde DNS sorgularını kısaltmayı başardım.</p>
+
+<p><strong>Güncelleme 15 Ocak 2017</strong></p>
+
+<p>Systemd kullanan arkadaşlarda son güncelleme ile bir takım sıkıntılar çıkmıştır diye düşünüyorum. Bunun birinci nedeni artık socket kullanıyor olması yönlendirmesel bir problem çıkıyor ve haliyle internete bağlanamıyoruz.</p>
+
+<p>İlk olarak socketimizi düzenliyelim <code class="highlighter-rouge">/lib/systemd/system/</code> klasörüne giriş yapıyoruz. <code class="highlighter-rouge">dnscrypt-proxy.socket</code> dosyasını şu şekilde değiştiriyoruz.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>[Unit]
+Description=dnscrypt-proxy listening socket
+Documentation=man:dnscrypt-proxy(8)
+Wants=dnscrypt-proxy-resolvconf.service
+
+[Socket]
+ListenStream=127.0.0.31:53
+ListenDatagram=127.0.0.31:53
+
+[Install]
+WantedBy=sockets.target
+</code></pre>
+</div>
+
+<p>Şimdi asıl yönlendirmeyide artık <code class="highlighter-rouge">/etc/dnscrypt-proxy/dnscrypt-proxy.conf</code> içerisine yapacağız. Eskisi gibi default altında bulunmuyor biraz daha düzenlemişler.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code># A more comprehensive example config can be found in
+# /usr/share/doc/dnscrypt-proxy/examples/dnscrypt-proxy.conf
+
+ResolverName cisco
+Daemonize no
+
+TCPOnly no
+
+# LocalAddress only applies to users of the init script. systemd users must
+# change the dnscrypt-proxy.socket file.
+LocalAddress 127.0.0.31:53
+</code></pre>
+</div>
+
+<p>Ayarların gerçerli olması için servisleri yeniden başlatın</p>
 
 <p>İşlemler bittikten sonra sizi şuraya alıyoruz ve DNS’yi nasıl ekleyeceğinizi gösteriyoruz. <a href="https://mertcangokgoz.com/network-manager-bir-kanser-hucresi/">Network Manager Bir Kanser Hücresi</a></p>
 

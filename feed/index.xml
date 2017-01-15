@@ -5,10 +5,47 @@
         <description>Mertcan GÖKGÖZ - Özgür Yazılım, Sunucu Yönetimi ve Hizmetleri - Mertcan GÖKGÖZ</description>
         <link>https://mertcangokgoz.com</link>
         <link></link>
-        <lastBuildDate>Thu, 12 Jan 2017 23:40:28 +0300</lastBuildDate>
-        <pubDate>Thu, 12 Jan 2017 23:40:28 +0300</pubDate>
+        <lastBuildDate>Sun, 15 Jan 2017 20:24:18 +0300</lastBuildDate>
+        <pubDate>Sun, 15 Jan 2017 20:24:18 +0300</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>DNS_PROBE_FINISHED_NO_INTERNET Sorunu</title>
+                <description>&lt;p&gt;Son zamanlarda insanımız bu hata ile karşılaşmışlardır diye düşünüyorum. Özellikle &lt;strong&gt;Google Chrome&lt;/strong&gt; kullanan kullanıcılar daha çok görmüşlerdir. Aşağıdaki gibi bir görüntüsü de var görmeyenler varsa;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/dns-probe-finished-no-internet-error-detectionbro.jpg&quot; alt=&quot;dns probe hatası&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bu hatayı anlık görenler olabilir veya devamlı karşısına çıkanlarda olabilir. Aslında bunun bir kaç nedeni var ve karşınıza;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Kullandığınız DNS sunucularının performansının kötü olması&lt;/li&gt;
+  &lt;li&gt;Ülkenizin sizin üzerinizde baskı, denetimler yapmaya çalışması&lt;/li&gt;
+  &lt;li&gt;Virüs bulaşma ihtimalinin olması&lt;/li&gt;
+  &lt;li&gt;Daha önceden kullandığınız ve kaldırdığınız VPN uygulamalar(varsa)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Yukarıdaki 4 adet sebepten sadece ilk ikisine sıkça rastlanmakta hal böyle olunca bu sorunun çözümü de pek  fazla değil&lt;/p&gt;
+
+&lt;p&gt;İlk olarak benim bulduğum bir kaç çözümü anlatmak istiyorum bunlardan ilki &lt;strong&gt;DNS&lt;/strong&gt; adreslerinizi herkesin kullandığından ziyade kimsenin kullanmak istemediği benim tabirim ile “ölücü DNS” adreslerinden faydalanmak bunlar içinde “Opennic DNS” lerini veya “Yandex DNS” yi kullanabilirsiniz. Ardından DNS önbelleğinizi temizleyip yolunuza devam edersiniz. Ancak buda sorununuzu tam anlamıyla çözmez çünkü uzun bir süre sonra tekrar karşınıza bu hata çıkar.&lt;/p&gt;
+
+&lt;p&gt;İkinci olarak yerel &lt;strong&gt;DNS&lt;/strong&gt; çözümleyici kullanabilirsiniz. Bu iş için Unbound yada Dnscrypt uygulamalarından bir tanesini seçebilirsiniz. Windows tarafında olduğu için &lt;code class=&quot;highlighter-rouge&quot;&gt;exe&lt;/code&gt; uzantılı dosyayı çalıştırıp kurduktan sonra çift tıklayıp açmanız ve daha sonra DNS adreslerinizi &lt;code class=&quot;highlighter-rouge&quot;&gt;127.0.0.1&lt;/code&gt; olarak değiştirmeniz yeterlidir. Kullandığınız bilgisayarda bu sorun çözülecektir.&lt;/p&gt;
+
+&lt;p&gt;Üçüncü olarak ise paralı &lt;strong&gt;VPN&lt;/strong&gt; çözümlerini kullanmak bu sizi sansürlerden ve baskılardan kurtaracaktır. Zaten en temiz çözümde bu &lt;strong&gt;VPN&lt;/strong&gt; içerisinde asla ve asla &lt;code class=&quot;highlighter-rouge&quot;&gt;DNS_PROBE_FINISHED_NO_INTERNET&lt;/code&gt; hatasını almazsınız.&lt;/p&gt;
+
+&lt;p&gt;Ayrıca geçici çözümlerden bir taneside windows sistemler için Win+R tuş kombinasyonu ile çalıştır bölümüne ulaşmak ve cmd yazarak aşağıdaki işlemleri gerçekleştirmektir.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;netsh winsock reset
+ipconfig /flushdns
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Geçici bir yöntemdir kendileri ama iş görür. Yada hepsini unutup Firefox kullanmaya başlayabilirsiniz firefox da bu gibi hataları göremezsiniz çünkü olmasına izin vermez site açılış hızında ufakta olsa bir artış olur ancak gözünüze böyle bir hatayı sokmaz.&lt;/p&gt;
+</description>
+                <link>https://mertcangokgoz.com/dns-probe-finished-no-internet-sorunu-ve-cozumu/</link>
+                <guid>https://mertcangokgoz.com/dns-probe-finished-no-internet-sorunu-ve-cozumu</guid>
+                <pubDate>Sun, 15 Jan 2017 00:00:00 +0300</pubDate>
+        </item>
 
         <item>
                 <title>Telegram İçin Tema Nasıl Hazırlanır</title>
@@ -1174,7 +1211,7 @@ sudo apt-get install php5.6-xml
 
 &lt;p&gt;uygulama kurulumlarımız artık tamam sıra geldi konfigürasyonları tamamlamaya ilk olarak &lt;code class=&quot;highlighter-rouge&quot;&gt;dnscrypt-proxy&lt;/code&gt; uygulamasını kurcalıyoruz.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mertcan@0x2e88ce4:~/Desktop$ cat /etc/default/dnscrypt-proxy 
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;mertcan@0x2e88ce4:~/Desktop$ cat /etc/default/dnscrypt-proxy
 # What local IP the daemon will listen to, with an optional port.
 # The default port is 53. If using systemd, this is not used and must be
 # specified in dnscrypt-proxy.socket.
@@ -1251,6 +1288,44 @@ forward-zone:
 &lt;p&gt;Kullanacak olduğum ip adresi &lt;code class=&quot;highlighter-rouge&quot;&gt;127.0.0.69&lt;/code&gt; olduğu için &lt;code class=&quot;highlighter-rouge&quot;&gt;interface: 127.0.0.69&lt;/code&gt; olarak düzenlemeyi yaptım ve &lt;code class=&quot;highlighter-rouge&quot;&gt;access-control&lt;/code&gt; ile &lt;code class=&quot;highlighter-rouge&quot;&gt;private-address&lt;/code&gt; için aynı şekilde düzenledim. Forward kısmında ise Dnscrypt için ayarladığımız ip adresini ekledim ki oraya yönlendirsin.&lt;/p&gt;
 
 &lt;p&gt;Hemen ardından kayıt edip çıktım ve kendi DNS çözücü mü DNSCrypt ile ayarlamış oldum. Bu sayede DNS engellemelerinin önüne geçtim ve Cache yapısı sayesinde DNS sorgularını kısaltmayı başardım.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Güncelleme 15 Ocak 2017&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Systemd kullanan arkadaşlarda son güncelleme ile bir takım sıkıntılar çıkmıştır diye düşünüyorum. Bunun birinci nedeni artık socket kullanıyor olması yönlendirmesel bir problem çıkıyor ve haliyle internete bağlanamıyoruz.&lt;/p&gt;
+
+&lt;p&gt;İlk olarak socketimizi düzenliyelim &lt;code class=&quot;highlighter-rouge&quot;&gt;/lib/systemd/system/&lt;/code&gt; klasörüne giriş yapıyoruz. &lt;code class=&quot;highlighter-rouge&quot;&gt;dnscrypt-proxy.socket&lt;/code&gt; dosyasını şu şekilde değiştiriyoruz.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;[Unit]
+Description=dnscrypt-proxy listening socket
+Documentation=man:dnscrypt-proxy(8)
+Wants=dnscrypt-proxy-resolvconf.service
+
+[Socket]
+ListenStream=127.0.0.31:53
+ListenDatagram=127.0.0.31:53
+
+[Install]
+WantedBy=sockets.target
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Şimdi asıl yönlendirmeyide artık &lt;code class=&quot;highlighter-rouge&quot;&gt;/etc/dnscrypt-proxy/dnscrypt-proxy.conf&lt;/code&gt; içerisine yapacağız. Eskisi gibi default altında bulunmuyor biraz daha düzenlemişler.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# A more comprehensive example config can be found in
+# /usr/share/doc/dnscrypt-proxy/examples/dnscrypt-proxy.conf
+
+ResolverName cisco
+Daemonize no
+
+TCPOnly no
+
+# LocalAddress only applies to users of the init script. systemd users must
+# change the dnscrypt-proxy.socket file.
+LocalAddress 127.0.0.31:53
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ayarların gerçerli olması için servisleri yeniden başlatın&lt;/p&gt;
 
 &lt;p&gt;İşlemler bittikten sonra sizi şuraya alıyoruz ve DNS’yi nasıl ekleyeceğinizi gösteriyoruz. &lt;a href=&quot;https://mertcangokgoz.com/network-manager-bir-kanser-hucresi/&quot;&gt;Network Manager Bir Kanser Hücresi&lt;/a&gt;&lt;/p&gt;
 
@@ -2086,48 +2161,6 @@ sudo service nginx restart
                 <link>https://mertcangokgoz.com/debian-uzerine-gogs-kurulum-ve-konfigurasyonu/</link>
                 <guid>https://mertcangokgoz.com/debian-uzerine-gogs-kurulum-ve-konfigurasyonu</guid>
                 <pubDate>Sat, 22 Oct 2016 00:00:00 +0300</pubDate>
-        </item>
-
-        <item>
-                <title>GPG Yedekleme Ve Yedekten Geri Yükleme İşlemi</title>
-                <description>&lt;p&gt;Sık sık gpg anahtarını yedekleyip geri yükleyen birisiydim. Sorunlar karşısında çözüme ulaşmak yerine formatı atıp geçerdim ancak artık öyle değil. Ancak bu işlemleri yaparken oldukça fazla vakit geçiriyordum ya bu nasıl yedeklenecek yada nasıl yedekten geri yüklenecek derken bir kaç yöntem keşfettim google amca sağolsun…&lt;/p&gt;
-
-&lt;p&gt;public ve secret anahtarları bununla birlikte trust veritabanının yedeklenmesi işlemi&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cp ~/.gnupg/pubring.gpg /media/mertcan/USB1/GPG/
-cp ~/.gnupg/secring.gpg /media/mertcan/USB1/GPG/
-cp ~/.gnupg/trustdb.gpg /media/mertcan/USB1/GPG/
-gpg --export-ownertrust &amp;gt; mertcangokgoz-ownertrust-gpg.txt
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;yedeklenen bu dosyaların geri yüklenmesi işlemi&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cp /media/mertcan/USB1/GPG/*.gpg ~/.gnupg/
-gpg --import-ownertrust mertcangokgoz-ownertrust-gpg.txt
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;2.yöntem olarak kendi keyiniz dışındakilerde sıkıntınız yoksa yani yedeklemek istemeyecekseniz.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gpg -a --export admin@mertcangokgoz.com &amp;gt; mertcangokgoz-public-gpg.key
-gpg -a --export-secret-keys admin@mertcangokgoz.com &amp;gt; mertcangokgoz-secret-gpg.key
-gpg --export-ownertrust &amp;gt; mertcangokgoz-ownertrust-gpg.txt
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;yedeklediklerinizden geri yüklemek için ise&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gpg --import mertcangokgoz-secret-gpg.key
-gpg --import-ownertrust mertcangokgoz-ownertrust-gpg.txt
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;öptüm bye &amp;lt;3&lt;/p&gt;
-</description>
-                <link>https://mertcangokgoz.com/gpg-yedekleme-ve-yedekten-geri-yukleme-islemi/</link>
-                <guid>https://mertcangokgoz.com/gpg-yedekleme-ve-yedekten-geri-yukleme-islemi</guid>
-                <pubDate>Thu, 20 Oct 2016 00:00:00 +0300</pubDate>
         </item>
 
 
