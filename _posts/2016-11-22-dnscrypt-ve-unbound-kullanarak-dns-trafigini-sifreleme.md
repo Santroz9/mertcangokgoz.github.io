@@ -20,7 +20,7 @@ apt-get install unbound dnscrypt-proxy
 uygulama kurulumlarımız artık tamam sıra geldi konfigürasyonları tamamlamaya ilk olarak `dnscrypt-proxy` uygulamasını kurcalıyoruz.
 
 ```
-mertcan@0x2e88ce4:~/Desktop$ cat /etc/default/dnscrypt-proxy 
+mertcan@0x2e88ce4:~/Desktop$ cat /etc/default/dnscrypt-proxy
 # What local IP the daemon will listen to, with an optional port.
 # The default port is 53. If using systemd, this is not used and must be
 # specified in dnscrypt-proxy.socket.
@@ -96,6 +96,44 @@ forward-zone:
 Kullanacak olduğum ip adresi `127.0.0.69` olduğu için `interface: 127.0.0.69` olarak düzenlemeyi yaptım ve `access-control` ile `private-address` için aynı şekilde düzenledim. Forward kısmında ise Dnscrypt için ayarladığımız ip adresini ekledim ki oraya yönlendirsin.
 
 Hemen ardından kayıt edip çıktım ve kendi DNS çözücü mü DNSCrypt ile ayarlamış oldum. Bu sayede DNS engellemelerinin önüne geçtim ve Cache yapısı sayesinde DNS sorgularını kısaltmayı başardım.
+
+**Güncelleme 15 Ocak 2017**
+
+Systemd kullanan arkadaşlarda son güncelleme ile bir takım sıkıntılar çıkmıştır diye düşünüyorum. Bunun birinci nedeni artık socket kullanıyor olması yönlendirmesel bir problem çıkıyor ve haliyle internete bağlanamıyoruz.
+
+İlk olarak socketimizi düzenliyelim `/lib/systemd/system/` klasörüne giriş yapıyoruz. `dnscrypt-proxy.socket` dosyasını şu şekilde değiştiriyoruz.
+
+```
+[Unit]
+Description=dnscrypt-proxy listening socket
+Documentation=man:dnscrypt-proxy(8)
+Wants=dnscrypt-proxy-resolvconf.service
+
+[Socket]
+ListenStream=127.0.0.31:53
+ListenDatagram=127.0.0.31:53
+
+[Install]
+WantedBy=sockets.target
+```
+
+Şimdi asıl yönlendirmeyide artık `/etc/dnscrypt-proxy/dnscrypt-proxy.conf` içerisine yapacağız. Eskisi gibi default altında bulunmuyor biraz daha düzenlemişler.
+
+```
+# A more comprehensive example config can be found in
+# /usr/share/doc/dnscrypt-proxy/examples/dnscrypt-proxy.conf
+
+ResolverName cisco
+Daemonize no
+
+TCPOnly no
+
+# LocalAddress only applies to users of the init script. systemd users must
+# change the dnscrypt-proxy.socket file.
+LocalAddress 127.0.0.31:53
+```
+
+Ayarların gerçerli olması için servisleri yeniden başlatın
 
 İşlemler bittikten sonra sizi şuraya alıyoruz ve DNS'yi nasıl ekleyeceğinizi gösteriyoruz. [Network Manager Bir Kanser Hücresi](https://mertcangokgoz.com/network-manager-bir-kanser-hucresi/)
 
