@@ -22,6 +22,18 @@
 
     
     {
+        "title": "Siberyildiz Soru ve Cevaplar",
+        "content": "CTF Bittiğinde tüm soru ve detaylı cevaplara bu link aracılığı ile ulaşabilirsiniz.\n",
+        "link": "/siberyildiz-soru-ve-cevaplari/",
+        "date": "2017-01-21 00:00:00 +0300",
+        "excerpt": "",
+        "search_omit": ""
+    }
+    
+    
+
+    
+    ,{
         "title": "DNS_PROBE_FINISHED_NO_INTERNET Sorunu",
         "content": "Son zamanlarda insanımız bu hata ile karşılaşmışlardır diye düşünüyorum. Özellikle Google Chrome kullanan kullanıcılar daha çok görmüşlerdir. Aşağıdaki gibi bir görüntüsü de var görmeyenler varsa;\n\n\n\nBu hatayı anlık görenler olabilir veya devamlı karşısına çıkanlarda olabilir. Aslında bunun bir kaç nedeni var ve karşınıza;\n\n\n  Kullandığınız DNS sunucularının performansının kötü olması\n  Ülkenizin sizin üzerinizde baskı, denetimler yapmaya çalışması\n  Virüs bulaşma ihtimalinin olması\n  Daha önceden kullandığınız ve kaldırdığınız VPN uygulamalar(varsa)\n\n\nYukarıdaki 4 adet sebepten sadece ilk ikisine sıkça rastlanmakta hal böyle olunca bu sorunun çözümü de pek  fazla değil\n\nİlk olarak benim bulduğum bir kaç çözümü anlatmak istiyorum bunlardan ilki DNS adreslerinizi herkesin kullandığından ziyade kimsenin kullanmak istemediği benim tabirim ile “ölücü DNS” adreslerinden faydalanmak bunlar içinde “Opennic DNS” lerini veya “Yandex DNS” yi kullanabilirsiniz. Ardından DNS önbelleğinizi temizleyip yolunuza devam edersiniz. Ancak buda sorununuzu tam anlamıyla çözmez çünkü uzun bir süre sonra tekrar karşınıza bu hata çıkar.\n\nİkinci olarak yerel DNS çözümleyici kullanabilirsiniz. Bu iş için Unbound yada Dnscrypt uygulamalarından bir tanesini seçebilirsiniz. Windows tarafında olduğu için exe uzantılı dosyayı çalıştırıp kurduktan sonra çift tıklayıp açmanız ve daha sonra DNS adreslerinizi 127.0.0.1 olarak değiştirmeniz yeterlidir. Kullandığınız bilgisayarda bu sorun çözülecektir.\n\nÜçüncü olarak ise paralı VPN çözümlerini kullanmak bu sizi sansürlerden ve baskılardan kurtaracaktır. Zaten en temiz çözümde bu VPN içerisinde asla ve asla DNS_PROBE_FINISHED_NO_INTERNET hatasını almazsınız.\n\nAyrıca geçici çözümlerden bir taneside windows sistemler için Win+R tuş kombinasyonu ile çalıştır bölümüne ulaşmak ve cmd yazarak aşağıdaki işlemleri gerçekleştirmektir.\n\nnetsh winsock reset\nipconfig /flushdns\n\n\n\nGeçici bir yöntemdir kendileri ama iş görür. Yada hepsini unutup Firefox kullanmaya başlayabilirsiniz firefox da bu gibi hataları göremezsiniz çünkü olmasına izin vermez site açılış hızında ufakta olsa bir artış olur ancak gözünüze böyle bir hatayı sokmaz.\n",
         "link": "/dns-probe-finished-no-internet-sorunu-ve-cozumu/",
